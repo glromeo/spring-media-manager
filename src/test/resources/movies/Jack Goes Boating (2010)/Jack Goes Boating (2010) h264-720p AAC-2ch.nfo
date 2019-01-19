@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Jack Goes Boating</title>
+    <originaltitle>Jack Goes Boating</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.100000</value>
+            <votes>53</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A limo driver&apos;s blind date sparks a tale of love, betrayal, friendship and grace—centered around two working-class New York City couples.</outline>
+    <plot>A limo driver&apos;s blind date sparks a tale of love, betrayal, friendship and grace—centered around two working-class New York City couples.</plot>
+    <tagline></tagline>
+    <runtime>90</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/5Qd8IJYdzzZh4Ylc8raKA9alRyW.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/orTWpdXDdzz384MnPU8v7fRdtX1.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1278379</id>
+    <uniqueid type="unknown" default="true">tt1278379</uniqueid>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <country>US</country>
+    <credits>Robert Glaudini</credits>
+    <director>Philip Seymour Hoffman</director>
+    <premiered>2010-09-23</premiered>
+    <year>2010</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Labyrinth Theater Company</studio>
+    <studio>Olfactory Productions</studio>
+    <studio>Cooper&apos;s Town Productions</studio>
+    <studio>Big Beach</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=KcQjq2D2zXU&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1280</width>
+                <height>682</height>
+                <durationinseconds>5449</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Philip Seymour Hoffman</name>
+        <role>Jack</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vEDJukK8CjIsA0DjNFhoT88TvzS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Ortiz</name>
+        <role>Clyde</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6EXZm45aPUOERq2rCrUnkz3sGoc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Richard Petrocelli</name>
+        <role>Uncle Frank</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6LjR6uuzBLy8gcagQlaTTPor6RI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tom McCarthy</name>
+        <role>Dr. Bob Thomas</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/bz5ppWS58ryvKG4QQpIsqRXY68w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Amy Ryan</name>
+        <role>Connie</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/rE0YBJr3R6GcKu6Gw4K2lGW0ctC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Daphne Rubin-Vega</name>
+        <role>Lucy</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/hvL230sw44ILv5hHLbergot8OVm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lola Glaudini</name>
+        <role>Italian Woman</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xgp8VtX9rhsRot3fshmomStvg6b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elizabeth Rodriguez</name>
+        <role>Waldorf Event Assistant</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/lwJXQ7DDRY9W4pdzQzJKdeKuCFl.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-17 08:31:47</dateadded>
+</movie>

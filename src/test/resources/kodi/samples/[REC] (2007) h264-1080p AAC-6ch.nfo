@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>[REC]</title>
+    <originaltitle>[REC]</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.100000</value>
+            <votes>1572</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.</outline>
+    <plot>A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.</plot>
+    <tagline>One witness. One camera</tagline>
+    <runtime>75</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/lLSXs26iZe0aIzYrobr3FruUG36.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/haJIKsWFhOHACq6meNFIxUEouTV.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1038988</id>
+    <uniqueid type="unknown" default="true">tt1038988</uniqueid>
+    <genre>Horror</genre>
+    <genre>Mystery</genre>
+    <country>Spain</country>
+    <set>
+        <name>[REC] Collection</name>
+        <overview>Spanish horror film series created by Jaume Balagueró and Paco Plaza, consisting of four movies.  The films center around a viral demonic possession originated by a young girl named Tristana Medeiros who was sexually assaulted by a group of priests. The first two movies are presented in a found footage format, although the last two installments have ventured into traditional cinematography. The series has received high critical acclaim worldwide.</overview>
+    </set>
+    <credits>Jaume Balagueró</credits>
+    <credits>Paco Plaza</credits>
+    <credits>Luis Berdejo</credits>
+    <director>Jaume Balagueró</director>
+    <director>Paco Plaza</director>
+    <premiered>2007-04-10</premiered>
+    <year>2007</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Filmax</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=YQUkX_XowqI</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.780000</aspect>
+                <width>1920</width>
+                <height>1080</height>
+                <durationinseconds>4547</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>spa</language>
+                <channels>6</channels>
+            </audio>
+            <audio>
+                <codec>aac</codec>
+                <language>spa</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+            <subtitle>
+                <language>fra</language>
+            </subtitle>
+            <subtitle>
+                <language>por</language>
+            </subtitle>
+            <subtitle>
+                <language>spa</language>
+            </subtitle>
+            <subtitle>
+                <language>swe</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Manuela Velasco</name>
+        <role>Ángela Vidal</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sCZkCryaoVy63fbHCQrfc4q4Pbs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ferran Terraza</name>
+        <role>Manu</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7lvI2rC9emIAkEZeW5zYGr3RKnw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Martha Carbonell</name>
+        <role>Conchita Izquierdo</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vdNJsDSvNggyFRYFAJer6ZTzyph.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Vert</name>
+        <role>Alex</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/gcosWQzYIH7HyqcFE3nUIALTbov.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Lasarte</name>
+        <role>César</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kP7hWWZsf6GOERaKwcCofiZaBoh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pablo Rosso</name>
+        <role>Marcos</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/2YdohGbSgVbxyb8LnMRdkGEhNMD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vicente Gil</name>
+        <role>Polizist</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6ZppZwmjxyWbELf1LEZa6TL4UE3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Vicente</name>
+        <role>Guillem</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/9GKNu8NJO40CU2t7U4ymBCMV5uE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jorge Yamam</name>
+        <role>Sergio</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5JTmGMnRGENDzUyOTf62K9vy2Rl.jpg</thumb>
+    </actor>
+    <actor>
+        <name>María Teresa Ortega</name>
+        <role>Abuela</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7qvvzjJdT1JTRhjSXwnWOnqMCBG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Manuel Bronchud</name>
+        <role>Abuelo</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/2eDk9SMUmlfFgo3LYVYNRw3o8T9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maria Lanau</name>
+        <role>Madre histérica</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tmx52sQJELTGWq6FfELWaAAMGZi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Silva</name>
+        <role>Jennifer</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jqFSfItsXSiXrqD3cI2Bt7WoRdH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Javier Botet</name>
+        <role>Niña Medeiros</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4u8ZkMMt5ipQgfpb81YudFW5rQG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ben Temple</name>
+        <role>Médico</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4hCQG37qrgY53Yy0jFzz7MsO2CA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Akemi Goto</name>
+        <role>Japonesa</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ztJMMRVcmQbDkxFXHmVcFjwW6dA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kao Chen-Min</name>
+        <role>Japonés</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/eDB5JzoWA9UuEJoyfS8X6ifsGJ7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Isabel Velásquez</name>
+        <role>Chica colombiana</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qVXHUVXcel8QkimECKc0fnbNgh9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Javier Coromina</name>
+        <role>Pablo (voice)</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/iKqJHlatnakTrlRQv3oxfNqhNsH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pep Sais</name>
+        <role>(voice) (uncredited)</role>
+        <order>19</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1mhJXAuuwN0tjFmHpz5QcCnZyfj.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2017-01-31 19:34:58</dateadded>
+</movie>

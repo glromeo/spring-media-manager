@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Up</title>
+    <originaltitle>Up</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.900000</value>
+            <votes>10718</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year...</outline>
+    <plot>Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.</plot>
+    <tagline></tagline>
+    <runtime>96</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/gfFqBcoFW8uczyl2ytVmVmUg82k.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/2CKz3S4p8lVwnFzNTstW0CwAQu1.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1049413</id>
+    <uniqueid type="unknown" default="true">tt1049413</uniqueid>
+    <genre>Animation</genre>
+    <genre>Comedy</genre>
+    <genre>Family</genre>
+    <genre>Adventure</genre>
+    <country>US</country>
+    <tag>duringcreditsstinger</tag>
+    <credits>Bob Peterson</credits>
+    <credits>Pete Docter</credits>
+    <credits>Tom McCarthy</credits>
+    <credits>Julie Lynn</credits>
+    <director>Pete Docter</director>
+    <premiered>2009-05-28</premiered>
+    <year>2009</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Pixar</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ORFWdXl_zJ4</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.780000</aspect>
+                <width>1280</width>
+                <height>720</height>
+                <durationinseconds>5804</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>6</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Ed Asner</name>
+        <role>Carl Fredricksen (voice)</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/nUnDLli9zmGQu6UCEU3G4FUdYqQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jordan Nagai</name>
+        <role>Russell (voice)</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8UjtI2fYUTXFzqEGc7rDAgFiAm7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher Plummer</name>
+        <role>Charles F. Muntz (voice)</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fauMGxa6dc86nHNenQ8X6DlE6YV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bob Peterson</name>
+        <role>Dug / Alpha (voice)</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/13YNM8lBKnK26MYd2Lp3OpU6JdI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Delroy Lindo</name>
+        <role>Beta (voice)</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uhjdTemc2kYbQj47bVqRb7OdVjH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jerome Ranft</name>
+        <role>Gamma (voice)</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/pmiQZq5JEhCjhdsIuMaP6Fkt0e9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Ratzenberger</name>
+        <role>Construction Foreman Tom (voice)</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yGechiKWL6TJDfVE2KPSJYqdMsY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Kaye</name>
+        <role>Newsreel Announcer (voice)</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/b1HQg1uhAXo9L1suUbqAXN8iCSz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elie Docter</name>
+        <role>Young Ellie (voice)</role>
+        <order>8</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jeremy Leary</name>
+        <role>Young Carl (voice)</role>
+        <order>9</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Mickie McGowan</name>
+        <role>Police Officer Edith (voice)</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/k7TjJBfINsg8vLQxJwos6XObAD6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Danny Mann</name>
+        <role>Construction Worker Steve (voice)</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/28JtvJrUIcHM4s8HV84ncxPD7Uv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Donald Fullilove</name>
+        <role>Nurse George (voice)</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/dInPIKh7AfGLR1LT3aZnL8jPKwQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josh Cooley</name>
+        <role>Omega (voice)</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yctxPn9Nk0ACFuf4KRUbbeYSxjT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pete Docter</name>
+        <role>Campmaster Strauch (voice)</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/r6ngPgnReA3RHmKjmSoVsc6Awjp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mark Andrews</name>
+        <role>Additional Voices (voice)</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7rZMVDkuVzlSDyG9HWRdrPohaO3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brenda Chapman</name>
+        <role>Additional Voices (voice)</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3wEdiMLQObBcBbtg131ZRQG2hfK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emma Coats</name>
+        <role>Additional Voices (voice)</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>John Cygan</name>
+        <role>Additional Voices (voice)</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/peq0EjfKWVDQ8Gr83v0UO1wuFn6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Eiding</name>
+        <role>Additional Voices (voice)</role>
+        <order>19</order>
+        <thumb>http://image.tmdb.org/t/p/w185/73yCY9QBAKqFilmVLXATsrIzL2Q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tony Fucile</name>
+        <role>Additional Voices (voice)</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jlSBVbXA5UAvQSOnmterUF3XQLn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Teresa Ganzel</name>
+        <role>Additional Voices (voice)</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4cIwealxv1bizPJks34Gfk7okBF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sherry Lynn</name>
+        <role>Additional Voices (voice)</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kQDSC2z7sb6S5HcpOH6cmeJokKE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Teddy Newton</name>
+        <role>Additional Voices (voice)</role>
+        <order>23</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mftwTs5lza95kOyAZsrfNaqSFtv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeff Pidgeon</name>
+        <role>Additional Voices (voice)</role>
+        <order>24</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yLddkg5HcgbJg00cS13GVBnP0HY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valerie LaPointe</name>
+        <role>Additional Voices (voice)</role>
+        <order>25</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jan Rabson</name>
+        <role>Additional Voices (voice)</role>
+        <order>26</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6mfE6PFzOlKb2Qf4dURbKzLrTTC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bob Scott</name>
+        <role>Additional Voices (voice)</role>
+        <order>27</order>
+        <thumb></thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-17 20:41:10</dateadded>
+</movie>

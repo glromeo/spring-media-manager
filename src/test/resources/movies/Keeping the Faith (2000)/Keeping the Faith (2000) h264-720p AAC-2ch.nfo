@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Keeping the Faith</title>
+    <originaltitle>Keeping the Faith</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.000000</value>
+            <votes>251</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Best friends since they were kids, Rabbi Jacob Schram and Father Brian Finn are dynamic and popular young men living and working on New York&apos;s Upper West Side. When Anna Reilly, once their childhood friend...</outline>
+    <plot>Best friends since they were kids, Rabbi Jacob Schram and Father Brian Finn are dynamic and popular young men living and working on New York&apos;s Upper West Side. When Anna Reilly, once their childhood friend and now grown into a beautiful corporate executive, suddenly returns to the city, she reenters Jake and Brian&apos;s lives and hearts with a vengeance. Sparks fly and an unusual and complicated love triangle ensues.</plot>
+    <tagline>If you have to believe in something, you may as well believe in love.</tagline>
+    <runtime>129</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/wbW4OnSNcuywgmJFdlvL8SvHx4.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/fk6NgPtCgyHaQhruIMdDq4SPHJB.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0171433</id>
+    <uniqueid type="unknown" default="true">tt0171433</uniqueid>
+    <genre>Comedy</genre>
+    <country>US</country>
+    <credits>Stuart Blumberg</credits>
+    <director>Edward Norton</director>
+    <premiered>2000-04-14</premiered>
+    <year>2000</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Spyglass Entertainment</studio>
+    <studio>Touchstone Pictures</studio>
+    <studio>Triple Threat Talent</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=wORkOt7MOHM</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1280</width>
+                <height>682</height>
+                <durationinseconds>7758</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Ben Stiller</name>
+        <role>Rabbi Jake Schram</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/twp3oBAcOIZlwYTxzNgac3YsCPu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Edward Norton</name>
+        <role>Father Brian Finn</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jenna Elfman</name>
+        <role>Anna Riley</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/lY4pLueI0eMmgBXVfw5xw9jysHM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anne Bancroft</name>
+        <role>Ruth Schram</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ydabiabIsMBe2HsNmx43gBpqzxx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eli Wallach</name>
+        <role>Rabbi Ben Lewis</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/cjOzKNXOrwc8ZgGWmJEM8A3HZ19.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ron Rifkin</name>
+        <role>Larry Friedman</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/hukx9wydqjFEu3xXToQWln1PMxN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Miloš Forman</name>
+        <role>Father Havel</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/nKnsrK9h02F1QlMetkyr9R45VGM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Holland Taylor</name>
+        <role>Bonnie Rose</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jt9yFB3nLfZQ0c1DcnvvcfA11gB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lisa Edelstein</name>
+        <role>Ali Decker</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mPTRiyPAf2cxAEfZJILIu9NDwjZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ken Leung</name>
+        <role>Don</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kftJqCNab1x5W29b46rLUeXkwZi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marilyn Cooper</name>
+        <role>&apos;Don&apos;t Walk&apos; Lady</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/t6LIW2AbRkef3PiF1sWtgBy1VZZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Juan Piedrahita</name>
+        <role>Omar</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1YaSn3rtzkI4Anwa4owDwJaiALR.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-16 11:54:59</dateadded>
+</movie>

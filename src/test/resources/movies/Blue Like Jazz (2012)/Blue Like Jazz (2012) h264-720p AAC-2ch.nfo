@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Blue Like Jazz</title>
+    <originaltitle>Blue Like Jazz</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>5.800000</value>
+            <votes>31</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A young man must find his own way as his Southern Baptist roots don&apos;t seem to be acceptable at his new liberal arts college.</outline>
+    <plot>A young man must find his own way as his Southern Baptist roots don&apos;t seem to be acceptable at his new liberal arts college.</plot>
+    <tagline>Everybody belongs somewhere</tagline>
+    <runtime>107</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/ckrw7hNji7K0fTiy61fsprpPKFl.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/xjt2tQxTsdl9TsFdcpxdJ0sr5pb.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1758575</id>
+    <uniqueid type="unknown" default="true">tt1758575</uniqueid>
+    <genre>Drama</genre>
+    <genre>Comedy</genre>
+    <country>US</country>
+    <credits>Donald Miller</credits>
+    <credits>Ben Pearson</credits>
+    <credits>Steve Taylor</credits>
+    <director>Steve Taylor</director>
+    <premiered>2012-04-13</premiered>
+    <year>2012</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Ruckus Films</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=GOglQgyxYkI&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.780000</aspect>
+                <width>1280</width>
+                <height>720</height>
+                <durationinseconds>6459</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Marshall Allman</name>
+        <role>Donald Miller</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/2frJJdV7p1z7WspoPmUw3ehqdjI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claire Holt</name>
+        <role>Penny</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kxdk67jh9rNDsgL0kMqEyyukwS3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tania Raymonde</name>
+        <role>Lauryn</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/2sJuL0fveM1K8z9wuQZiDpAgY0H.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Justin Welborn</name>
+        <role>The Pope</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kYi7JmJRCsNdbrNR48WcAb7wE1C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eric Lange</name>
+        <role>The Hobo</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ziOcfPKJ5jjyUikOOoCfjusy0Ut.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jason Marsden</name>
+        <role>Kenny</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qlZvyg48eUGth7pzU5UDi3CfdDR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>William McKinney</name>
+        <role>Jordan</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wtyQYvD3hP820D5XvDAzBVIZu5l.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Barak Hardley</name>
+        <role>Town Crier</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/aoinc7IiA6323wYI7p45xTN5MvD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valerie Jane Parker</name>
+        <role>Aqualike Babe</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/joeFcKPvRtqKlyPw8yGnUy2QJbh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Susan Isaacs</name>
+        <role>Fan</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/u6ETQ7m1bLIm3mBT9G2LlXY7hRC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Natalia Dyer</name>
+        <role>Grace</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/n5e7Pn61ZQmcPkXrrYIcPdOHH7R.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-17 05:52:53</dateadded>
+</movie>

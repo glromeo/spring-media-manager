@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:55:28 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Man Up</title>
+    <originaltitle>Man Up</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.6</rating>
+    <year>2015</year>
+    <top250></top250>
+    <votes>495</votes>
+    <outline>A 34 year old single woman, Nancy, hung-over again, exhausted by the endless fruitless set ups by her friends, traveling across London to toast another 10 years of her parent's successful happy magical...</outline>
+    <plot>A 34 year old single woman, Nancy, hung-over again, exhausted by the endless fruitless set ups by her friends, traveling across London to toast another 10 years of her parent's successful happy magical marriage runs in with a 40 year old divorcee, Jack, who mistakes her for his 24 year old blind date. Nancy, deciding to go with it, happens to hop on the most chaotic yet hilarious journey of her life which neither of them will ever forget.</plot>
+    <tagline>Right Time Right Place Wrong Date</tagline>
+    <runtime>88</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/y7C1EQ9zxJ3mlaQeRztw3NVw41P.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/tOVaVqBA7y46Y2wJeFfrelRduQC.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt3064298</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">332340</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt3064298</value>
+        </entry>
+    </ids>
+    <tmdbId>332340</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=kLtSNWOao-M&amp;hd=1</trailer>
+    <country>France</country>
+    <country>United Kingdom</country>
+    <premiered>2015-05-29</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>XviD</codec>
+                <aspect>2.35</aspect>
+                <width>640</width>
+                <height>272</height>
+                <durationinseconds>5275</durationinseconds>
+            </video>
+            <audio>
+                <codec>MP3</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Romance</genre>
+    <genre>Comedy</genre>
+    <studio>StudioCanal</studio>
+    <studio>Big Talk Productions</studio>
+    <credits>Tess Morris</credits>
+    <director>Ben Palmer</director>
+    <actor>
+        <name>Simon Pegg</name>
+        <role>Jack</role>
+        <thumb>http://image.tmdb.org/t/p/w185/23e2uoNlpDvLumNic16fS2YjZjL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lake Bell</name>
+        <role>Nancy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5cfIsFPd5Pu8WQqlIfcUQABvqzu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rory Kinnear</name>
+        <role>Sean</role>
+        <thumb>http://image.tmdb.org/t/p/w185/x6S1iZAHHjtPCCyYKOVMOea6zbU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ken Stott</name>
+        <role>Bert</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7ZThizJB7FLoUNl2V8fqG08rVyv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harriet Walter</name>
+        <role>Fran</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vfpIPsC27D1ONVres7j3DgWYzdN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olivia Williams</name>
+        <role>Hilary</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sFPpzOuDOLyB0YmTstS7MTSzEb6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sharon Horgan</name>
+        <role>Elaine</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yA0fsFe7mq21rTRLJXmJTgxZD6D.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Phoebe Waller-Bridge</name>
+        <role>Katie</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dnXxjzaC8avHYlh6Cd01yeayXTL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Wilfort</name>
+        <role>Ryan</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3G0QlJyhhVLvs9yTSjo4h89ce1k.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ophelia Lovibond</name>
+        <role>Jessica</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wewyxidwQYHZxemnZdlYL7lQdOs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Thornley</name>
+        <role>Adam</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4leB3psu55AaGGWxoPEf63wzUnX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Keir Charles</name>
+        <role>Dom</role>
+    </actor>
+    <actor>
+        <name>Henry Lloyd-Hughes</name>
+        <role>Daniel</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xEGYwzCjWnLtd7CwFOCjIVH0tPw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Oliver Reilly</name>
+        <role>Cloakroom Attendant</role>
+    </actor>
+    <actor>
+        <name>Stephen Campbell Moore</name>
+        <role>Ed</role>
+        <thumb>http://image.tmdb.org/t/p/w185/9LPG6fCe2ct82Io5zI8iyvJ8NsP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jack Whitam</name>
+        <role>Man In Toilet #1</role>
+    </actor>
+    <actor>
+        <name>Oliver Lansley</name>
+        <role>Man In Toilet #2</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bjMJiDwaMq2OCo7pjBfvMvD8Taw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Oram</name>
+        <role>Man In Toilet #3</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xHlaXXdSROQBIJOD69PCloDShjb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Simona Brown</name>
+        <role>Sophie</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hZCVNL2wnvAxYjcgtKBlEWLgDYG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maya Henson</name>
+        <role>Essie</role>
+    </actor>
+    <actor>
+        <name>Dean-Charles Chapman</name>
+        <role>Harry</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yfuKsvh1yiOnRkbEHQWsOOSAl4W.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Bradley</name>
+        <role>Andrew (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yrRfy2LUab8i6bjEb0LFEe0wDK2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paulina Boneva</name>
+        <role>Girl on train (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h79tJ7YXrTmjOnRC6eSwyaUg1OU.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Nira Park</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jcoHsIbvMUNliXZpZkprwunM2JZ.jpg</thumb>
+    </producer>
+    <producer>
+        <name>James Biddle</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Rachael Prior</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Simon Pegg</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/23e2uoNlpDvLumNic16fS2YjZjL.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Matthew Justice</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Dan Cheesbrough</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Christine Langan</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ov654QaxZXb5ZeSrvfeu39ZNB2.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Joe Oppenheimer</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Danny Perkins</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Jenny Borgars</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Daniel Gulliver</name>
+        <role>Line Producer</role>
+    </producer>
+    <producer>
+        <name>Martin Heriot</name>
+        <role>Co-Producer</role>
+    </producer>
+    <producer>
+        <name>Nina Gold</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kljYhRvTAqQfX198mjz0ITP0hFM.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Theo Park</name>
+        <role>Casting</role>
+    </producer>
+    <languages>English</languages>
+    <source>BLURAY</source>
+</movie>

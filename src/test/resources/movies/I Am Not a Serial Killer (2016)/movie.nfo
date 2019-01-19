@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:51:12 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>I Am Not a Serial Killer</title>
+    <originaltitle>I Am Not a Serial Killer</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.2</rating>
+    <year>2016</year>
+    <top250></top250>
+    <votes>209</votes>
+    <outline>Fifteen-year old John Cleaver is dangerous, and he knows it. He’s obsessed with serial killers, but really doesn’t want to become one. Terrible impulses constantly tempt him, so for his own sake, and the...</outline>
+    <plot>Fifteen-year old John Cleaver is dangerous, and he knows it. He’s obsessed with serial killers, but really doesn’t want to become one. Terrible impulses constantly tempt him, so for his own sake, and the safety of those around, he lives by rigid rules to keep himself “good” and “normal”. However, when a real monster shows up in his town he has to let his dark side out in order to stop it – but without his rules to keep him in check, he might be more dangerous than the monster he’s trying to kill.</plot>
+    <tagline>Every town has its monsters</tagline>
+    <runtime>104</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/pksHh2TvPzc6SxeKksS0PM3JxCp.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/oDDcXrRgiipc3UI1V8f40TbKZGb.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <certification>NR</certification>
+    <id>tt4303340</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">381034</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt4303340</value>
+        </entry>
+    </ids>
+    <tmdbId>381034</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=DNjQoD_o6X8&amp;hd=1</trailer>
+    <country>Ireland</country>
+    <country>United Kingdom</country>
+    <premiered>2016-08-26</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1280</width>
+                <height>714</height>
+                <durationinseconds>6206</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Horror</genre>
+    <genre>Thriller</genre>
+    <studio>Liquid Noise Films</studio>
+    <studio>Floodland Pictures</studio>
+    <studio>Fantastic Films</studio>
+    <studio>Level 5 Films</studio>
+    <studio>Winterland Pictures</studio>
+    <studio>Tea Shop &amp; Film Company</studio>
+    <credits>Dan Wells</credits>
+    <credits>Christopher Hyde</credits>
+    <credits>Billy O'Brien</credits>
+    <director>Billy O'Brien</director>
+    <actor>
+        <name>Christopher Lloyd</name>
+        <role>Crowley</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iQzG9apaIsHnn7iGrer3YEDp8Zo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Laura Fraser</name>
+        <role>April</role>
+        <thumb>http://image.tmdb.org/t/p/w185/umgqZQNAqE78jFfg1H1nPtaO41Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Max Records</name>
+        <role>John Wayne Cleaver</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5RgV2oMl1OsUKUMW9C8vyrM8G0c.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Gaulke</name>
+        <role>Principal Layton</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cq3tYDPT7pYds1BeXfKEwSCoBqR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tim Russell</name>
+        <role>Olson the Barber</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tzHB7GqRBc26I1gV2QbYOS3Pb20.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Karl Geary</name>
+        <role>Dr. Neblin</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cJyQRKyihjOINejTgv5E2vPCrwB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruce Bohne</name>
+        <role>Minister</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zBe6eyNHbiEClW4Lwu2o8S7Mi75.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Roy</name>
+        <role>The Drifter</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wUfyvTbrD9cpCPp1NgnuuhjsSd5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Molly Gearen</name>
+        <role>Classmate / Partygoer</role>
+    </actor>
+    <actor>
+        <name>William Todd-Jones</name>
+        <role>The Monster</role>
+    </actor>
+    <actor>
+        <name>Ryan J. Gilmer</name>
+        <role>Angry Mob</role>
+    </actor>
+    <actor>
+        <name>Morgan Rysso</name>
+        <role>Brooke's Friend</role>
+    </actor>
+    <actor>
+        <name>Emmylou Barden</name>
+        <role>Brooke's Friend</role>
+    </actor>
+    <actor>
+        <name>Joel Thingvall</name>
+        <role>Concerned Neighbor</role>
+    </actor>
+    <actor>
+        <name>Lucy Lawton</name>
+        <role>Brooke Watson</role>
+    </actor>
+    <actor>
+        <name>Sally-Anne Hunt</name>
+        <role>Trick or Treater</role>
+    </actor>
+    <actor>
+        <name>Noah Odegaard</name>
+        <role>Student</role>
+    </actor>
+    <actor>
+        <name>Michael Paul Levin</name>
+        <role>Roger Bowen (Max's Dad)</role>
+    </actor>
+    <actor>
+        <name>Patricia Enger</name>
+        <role>Angry Mob</role>
+    </actor>
+    <actor>
+        <name>Elizabeth Belfiori</name>
+        <role>Rachel</role>
+    </actor>
+    <actor>
+        <name>Dee Noah</name>
+        <role>Kay Crowley</role>
+    </actor>
+    <actor>
+        <name>Alan Holasek</name>
+        <role>Angry Mob</role>
+    </actor>
+    <producer>
+        <name>Kirsten Gregerson</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Colin Jones</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>James Harris</name>
+        <role>producer</role>
+    </producer>
+    <producer>
+        <name>Mark Lane</name>
+        <role>producer</role>
+    </producer>
+    <producer>
+        <name>Nick Ryan</name>
+        <role>producer</role>
+    </producer>
+    <producer>
+        <name>Kate Glover</name>
+        <role>co-producer</role>
+    </producer>
+    <producer>
+        <name>Lionel Hicks</name>
+        <role>co-producer</role>
+    </producer>
+    <producer>
+        <name>Avril Daly</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Rory Gilmartin</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Wayne Marc Godfrey</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Robert Jones</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Afolabi Kuti</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>John McDonnell</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Billy O'Brien</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/l0h8SpvskAn1YD5dD42JwuL3G8K.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Jan Pace</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Ruairi Robinson</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lEvsZXpTu4MwV4LRF2kRQWbKetU.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Arnaud Lannic</name>
+        <role>associate producer</role>
+    </producer>
+    <producer>
+        <name>Christophe Lannic</name>
+        <role>associate producer</role>
+    </producer>
+    <languages>English</languages>
+    <source>BLURAY</source>
+</movie>

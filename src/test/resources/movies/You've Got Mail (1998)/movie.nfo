@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 14:08:52 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>You've Got Mail</title>
+    <originaltitle>You've Got Mail</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.5</rating>
+    <year>1998</year>
+    <top250></top250>
+    <votes>1396</votes>
+    <outline>Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.</outline>
+    <plot>Book superstore magnate, Joe Fox and independent book shop owner, Kathleen Kelly fall in love in the anonymity of the Internet – both blissfully unaware that he's putting her out of business.</plot>
+    <tagline>Someone you pass on the street may already be the love of your life.</tagline>
+    <runtime>119</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/2XIsqnCwEE3Uf5TlP9H68STgtk6.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/rv9UFh46MHMRa2hEmF9ChZLrcKa.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <certification>US:PG / US:Rated PG</certification>
+    <id>tt0128853</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9489</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0128853</value>
+        </entry>
+    </ids>
+    <tmdbId>9489</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=znESQTt3L80&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>1998-12-17</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1280</width>
+                <height>720</height>
+                <durationinseconds>7164</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Comedy</genre>
+    <genre>Romance</genre>
+    <studio>Warner Bros. Pictures</studio>
+    <credits>Miklós László</credits>
+    <credits>Nora Ephron</credits>
+    <credits>Delia Ephron</credits>
+    <director>Nora Ephron</director>
+    <actor>
+        <name>Tom Hanks</name>
+        <role>Joe Fox</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xxPMucou2wRDxLrud8i2D4dsywh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Meg Ryan</name>
+        <role>Kathleen Kelly</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3WMxDdHAtgtSqHjiMyf3liErY3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Katie Sagona</name>
+        <role>Young Kathleen Kelly</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iZNaXH5tI4A1x5eBhAE6JDHaLIe.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Greg Kinnear</name>
+        <role>Frank Navasky</role>
+        <thumb>http://image.tmdb.org/t/p/w185/agOTbOC76I6rC7TPuCTquvngXRu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Parker Posey</name>
+        <role>Patricia Eden</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hvD6VB7l8uC4CeUEVQsBWtnDCT6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jean Stapleton</name>
+        <role>Birdie Conrad</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yfmkSfHShvDPVyXBoJvi2QTBboH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Zahn</name>
+        <role>George Pappas</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tcRHqtdi4wM8hlZ3MjPDWgePp7L.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Heather Burns</name>
+        <role>Christina Plutzker</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3mgMhHwoVCw3VHORRPi8fB6wQXH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dabney Coleman</name>
+        <role>Nelson Fox</role>
+        <thumb>http://image.tmdb.org/t/p/w185/95I1LdB2PS2RcAL4mqUzAmJWI5x.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hallee Hirsh</name>
+        <role>Annabelle Fox</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6uwREt8OqKig4afvAFPuochl94P.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dave Chappelle</name>
+        <role>Kevin Jackson</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qrJzigQLQ7FwrzYBLeDwvuPN63t.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Randolph</name>
+        <role>Schulyer Fox</role>
+        <thumb>http://image.tmdb.org/t/p/w185/r3HirIBplq3hjYYvO7JtyGP4SrF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cara Seymour</name>
+        <role>Gillian Flynn</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3X73Lzbnhz5eHlLCW5dLGBp0G0o.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deborah Rush</name>
+        <role>Veronica Cash</role>
+        <thumb>http://image.tmdb.org/t/p/w185/68JfXOKiUsiZ9mQAt14RRNb28tS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chris Messina</name>
+        <role>Fox Salesperson</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oLJ4Kgnb2ZXfPy8dBQYGGt9flsY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeffrey Scaperrotta</name>
+        <role>Matt Fox</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dPWeEZSDJ7CdZvVcozOFCZrb7wm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Katie Finneran</name>
+        <role>Maureen, the Nanny</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zw1mzgtkLAk7JixTmIh758xbZkK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michael Badalucco</name>
+        <role>Charlie</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oK2pSu2FWyrwiPEch7Tux2GSMbK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Veanne Cox</name>
+        <role>Miranda Margulies</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7fxVktlpPBAEWImceQB9wTPb90H.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruce Jay Friedman</name>
+        <role>Vince Mancini</role>
+        <thumb>http://image.tmdb.org/t/p/w185/n9O2SAoALEn8lkw64VPhQq7R7FY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sara Ramirez</name>
+        <role>Rose, Zabars Cashier</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1zwLhB4kmAZPnuOZzrHDxGXggSd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Howard Spiegel</name>
+        <role>Henry, Zabars Shopper</role>
+        <thumb>http://image.tmdb.org/t/p/w185/z9CmHwe7fHG1YKPoeaykxYxqZZP.jpg</thumb>
+    </actor>
+    <producer>
+        <name>G. Mac Brown</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Julie Durk</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Delia Ephron</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yIn85fxeUvk1else8GIA7OtgSkO.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Nora Ephron</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2DO8ef3VVkcmMX2m0Qfz01IkMl4.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Lauren Shuler Donner</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uwuWpT2xyhwlrfSCk6xTTvrRvEE.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Francine Maisler</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7kOKhRSuwDXqyd2Dm2xdWdi18lQ.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Donald J. Lee Jr.</name>
+        <role>Unit Production Manager</role>
+    </producer>
+    <languages>English</languages>
+    <source>BLURAY</source>
+</movie>

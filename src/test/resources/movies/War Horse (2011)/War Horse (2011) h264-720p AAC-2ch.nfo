@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>War Horse</title>
+    <originaltitle>War Horse</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.200000</value>
+            <votes>1581</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Follows a young man named Albert and his horse, Joey, and how their bond is broken when Joey is sold to the cavalry and sent to the trenches of World War One. Despite being too young to enlist, Albert...</outline>
+    <plot>Follows a young man named Albert and his horse, Joey, and how their bond is broken when Joey is sold to the cavalry and sent to the trenches of World War One. Despite being too young to enlist, Albert heads to France to save his friend.</plot>
+    <tagline>Separated by War. Tested by Battle. Bound by Friendship.</tagline>
+    <runtime>146</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/6wMoQyJddEiLCzLUHiX7LNWhDol.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/iO4fslQ9CenAOcg3JfhN6o9va2.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1568911</id>
+    <uniqueid type="unknown" default="true">tt1568911</uniqueid>
+    <genre>Drama</genre>
+    <genre>War</genre>
+    <country>US</country>
+    <credits>Lee Hall</credits>
+    <credits>Richard Curtis</credits>
+    <director>Steven Spielberg</director>
+    <premiered>2011-12-25</premiered>
+    <year>2011</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Touchstone Pictures</studio>
+    <studio>Amblin Entertainment</studio>
+    <studio>Reliance Entertainment</studio>
+    <studio>DreamWorks</studio>
+    <studio>The Kennedy</studio>
+    <studio>Marshall Company</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=d6Ru9Y9Xwjg</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.400000</aspect>
+                <width>1280</width>
+                <height>528</height>
+                <durationinseconds>8799</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Jeremy Irvine</name>
+        <role>Albert Narracott</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/nPeBcyemdjH7zu8fL8gu9O0lnsb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tom Hiddleston</name>
+        <role>Capt. James Nicholls</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qB1lHPFBPIzw6I7EvsciZ5wyUNS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Benedict Cumberbatch</name>
+        <role>Maj. Jamie Stewart</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Toby Kebbell</name>
+        <role>Geordie Soldier</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wQU3uFk2TWjT2qfs2Z6rkdbWbjx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emily Watson</name>
+        <role>Rose Narracott</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jyIC8axLoCrbQoKGGjGFRU7hfNI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Thewlis</name>
+        <role>Lyons</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/lWCGcTKvr4QUi8MvFBleMw8xY8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Peter Mullan</name>
+        <role>Ted Narracott</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7Y6oHcv719kfYxpWcYAE7wXzE7C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Kross</name>
+        <role>Pvt. Günther Schröder</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/50BcSbOZtfCktGMEepExob45O2h.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicolas Bro</name>
+        <role>Friedrich</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/bPfMDMjbFZzelnZQfLzVTk6qlwi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eddie Marsan</name>
+        <role>Sgt. Fry</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zcJ2W9BuiBPohtOkPFcYuFfCzji.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Niels Arestrup</name>
+        <role>Grandfather</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/nmY1YLZN2rZ4JeLmzA3thQLaMUt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Celine Buckens</name>
+        <role>Emilie</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4g8tU91I2Nba1RnWRpnKPM3f3Zz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Milne</name>
+        <role>Andrew Easton</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kBB8AYIDrVf8FnCGhxJwHz18qrS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Emms</name>
+        <role>David Lyons</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4wdONknsZLWHpH2NSyk0FyPPO8A.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rainer Bock</name>
+        <role>Brandt</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ebmPZimivfRFKYnKp2ygazkJO9r.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Geoff Bell</name>
+        <role>Sgt. Sam Perkins</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1zWgEcKr25XSfHGuXdCuFLUvEoX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tony Pitts</name>
+        <role>Sgt. Martin</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yKxag5eLZJ2Oex5bj8RXWIR3LnC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Irfan Hussein</name>
+        <role>Sgt. Maj. Singh</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vzZiZzBsxalDuooq6Ss6NfDvYgC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pip Torrens</name>
+        <role>Maj. Tompkins</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/oufazs9fACQgocDos8vEY5IW1Wr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrick Kennedy</name>
+        <role>Lt.Waverley</role>
+        <order>19</order>
+        <thumb>http://image.tmdb.org/t/p/w185/9XDKu09p1TuGdAaLbisa0Lngcmv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Liam Cunningham</name>
+        <role>Army Doctor</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8RMX0M8AEaldVAC6WUJIViUdDkm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hinnerk Schönemann</name>
+        <role>Soldier</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/w8R9m7GTYnSWsGKb7WA8T3SJv8X.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sebastian Hülk</name>
+        <role>German Officer at Farm</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/esYqiDXZ4YE6zXidWtPt32cu3RV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Philippe Nahon</name>
+        <role>French Auctioneer</role>
+        <order>23</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1ZrnApxh9qZz1EdEB1vKWwoFd5B.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Trystan Pütter</name>
+        <role>German Trench Soldier</role>
+        <order>24</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tKJVa4wTNVTBuHjPJPBNCiYSPlD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anian Zollner</name>
+        <role>Senior German Officer</role>
+        <order>25</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uuH5MNxSAqJQCCY0MCB74QrTAp6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hannes Wegener</name>
+        <role>German Officer</role>
+        <order>26</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ku7c8L9GtTdfWhNXReFY05OHdw3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maximilian Brückner</name>
+        <role>German Artillery Officer</role>
+        <order>27</order>
+        <thumb>http://image.tmdb.org/t/p/w185/q0ghHkYgwc7qIednco8qxBJieDy.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Markus Tomczyk</name>
+        <role>German Artillery Soldier</role>
+        <order>28</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xwm4VLMfzLHLLVb4t1zIZ1dvwSW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Peter Benedict</name>
+        <role>German Officer on Bridge</role>
+        <order>29</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wOtlAdtrcZc05Z1G6JlFUADiYFL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michael Kranz</name>
+        <role>Junior German Officer</role>
+        <order>30</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ksD74KqOB9SjOi40KrcqhR6aXIH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Julian Wadham</name>
+        <role>Trench Captain</role>
+        <order>31</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mOncV8nKgN0sb6GsvBq2YrraEft.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maggie Ollerenshaw</name>
+        <role>Narracott&apos;s Neighbor</role>
+        <order>32</order>
+        <thumb>http://image.tmdb.org/t/p/w185/anXX4C3lBIPkU5aGMqOm8ii9Tyd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Seamus O&apos;Neill</name>
+        <role>Farmer</role>
+        <order>33</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6CsKql13Qs0F8e0Ej9iOCrVWOsf.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-17 20:13:55</dateadded>
+</movie>

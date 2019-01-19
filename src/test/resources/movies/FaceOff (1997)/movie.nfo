@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:47:32 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Face/Off</title>
+    <originaltitle>Face/Off</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.9</rating>
+    <year>1997</year>
+    <top250></top250>
+    <votes>2291</votes>
+    <outline>An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent...</outline>
+    <plot>An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent's family.</plot>
+    <tagline>In order to catch him, he must become him.</tagline>
+    <runtime>138</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/q1i8QHiHZ1cukG5iOxai8pydmoa.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/to9mG1qnu9gtsJNgyiD3DqHcfva.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt0119094</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">754</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0119094</value>
+        </entry>
+    </ids>
+    <tmdbId>754</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=3zebJ_NoduE&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>1997-06-27</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.35</aspect>
+                <width>1280</width>
+                <height>544</height>
+                <durationinseconds>8336</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Science Fiction</genre>
+    <genre>Thriller</genre>
+    <studio>Krane Entertainment</studio>
+    <studio>Paramount</studio>
+    <studio>Permut Presentations</studio>
+    <studio>WCG Entertainment Productions</studio>
+    <studio>Touchstone Pictures</studio>
+    <studio>Douglas</studio>
+    <studio>Reuther Productions</studio>
+    <credits>Mike Werb</credits>
+    <credits>Michael Colleary</credits>
+    <director>John Woo</director>
+    <actor>
+        <name>John Travolta</name>
+        <role>Sean Archer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/JSt3skdZpGPJYJixCZqH599WdI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicolas Cage</name>
+        <role>Castor Troy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ti2h1OS1n1VwoJHWFaJD8dMZuEE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joan Allen</name>
+        <role>Eve Archer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/Atg0mSjK9Dl98YBsFvBuGO8PG5m.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alessandro Nivola</name>
+        <role>Pollux Troy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lLlaotVNM6dhjXj7GWVLSedugct.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gina Gershon</name>
+        <role>Sasha Hassler</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7Y6WzhtQafT4zeOdWllxc1uf33b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dominique Swain</name>
+        <role>Jamie Archer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uqPcppajqSlYzQooLogh6TxjZhP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nick Cassavetes</name>
+        <role>Dietrich Hassler</role>
+        <thumb>http://image.tmdb.org/t/p/w185/daXFYs1PxFtrAZJv5iLMpqnIGet.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harve Presnell</name>
+        <role>Victor Lazarro</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hH4HYzCa5BzWxOs76HQnDBOKe4c.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Colm Feore</name>
+        <role>Dr. Malcolm Walsh</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ack88BRQ7mApRMOdaiOqEUh2FDu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Carroll Lynch</name>
+        <role>Walt</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5eEGOANKnCCj7FLa3oV28gGYWkW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>CCH Pounder</name>
+        <role>Hollis Miller</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4Xu155Rt87p42HVxI2L6Hf9AB4w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Wisdom</name>
+        <role>Tito Biondi</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zAoS4BCgTOJHA88wD7lmjlXOfnP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Margaret Cho</name>
+        <role>Wanda</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3DUdtidVGm8FFfknl6HfBMBf366.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Denton</name>
+        <role>Buzz</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ApoCBEO4bhDizjqLOnF0BUW1HLX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Ross</name>
+        <role>Loomis</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tl51oqEpUoa9S5JGbklg9aXd99Q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chris Bauer</name>
+        <role>Ivan Dubov</role>
+        <thumb>http://image.tmdb.org/t/p/w185/pxzuoL2UvrMmOjJl3hVDCZefCwT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Myles Jeffrey</name>
+        <role>Michael Archer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/snKwcKNBaIWKNv0dHzlB8h9q935.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David McCurley</name>
+        <role>Adam Hassler</role>
+    </actor>
+    <actor>
+        <name>Thomas Jane</name>
+        <role>Burke Hicks</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xAES23Ll0JT0lJADA1SIdTAN0bf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Danny Masterson</name>
+        <role>Karl</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vBC0mHPEVHwhFZYzhXgoHzBKYyK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lisa Boyle</name>
+        <role>Cindee</role>
+        <thumb>http://image.tmdb.org/t/p/w185/r7YqIRBbeNIgVNK6xgmrmLDh4uW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Linda Hoffman</name>
+        <role>Livia</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h9silu0xpZpjEcPXjJAyQTWXSb5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tommy Flanagan</name>
+        <role>Leo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/eVHvVN05wJSINFlkjxjwOwe6C3L.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Romy Windsor</name>
+        <role>Kimberly</role>
+    </actor>
+    <actor>
+        <name>Paul Hipp</name>
+        <role>Fitch</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zQehaRjnln1PWKsU2f8n9pDbQrd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kirk Baltz</name>
+        <role>Aldo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zCuugN0Lgsi5IKRq9OyYl3vh9pU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lauren Sinclair</name>
+        <role>Agent Winters</role>
+    </actor>
+    <producer>
+        <name>Terence Chang</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Barrie M. Osborne</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xWtXYk6M5NFroddcQDviLlxOnkU.jpg</thumb>
+    </producer>
+    <producer>
+        <name>David Permut</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7pAjvPIcB8a6aGefNJqMMvqKOKU.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Mindy Marin</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qzqo2SyYdwb3CKeLuUMXBJneWEe.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Steven Reuther</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Michael Colleary</name>
+        <role>Co-Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oan7NBnXYrq8vs4yT7zS2x2d39K.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Mike Werb</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Marty P. Ewing</name>
+        <role>Unit Production Manager</role>
+    </producer>
+    <producer>
+        <name>Karen Shaw</name>
+        <role>Production Coordinator</role>
+    </producer>
+    <producer>
+        <name>Jeff Levine</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Michael Douglas</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nmlitv4g2jXO3sJrnA9g980j2uc.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Jonathan D. Krane</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Christopher Godsick</name>
+        <role>Producer</role>
+    </producer>
+    <languages>English, Latin</languages>
+    <source>BLURAY</source>
+</movie>

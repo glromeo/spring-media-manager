@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:48:55 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Galaxy Quest</title>
+    <originaltitle>Galaxy Quest</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>7.0</rating>
+    <year>1999</year>
+    <top250></top250>
+    <votes>993</votes>
+    <outline>The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents...</outline>
+    <plot>The stars of a 1970s sci-fi show - now scraping a living through re-runs and sci-fi conventions - are beamed aboard an alien spacecraft. Believing the cast's heroic on-screen dramas are historical documents of real-life adventures, the band of aliens turn to the ailing celebrities for help in their quest to overcome the oppressive regime in their solar system.</plot>
+    <tagline>A comedy of Galactic Proportions.</tagline>
+    <runtime>102</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/9yaxerm28NP4LIAsAS7zGAAbSSa.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/xtTPxvWjLmMJaIuMiKiBoy3yW8O.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <certification>US:PG / US:Rated PG</certification>
+    <id>tt0177789</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">926</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">926</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0177789</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0177789</value>
+        </entry>
+    </ids>
+    <tmdbId>926</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=B34jbC43XzA&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>1999-12-23</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.35</aspect>
+                <width>1280</width>
+                <height>544</height>
+                <durationinseconds>6128</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Comedy</genre>
+    <genre>Family</genre>
+    <genre>Science Fiction</genre>
+    <studio>Gran Via Productions</studio>
+    <studio>DreamWorks</studio>
+    <credits>David Howard</credits>
+    <credits>Robert Gordon</credits>
+    <director>Dean Parisot</director>
+    <actor>
+        <name>Tim Allen</name>
+        <role>Jason Nesmith</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dDbtWMGdhatUjCIYolc312R2ygu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sigourney Weaver</name>
+        <role>Gwen DeMarco</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gxBIAr3CnBjkNRoPovVJCvEGqP0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alan Rickman</name>
+        <role>Alexander Dane</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zOJgiaztnrnB7TSdGYU3uwpgivl.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tony Shalhoub</name>
+        <role>Fred Kwan</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jXzlVxS8u64XEZUoNPiuhGcQXDW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sam Rockwell</name>
+        <role>Guy Fleegman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vYpWxV0bnUgKo7SdasfGP9HttUq.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Daryl Mitchell</name>
+        <role>Tommy Webber</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mSrPd1XH1akZtDXsBXN8m0wvluG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Enrico Colantoni</name>
+        <role>Mathesar</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yxxy8IrGRwnRPbLmgyfwF26Feve.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robin Sachs</name>
+        <role>Sarris</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rSMeopDC1loyjUVhxK0XjFfSlAC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jed Rees</name>
+        <role>Teb</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sC7lBTG7TSEvxMRb32J9giTv5K9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Justin Long</name>
+        <role>Brandon</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7TGXeHw4o86IBm6xknQotpludXK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Missi Pyle</name>
+        <role>Laliari</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gjJiT50eCgPMRsIKl03v64CJOPf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrick Breen</name>
+        <role>Quellek</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oGK78qN4cezMlG7VBvZ0QYh1Ui0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeremy Howard</name>
+        <role>Kyle</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4GyPGjrvqs3zes8I1SWrQWukrA9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sam Lloyd</name>
+        <role>Neru</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xLSxSkq41HNGmK5cCeXqnki8CIz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rainn Wilson</name>
+        <role>Lahnk</role>
+        <thumb>http://image.tmdb.org/t/p/w185/Adq8cYhhzmSYRwMWDTc7O53L7FR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>J.P. Manoux</name>
+        <role>Excited alien</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lLEfizV970QfahQSBssUvj8Exs7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dian Bachar</name>
+        <role>Nervous tech</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fcpoFyxz6vxezZL8CDqF8TEhHPW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Heidi Swedberg</name>
+        <role>Brandon's mom</role>
+        <thumb>http://image.tmdb.org/t/p/w185/405YJMDULbRytEN0O3PI1VncXjb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kevin McDonald</name>
+        <role>Announcer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vqLF8voWGTGxpMJ1wqhAovQuL94.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kaitlin Cullum</name>
+        <role>Katelyn</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dJxQ8Hqd1aKVQwlCw4bFP2SEL07.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jonathan Feyer</name>
+        <role>Hollister</role>
+    </actor>
+    <actor>
+        <name>Corbin Bleu</name>
+        <role>Young Tommy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1fTGgTuAa2EdvVJEj8Vu5PGifAn.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Mark Johnson</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yKGF6cbzyP03Gl1QhVLCu1gWSW6.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Charles Newirth</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/u2qvWMuOfGazAgfsufIrhjGEe24.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Debra Zane</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Terri Taylor</name>
+        <role>Casting Associate</role>
+    </producer>
+    <languages>English</languages>
+    <tmdbid>926</tmdbid>
+</movie>

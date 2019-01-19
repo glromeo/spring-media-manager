@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>I Am Not a Serial Killer</title>
+    <originaltitle>I Am Not a Serial Killer</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.200000</value>
+            <votes>209</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Fifteen-year old John Cleaver is dangerous, and he knows it. He’s obsessed with serial killers, but really doesn’t want to become one. Terrible impulses constantly tempt him, so for his own sake, and the...</outline>
+    <plot>Fifteen-year old John Cleaver is dangerous, and he knows it. He’s obsessed with serial killers, but really doesn’t want to become one. Terrible impulses constantly tempt him, so for his own sake, and the safety of those around, he lives by rigid rules to keep himself “good” and “normal”. However, when a real monster shows up in his town he has to let his dark side out in order to stop it – but without his rules to keep him in check, he might be more dangerous than the monster he’s trying to kill.</plot>
+    <tagline>Every town has its monsters</tagline>
+    <runtime>103</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/pksHh2TvPzc6SxeKksS0PM3JxCp.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/oDDcXrRgiipc3UI1V8f40TbKZGb.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt4303340</id>
+    <uniqueid type="unknown" default="true">tt4303340</uniqueid>
+    <genre>Horror</genre>
+    <genre>Thriller</genre>
+    <country>Ireland</country>
+    <country>United Kingdom</country>
+    <credits>Dan Wells</credits>
+    <credits>Christopher Hyde</credits>
+    <credits>Billy O&apos;Brien</credits>
+    <director>Billy O&apos;Brien</director>
+    <premiered>2016-08-26</premiered>
+    <year>2016</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Liquid Noise Films</studio>
+    <studio>Floodland Pictures</studio>
+    <studio>Fantastic Films</studio>
+    <studio>Level 5 Films</studio>
+    <studio>Winterland Pictures</studio>
+    <studio>Tea Shop &amp; Film Company</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=DNjQoD_o6X8&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.780000</aspect>
+                <width>1280</width>
+                <height>714</height>
+                <durationinseconds>6206</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Christopher Lloyd</name>
+        <role>Crowley</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/iQzG9apaIsHnn7iGrer3YEDp8Zo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Laura Fraser</name>
+        <role>April</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/umgqZQNAqE78jFfg1H1nPtaO41Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Max Records</name>
+        <role>John Wayne Cleaver</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5RgV2oMl1OsUKUMW9C8vyrM8G0c.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Gaulke</name>
+        <role>Principal Layton</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/cq3tYDPT7pYds1BeXfKEwSCoBqR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tim Russell</name>
+        <role>Olson the Barber</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tzHB7GqRBc26I1gV2QbYOS3Pb20.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Karl Geary</name>
+        <role>Dr. Neblin</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/cJyQRKyihjOINejTgv5E2vPCrwB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruce Bohne</name>
+        <role>Minister</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zBe6eyNHbiEClW4Lwu2o8S7Mi75.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Roy</name>
+        <role>The Drifter</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wUfyvTbrD9cpCPp1NgnuuhjsSd5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Molly Gearen</name>
+        <role>Classmate / Partygoer</role>
+        <order>8</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>William Todd-Jones</name>
+        <role>The Monster</role>
+        <order>9</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Ryan J. Gilmer</name>
+        <role>Angry Mob</role>
+        <order>10</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Morgan Rysso</name>
+        <role>Brooke&apos;s Friend</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Emmylou Barden</name>
+        <role>Brooke&apos;s Friend</role>
+        <order>12</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Joel Thingvall</name>
+        <role>Concerned Neighbor</role>
+        <order>13</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Lucy Lawton</name>
+        <role>Brooke Watson</role>
+        <order>14</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Sally-Anne Hunt</name>
+        <role>Trick or Treater</role>
+        <order>15</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Noah Odegaard</name>
+        <role>Student</role>
+        <order>16</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Michael Paul Levin</name>
+        <role>Roger Bowen (Max&apos;s Dad)</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Patricia Enger</name>
+        <role>Angry Mob</role>
+        <order>18</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Elizabeth Belfiori</name>
+        <role>Rachel</role>
+        <order>19</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Dee Noah</name>
+        <role>Kay Crowley</role>
+        <order>20</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Alan Holasek</name>
+        <role>Angry Mob</role>
+        <order>21</order>
+        <thumb></thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2017-01-04 22:04:52</dateadded>
+</movie>

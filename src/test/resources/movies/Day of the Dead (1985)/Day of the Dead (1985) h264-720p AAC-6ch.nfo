@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Day of the Dead</title>
+    <originaltitle>Day of the Dead</originaltitle>
+    <sorttitle>Living Dead Collection04</sorttitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.000000</value>
+            <votes>420</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>The final chapter of George A. Romero&apos;s &quot;Dead Trilogy&quot;. In an underground government installation they are searching for a cure to overcome this strange transformation into zombies. Unfortunately, the...</outline>
+    <plot>The final chapter of George A. Romero&apos;s &quot;Dead Trilogy&quot;. In an underground government installation they are searching for a cure to overcome this strange transformation into zombies. Unfortunately, the zombies from above ground have made their way into the bunker.</plot>
+    <tagline>The darkest day of horror the world has ever known.</tagline>
+    <runtime>100</runtime>
+    <thumb>http://image.tmdb.org/t/p/original/yJ2emwXWwQc6VHW3fO4GZr0hXBt.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/nK0QROkoviRd99kcRHEdxfID4TI.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0088993</id>
+    <uniqueid type="unknown" default="true">tt0088993</uniqueid>
+    <genre>Horror</genre>
+    <genre>Science Fiction</genre>
+    <country>United States</country>
+    <country>Japan</country>
+    <set>
+        <name>Living Dead Collection</name>
+        <overview>Night of the Living Dead is a series of zombie horror films written and directed by George A. Romero beginning with the 1968 film Night of the Living Dead written by Romero and John A. Russo. The loosely connected franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.</overview>
+    </set>
+    <credits>George A. Romero</credits>
+    <director>George A. Romero</director>
+    <premiered>1985-07-19</premiered>
+    <year>1985</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Dead Films</studio>
+    <studio>Laurel Entertainment</studio>
+    <studio>Toei Company</studio>
+    <studio>Ltd.</studio>
+    <studio>United Film Distribution Company (UFDC)</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=oATJVC5R0FA</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1280</width>
+                <height>688</height>
+                <durationinseconds>6050</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>6</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Lori Cardille</name>
+        <role>Sarah</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8krsgZ2Hc6BeRr1Ghmb6K5WEm7e.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Terry Alexander</name>
+        <role>John</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uao9PqvUYOiJPoGbMxL0DmKqna4.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joseph Pilato</name>
+        <role>Captain Rhodes</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6rlSP8oxYygfjri8beGlFLDxSy1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jarlath Conroy</name>
+        <role>William McDermott</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/azAslEkvpXkTviBokJDV9ecAbBO.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Dileo Jr.</name>
+        <role>Pvt. Miguel Salazar</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7OncpJedyfGZTzSmVoeXC2Trpqv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Richard Liberty</name>
+        <role>Dr. Logan</role>
+        <order>5</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Sherman Howard</name>
+        <role>Bub</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/x722T5hnCqS0y9AO7vdIqIBYgIz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gary Howard Klar</name>
+        <role>Steel</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/evmHi96cDCtPSIcQBrDU7OnksTb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ralph Marrero</name>
+        <role>Rickles</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/gVMT3MoJlNXhRPxatDTXCRFHxHn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Amplas</name>
+        <role>Fisher</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ikLsiyNsmWiqRxXH58Xcf42LIkg.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Phillip G. Kellams</name>
+        <role>Miller</role>
+        <order>10</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Taso N. Stavrakis</name>
+        <role>Torrez</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/eCNJTH4h2a55KKuX2EllpFVy21w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gregory Nicotero</name>
+        <role>Johnson</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tbSRk7j0hYlBWWX7QrjdOXeiMpW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Don Brockett</name>
+        <role>Featured Zombie</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/pgBUJ6jnk3wS3ByG9mOl0JcQUKW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>William Cameron</name>
+        <role>Featured Zombie</role>
+        <order>14</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Deborah Carter</name>
+        <role>Featured Zombie</role>
+        <order>15</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Winnie Flynn</name>
+        <role>Featured Zombie</role>
+        <order>16</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Debra Gordon</name>
+        <role>Featured Zombie</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wTQjf2atFRwhs1JO7uL9xhiuEk3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeff Hogan</name>
+        <role>Featured Zombie</role>
+        <order>18</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Barbara Holmes</name>
+        <role>Featured Zombie</role>
+        <order>19</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>David Kindlon</name>
+        <role>Featured Zombie</role>
+        <order>20</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Bruce Kirkpatrick</name>
+        <role>Featured Zombie</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1eMcIjb8YEKlRFuOK9Eors23RAC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>&apos;Wild Bill&apos; Laczko</name>
+        <role>Featured Zombie</role>
+        <order>22</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Susan Martinelli</name>
+        <role>Featured Zombie</role>
+        <order>23</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Kim Maxwell</name>
+        <role>Featured Zombie</role>
+        <order>24</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Barbara Russell</name>
+        <role>Featured Zombie</role>
+        <order>25</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Gene A. Saraceni</name>
+        <role>Featured Zombie</role>
+        <order>26</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>John D. Schwartz</name>
+        <role>Featured Zombie</role>
+        <order>27</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Mark Tierno</name>
+        <role>Featured Zombie</role>
+        <order>28</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tCupPNmJVkiWzuE1XUXUAFEmA8s.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mike Trcic</name>
+        <role>Featured Zombie</role>
+        <order>29</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>John Vulich</name>
+        <role>Featured Zombie</role>
+        <order>30</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Joe Abeln</name>
+        <role>Mustachioed Zombie biting Rickles&apos; fingers off (uncredited)</role>
+        <order>31</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Terry Adams</name>
+        <role>2nd Dirty Pink Collared Shirted Zombie chasing Steel (uncredited)</role>
+        <order>32</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Al Anderson</name>
+        <role>Mine Zombie Chasing Steel (uncredited)</role>
+        <order>33</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Tom Ardolino</name>
+        <role>Mine Zombie Chasing Steel (uncredited)</role>
+        <order>34</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Vini Bancalari</name>
+        <role>Zombie Feasting on Fisher&apos;s Dead Body (uncredited)</role>
+        <order>35</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Howard Berger</name>
+        <role>Spinaround Cave Zombie Shot by John (uncredited)</role>
+        <order>36</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fz0Z8ia0Iaq4SS6NfVAcFIAeU2F.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Everett Burrell</name>
+        <role>Surgeon Zombie in Cave (uncredited)</role>
+        <order>37</order>
+        <thumb>http://image.tmdb.org/t/p/w185/45ASV2LWZD6u3pXb7qeOiRk8yT8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gary Jones</name>
+        <role>Zombie with Yellow Apron (uncredited)</role>
+        <order>38</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uObErInyLGB318tYXdwirotz8Ts.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2012-11-21 17:09:38</dateadded>
+</movie>

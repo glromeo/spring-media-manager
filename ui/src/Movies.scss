@@ -1,0 +1,35 @@
+@import "../stylesheets/blend-modes.scss";
+
+.Movies {
+
+  overflow: hidden;
+
+  .Media {
+
+    padding: 20px;
+
+    &.selected {
+      background-color: lightgoldenrodyellow;
+    }
+
+    .Unknown {
+
+      display: flex;
+      flex-direction: row;
+
+      .Letter {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        padding: 25px;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .Info {
+        flex: 1 1 auto;
+      }
+    }
+  }
+}

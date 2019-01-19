@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:59:54 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Raiders of the Lost Ark</title>
+    <originaltitle>Raiders of the Lost Ark</originaltitle>
+    <set>
+        <name>Indiana Jones Collection</name>
+        <overview>The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archeologist Dr. Henry Walton "Indiana" Jones, Jr..</overview>
+    </set>
+    <sorttitle>Indiana Jones Collection01</sorttitle>
+    <rating>7.8</rating>
+    <year>1981</year>
+    <top250></top250>
+    <votes>5732</votes>
+    <outline>When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against...</outline>
+    <plot>When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.</plot>
+    <tagline>Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</tagline>
+    <runtime>115</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/aC3ilmmEe4zrVJ97lPmJtuV64zk.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/mlYtV92oV3gA3uoRmpa2zqGhQKZ.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <certification>US:PG / US:Rated PG</certification>
+    <id>tt0082971</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">85</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">85</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0082971</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0082971</value>
+        </entry>
+        <entry>
+            <key>tmdbSet</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">84</value>
+        </entry>
+    </ids>
+    <tmdbId>85</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=XkkzKHCx154&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>1981-06-12</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.35</aspect>
+                <width>1920</width>
+                <height>816</height>
+                <durationinseconds>6918</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Adventure</genre>
+    <genre>Action</genre>
+    <studio>Lucasfilm</studio>
+    <studio>Paramount</studio>
+    <credits>Lawrence Kasdan</credits>
+    <credits>George Lucas</credits>
+    <credits>Philip Kaufman</credits>
+    <director>Steven Spielberg</director>
+    <actor>
+        <name>Harrison Ford</name>
+        <role>Indiana Jones</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7CcoVFTogQgex2kJkXKMe8qHZrC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Karen Allen</name>
+        <role>Marion Ravenwood</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6TzVbX52cAOqe9LH6GZ5xutbW5G.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Freeman</name>
+        <role>Dr. René Belloq</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gWRX09kyrzTFFehwE53cJtps2fx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Rhys-Davies</name>
+        <role>Sallah</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dvT1NPY8CXIVQh0O1h6rpfYOgKz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ronald Lacey</name>
+        <role>Major Arnold Toht</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nQTtqJP7Go9cnvq9252IXqY9dMM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Wolf Kahler</name>
+        <role>Colonel Dietrich</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uqHI2PLeGFxdjlw0qIk1D17NjWb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Higgins</name>
+        <role>Gobler</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1cjZmBBVlUCZlLqX4Jn1EOdVulw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Denholm Elliott</name>
+        <role>Dr. Marcus Brody</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oR6GnGecov6Mjg0cLasCawyz3mF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alfred Molina</name>
+        <role>Satipo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uJQVkqEVJGLMaJbwI2tTDlJ9Oo0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vic Tablian</name>
+        <role>Barranca / Monkey Man</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2QHEhXgTbp4BvRw1tiQeduqaXxP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Don Fellows</name>
+        <role>Col. Musgrove</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sQgCr3xz2LVomGMKCvb7rLD9dMX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>William Hootkins</name>
+        <role>Major Eaton</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lGPSg64fsqbWS5PUFKsUKLNOqsx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>George Harris</name>
+        <role>Katanga</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dqfdsdtliWJ7yvJupQXxphllHkK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Fred Sorenson</name>
+        <role>Jock</role>
+    </actor>
+    <actor>
+        <name>Anthony Chinn</name>
+        <role>Mohan</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vDan4SUtiJ8HXD4GWREqg090Vjv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eddie Tagoe</name>
+        <role>Messenger Pirate</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1J9ujNEgWVupIxTJ8NouIRbblvn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bill Reimbold</name>
+        <role>Bureaucrat</role>
+    </actor>
+    <actor>
+        <name>Patrick Durkin</name>
+        <role>Australian Climber</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sGzsiLgMbYl3tJPdofVCHOg8eoK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matthew Scurfield</name>
+        <role>2nd. Nazi</role>
+        <thumb>http://image.tmdb.org/t/p/w185/o2khvP0opODBIf6X6zvrFPUJ2SH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Malcolm Weaver</name>
+        <role>Ratty Nepalese</role>
+    </actor>
+    <actor>
+        <name>Sonny Caldinez</name>
+        <role>Mean Mongolian</role>
+    </actor>
+    <actor>
+        <name>Pat Roach</name>
+        <role>Giant Sherpa / 1st Mechanic</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ml3pVDTbZ3lUUuRmcONJsowunHy.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher Frederick</name>
+        <role>Otto</role>
+    </actor>
+    <actor>
+        <name>Tutte Lemkow</name>
+        <role>Imam</role>
+    </actor>
+    <actor>
+        <name>Ishaq Bux</name>
+        <role>Omar</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jKK0Gw3rKQoA7IRNpYARisQNS2c.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kiran Shah</name>
+        <role>Abu</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cBE8YAZeCMVUu4eAxr6PNUmNjCh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Souad Messaoudi</name>
+        <role>Fayah</role>
+    </actor>
+    <actor>
+        <name>Terry Richards</name>
+        <role>Arab Swordsman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/y8UKK34LF8dFbSA6ALCvaADGIiT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Hanson</name>
+        <role>German Agent</role>
+    </actor>
+    <actor>
+        <name>Frank Marshall</name>
+        <role>Pilot</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dVPOD85wQ1Xscpe3DOVQ1I59IIF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Martin Kreidt</name>
+        <role>Young Soldier</role>
+    </actor>
+    <actor>
+        <name>John Rees</name>
+        <role>Sergeant</role>
+    </actor>
+    <actor>
+        <name>Tony Vogel</name>
+        <role>Tall Captain</role>
+        <thumb>http://image.tmdb.org/t/p/w185/unXs6VMNmAkyoJrqVuhnCQZyv80.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ted Grossman</name>
+        <role>Peruvian Porter</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2L7S57LmXg1EFwVOkI06JS5oAhM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vic Armstrong</name>
+        <role>German Soldier (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Peter Diamond</name>
+        <role>German Soldier (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rIf04LU2CsdzdvUJghFVVjdWcm6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nick Gillard</name>
+        <role>German Soldier (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/aJcxihOCfNBvr0FOiHEOyyVV7la.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Romo Gorrara</name>
+        <role>German Soldier (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Rick Lester</name>
+        <role>German Soldier (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Rocky Taylor</name>
+        <role>German Soldier (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Reg Harding</name>
+        <role>German Lieutenant (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2saprCiNLI7rpGmNSPjEVvlkxXA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harry Fielder</name>
+        <role>German (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tVA1eKmQk3RXMLCuDP0cO5r5txJ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Barrie Holland</name>
+        <role>Archivist (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Billy Horrigan</name>
+        <role>Gobler's Gunner (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Terry Leonard</name>
+        <role>Driver of German Truck (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Sergio Mioni</name>
+        <role>Driver of German Truck (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3fsyVzDnviKD36tRS3vtS1Ggzjt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dennis Muren</name>
+        <role>Nazi Spy on the Airplane (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/p8mmcqqwxrkcajtAxAbRosRvNUR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Glenn Randall Jr.</name>
+        <role>Flying Wing Mechanic (uncredited)</role>
+    </actor>
+    <actor>
+        <name>Michael Sheard</name>
+        <role>U-Boat Captain (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/a29SbacT0kV8WWuoAMp2FHI5Y7I.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Frank Welker</name>
+        <role>Special Vocal Effects (voice) (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/b3gImArbw13mMKJIe9leFc9YYb7.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Frank Marshall</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dVPOD85wQ1Xscpe3DOVQ1I59IIF.jpg</thumb>
+    </producer>
+    <producer>
+        <name>George Lucas</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7Q5FVw6RhI1gsr1QHmJZuwxshRF.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Howard G. Kazanjian</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Jane Feinberg</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Mike Fenton</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Mary Selway</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Robert Watts</name>
+        <role>Associate Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/28BlqdvRGNAdbWuzdXAIYissbgZ.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Bryan Coates</name>
+        <role>Location Manager</role>
+    </producer>
+    <producer>
+        <name>Douglas Twiddy</name>
+        <role>Production Supervisor</role>
+    </producer>
+    <languages>English, Spanish, German, Hebrew, Arabic, Nepali</languages>
+</movie>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Dallas Buyers Club</title>
+    <originaltitle>Dallas Buyers Club</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.900000</value>
+            <votes>4289</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.</outline>
+    <plot>Loosely based on the true-life tale of Ron Woodroof, a drug-taking, women-loving, homophobic man who in 1986 was diagnosed with HIV/AIDS and given thirty days to live.</plot>
+    <tagline>Sometimes it takes a hustler to change the world</tagline>
+    <runtime>116</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/nxJFUxDRP9qQCiyD5sH24N5SCSu.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/3It6xg3JQj4Mfz3drDPawCom5Iy.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0790636</id>
+    <uniqueid type="unknown" default="true">tt0790636</uniqueid>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <country>United States</country>
+    <credits>Craig Borten</credits>
+    <credits>Melisa Wallack</credits>
+    <director>Jean-Marc Vallée</director>
+    <premiered>2013-11-17</premiered>
+    <year>2013</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Universal Pictures</studio>
+    <studio>Truth Entertainment</studio>
+    <studio>Voltage Pictures</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ety5kOjlXoU&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.400000</aspect>
+                <width>1920</width>
+                <height>800</height>
+                <durationinseconds>7017</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Matthew McConaughey</name>
+        <role>Ron Woodroof</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uKj2m1hJSw4dlOLAvZ3g9WiZkAZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jennifer Garner</name>
+        <role>Dr. Eve Saks</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ipLvpX5cE4onFxysARCodQ0EjCD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jared Leto</name>
+        <role>Rayon</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/i6zIpHiKBnaHtacJU6qgeoDjiw1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Denis O&apos;Hare</name>
+        <role>Dr. Sevard</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6NlYnzkp8QMfADWRNYNj6xAWes4.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Zahn</name>
+        <role>Tucker</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tcRHqtdi4wM8hlZ3MjPDWgePp7L.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dallas Roberts</name>
+        <role>David Wayne</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/irqfTXfK1rWeF6SNLzB37b6yxAN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michael O&apos;Neill</name>
+        <role>Richard Barkley</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/eNcC0txMVe0taCERTYpgA81vlyv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Griffin Dunne</name>
+        <role>Dr. Vass</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4oCLupH3Uo2otzF77LrYE4s1iqw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kevin Rankin</name>
+        <role>T.J.</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/l6VuT5b4W3BLfrCab2Det7ihRMQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bradford Cox</name>
+        <role>Sunflower</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kobf1BzJBJP9XTg5wgjc0XvRiZt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Scott Takeda</name>
+        <role>Mr. Yamata</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/boNzT15JQ92aKHkHJkLc4Cwx5p0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Adam Dunn</name>
+        <role>Bartender</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Donna DuPlantier</name>
+        <role>Nurse Frazin</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/u63tRSZ0chExZYX6072CfD5Cg3w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deneen Tyler</name>
+        <role>Denise</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/eCgqTaFTqQ6c8tbwHwCH4g7hYQ8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>J.D. Evermore</name>
+        <role>Clint</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/iNn9JV3Kk7VJ9ICYKdjgwFq8EpF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ian Casselberry</name>
+        <role>Hispanic Orderly</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/J9CYhZq7IZXRxLKCGjJZVNeDav.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jane McNeill</name>
+        <role>Francine Suskind</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/r8ss9Gv9zABNrc3pz4k06THuhw6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Juliet Reeves</name>
+        <role>Rodeo Girl</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sS0lpkoMbi3y3Min8prhXiAzwe5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Douglas M. Griffin</name>
+        <role>Rog</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5QTBIsyxZRo21uYGtpGBxvkz6cB.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-02-06 22:12:36</dateadded>
+</movie>

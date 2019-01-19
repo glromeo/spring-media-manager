@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:45:07 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Veronica</title>
+    <originaltitle>Verónica</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.1</rating>
+    <year>2017</year>
+    <top250></top250>
+    <votes>666</votes>
+    <outline>Madrid, June 1991. After celebrating a session of Ouija with her friends, Verónica is besieged by dangerous supernatural presences that threaten to harm her entire family.</outline>
+    <plot>Madrid, June 1991. After celebrating a session of Ouija with her friends, Verónica is besieged by dangerous supernatural presences that threaten to harm her entire family.</plot>
+    <tagline>Someone answered your call.</tagline>
+    <runtime>105</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/jXcTF45BwAGVVfybWb3AlFqcuUc.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/6YMNG8B8ikbdh08mq9CoVbdlDGm.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt5862312</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">441701</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt5862312</value>
+        </entry>
+    </ids>
+    <tmdbId>441701</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=iMWqCzTRNJc</trailer>
+    <country>ES</country>
+    <premiered>2017-08-25</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.85</aspect>
+                <width>1920</width>
+                <height>1024</height>
+                <durationinseconds>6322</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Horror</genre>
+    <studio>Apaches Entertainment</studio>
+    <studio>Apache Films</studio>
+    <studio>Film Factory</studio>
+    <studio>Orange S.A.</studio>
+    <studio>Sony Pictures International Productions</studio>
+    <studio>RTVE</studio>
+    <credits>Fernando Navarro</credits>
+    <credits>Paco Plaza</credits>
+    <director>Paco Plaza</director>
+    <actor>
+        <name>Sandra Escacena</name>
+        <role>Verónica</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dFnkRlfpvDucdyP0P344mzP1sRc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruna González</name>
+        <role>Lucía</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hXFu425GS3IZKiLXMFKeSQDkuGp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Placer</name>
+        <role>Irene</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ijhP6k5SOYLR9cWp1iuyUjbNdhv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Iván Chavero</name>
+        <role>Antoñito</role>
+        <thumb>http://image.tmdb.org/t/p/w185/f7HdwLL2bmyRTTvNxwM2geCrBmd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Torrent</name>
+        <role>Ana</role>
+        <thumb>http://image.tmdb.org/t/p/w185/20fCWHV6CckcpwiSlAplJCSzBZj.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Consuelo Trujillo</name>
+        <role>Sister Muerte</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zUbjbyqbItQfeMN6H1pinJtf3zh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ángela Fabián</name>
+        <role>Rosa</role>
+        <thumb>http://image.tmdb.org/t/p/w185/o63gmFdRbZUW7dieyMZ78EFdG6E.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carla Campra</name>
+        <role>Diana</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sa7kXSSRQCnQrxpjhplPKZbxzUN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chema Adeva</name>
+        <role>Romero</role>
+    </actor>
+    <actor>
+        <name>Miranda Gas</name>
+        <role>Rodríguez</role>
+    </actor>
+    <actor>
+        <name>Luis Rallo</name>
+        <role>Navarro</role>
+    </actor>
+    <actor>
+        <name>Maru Valdivielso</name>
+        <role>Josefa</role>
+    </actor>
+    <actor>
+        <name>Iñaki Nebreda Peñagarikano</name>
+        <role>Bar Client</role>
+    </actor>
+    <actor>
+        <name>Samuel Romero</name>
+        <role>Creature</role>
+    </actor>
+    <actor>
+        <name>Sonia Almarcha</name>
+        <role>Doctor</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cqlV0vFDntb5E2ztemYPHbPbO6I.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Cristino</name>
+        <role>Manager</role>
+    </actor>
+    <actor>
+        <name>Nayara Feito</name>
+        <role>Neighbor</role>
+    </actor>
+    <actor>
+        <name>Josu Bravo</name>
+        <role>Passerby</role>
+    </actor>
+    <actor>
+        <name>Núria Gago</name>
+        <role>Police Telephonist (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/f1DZQKpjedbLNfIKLioZiV7ql8s.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Leticia Dolera</name>
+        <role>Professor of History</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6YH2rpENETOqi6iRI66Sbr54hvJ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gema Matarranz</name>
+        <role>Professor of Literature</role>
+    </actor>
+    <actor>
+        <name>Natalia Mateo</name>
+        <role>Rosa's Mother</role>
+        <thumb>http://image.tmdb.org/t/p/w185/heAcB4gNJ66C5enEkEoAKBlS4bA.jpg</thumb>
+    </actor>
+    <producer>
+        <name>María Angulo</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Javier Carneros</name>
+        <role>Supervising Producer</role>
+    </producer>
+    <producer>
+        <name>Mar Ilundain</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Enrique López Lavigne</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Fernando Navarro</name>
+        <role>Associate Producer</role>
+    </producer>
+    <producer>
+        <name>Paco Plaza</name>
+        <role>Associate Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kj5tBKhLcC8PcZHwGerEMZakXi5.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Carla Pérez de Albéniz</name>
+        <role>Line Producer</role>
+    </producer>
+    <producer>
+        <name>Arantza Vélez</name>
+        <role>Casting</role>
+    </producer>
+    <languages>es</languages>
+    <source>BLURAY</source>
+</movie>

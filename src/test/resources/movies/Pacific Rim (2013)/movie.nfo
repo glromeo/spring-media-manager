@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:58:38 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Pacific Rim</title>
+    <originaltitle>Pacific Rim</originaltitle>
+    <set>
+        <name>Pacific Rim Collection</name>
+        <overview>An American science fiction mecha action film series which follows humanity again fighting Kaiju, the giant monsters set on destroying the world.</overview>
+    </set>
+    <sorttitle>Pacific Rim Collection01</sorttitle>
+    <rating>6.8</rating>
+    <year>2013</year>
+    <top250></top250>
+    <votes>6852</votes>
+    <outline>When legions of monstrous creatures, known as Kaiju, started rising from the sea, a war began that would take millions of lives and consume humanity's resources for years on end. To combat the giant Kaiju,...</outline>
+    <plot>When legions of monstrous creatures, known as Kaiju, started rising from the sea, a war began that would take millions of lives and consume humanity's resources for years on end. To combat the giant Kaiju, a special type of weapon was devised: massive robots, called Jaegers, which are controlled simultaneously by two pilots whose minds are locked in a neural bridge. But even the Jaegers are proving nearly defenseless in the face of the relentless Kaiju. On the verge of defeat, the forces defending mankind have no choice but to turn to two unlikely heroes—a washed-up former pilot (Charlie Hunnam) and an untested trainee (Rinko Kikuchi)—who are teamed to drive a legendary but seemingly obsolete Jaeger from the past. Together, they stand as mankind's last hope against the mounting apocalypse.</plot>
+    <tagline>To Fight Monsters, We Created Monsters</tagline>
+    <runtime>131</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/xzT2FOoXEFkdI3Himpa0bgUZlCE.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/1PoB1xNgK5cqtHkd9ziaYJZM9Bq.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <certification>US:PG-13 / US:Rated PG-13</certification>
+    <id>tt1663662</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">68726</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1663662</value>
+        </entry>
+        <entry>
+            <key>tmdbSet</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">363369</value>
+        </entry>
+    </ids>
+    <tmdbId>68726</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=A85EtOalcsM&amp;hd=1</trailer>
+    <country>Canada</country>
+    <country>United States</country>
+    <premiered>2013-07-11</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1920</width>
+                <height>1080</height>
+                <durationinseconds>7877</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Action</genre>
+    <genre>Science Fiction</genre>
+    <genre>Adventure</genre>
+    <studio>Double Dare You Productions</studio>
+    <studio>Legendary Entertainment</studio>
+    <studio>Indochina Productions</studio>
+    <studio>Warner Bros. Pictures</studio>
+    <credits>Travis Beacham</credits>
+    <credits>Guillermo del Toro</credits>
+    <director>Guillermo del Toro</director>
+    <tag>duringcreditsstinger</tag>
+    <actor>
+        <name>Idris Elba</name>
+        <role>Stacker Pentecost</role>
+        <thumb>http://image.tmdb.org/t/p/w185/be1bVF7qGX91a6c5WeRPs5pKXln.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Charlie Hunnam</name>
+        <role>Raleigh Becket</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ibWWSRGqgxNw9SC8E8hNv1Lvob1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rinko Kikuchi</name>
+        <role>Mako Mori</role>
+        <thumb>http://image.tmdb.org/t/p/w185/n1GSGFdpoiDXT3ozZflsmcJy21Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Clifton Collins Jr.</name>
+        <role>Tendo Choi</role>
+        <thumb>http://image.tmdb.org/t/p/w185/31FbXPcEwKLE1eiQ8ceyQpsnheE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Max Martini</name>
+        <role>Herc Hansen</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fUGKNDsQnKCLzNrWyyBkx7O26XC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Kazinsky</name>
+        <role>Chuck Hansen</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h54Qs5LK19NT2ZA2ysRzjjnuODH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ron Perlman</name>
+        <role>Hannibal Chau</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xZyrXT2iEmSOokQRc1hedmxrbTi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Charlie Day</name>
+        <role>Dr. Newton Geiszler</role>
+        <thumb>http://image.tmdb.org/t/p/w185/242wfaCPWXkLW2chvu6A6niqGut.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Burn Gorman</name>
+        <role>Dr. Hermann Gottlieb</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qpdtwkUJ5cG1zxql7xXomGgcTMc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Maillet</name>
+        <role>Lt. Aleksis Kaidanovsky</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cmP2CakmT1j0wXAjNEVQMGcR0cL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Heather Doerksen</name>
+        <role>Lt. Sasha Kaidanovsky</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nIF1GLQ2WPGS5pdogVGhOm2nYmh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Larry Joe Campbell</name>
+        <role>Tommy T</role>
+        <thumb>http://image.tmdb.org/t/p/w185/91kXO2XCIv8B9bP3720QIrTJNfs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brad William Henke</name>
+        <role>Miles</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mrczPKKtc6a2AuVAdjqLLTnWhh5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Diego Klattenhoff</name>
+        <role>Yancy Becket</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nOiJDYiEysyZJHQNPCOSVWw9XzT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Santiago Segura</name>
+        <role>Wizened Man</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lNWgadL9NksUCdSaiJRDBRsT8oB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jane Watson</name>
+        <role>Raleigh and Yancy's Mom</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8wMVQt7Xp2dQUu3wnkc0wiETfJk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jung-Yul Kim</name>
+        <role>Hannibal Chau Thug</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yfXZoDUHQeTKLctbliF1TlqlmLH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joshua Peace</name>
+        <role>Officer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/C5xx4dU6NtB7vzoX9Ho6p7CgOb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mana Ashida</name>
+        <role>Young Mako</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uK7y7poDC7xu6Z5waWZsNSH4kkR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joe Pingue</name>
+        <role>Captain Merrit</role>
+        <thumb>http://image.tmdb.org/t/p/w185/if9jRWeC6olBqiAOmT6Fb0cOSpe.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Milton Barnes</name>
+        <role>McTighe</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8Lb9cegevGfADPuZNQ1BWunisik.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brian Frank</name>
+        <role>1st Officer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6ncc5gjDyZEztA7r2eBgUSzl6XM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ellen McLain</name>
+        <role>Gipsy Danger AI (voice)</role>
+    </actor>
+    <actor>
+        <name>David Fox</name>
+        <role>Old Man on Beach</role>
+    </actor>
+    <actor>
+        <name>Jake Goodman</name>
+        <role>Child</role>
+    </actor>
+    <actor>
+        <name>Robin Thomas</name>
+        <role>American UN Representative</role>
+        <thumb>http://image.tmdb.org/t/p/w185/seivBO3KRFAKqNgL3wnvpwxHwKz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Julian Barnes</name>
+        <role>British UN Representative</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nBxDyUCuJHkbOv008KrsLYd9E5D.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Richmond-Peck</name>
+        <role>Canadian UN Representative</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3qPzkWzWdTbNh8fsAVqlQ7VAoJb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sebastian Pigott</name>
+        <role>Engineer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xMXkCa1wC4FXPVABPGUzkN1ZVzD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Victoria Marie</name>
+        <role>Chinese Girl in Anti-Kaiju Refuge</role>
+    </actor>
+    <actor>
+        <name>J.C. Kenny</name>
+        <role>TV Reporter</role>
+    </actor>
+    <actor>
+        <name>Robert Morse</name>
+        <role>Raleigh and Yancy's Dad</role>
+    </actor>
+    <actor>
+        <name>Mike Chute</name>
+        <role>Saltchuck Crew</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yDjnDYaxYz02HCpmcIEJ8leq5PQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Duncan McLeod</name>
+        <role>Saltchuck Crew</role>
+    </actor>
+    <actor>
+        <name>Louis Paquette</name>
+        <role>Saltchuck Crew</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xKPzQgm98Upe9fUo24BkpdBwHd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matthew G. Taylor</name>
+        <role>Saltchuck Crew</role>
+        <thumb>http://image.tmdb.org/t/p/w185/il8bIgN6sANpmMSohJGvpNbeN8A.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Frank Nakashima</name>
+        <role>UN Representative</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cY0z7QhmF4bDkzxVCQE5JRLtJKo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Terry Belleville</name>
+        <role>UN Representative</role>
+    </actor>
+    <actor>
+        <name>Farzad Sadrian</name>
+        <role>UN Representative</role>
+    </actor>
+    <actor>
+        <name>Mishu Vellani</name>
+        <role>UN Representative</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7fp4Jhr9mkLunxTjxdAFKA3QR1A.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Clive Walton</name>
+        <role>UN Representative</role>
+    </actor>
+    <actor>
+        <name>Peter Kosaka</name>
+        <role>Young Mako's Father</role>
+    </actor>
+    <actor>
+        <name>Yiren Stark</name>
+        <role>Young Mako's Mother</role>
+    </actor>
+    <actor>
+        <name>Mark Luu</name>
+        <role>Wei Tang Triplet</role>
+        <thumb>http://image.tmdb.org/t/p/w185/f61v6HIw1jnhcSFQjSBQeW2sRVn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Charles Luu</name>
+        <role>Wei Tang Triplet</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nekQGnlt6vT2od0TF3qYpPNyWgC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lance Luu</name>
+        <role>Wei Tang Triplet</role>
+        <thumb>http://image.tmdb.org/t/p/w185/etp6rnQvT7hKfIY7QoUynRWxyDq.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Guillermo del Toro</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xFByaHBR8jb3N5D5PccVN06l9lk.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Jon Jashni</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Mary Parent</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Thomas Tull</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5UG4FK7rsmhzJDYxpU28acqfxtu.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Callum Greene</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Margery Simkin</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dCyAWZGEaW1OlGgh5ALiqGfsbpb.jpg</thumb>
+    </producer>
+    <languages>English</languages>
+    <source>BLURAY</source>
+</movie>

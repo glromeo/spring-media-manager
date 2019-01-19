@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:46:35 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Salt</title>
+    <originaltitle>Salt</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.3</rating>
+    <year>2010</year>
+    <top250></top250>
+    <votes>2904</votes>
+    <outline>As a CIA officer, Evelyn Salt swore an oath to duty, honor and country. Her loyalty will be tested when a defector accuses her of being a Russian spy. Salt goes on the run, using all her skills and years...</outline>
+    <plot>As a CIA officer, Evelyn Salt swore an oath to duty, honor and country. Her loyalty will be tested when a defector accuses her of being a Russian spy. Salt goes on the run, using all her skills and years of experience as a covert operative to elude capture. Salt's efforts to prove her innocence only serve to cast doubt on her motives, as the hunt to uncover the truth behind her identity continues and the question remains: "Who is Salt?"</plot>
+    <tagline>Who is Salt?</tagline>
+    <runtime>100</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/956xMjH4sPoqimqoLOP6AI19mjm.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/eWbzrZ4lCnimOwuHfVQKdXYn5ed.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <certification>US:PG-13 / US:Rated PG-13</certification>
+    <id>tt0944835</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">27576</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0944835</value>
+        </entry>
+    </ids>
+    <tmdbId>27576</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=LbkQTB-OJsk&amp;hd=1</trailer>
+    <country>US</country>
+    <premiered>2010-07-21</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.4</aspect>
+                <width>1280</width>
+                <height>528</height>
+                <durationinseconds>58</durationinseconds>
+            </video>
+            <audio>
+                <codec>AC3</codec>
+                <language>hin</language>
+                <channels>6</channels>
+            </audio>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Action</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <studio>Wintergreen Productions</studio>
+    <studio>Columbia Pictures</studio>
+    <studio>Relativity Media</studio>
+    <studio>Di Bonaventura Pictures</studio>
+    <credits>Kurt Wimmer</credits>
+    <director>Phillip Noyce</director>
+    <actor>
+        <name>Angelina Jolie</name>
+        <role>Evelyn Salt</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wdrSStdTmiSHhynCV5CtTJTuzY1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Liev Schreiber</name>
+        <role>Theodore Winter</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qFn3npmqd1qaYOk6yohmi3FbPhc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chiwetel Ejiofor</name>
+        <role>Darryl Peabody</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Daniel Olbrychski</name>
+        <role>Oleg Vasilyevich Orlov</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nfqJ8xiVNyBQQhnYRkwJzl3iS7s.jpg</thumb>
+    </actor>
+    <actor>
+        <name>August Diehl</name>
+        <role>Mike Krause</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7mVN7kQc41Rx1jR5RRycsgb1rHR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Daniel Pearce</name>
+        <role>Young Orlov</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bagWQ6sX5ozJZO3W7VeLcUr2XKc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hunt Block</name>
+        <role>US President Howard Lewis</role>
+        <thumb>http://image.tmdb.org/t/p/w185/n2OVzSreEqmdmkohl5VkskHRexh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andre Braugher</name>
+        <role>Secretary of Defense</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lpjuPm6gjoUCbdqxD0lBAWQAfvv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olek Krupa</name>
+        <role>Russian President Matveyev</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nv44QkTPkymcd7MiB1K69RsG4B1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cassidy Hinkle</name>
+        <role>Young Salt</role>
+        <thumb>http://image.tmdb.org/t/p/w185/s920WX5BDIu139GDjlJk2PaXJ1x.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Corey Stoll</name>
+        <role>Shnaider</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fFH3j1vap8ZmEr25rwns01NBigo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kevin O'Donnell</name>
+        <role>Francis</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fwKwtaidyl4GU5BSylVcxfax5GS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gaius Charles</name>
+        <role>Todd Bottoms</role>
+        <thumb>http://image.tmdb.org/t/p/w185/9mPO1RFEJxFPbaFSyNJ9b7CjR9W.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Zoe Lister-Jones</name>
+        <role>Zoe Kinnally</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gmX8Yg5sFAtkkBvKk4fpendvchf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Yara Shahidi</name>
+        <role>Cleo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/b2ykbu0ZWVYmG05Gys9Kg7Lwzm4.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Victor Slezak</name>
+        <role>3-Star General</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nLFIO3GsnHgy1DAXMVSmqlooLQu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicole Signore</name>
+        <role>Precision Driver</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rZbmkA3gO6kDV6BSANL1nhcj6EQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mardi Jones</name>
+        <role>CIA / SWAT team</role>
+    </actor>
+    <actor>
+        <name>Nick Poltoranin</name>
+        <role>Russian Thug #1</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lKAikbeJ5HaWKCJE1ushE89RoIG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michelle Ray Smith</name>
+        <role>Lead Technician</role>
+        <thumb>http://image.tmdb.org/t/p/w185/u3LYrrrJ8D3utStTzaUrDC3mvET.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Schram</name>
+        <role>Corporal Davis - U.S. Military</role>
+    </actor>
+    <actor>
+        <name>Frosty Lawson</name>
+        <role>CIA Agent</role>
+    </actor>
+    <actor>
+        <name>Cecilia Foss</name>
+        <role>The Ritual Matchmaker</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mvdYcysfPmHX67h9vki2BWveNIa.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gary Wilmes</name>
+        <role>Paul Tracey</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3XWPI9tun5m6kyAXukldqFmOGRK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harry L. Seddon</name>
+        <role>Cop escorting Evelyn Salt from Bombing</role>
+    </actor>
+    <actor>
+        <name>Marion McCorry</name>
+        <role>CIA Director Medford</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kLyiSUWs9kmRG1UurMSAJNMg59E.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Victoria Cartagena</name>
+        <role>Portico Checkpoint Agent</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tAl7TTToL6m4bOS18XsMnsS2xt9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hristo Hristov</name>
+        <role>Russian Thug #3</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xqTyGJkiaU5W9QqyRp7L0qZHuEi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Zach Shaffer</name>
+        <role>Security Officer</role>
+    </actor>
+    <actor>
+        <name>Jewel Elizabeth</name>
+        <role>Mourning Granddaughter</role>
+    </actor>
+    <actor>
+        <name>James Cronin</name>
+        <role>Joe Oates</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mGsXs2033cIeEVo6y4NjFpOn52E.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Philip Willingham</name>
+        <role>Camera man</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6qHAywpfvq92fd75QoTIWgPzEPM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dionne Audain</name>
+        <role>Coms Agent / Radio Op</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mpBt4oBS5SX7zY1D9nOW3QS1jLG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Angelo Lopez</name>
+        <role>202. SS Bunker Tech #3</role>
+        <thumb>http://image.tmdb.org/t/p/w185/twsMgWs01NTBNniA5yEOl3hQDhp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ivo Velon</name>
+        <role>Basayev</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4uMwbWbikpRxNr3JAIscBRBm6GS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Xavier Rafael</name>
+        <role>Secret service agent</role>
+    </actor>
+    <actor>
+        <name>William Henderson White</name>
+        <role>Russian Reporter</role>
+    </actor>
+    <actor>
+        <name>Ethan Ladd</name>
+        <role>7-year-old Schnaider</role>
+    </actor>
+    <actor>
+        <name>Tobias Campbell</name>
+        <role>12-year-old Schnaider</role>
+    </actor>
+    <actor>
+        <name>James Nuciforo</name>
+        <role>Military Aide</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6MkEN05F7SK8MFgJIfBtDrv7fue.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tika Sumpter</name>
+        <role>Front Deskwoman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/Ag3YMvWtDbFITxZdc1lk1bPsR6K.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Agranov</name>
+        <role>Orlov Lieutenant (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iNj5Cv6u4b3ek5EZTnbrO6mmYkg.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olya Zueva</name>
+        <role>Chenkov's Mother</role>
+        <thumb>http://image.tmdb.org/t/p/w185/p7nsR05dN6PqqDUXwSzpdbBzYAY.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Sunil Perkash</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Lorenzo di Bonaventura</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2HjxJv0FbdJtlIqNniU0h36LYGw.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Avy Kaufman</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yQPGktsmkKkhkOQAUlmYlxHJOiJ.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Bruce Winant</name>
+        <role>ADR Voice Casting</role>
+    </producer>
+    <producer>
+        <name>Lois J. Drabkin</name>
+        <role>Casting Associate</role>
+    </producer>
+    <producer>
+        <name>Leeba Zakharov</name>
+        <role>Casting Associate</role>
+    </producer>
+    <producer>
+        <name>Mickey Cottrell</name>
+        <role>Publicist</role>
+    </producer>
+    <languages>en, ru, ko</languages>
+    <source>BLURAY</source>
+</movie>

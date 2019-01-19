@@ -1,0 +1,91 @@
+.SearchPane {
+
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+
+  min-height: 68px;
+  text-align: center;
+  overflow-y: hidden;
+
+  .LogoSection {
+
+    flex: 1 1 auto;
+    display: flex;
+    align-content: stretch;
+
+    & > * {
+      flex: 1 1 auto;
+    }
+
+    .MovieTicketsImage {
+      flex: 2 2 auto;
+      background: url("images/movie-tickets.jpg") no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  .SearchSection {
+
+    flex: 0 0 auto;
+    display: flex;
+    align-content: stretch;
+    min-height: 36px;
+
+    .MovieTicketsImage {
+      width: 60px;
+      background: url("images/movie-tickets.jpg") no-repeat center;
+      background-size: contain;
+    }
+
+    .SearchBar {
+
+      flex: 1 1 auto;
+
+      .form-group {
+        position: relative;
+        max-width: 60%;
+        margin: auto;
+      }
+
+      input {
+        height: 36px;
+      }
+
+      svg[data-icon=search] {
+        color: #4e555b;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 10px;
+        top: 6px;
+        background: transparent;
+        z-index: 1000;
+        filter: drop-shadow(2px 2px 0px rgba(128, 128, 128, .25));
+
+        &.focused {
+          filter: drop-shadow(2px 2px 0px rgba(0, 123, 255, .5));
+          transition: filter 0.15s ease-in-out;
+        }
+      }
+
+    }
+
+  }
+
+  .FiltersSection {
+
+    flex: 0 0 auto;
+
+    .Genres {
+      font-size: initial;
+
+      & > div {
+        margin: auto;
+        max-width: 1280px;
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Quo vadis, baby?</title>
+    <originaltitle>Quo vadis, baby?</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>5.900000</value>
+            <votes>20</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A private detective investigates her sister&apos;s suicide 16 years earlier.</outline>
+    <plot>A private detective investigates her sister&apos;s suicide 16 years earlier.</plot>
+    <tagline></tagline>
+    <runtime>98</runtime>
+    <thumb>http://image.tmdb.org/t/p/original/c2wEW5vuChKYRFwnEDWXBH7oP84.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/g00SVIdMfYA3cAi38jkgONjzerB.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0433028</id>
+    <uniqueid type="unknown" default="true">tt0433028</uniqueid>
+    <country>Italy</country>
+    <credits>Grazia Verasani</credits>
+    <director>Gabriele Salvatores</director>
+    <premiered>2005-05-27</premiered>
+    <year>2005</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <trailer></trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>xvid</codec>
+                <aspect>1.780000</aspect>
+                <width>624</width>
+                <height>352</height>
+                <durationinseconds>5884</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>mp3</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Angela Baraldi</name>
+        <role>Giorgia Cantini</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ndesVNpn7A8sGHk4CJiKRUJCj9B.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gigio Alberti</name>
+        <role>Andrea Berti</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6p9sclgR7wCQlOuHLUfULDEuWHp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Zanella</name>
+        <role>Ada Cantini</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vPpRstZj0gRTXozskTlAB0p66j.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elio Germano</name>
+        <role>Lucio</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/epKbq02VwTuayddefj7yDkcp4ry.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andrea Renzi</name>
+        <role>Commissario Bruni</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/rIS5nHBD077bXheoiRCoiYReNMf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Luigi Maria Burruano</name>
+        <role>Il capitano</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/suIrkyHXqiDznIghp4cZq0LR7Gf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gennaro Diana</name>
+        <role>Giulio</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/d9iacLrG3JbFnyGIA2y5VvFToT1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bebo Storti</name>
+        <role>Lattice</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/72thV1ZKypWS0gREDkSwfrXaFGX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Stella Vordemann</name>
+        <role>The mother</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/rJUWROVBZegtRIAN7YWqsR7mLxy.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2013-03-13 20:49:18</dateadded>
+</movie>

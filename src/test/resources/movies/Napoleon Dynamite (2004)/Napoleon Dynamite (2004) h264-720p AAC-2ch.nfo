@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Napoleon Dynamite</title>
+    <originaltitle>Napoleon Dynamite</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.800000</value>
+            <votes>819</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.</outline>
+    <plot>A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.</plot>
+    <tagline>He&apos;s out to prove he&apos;s got nothing to prove.</tagline>
+    <runtime>94</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/s0yuDUKiAJNl5XkO9OT4aFwnA3I.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/Ac1DJFbYXWANxO59l1uabUcYQT0.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0374900</id>
+    <uniqueid type="unknown" default="true">tt0374900</uniqueid>
+    <genre>Comedy</genre>
+    <country>United States</country>
+    <tag>aftercreditsstinger</tag>
+    <credits>Jared Hess</credits>
+    <credits>Jerusha Hess</credits>
+    <director>Jared Hess</director>
+    <premiered>2004-06-11</premiered>
+    <year>2004</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>MTV Films</studio>
+    <studio>Access Films</studio>
+    <studio>Napoleon Pictures Limited</studio>
+    <studio>Carnival Films</studio>
+    <studio>Fox Searchlight Pictures</studio>
+    <studio>Paramount</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=yeeQOZQq6Fw</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1280</width>
+                <height>688</height>
+                <durationinseconds>5694</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Jon Heder</name>
+        <role>Napoleon Dynamite</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8UfmspCK5eSRULHyqUzWrKLC0t5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Aaron Ruell</name>
+        <role>Kip Dynamite</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8YM46p3eUBOSqkFRkRu7Tp0ZooW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jon Gries</name>
+        <role>Uncle Rico</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yNhP4IZCMN10duIYKdHUFt8mJCU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Efren Ramirez</name>
+        <role>Pedro Sanchez</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4CXN9757efZDTDlV0UdeHLoCNEA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Shondrella Avery</name>
+        <role>LaFawnduh</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6P9AsRhvvb6imfcTrzpZSplw9pM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Haylie Duff</name>
+        <role>Summer</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kj6OFNyP6022rRjitd7Ygv60STu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tina Majorino</name>
+        <role>Deb</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kGzCUaPddOm84cRlExLKOvZEoqP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Diedrich Bader</name>
+        <role>Rex</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ek6c21ennQEMXCJwTvKnPkGn60C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sandy Martin</name>
+        <role>Grandma</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/l7vi9wIV8yZOdv8y5h7cpFXVPRU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Trevor Snarr</name>
+        <role>Don</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qo2V4L8Y73Ly1pT1oOklYJfA9uk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emily Dunn</name>
+        <role>Trisha</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mGcHhEp1Bzx5MI1jk0pbW3GXXCC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ellen Dubin</name>
+        <role>Ilene</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4vPzlZMDivVrOEbMLSq9NWlUyan.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Samantha Marsden</name>
+        <role>School Kid</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fuCdwQNAcKwrzPNaiEf6J0yHcZQ.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2013-09-09 02:41:18</dateadded>
+</movie>

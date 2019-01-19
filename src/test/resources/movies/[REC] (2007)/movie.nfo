@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:41:39 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>[REC]</title>
+    <originaltitle>[REC]</originaltitle>
+    <set>
+        <name>[REC] Collection</name>
+        <overview>Spanish horror film series created by Jaume Balagueró and Paco Plaza, consisting of four movies.  The films center around a viral demonic possession originated by a young girl named Tristana Medeiros who was sexually assaulted by a group of priests. The first two movies are presented in a found footage format, although the last two installments have ventured into traditional cinematography. The series has received high critical acclaim worldwide.</overview>
+    </set>
+    <sorttitle></sorttitle>
+    <rating>7.1</rating>
+    <year>2007</year>
+    <top250></top250>
+    <votes>1572</votes>
+    <outline>A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.</outline>
+    <plot>A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.</plot>
+    <tagline>One witness. One camera</tagline>
+    <runtime>78</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/lLSXs26iZe0aIzYrobr3FruUG36.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/haJIKsWFhOHACq6meNFIxUEouTV.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt1038988</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8329</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1038988</value>
+        </entry>
+        <entry>
+            <key>tmdbSet</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">74508</value>
+        </entry>
+    </ids>
+    <tmdbId>8329</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=YQUkX_XowqI</trailer>
+    <country>Spain</country>
+    <premiered>2007-04-10</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1920</width>
+                <height>1080</height>
+                <durationinseconds>4547</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>spa</language>
+                <channels>6</channels>
+            </audio>
+            <audio>
+                <codec>AAC</codec>
+                <language>spa</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+            <subtitle>
+                <language>fra</language>
+            </subtitle>
+            <subtitle>
+                <language>por</language>
+            </subtitle>
+            <subtitle>
+                <language>spa</language>
+            </subtitle>
+            <subtitle>
+                <language>swe</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Horror</genre>
+    <genre>Mystery</genre>
+    <studio>Filmax</studio>
+    <credits>Jaume Balagueró</credits>
+    <credits>Paco Plaza</credits>
+    <credits>Luis Berdejo</credits>
+    <director>Jaume Balagueró</director>
+    <director>Paco Plaza</director>
+    <actor>
+        <name>Manuela Velasco</name>
+        <role>Ángela Vidal</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sCZkCryaoVy63fbHCQrfc4q4Pbs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ferran Terraza</name>
+        <role>Manu</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7lvI2rC9emIAkEZeW5zYGr3RKnw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Martha Carbonell</name>
+        <role>Conchita Izquierdo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vdNJsDSvNggyFRYFAJer6ZTzyph.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Vert</name>
+        <role>Alex</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gcosWQzYIH7HyqcFE3nUIALTbov.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Lasarte</name>
+        <role>César</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kP7hWWZsf6GOERaKwcCofiZaBoh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pablo Rosso</name>
+        <role>Marcos</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2YdohGbSgVbxyb8LnMRdkGEhNMD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vicente Gil</name>
+        <role>Polizist</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6ZppZwmjxyWbELf1LEZa6TL4UE3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Vicente</name>
+        <role>Guillem</role>
+        <thumb>http://image.tmdb.org/t/p/w185/9GKNu8NJO40CU2t7U4ymBCMV5uE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jorge Yamam</name>
+        <role>Sergio</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5JTmGMnRGENDzUyOTf62K9vy2Rl.jpg</thumb>
+    </actor>
+    <actor>
+        <name>María Teresa Ortega</name>
+        <role>Abuela</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7qvvzjJdT1JTRhjSXwnWOnqMCBG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Manuel Bronchud</name>
+        <role>Abuelo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2eDk9SMUmlfFgo3LYVYNRw3o8T9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maria Lanau</name>
+        <role>Madre histérica</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tmx52sQJELTGWq6FfELWaAAMGZi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Silva</name>
+        <role>Jennifer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jqFSfItsXSiXrqD3cI2Bt7WoRdH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Javier Botet</name>
+        <role>Niña Medeiros</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4u8ZkMMt5ipQgfpb81YudFW5rQG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ben Temple</name>
+        <role>Médico</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4hCQG37qrgY53Yy0jFzz7MsO2CA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Akemi Goto</name>
+        <role>Japonesa</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ztJMMRVcmQbDkxFXHmVcFjwW6dA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kao Chen-Min</name>
+        <role>Japonés</role>
+        <thumb>http://image.tmdb.org/t/p/w185/eDB5JzoWA9UuEJoyfS8X6ifsGJ7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Isabel Velásquez</name>
+        <role>Chica colombiana</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qVXHUVXcel8QkimECKc0fnbNgh9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Javier Coromina</name>
+        <role>Pablo (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iKqJHlatnakTrlRQv3oxfNqhNsH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pep Sais</name>
+        <role>(voice) (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1mhJXAuuwN0tjFmHpz5QcCnZyfj.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Julio Fernández</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Carlos Fernández</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Alberto Marini</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/aOwdkQwVelcMw3oMA0i5bZSw7vp.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Cristina Campos</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Alberto Álvarez</name>
+        <role>Production Manager</role>
+    </producer>
+    <producer>
+        <name>Teresa Gefaell</name>
+        <role>line producer</role>
+    </producer>
+    <producer>
+        <name>Oriol Maymó</name>
+        <role>line producer</role>
+    </producer>
+    <producer>
+        <name>Albert Roca</name>
+        <role>Production Manager</role>
+    </producer>
+    <languages>Japanese, Spanish</languages>
+    <source>BLURAY</source>
+</movie>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>A Beautiful Mind</title>
+    <originaltitle>A Beautiful Mind</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.800000</value>
+            <votes>4702</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>John Nash is a brilliant but asocial mathematician fighting schizophrenia. After he accepts secret work in cryptography, his life takes a turn for the nightmarish.</outline>
+    <plot>John Nash is a brilliant but asocial mathematician fighting schizophrenia. After he accepts secret work in cryptography, his life takes a turn for the nightmarish.</plot>
+    <tagline>He saw the world in a way no one could have imagined.</tagline>
+    <runtime>135</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/hGBgv2Ir3t1wMP1Xp5CAQXArkV9.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/9PwUQZDHGPKsgbnoBl1Ah9zXWjk.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0268978</id>
+    <uniqueid type="unknown" default="true">tt0268978</uniqueid>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <country>United States</country>
+    <credits>Sylvia Nasar</credits>
+    <credits>Akiva Goldsman</credits>
+    <director>Ron Howard</director>
+    <premiered>2001-12-11</premiered>
+    <year>2001</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Universal Pictures</studio>
+    <studio>Imagine Entertainment</studio>
+    <studio>DreamWorks</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=WFJgUm7iOKw</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1280</width>
+                <height>692</height>
+                <durationinseconds>8119</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>6</channels>
+            </audio>
+            <subtitle>
+                <language>ita</language>
+            </subtitle>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Russell Crowe</name>
+        <role>John Nash</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ktuOAyUHM2u2YPPChH8gAArxJ7b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ed Harris</name>
+        <role>William Parcher</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/atzm7ZGRFSWJHQT6qKmzjmNQ9GA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jennifer Connelly</name>
+        <role>Alicia Nash</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mOVleZFCqMDugAXyyiJBq6LmSah.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher Plummer</name>
+        <role>Dr. Rosen</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fauMGxa6dc86nHNenQ8X6DlE6YV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Bettany</name>
+        <role>Charles Herman</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1zmr8C7TCqsoCjDVKJycVp2wWyf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Adam Goldberg</name>
+        <role>Richard Sol</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/utlFTzTDP5VDQYXmzdHBbfloYhb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josh Lucas</name>
+        <role>Martin Hansen</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/gv7jI1SZLRXRVJnNGOS1zK6yWB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Rapp</name>
+        <role>Bender</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/a9SBIDqSXkJaxJHqDaHXNkLhOUs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jason Gray-Stanford</name>
+        <role>Ainsley Neilson</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mG8zKeqmQ77vmyB0IlWvuuFntjz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Judd Hirsch</name>
+        <role>Helinger</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kJbzvenJjBndXa6XpTQxVWF3ERr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Austin Pendleton</name>
+        <role>Thomas King</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/pxcdhd4oAsnhvUg0BalmiiKJyXg.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vivien Cardone</name>
+        <role>Marcee</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kPE1dEd7obmXyc3vOfJSnTkDSXS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jillie Simon</name>
+        <role>Bar Co-Ed</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/w1LHFb7yYo7utNR3K9rHcZsrVJH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Victor Steinbach</name>
+        <role>Prof. Horner</role>
+        <order>13</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Tanya Clarke</name>
+        <role>Becky</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zLpLrVzihPObD6h72KFxTNqdKuq.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Thomas F. Walsh</name>
+        <role>Captain</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/2HaUbLHNCBu0NnyMj7Zb4xVqlKb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jesse Doran</name>
+        <role>General</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tMrA5PgabLk2Chag4YDeenkBb6w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kent Cassella</name>
+        <role>Analyst</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wOsFBCP3I9KFISSmbrbVeueobfC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrick Blindauer</name>
+        <role>MIT Student</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/9qLyhFGkX54VXa6gqDI7yWon96V.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Blaylock</name>
+        <role>Photographer</role>
+        <order>19</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Roy Thinnes</name>
+        <role>Governor</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tb8ZfsFfl8Smhr719E3pRutPJa9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Easton</name>
+        <role>Young Man</role>
+        <order>21</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Cheryl Howard</name>
+        <role>Harvard Administrator</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sKnhM1uzCpi5uQrUbsx4C5ItrbB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josh Pais</name>
+        <role>Princeton Professor</role>
+        <order>23</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ogv2OWxCz4gB1h9GOJA8h8qzooO.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David B. Allen</name>
+        <role>John Nash Teenager</role>
+        <order>24</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Michael Esper</name>
+        <role>John Nash Young Man</role>
+        <order>25</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ri6OmRuEnbF3pcirudq3Gvc0oI5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Erik Van Wyck</name>
+        <role>Princeton Student</role>
+        <order>26</order>
+        <thumb>http://image.tmdb.org/t/p/w185/bEst6J6rjGWtIazgE4KqJc9R8qG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rance Howard</name>
+        <role>White-Haired Patient</role>
+        <order>27</order>
+        <thumb>http://image.tmdb.org/t/p/w185/i7tkpb7GLJXjwUNyrpOy63FiStt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jane Jenkins</name>
+        <role>Code-Red Nurse</role>
+        <order>28</order>
+        <thumb>http://image.tmdb.org/t/p/w185/aVOlC6UkKaxZpzvpdRxCjkMtJHI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Darius Stone</name>
+        <role>Adjunct</role>
+        <order>29</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Valentina Cardinalli</name>
+        <role>Joyce</role>
+        <order>30</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Teagle F. Bougere</name>
+        <role>Young Professor</role>
+        <order>31</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Amy Walz</name>
+        <role>Blond in Bar</role>
+        <order>32</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Tracey Toomey</name>
+        <role>Brunette</role>
+        <order>33</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jennifer Weedon</name>
+        <role>Brunette</role>
+        <order>34</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Yvonne Thomas</name>
+        <role>Brunette</role>
+        <order>35</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Holly Pitrago</name>
+        <role>Brunette</role>
+        <order>36</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Isadore Rosenfeld</name>
+        <role>Pen Ceremony Professor</role>
+        <order>37</order>
+        <thumb></thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2011-03-07 22:43:10</dateadded>
+</movie>

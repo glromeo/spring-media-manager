@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:26:43 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Blue Like Jazz</title>
+    <originaltitle>Blue Like Jazz</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>5.8</rating>
+    <year>2012</year>
+    <top250></top250>
+    <votes>31</votes>
+    <outline>A young man must find his own way as his Southern Baptist roots don't seem to be acceptable at his new liberal arts college.</outline>
+    <plot>A young man must find his own way as his Southern Baptist roots don't seem to be acceptable at his new liberal arts college.</plot>
+    <tagline>Everybody belongs somewhere</tagline>
+    <runtime>106</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/ckrw7hNji7K0fTiy61fsprpPKFl.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/xjt2tQxTsdl9TsFdcpxdJ0sr5pb.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <certification>US:PG-13 / US:Rated PG-13</certification>
+    <id>tt1758575</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">98369</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1758575</value>
+        </entry>
+    </ids>
+    <tmdbId>98369</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=GOglQgyxYkI&amp;hd=1</trailer>
+    <country>US</country>
+    <premiered>2012-04-13</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1280</width>
+                <height>720</height>
+                <durationinseconds>6459</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Drama</genre>
+    <genre>Comedy</genre>
+    <studio>Ruckus Films</studio>
+    <credits>Donald Miller</credits>
+    <credits>Ben Pearson</credits>
+    <credits>Steve Taylor</credits>
+    <director>Steve Taylor</director>
+    <actor>
+        <name>Marshall Allman</name>
+        <role>Donald Miller</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2frJJdV7p1z7WspoPmUw3ehqdjI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claire Holt</name>
+        <role>Penny</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kxdk67jh9rNDsgL0kMqEyyukwS3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tania Raymonde</name>
+        <role>Lauryn</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2sJuL0fveM1K8z9wuQZiDpAgY0H.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Justin Welborn</name>
+        <role>The Pope</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kYi7JmJRCsNdbrNR48WcAb7wE1C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eric Lange</name>
+        <role>The Hobo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ziOcfPKJ5jjyUikOOoCfjusy0Ut.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jason Marsden</name>
+        <role>Kenny</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qlZvyg48eUGth7pzU5UDi3CfdDR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>William McKinney</name>
+        <role>Jordan</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wtyQYvD3hP820D5XvDAzBVIZu5l.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Barak Hardley</name>
+        <role>Town Crier</role>
+        <thumb>http://image.tmdb.org/t/p/w185/aoinc7IiA6323wYI7p45xTN5MvD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valerie Jane Parker</name>
+        <role>Aqualike Babe</role>
+        <thumb>http://image.tmdb.org/t/p/w185/joeFcKPvRtqKlyPw8yGnUy2QJbh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Susan Isaacs</name>
+        <role>Fan</role>
+        <thumb>http://image.tmdb.org/t/p/w185/u6ETQ7m1bLIm3mBT9G2LlXY7hRC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Natalia Dyer</name>
+        <role>Grace</role>
+        <thumb>http://image.tmdb.org/t/p/w185/n5e7Pn61ZQmcPkXrrYIcPdOHH7R.jpg</thumb>
+    </actor>
+    <languages>en</languages>
+    <source>BLURAY</source>
+</movie>

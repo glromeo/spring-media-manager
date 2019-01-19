@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 14:08:42 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>X-Men: Apocalypse</title>
+    <originaltitle>X-Men: Apocalypse</originaltitle>
+    <set>
+        <name>X-Men Collection</name>
+        <overview>A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.</overview>
+    </set>
+    <sorttitle></sorttitle>
+    <rating>6.5</rating>
+    <year>2016</year>
+    <top250></top250>
+    <votes>7264</votes>
+    <outline>After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan.</outline>
+    <plot>After the re-emergence of the world's first mutant, world-destroyer Apocalypse, the X-Men must unite to defeat his extinction level plan.</plot>
+    <tagline>Only the strong will survive</tagline>
+    <runtime>144</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/zSouWWrySXshPCT4t3UKCQGayyo.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/fDmkE1K8tp6pLhTA5PRMVPSExCe.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <certification>US:PG-13 / US:Rated PG-13</certification>
+    <id>tt3385516</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">246655</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt3385516</value>
+        </entry>
+        <entry>
+            <key>tmdbSet</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">748</value>
+        </entry>
+    </ids>
+    <tmdbId>246655</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=Jer8XjMrUB4&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>2016-05-18</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.4</aspect>
+                <width>1920</width>
+                <height>800</height>
+                <durationinseconds>8637</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Science Fiction</genre>
+    <genre>Fantasy</genre>
+    <studio>The Donners' Company</studio>
+    <studio>Marvel Entertainment</studio>
+    <studio>Bad Hat Harry Productions</studio>
+    <studio>TSG Entertainment</studio>
+    <studio>20th Century Fox</studio>
+    <studio>Genre Films</studio>
+    <credits>Michael Dougherty</credits>
+    <credits>Dan Harris</credits>
+    <credits>Simon Kinberg</credits>
+    <credits>Bryan Singer</credits>
+    <credits>Stan Lee</credits>
+    <credits>Jack Kirby</credits>
+    <director>Bryan Singer</director>
+    <tag>aftercreditsstinger</tag>
+    <actor>
+        <name>James McAvoy</name>
+        <role>Charles Xavier / Professor X</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oPIfGm3mf4lbmO5pWwMvfTt5BM1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michael Fassbender</name>
+        <role>Erik Lehnsherr / Magneto</role>
+        <thumb>http://image.tmdb.org/t/p/w185/oexNPLumoFpazzzUqzBSDDYiUg1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jennifer Lawrence</name>
+        <role>Raven Darkholme / Mystique</role>
+        <thumb>http://image.tmdb.org/t/p/w185/naZyy9IqAQDaAbr1kYShLdg6aPR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicholas Hoult</name>
+        <role>Hank McCoy / Beast</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h1gXgpuXERZTVhxMdjT7uvXIyq6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Oscar Isaac</name>
+        <role>En Sabah Nur / Apocalypse</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5THRQFToENORTQkU9qTZTiW31EZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rose Byrne</name>
+        <role>Moira MacTaggert</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5Vd88XcVcZep20gWvuCGCxp5FFA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Evan Peters</name>
+        <role>Peter Maximoff / Quicksilver</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2a1XA1ynmbZZj2nauwsc03OzRB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josh Helman</name>
+        <role>Col. William Stryker</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rmj2HHc1uNESTlHk50qnCHK11jD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sophie Turner</name>
+        <role>Jean Grey / Phoenix</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ed4ajSYdv49j9OF7yMeG8Hznrrt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tye Sheridan</name>
+        <role>Scott Summers / Cyclops</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dECHNyAs5ZrEKYPN4LpyjczUzVd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lucas Till</name>
+        <role>Alex Summers / Havok</role>
+        <thumb>http://image.tmdb.org/t/p/w185/77RZnZzKgP3VlCHvpBfEIUg1b3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kodi Smit-McPhee</name>
+        <role>Kurt Wagner / Nightcrawler</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vJLSwYtJH8NHEUDh508XxewnrjD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ben Hardy</name>
+        <role>Warren Worthington III / Angel</role>
+        <thumb>http://image.tmdb.org/t/p/w185/s8UEIomgY5AaEmPHkcPAScp68Fw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alexandra Shipp</name>
+        <role>Ororo Munroe / Storm</role>
+        <thumb>http://image.tmdb.org/t/p/w185/98AfO5NSqWnlhIxjSg08gGYdxUG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lana Condor</name>
+        <role>Jubilation Lee / Jubilee</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dzst8HAOgzoKRPkLwZBgJNjK5o2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olivia Munn</name>
+        <role>Elizabeth 'Betsy' Braddock / Psylocke</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tWoefZSayyMpVOvg6fzaLPbEIRr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Warren Scherer</name>
+        <role>Horseman - Pestilence</role>
+        <thumb>http://image.tmdb.org/t/p/w185/euTflgQMe4hNmRino9NLKbkq5MC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rochelle Okoye</name>
+        <role>Horseman - Famine</role>
+        <thumb>http://image.tmdb.org/t/p/w185/f94kvwnNx4cAbYkEnSsxBLRJMb1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Monique Ganderton</name>
+        <role>Horseman - Death</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8BNtDzQwv8CWW0jmtcwa2YiJqta.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Fraser Aitcheson</name>
+        <role>Horseman - War</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2RGS9m0znydtC8WrS3FupISvLij.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Abdulla Hamam</name>
+        <role>Lead Conspiracy Guard</role>
+    </actor>
+    <actor>
+        <name>Hesham Hammoud</name>
+        <role>Conspirator Guard</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dkmSblRMFp8NqonmNSP9YrN6XN2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Antonio Daniel Hidalgo</name>
+        <role>Conspirator Guard</role>
+    </actor>
+    <actor>
+        <name>Al Maini</name>
+        <role>High Priest</role>
+    </actor>
+    <actor>
+        <name>Berdj Garabedian</name>
+        <role>Old Apocalypse</role>
+    </actor>
+    <actor>
+        <name>Ally Sheedy</name>
+        <role>Scott's Teacher</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xfNrfzgDwyvmczadJWw4fN70siS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Konechny</name>
+        <role>School Jock</role>
+        <thumb>http://image.tmdb.org/t/p/w185/l1qSfyINOFQSUwGt05sQ3XVPqRr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emma Elle Paterson</name>
+        <role>School Cheerleader</role>
+        <thumb>http://image.tmdb.org/t/p/w185/etqSVvYighdA4b30PVOLil6B4xl.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Manuel Sinor</name>
+        <role>Fight Announcer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/m7cJ3XYhjqJC9U69S4HDjuLxz5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gustave Ouimet</name>
+        <role>Defeated "Blob"</role>
+    </actor>
+    <actor>
+        <name>Lukas Penar</name>
+        <role>Electric Panel Guard</role>
+    </actor>
+    <actor>
+        <name>Ryan Hollyman</name>
+        <role>Mr. Summers</role>
+    </actor>
+    <actor>
+        <name>Joanne Boland</name>
+        <role>Mrs. Summers</role>
+        <thumb>http://image.tmdb.org/t/p/w185/i3m6r3qqI5Mefww6QVCqddWWYhZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nabeel El Khafif</name>
+        <role>Falafel Shop Owner</role>
+    </actor>
+    <actor>
+        <name>Manuel Tadros</name>
+        <role>Clan Akkaba Leader</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yoWrQFO92Si1kuugkXnd6xpcS0H.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Abanoub Andraous</name>
+        <role>Clan Akkaba Disciple</role>
+    </actor>
+    <actor>
+        <name>Aladeen Tawfeek</name>
+        <role>Clan Akkaba Disciple</role>
+    </actor>
+    <actor>
+        <name>Carolina Bartczak</name>
+        <role>Magda</role>
+        <thumb>http://image.tmdb.org/t/p/w185/r0o4ETErfKnZi4YRTIUeMyRvDm8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>T. J. McGibbon</name>
+        <role>Nina</role>
+    </actor>
+    <actor>
+        <name>Davide Chiazzese</name>
+        <role>Cairo Shoe Shop Vendor</role>
+    </actor>
+    <actor>
+        <name>Sebastian Naskrent</name>
+        <role>Milosz</role>
+    </actor>
+    <actor>
+        <name>Boris Sichon</name>
+        <role>Polish Worker</role>
+    </actor>
+    <actor>
+        <name>Martin Skorek</name>
+        <role>Lead Polish Inspector</role>
+    </actor>
+    <actor>
+        <name>Kamil Orzechowski</name>
+        <role>Jakob</role>
+    </actor>
+    <actor>
+        <name>Michael Terlecki</name>
+        <role>Polish Police Archer</role>
+    </actor>
+    <actor>
+        <name>Ahmed Osman</name>
+        <role>Threatening Cairo Vendor</role>
+    </actor>
+    <actor>
+        <name>Ziad Ghanem</name>
+        <role>Egyptian Street Vendor</role>
+    </actor>
+    <actor>
+        <name>Moataz Fathi</name>
+        <role>Egyptian Street Vendor</role>
+    </actor>
+    <actor>
+        <name>Tómas Lemarquis</name>
+        <role>Caliban</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6qWyGbPWE020wTezwoWx1wIPuPQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Loye</name>
+        <role>CNN Reporter</role>
+    </actor>
+    <actor>
+        <name>Zehra Leverman</name>
+        <role>Ms. Maximoff</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vj23toAMc5JIpd3B5xS8I1KZQIG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Herb Luft</name>
+        <role>News Anchor</role>
+    </actor>
+    <actor>
+        <name>Stan Lee</name>
+        <role>Himself</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iuA2kqevQ4uNgaMnHUOVEiphld0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joan Lee</name>
+        <role>Herself</role>
+    </actor>
+    <actor>
+        <name>Stephen Bogaert</name>
+        <role>Pentagon General Hastings</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xEfkwQ4geFjNqN8djI78lkvqq8i.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Bourgeois</name>
+        <role>Pentagon General Radford</role>
+        <thumb>http://image.tmdb.org/t/p/w185/31MDWJYAQOkjaH9m9YJgg0lv1SE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Conrad Coates</name>
+        <role>Pentagon General Fields</role>
+        <thumb>http://image.tmdb.org/t/p/w185/49Td3s8QVy8RPEfUb9eAzPyV9rP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dan Lett</name>
+        <role>Defense Secretary Weisberg</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4MoFY6cXVuSyKljWdVevMzpiyhk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Adrian G. Griffiths</name>
+        <role>Military Official Brown</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qFw3cMSjCVbZEe5sEwYVtPImQ3N.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Shawn Campbell</name>
+        <role>Military Submarine Official</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hdBWARfmmBw67gAZdCyjbfu21ix.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joe Cobden</name>
+        <role>Air Force Official</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kTf7OtOY1qBPmEbc4Kky9uMN58K.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Henry Hallowell</name>
+        <role>Foyer Student</role>
+    </actor>
+    <actor>
+        <name>Danielle Dury</name>
+        <role>Fish Bowl Girl</role>
+    </actor>
+    <actor>
+        <name>Naomi Frenette</name>
+        <role>Kissing Girl</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fUmHikydzeT3NwJQ5iFz8mhu8Tt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Aj Risi</name>
+        <role>Kissing Guy</role>
+    </actor>
+    <actor>
+        <name>Raphaël Dury</name>
+        <role>Computer Guy</role>
+    </actor>
+    <actor>
+        <name>Ian Rosenberg</name>
+        <role>Darts Guy</role>
+    </actor>
+    <actor>
+        <name>Erika Heather Mergl</name>
+        <role>Tab Girl</role>
+    </actor>
+    <actor>
+        <name>Tauntaun</name>
+        <role>Pizza Dog</role>
+    </actor>
+    <actor>
+        <name>Mary-Piper Gaudet</name>
+        <role>Student in Drapes</role>
+    </actor>
+    <actor>
+        <name>Josh Madryga</name>
+        <role>Student in Drapes</role>
+    </actor>
+    <actor>
+        <name>Scott Cook</name>
+        <role>Student in Drapes</role>
+    </actor>
+    <actor>
+        <name>Allen Keng</name>
+        <role>Student in Drapes</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nmeBTR6vDDXdp72z5gEu8VucvS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tally Rodin</name>
+        <role>Student in Drapes</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wUWjaPwlTYyvl7pfBsa69upmH1T.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Francis Limoges</name>
+        <role>Table Surfing Student</role>
+    </actor>
+    <actor>
+        <name>Tsu-Ching Yu</name>
+        <role>Table Surfing Student</role>
+    </actor>
+    <actor>
+        <name>Karl Walcott</name>
+        <role>Alkali Soldier</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gJYx7fGBLmdRydsWeAZ1T99CtLU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Desmond Campbell</name>
+        <role>Alkali Guard</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jQLTPVX66N61Ng6PEW3Z5SE3Tx5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ian Geldart</name>
+        <role>Alkali Communications Officer</role>
+    </actor>
+    <actor>
+        <name>John Ottman</name>
+        <role>Confused Tech</role>
+        <thumb>http://image.tmdb.org/t/p/w185/AlYg0cVHpwlTR4wY1iIy9gAsPKx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Linda Joyce Nourse</name>
+        <role>Kenyan Teacher</role>
+    </actor>
+    <actor>
+        <name>Zeljko Ivanek</name>
+        <role>Pentagon Scientist</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bQbyb11FgEPwNSfFeb6ChTfkqEM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher B. MacCabe</name>
+        <role>Fishing Boat Captain</role>
+        <thumb>http://image.tmdb.org/t/p/w185/prAq2ig6qoAJ1g72mPnHT6mHS40.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chris Cavener</name>
+        <role>Finsherman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/9BcPr1pc2s8PvBOROaOoDNjT51O.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ronald Tremblay</name>
+        <role>Finsherman</role>
+    </actor>
+    <actor>
+        <name>Joseph Bellerose</name>
+        <role>Harbor Master</role>
+    </actor>
+    <actor>
+        <name>Philippe Hartmann</name>
+        <role>Harbor Employee</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wTuY9s0k7sULNdAFpWhe5U0knI0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sebastien Teller</name>
+        <role>Russian Submarine Sailors</role>
+    </actor>
+    <actor>
+        <name>Alexander Peganov</name>
+        <role>Russian Submarine Sailor</role>
+    </actor>
+    <actor>
+        <name>Simon Therrien</name>
+        <role>US Weapons Technician</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8vjJeq8uh0vRaogdfWOnFpW9tFX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrice Martre</name>
+        <role>US Weapons Technician</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jHSfoy8IxwgYduA2959eGtJ19Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Malloch</name>
+        <role>Mystery Man</role>
+    </actor>
+    <actor>
+        <name>Vladimir Alexis</name>
+        <role>Salesperson (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/btTYSjs2zpbQrlGhLcFI6AdpcyR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jason Deline</name>
+        <role>Pentagon Tech (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hTy3xPznESHbGWwcxTAifHqf7KW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Hugh Jackman</name>
+        <role>Logan (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/aLvTYCe8Ar3jvqNiWLdHEJFyA32.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Simon Kinberg</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yXlDADc2rLEMLTFZAw9irqXMq2J.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Lauren Shuler Donner</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uwuWpT2xyhwlrfSCk6xTTvrRvEE.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Bryan Singer</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/to8mWJabPoWkphkbYKoutCVSj06.jpg</thumb>
+    </producer>
+    <producer>
+        <name>John Ottman</name>
+        <role>Co-Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/AlYg0cVHpwlTR4wY1iIy9gAsPKx.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Todd Hallowell</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Josh McLaglen</name>
+        <role>executive producer</role>
+    </producer>
+    <producer>
+        <name>Roger Mussenden</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Kathleen Parker</name>
+        <role>Casting Associate</role>
+    </producer>
+    <producer>
+        <name>Tineka Becker</name>
+        <role>Casting Associate</role>
+    </producer>
+    <producer>
+        <name>Stan Lee</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iuA2kqevQ4uNgaMnHUOVEiphld0.jpg</thumb>
+    </producer>
+    <languages>English</languages>
+    <source>BLURAY</source>
+</movie>

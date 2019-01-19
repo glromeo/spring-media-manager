@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Face/Off</title>
+    <originaltitle>Face/Off</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.900000</value>
+            <votes>2291</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent...</outline>
+    <plot>An antiterrorism agent goes under the knife to acquire the likeness of a terrorist and gather details about a bombing plot. When the terrorist escapes custody, he undergoes surgery to look like the agent so he can get close to the agent&apos;s family.</plot>
+    <tagline>In order to catch him, he must become him.</tagline>
+    <runtime>138</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/q1i8QHiHZ1cukG5iOxai8pydmoa.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/to9mG1qnu9gtsJNgyiD3DqHcfva.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0119094</id>
+    <uniqueid type="unknown" default="true">tt0119094</uniqueid>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+    <genre>Science Fiction</genre>
+    <genre>Thriller</genre>
+    <country>United States</country>
+    <credits>Mike Werb</credits>
+    <credits>Michael Colleary</credits>
+    <director>John Woo</director>
+    <premiered>1997-06-27</premiered>
+    <year>1997</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Krane Entertainment</studio>
+    <studio>Paramount</studio>
+    <studio>Permut Presentations</studio>
+    <studio>WCG Entertainment Productions</studio>
+    <studio>Touchstone Pictures</studio>
+    <studio>Douglas</studio>
+    <studio>Reuther Productions</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=3zebJ_NoduE&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.350000</aspect>
+                <width>1280</width>
+                <height>544</height>
+                <durationinseconds>8336</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>John Travolta</name>
+        <role>Sean Archer</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/JSt3skdZpGPJYJixCZqH599WdI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicolas Cage</name>
+        <role>Castor Troy</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ti2h1OS1n1VwoJHWFaJD8dMZuEE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joan Allen</name>
+        <role>Eve Archer</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/Atg0mSjK9Dl98YBsFvBuGO8PG5m.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alessandro Nivola</name>
+        <role>Pollux Troy</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/lLlaotVNM6dhjXj7GWVLSedugct.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gina Gershon</name>
+        <role>Sasha Hassler</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7Y6WzhtQafT4zeOdWllxc1uf33b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dominique Swain</name>
+        <role>Jamie Archer</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uqPcppajqSlYzQooLogh6TxjZhP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nick Cassavetes</name>
+        <role>Dietrich Hassler</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/daXFYs1PxFtrAZJv5iLMpqnIGet.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harve Presnell</name>
+        <role>Victor Lazarro</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/hH4HYzCa5BzWxOs76HQnDBOKe4c.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Colm Feore</name>
+        <role>Dr. Malcolm Walsh</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ack88BRQ7mApRMOdaiOqEUh2FDu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Carroll Lynch</name>
+        <role>Walt</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5eEGOANKnCCj7FLa3oV28gGYWkW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>CCH Pounder</name>
+        <role>Hollis Miller</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4Xu155Rt87p42HVxI2L6Hf9AB4w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Wisdom</name>
+        <role>Tito Biondi</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zAoS4BCgTOJHA88wD7lmjlXOfnP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Margaret Cho</name>
+        <role>Wanda</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3DUdtidVGm8FFfknl6HfBMBf366.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Denton</name>
+        <role>Buzz</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ApoCBEO4bhDizjqLOnF0BUW1HLX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Ross</name>
+        <role>Loomis</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tl51oqEpUoa9S5JGbklg9aXd99Q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chris Bauer</name>
+        <role>Ivan Dubov</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/pxzuoL2UvrMmOjJl3hVDCZefCwT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Myles Jeffrey</name>
+        <role>Michael Archer</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/snKwcKNBaIWKNv0dHzlB8h9q935.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David McCurley</name>
+        <role>Adam Hassler</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Thomas Jane</name>
+        <role>Burke Hicks</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xAES23Ll0JT0lJADA1SIdTAN0bf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Danny Masterson</name>
+        <role>Karl</role>
+        <order>19</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vBC0mHPEVHwhFZYzhXgoHzBKYyK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lisa Boyle</name>
+        <role>Cindee</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/r7YqIRBbeNIgVNK6xgmrmLDh4uW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Linda Hoffman</name>
+        <role>Livia</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/h9silu0xpZpjEcPXjJAyQTWXSb5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tommy Flanagan</name>
+        <role>Leo</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/eVHvVN05wJSINFlkjxjwOwe6C3L.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Romy Windsor</name>
+        <role>Kimberly</role>
+        <order>23</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Paul Hipp</name>
+        <role>Fitch</role>
+        <order>24</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zQehaRjnln1PWKsU2f8n9pDbQrd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kirk Baltz</name>
+        <role>Aldo</role>
+        <order>25</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zCuugN0Lgsi5IKRq9OyYl3vh9pU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lauren Sinclair</name>
+        <role>Agent Winters</role>
+        <order>26</order>
+        <thumb></thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-09-17 02:54:34</dateadded>
+</movie>

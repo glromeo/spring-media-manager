@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:28:44 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Jack Goes Boating</title>
+    <originaltitle>Jack Goes Boating</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.1</rating>
+    <year>2010</year>
+    <top250></top250>
+    <votes>53</votes>
+    <outline>A limo driver's blind date sparks a tale of love, betrayal, friendship and grace—centered around two working-class New York City couples.</outline>
+    <plot>A limo driver's blind date sparks a tale of love, betrayal, friendship and grace—centered around two working-class New York City couples.</plot>
+    <tagline></tagline>
+    <runtime>89</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/5Qd8IJYdzzZh4Ylc8raKA9alRyW.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/orTWpdXDdzz384MnPU8v7fRdtX1.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt1278379</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">43943</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1278379</value>
+        </entry>
+    </ids>
+    <tmdbId>43943</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=KcQjq2D2zXU&amp;hd=1</trailer>
+    <country>US</country>
+    <premiered>2010-09-23</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.85</aspect>
+                <width>1280</width>
+                <height>682</height>
+                <durationinseconds>5449</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Comedy</genre>
+    <genre>Drama</genre>
+    <genre>Romance</genre>
+    <studio>Labyrinth Theater Company</studio>
+    <studio>Olfactory Productions</studio>
+    <studio>Cooper's Town Productions</studio>
+    <studio>Big Beach</studio>
+    <credits>Robert Glaudini</credits>
+    <director>Philip Seymour Hoffman</director>
+    <actor>
+        <name>Philip Seymour Hoffman</name>
+        <role>Jack</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vEDJukK8CjIsA0DjNFhoT88TvzS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Ortiz</name>
+        <role>Clyde</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6EXZm45aPUOERq2rCrUnkz3sGoc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Richard Petrocelli</name>
+        <role>Uncle Frank</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6LjR6uuzBLy8gcagQlaTTPor6RI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tom McCarthy</name>
+        <role>Dr. Bob Thomas</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bz5ppWS58ryvKG4QQpIsqRXY68w.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Amy Ryan</name>
+        <role>Connie</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rE0YBJr3R6GcKu6Gw4K2lGW0ctC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Daphne Rubin-Vega</name>
+        <role>Lucy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hvL230sw44ILv5hHLbergot8OVm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lola Glaudini</name>
+        <role>Italian Woman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xgp8VtX9rhsRot3fshmomStvg6b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elizabeth Rodriguez</name>
+        <role>Waldorf Event Assistant</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lwJXQ7DDRY9W4pdzQzJKdeKuCFl.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Beth O'Neil</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Peter Saraf</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Marc Turtletaub</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Emily Ziff</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Philip Seymour Hoffman</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vEDJukK8CjIsA0DjNFhoT88TvzS.jpg</thumb>
+    </producer>
+    <producer>
+        <name>John Ortiz</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6EXZm45aPUOERq2rCrUnkz3sGoc.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Avy Kaufman</name>
+        <role>Casting</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yQPGktsmkKkhkOQAUlmYlxHJOiJ.jpg</thumb>
+    </producer>
+    <languages>en</languages>
+    <source>BLURAY</source>
+</movie>

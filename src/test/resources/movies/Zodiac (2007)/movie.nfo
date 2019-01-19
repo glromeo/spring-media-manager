@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 14:09:02 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Zodiac</title>
+    <originaltitle>Zodiac</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>7.4</rating>
+    <year>2007</year>
+    <top250></top250>
+    <votes>3499</votes>
+    <outline>The true story of the investigation of the "Zodiac Killer", a serial killer who terrified the San Francisco Bay Area, taunting police with his ciphers and letters.  The case becomes an obsession for four...</outline>
+    <plot>The true story of the investigation of the "Zodiac Killer", a serial killer who terrified the San Francisco Bay Area, taunting police with his ciphers and letters.  The case becomes an obsession for four men as their lives and careers are built and destroyed by the endless trail of clues.</plot>
+    <tagline>There's more than one way to lose your life to a killer.</tagline>
+    <runtime>157</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/kIW7N2bKV42OWk1kkMeq5ewZQVh.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/qT3JZ4dt8YarSRWaiYFhiJGf4LI.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt0443706</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1949</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1949</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0443706</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0443706</value>
+        </entry>
+    </ids>
+    <tmdbId>1949</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=dJ0oNfjzx4k&amp;hd=1</trailer>
+    <country>United States</country>
+    <premiered>2007-03-02</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.35</aspect>
+                <width>1280</width>
+                <height>544</height>
+                <durationinseconds>9756</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Crime</genre>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <studio>Paramount</studio>
+    <studio>Phoenix Pictures</studio>
+    <studio>Warner Bros. Pictures</studio>
+    <credits>James Vanderbilt</credits>
+    <credits>Robert Graysmith</credits>
+    <director>David Fincher</director>
+    <actor>
+        <name>Jake Gyllenhaal</name>
+        <role>Robert Graysmith</role>
+        <thumb>http://image.tmdb.org/t/p/w185/eCwnzlFzFuCm88jAe7OBtfvxL7f.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Downey Jr.</name>
+        <role>Paul Avery</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1YjdSym1jTG7xjHSI0yGGWEsw5i.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mark Ruffalo</name>
+        <role>Dave Toschi</role>
+        <thumb>http://image.tmdb.org/t/p/w185/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Edwards</name>
+        <role>Bill Armstrong</role>
+        <thumb>http://image.tmdb.org/t/p/w185/sCdevgZnwQb3AkDFM0ajGJGmY4p.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brian Cox</name>
+        <role>Melvin Belli</role>
+        <thumb>http://image.tmdb.org/t/p/w185/m15C58NWii5WCIg57Llr7hejnfy.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elias Koteas</name>
+        <role>Jack Mulanax</role>
+        <thumb>http://image.tmdb.org/t/p/w185/11pXICpcdGJxGG8H8g1Bk3qc66V.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chloë Sevigny</name>
+        <role>Melanie</role>
+        <thumb>http://image.tmdb.org/t/p/w185/eM7KGAMCmZCzYDFV8gaSfknN675.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Carroll Lynch</name>
+        <role>Arthur Leigh Allen</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5eEGOANKnCCj7FLa3oV28gGYWkW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ed Setrakian</name>
+        <role>Al Hyman</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7lQIY0VbG2LeltTsVufUMeffVN7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Getz</name>
+        <role>Templeton Peck</role>
+        <thumb>http://image.tmdb.org/t/p/w185/a0uOMxCiYqvcr3h49jopyKzKVfX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Terry</name>
+        <role>Charles Thieriot</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wESDSPXZXmXLp9vEfdtNKguwV3o.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Candy Clark</name>
+        <role>Carol Fisher</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6pGZGgHa09ktPwEcFWNAU3PLFdi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dermot Mulroney</name>
+        <role>Captain Martin Lee</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uqDPswlyj7hUVrmTn5mbDiWiTQi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brett Rickaby</name>
+        <role>Detective Roy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bsY5Tgy6PTPa4u81eaVIgTs5RwA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Clea DuVall</name>
+        <role>Linda del Buono</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lNCDz75IsCKIPhr295OBk1SHv2J.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Donal Logue</name>
+        <role>Captain Ken Narlow</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h0JZ8Hyc9p6sY2jQeJkDcax6UY3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>June Diane Raphael</name>
+        <role>Mrs. Toschi</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ArhEeYtPoKmu9grgmmTLFMqXpdY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jimmi Simpson</name>
+        <role>Mike Mageau</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uVyNmaRuiih2B1NUeTxuRKBlPon.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Charles Fleischer</name>
+        <role>Bob Vaughn</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vlF5j4y3lEKO6wXJ1R98ixUmebx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Philip Baker Hall</name>
+        <role>Sherwood Morrill</role>
+        <thumb>http://image.tmdb.org/t/p/w185/eH7GrivSuLEvhJL85qPkhNvg3E7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Adam Goldberg</name>
+        <role>Duffy Jennings</role>
+        <thumb>http://image.tmdb.org/t/p/w185/utlFTzTDP5VDQYXmzdHBbfloYhb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Zach Grenier</name>
+        <role>Mel Nicolai</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8LvY2KHMYSuGsrhjdbBbL2hhowr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Lacy</name>
+        <role>Zodiac 4</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8Yr58DhK0arBQCNJALcw0YZpm1Q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bob Stephenson</name>
+        <role>Zodiac 3</role>
+        <thumb>http://image.tmdb.org/t/p/w185/BdlHJDys3K6tMKGR8zIB3QMw4o.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Richmond Arquette</name>
+        <role>Zodiac 1 y 2</role>
+        <thumb>http://image.tmdb.org/t/p/w185/d7StQJUWPWOY4mi8fXia4c5fzys.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michel Francoeur</name>
+        <role>Man on Marquee</role>
+        <thumb>http://image.tmdb.org/t/p/w185/f1fyZH5UEPYT3vGV0drFyhmutDG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Stanley B. Herman</name>
+        <role>Staff Editor</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bty5ELo8f2ImERKwELOkzim2kS2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ione Skye</name>
+        <role></role>
+        <thumb>http://image.tmdb.org/t/p/w185/oiVKhuD2s4kNVnnAYUICtCjdzoC.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Mike Medavoy</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Arnold Messer</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Brad Fischer</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>James Vanderbilt</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fAGhDGPqdCu5GDxFs6T8FoqqFms.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Ceán Chaffin</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Louis Phillips</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Laray Mayfield</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Daniel M. Stillman</name>
+        <role>Unit Production Manager</role>
+    </producer>
+    <languages>English</languages>
+    <tmdbid>1949</tmdbid>
+</movie>

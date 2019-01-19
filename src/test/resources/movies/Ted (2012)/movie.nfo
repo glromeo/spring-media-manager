@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:44:02 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Ted</title>
+    <originaltitle>Ted</originaltitle>
+    <set>
+        <name>Ted Collection</name>
+        <overview>Ted is a 2012 American comedy film directed by Seth MacFarlane. The screenplay by MacFarlane, Alec Sulkin, and Wellesley Wild is from MacFarlane's story. The film stars MacFarlane, Mark Wahlberg, Mila Kunis, and with Joel McHale and Giovanni Ribisi in supporting roles, with MacFarlane providing the voice of the titular character. The film tells the story of John Bennett, a Boston native whose childhood wish brings his teddy bear friend Ted to life. However, Ted prevents John and his love interest Lori Collins from moving on with their lives. A sequel, Ted 2, was released on June 26, 2015.</overview>
+    </set>
+    <sorttitle></sorttitle>
+    <rating>6.3</rating>
+    <year>2012</year>
+    <top250></top250>
+    <votes>6847</votes>
+    <outline>John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear or his girlfriend, Lori.</outline>
+    <plot>John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear or his girlfriend, Lori.</plot>
+    <tagline>Ted is coming.</tagline>
+    <runtime>106</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/yLdP2vDa1BqxLSbikGypGtAEOGe.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/krbTDMozsJnpckDR1RVbL4I1g2Y.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <certification>US:R / US:Rated R</certification>
+    <id>tt1637725</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">72105</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1637725</value>
+        </entry>
+        <entry>
+            <key>tmdbSet</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">266672</value>
+        </entry>
+    </ids>
+    <tmdbId>72105</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=9fbo_pQvU7M&amp;hd=1</trailer>
+    <country>US</country>
+    <premiered>2012-06-29</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.85</aspect>
+                <width>1920</width>
+                <height>1040</height>
+                <durationinseconds>6363</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Comedy</genre>
+    <genre>Fantasy</genre>
+    <studio>Universal Pictures</studio>
+    <studio>Media Rights Capital</studio>
+    <studio>Fuzzy Door Productions</studio>
+    <credits>Seth MacFarlane</credits>
+    <credits>Alec Sulkin</credits>
+    <credits>Wellesley Wild</credits>
+    <director>Seth MacFarlane</director>
+    <actor>
+        <name>Mark Wahlberg</name>
+        <role>John Bennett</role>
+        <thumb>http://image.tmdb.org/t/p/w185/z2wJh5n7qZRUE1y9uB8UrivAV2b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mila Kunis</name>
+        <role>Lori Collins</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tyT8pGgpm7xa7y2sQfm211FXpnr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Seth MacFarlane</name>
+        <role>Ted (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/v4c6JhGYpjMRBwf95gtPxBnElNu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joel McHale</name>
+        <role>Rex</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jFtqHLCrmGSIJtwdxloO3KM98iC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Giovanni Ribisi</name>
+        <role>Donny</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mLQrEU7X7GD5V7i1clGRqpg8PVk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrick Warburton</name>
+        <role>Guy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cq8zZ6YfBrq2k4F4aHYLSP9QOJS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Walsh</name>
+        <role>Thomas</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qGPdThOmuzzWx7MH12qZr0pw19X.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jessica Barth</name>
+        <role>Tami-Lynn</role>
+        <thumb>http://image.tmdb.org/t/p/w185/d39NWIkuXr7uHP3UNGBBoGAonXw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Aedin Mincks</name>
+        <role>Robert</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qQEZjqiy2fNUsh4gSUds11tK9sN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bill Smitrovich</name>
+        <role>Frank</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rO5wJpx7ZlT6RaunZw20OGF6O2Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Patrick Stewart</name>
+        <role>Narrator</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wEy5qSDT5jT3ZASc2hbwi59voPL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Laura Vandervoort</name>
+        <role>Tanya</role>
+        <thumb>http://image.tmdb.org/t/p/w185/xGoTo41oVyCoQLkhBMyTfzu7PSs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bretton Manley</name>
+        <role>Young John</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mMZjjVAzq8G9AUa7556LK8e4Dgo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alex Borstein</name>
+        <role>John's Mom</role>
+        <thumb>http://image.tmdb.org/t/p/w185/AjthMjh7k3MqaZBgrenhm13Uxf6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jessica Stroup</name>
+        <role>Tracy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/l1UABSlmGse4QWtHefxZSm82Axp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tara Strong</name>
+        <role>Bellybutton</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rFUZnJ4BaSaQVKW734xnUHSN9pm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Norah Jones</name>
+        <role>Herself</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vWYNfa0KR0Cmmep7mvpaJ99Uans.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sam Jones</name>
+        <role>Himself</role>
+        <thumb>http://image.tmdb.org/t/p/w185/w0C7aONaeB6a5DqdzTa23TzcvPm.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Wu</name>
+        <role>Asian Man 'Ming'</role>
+        <thumb>http://image.tmdb.org/t/p/w185/A8yLtkCeY7wvVlfL6TakeiUSmEa.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Viener</name>
+        <role>Alix</role>
+        <thumb>http://image.tmdb.org/t/p/w185/AjzFj009CPtewjT9jyYFx0AumBR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ginger Gonzaga</name>
+        <role>Gina</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bIyLNXCqRdHzYEXjvr6IUFYXmKT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Melissa Ordway</name>
+        <role>Michelle</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qqjCuGKTZaEmEaoKYAzAsVfhDOv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Max Harris</name>
+        <role>Greenbaum Kid</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tuGgSv6zov0wfeoBXazDaHq4uuZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tom Skerritt</name>
+        <role>Himself</role>
+        <thumb>http://image.tmdb.org/t/p/w185/m4KNYlzzV5PCpOqBU5x9ydab0aR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kristina Ellery</name>
+        <role>Heavenly</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kVspTfxGDz9WpPUnjLIFiXgqnj1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Katelyn Lorren</name>
+        <role>Cherene</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fBySOW0NGL5HLDs73qmGwIwfATJ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chanty Sok</name>
+        <role>Angelique</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jRj1uUrPSsyQEzoTB4pHM6T8SVR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sarah Fischer</name>
+        <role>Sauvignon Blanc</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vmMnW4o0CWsHoDBZDvY7A92A7Qb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ryan Reynolds</name>
+        <role>Jared (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vYxl6lGbVPr7f8QlaSdeRLUs5PB.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ted Danson</name>
+        <role>Ted Danson (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wWm9eDLuPDw29R76KAjg6gIE9dS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ralph Garman</name>
+        <role>John's Dad</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vMzb4yCslLhJb7CQkS3R1jbyCO6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Zane Cowans</name>
+        <role>Kid #1 / Young Ted's Voice</role>
+    </actor>
+    <actor>
+        <name>T.J. Hourigan</name>
+        <role>Kid #2</role>
+    </actor>
+    <actor>
+        <name>Owen Clarke</name>
+        <role>Kid #3</role>
+    </actor>
+    <actor>
+        <name>Cassie Djerf</name>
+        <role>Waitress</role>
+    </actor>
+    <actor>
+        <name>Joe Siriani</name>
+        <role>Guy at Table #1</role>
+    </actor>
+    <actor>
+        <name>Josh Duvendeck</name>
+        <role>Guy #1</role>
+    </actor>
+    <actor>
+        <name>Henry Penzi</name>
+        <role>Partygoer (Ted's Buddy)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wK5JIVWjoNZV1QUYjCLm6F1n26g.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tania Cabrera</name>
+        <role>Girl at Party</role>
+    </actor>
+    <actor>
+        <name>Colton Shires</name>
+        <role>Teenage John</role>
+        <thumb>http://image.tmdb.org/t/p/w185/bGryeTQKYgdZOR44FIw1GbCMcAj.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Viera Andrea Moya</name>
+        <role>Plymouth PR Worker</role>
+    </actor>
+    <actor>
+        <name>Heajee Kim</name>
+        <role>Club Girl</role>
+    </actor>
+    <actor>
+        <name>Lydia Hannibal</name>
+        <role>Ellen</role>
+    </actor>
+    <actor>
+        <name>Shawn Thornton</name>
+        <role>Crazy Guy</role>
+    </actor>
+    <actor>
+        <name>Danny Smith</name>
+        <role>Waiter</role>
+        <thumb>http://image.tmdb.org/t/p/w185/a0vI4PA7v2rwBBavBZWBkLGljJa.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mike Nikitas</name>
+        <role>Newscaster</role>
+    </actor>
+    <actor>
+        <name>Robin Hamilton</name>
+        <role>Female Newscaster</role>
+    </actor>
+    <actor>
+        <name>Olivia Jordan</name>
+        <role>Party Guest</role>
+        <thumb>http://image.tmdb.org/t/p/w185/szMukAEiIDeasel0lvyaeyKuych.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emmalyn Anderson</name>
+        <role>Concert Attendee (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4RAERlN6M6tJVJQxQJ1JxAJvjTn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alexandra Creteau</name>
+        <role>Club Patron (uncredited)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/hv2vUer0vYBG6G77ueCDdn2o7CZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Franchi</name>
+        <role>Tourist/Pedestrian</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3j3TU6CT87bnFTeVzLQNsGkyKCb.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Seth MacFarlane</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/v4c6JhGYpjMRBwf95gtPxBnElNu.jpg</thumb>
+    </producer>
+    <producer>
+        <name>John Jacobs</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Jason Clark</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Sheila Jaffe</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Jon Mone</name>
+        <role>Executive Producer</role>
+    </producer>
+    <languages>en</languages>
+    <source>BLURAY</source>
+</movie>

@@ -1,0 +1,44 @@
+.Header {
+
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  min-height: 50px;
+  width: 100%;
+
+  max-height: 25%;
+
+  box-shadow: 0px 1px 5px lightgray;
+  transition: box-shadow 0.25s ease-out;
+
+  &.scrolling {
+    box-shadow: 0px 10px 10px gray;
+  }
+
+
+  &>div:first-child {
+    width: 100%;
+  }
+
+  .Logo {
+    animation: HeaderLogoSpin infinite 20s linear;
+    min-height: 50px;
+    height: 25%;
+  }
+
+  @keyframes HeaderLogoSpin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

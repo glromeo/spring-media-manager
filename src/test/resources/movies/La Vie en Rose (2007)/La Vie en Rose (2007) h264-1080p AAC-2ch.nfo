@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>La Vie en Rose</title>
+    <originaltitle>La Môme</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>7.500000</value>
+            <votes>675</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A swirling, impressionistic portrait of an artist who regretted nothing, writer-director Olivier Dahan&apos;s La Vie en Rose stars Marion Cotillard in a blazing performance as the legendary French icon Edith...</outline>
+    <plot>A swirling, impressionistic portrait of an artist who regretted nothing, writer-director Olivier Dahan&apos;s La Vie en Rose stars Marion Cotillard in a blazing performance as the legendary French icon Edith Piaf. From the mean streets of the Belleville district of Paris to the dazzling limelight of New York&apos;s most famous concert halls, Piaf&apos;s life was a constant battle to sing and survive, to live and love. Raised in her grandmother&apos;s brothel, Piaf was discovered in 1935 by nightclub owner Louis Leplee (Gerard Depardieu), who persuaded her to sing despite her extreme nervousness. Piaf became one of France&apos;s immortal icons, her voice one of the indelible signatures of the 20th Century.</plot>
+    <tagline>The Extraordinary Story of Edith Piaf</tagline>
+    <runtime>140</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/xJMbQkNKt85ZSIh4HucDwENL8dq.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/qtNKkgb5mz2lETwhVUInK8KhMug.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0450188</id>
+    <uniqueid type="unknown" default="true">tt0450188</uniqueid>
+    <genre>Music</genre>
+    <genre>Drama</genre>
+    <country>Czech Republic</country>
+    <country>France</country>
+    <country>United Kingdom</country>
+    <credits>Isabelle Sobelman</credits>
+    <credits>Olivier Dahan</credits>
+    <director>Olivier Dahan</director>
+    <premiered>2007-02-08</premiered>
+    <year>2007</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Sofica Valor 7</studio>
+    <studio>TPS Star</studio>
+    <studio>TF1 International</studio>
+    <studio>Légende Films</studio>
+    <studio>Okko Productions</studio>
+    <studio>Songbird Pictures</studio>
+    <studio>Scotts Atlantic</studio>
+    <studio>Canal+</studio>
+    <studio>TF1 Films Production</studio>
+    <trailer></trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.350000</aspect>
+                <width>1920</width>
+                <height>824</height>
+                <durationinseconds>8433</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>fra</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+            <subtitle>
+                <language>swe</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Marion Cotillard</name>
+        <role>Edith Piaf</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wuEWDK1D2v26KRDIY7DTHBaSdwA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sylvie Testud</name>
+        <role>Mômone</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ctKxr2mIPIXYM6tpuxZLRUSyttS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pascal Greggory</name>
+        <role>Louis Barrier</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1J3QISHIZg6C1xkhvshtX2lEiDG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emmanuelle Seigner</name>
+        <role>Titine</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3L0jsBpxn9VKa04PqtgD89FPrli.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jean-Paul Rouve</name>
+        <role>Louis Gassion</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tPiblduUeHCN6LTcxxsjMTlRifr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gérard Depardieu</name>
+        <role>Louis Leplée</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kWGuy8UI8y3uqqCVoFvBVBe8w0J.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Clotilde Courau</name>
+        <role>Annetta Gassion</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/htHGCsyHZ7zMyjmpSsiKmfdp21Z.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jean-Pierre Martins</name>
+        <role>Marcel Cerdan</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/8CVxOa0ZdDHfY5Tkug0l7X3akLD.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Catherine Allégret</name>
+        <role>Louise</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kb6186eWhiozkAmF3O2UziwY0G9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marc Barbé</name>
+        <role>Raymond Asso</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/gsea1RzFBt6kQ7VqQYejifE5H3N.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Caroline Sihol</name>
+        <role>Marlene Dietrich</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/g7izhwjv2rtqgeg8ewAwVTbrQ32.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Manon Chevallier</name>
+        <role>Edith - 5 years old</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Pauline Burlet</name>
+        <role>Edith - 10 years old</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wAXOz5ZVKyrahNpPBfYcX2ePVTE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elisabeth Commelin</name>
+        <role>Danielle Bonel</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kJYHlilPKDctDRbDjetlm1kuxoQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>André Penvern</name>
+        <role>Jacques Canetti</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kWjemQ3xkPP6cs8DkWQieSEUenN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marie-Armelle Deguy</name>
+        <role>Marguerite Monnot</role>
+        <order>15</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sr4ukvjaCpa61WbLdc9BI3a5eUz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valérie Moreau</name>
+        <role>Jeanne</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/bpgWSMU9aY8tJLBoYE3S5ETgouw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marc Gannot</name>
+        <role>Marc Bonel</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jean-Paul Muel</name>
+        <role>Bruno Coquatrix</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/gDc5jjzFY5OyQhX1KYKv8MGZijS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nathalie Dorval</name>
+        <role>Mireille</role>
+        <order>19</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Caroline Raynaud</name>
+        <role>Ginou</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/1r7bXlvUEqAsr7nJW2Qp2NJkOIV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christophe Odent</name>
+        <role>Dr. Bernay</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/9ryUaTaGmm967AOD4yxMFkzCTw5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harry Hadden-Paton</name>
+        <role>Doug Davis</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jakXF2JSTTt5yO3c3LurWdr13NS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cylia Malki</name>
+        <role>Philipo</role>
+        <order>23</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5y5xUaYbnck9ZvS9ZK77i1WAPIz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Édith Le Merdy</name>
+        <role>Simone Margantin</role>
+        <order>24</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7LNQ8JT6vtj8BgBIT062orAfiB0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Denis Ménochet</name>
+        <role>Journalist in Orly</role>
+        <order>25</order>
+        <thumb>http://image.tmdb.org/t/p/w185/n5xfK8tJlmR9I2d4yJe0ySB0kUP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josette Ménard</name>
+        <role>Mamy</role>
+        <order>26</order>
+        <thumb>http://image.tmdb.org/t/p/w185/kCrSuy70BUAqHyQRx23YigWQplY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dominique Paturel</name>
+        <role>Lucien Roupp</role>
+        <order>27</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mRUiFBTTwtuGRFVB5oNpXYiphy2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nicholas Pritchard</name>
+        <role>Jameson</role>
+        <order>28</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>William Armstrong</name>
+        <role>Clifford Fisher</role>
+        <order>29</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tvDYVuankQhCze9O2PXs6raOXPf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Aubert Fenoy</name>
+        <role>Michel Emer</role>
+        <order>30</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Mario Hacquard</name>
+        <role>Charles Dumont</role>
+        <order>31</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Agathe Bodin</name>
+        <role>Suzanne</role>
+        <order>32</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Olivier Cruveiller</name>
+        <role>Inspecteur Guillaume</role>
+        <order>33</order>
+        <thumb>http://image.tmdb.org/t/p/w185/dVOEed92abUyTlo9fBSt2ZHhSul.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ashley Wanninger</name>
+        <role>Leplée&apos;s assistant</role>
+        <order>34</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Laurent Schilling</name>
+        <role>Claude</role>
+        <order>35</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Dominique Bettenfeld</name>
+        <role>Albert</role>
+        <order>36</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4LovjhsdwsUsHjFfIyOoWPYBB6T.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Alban Casterman</name>
+        <role>Charles Aznavour</role>
+        <order>37</order>
+        <thumb>http://image.tmdb.org/t/p/w185/uux4AyHt11C1ruAZakWcNGQghgZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sébastien Tavel</name>
+        <role>Interviewer</role>
+        <order>38</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Nicole Dubois</name>
+        <role>Seamstress</role>
+        <order>39</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Martin Janis</name>
+        <role>Jean Mermoz</role>
+        <order>40</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Eric Franquelin</name>
+        <role>Etienne</role>
+        <order>41</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sqDotdkfzru2mfVEVHaL2M3mWuA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marc Chapiteau</name>
+        <role>Mitty Goldin</role>
+        <order>42</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sgNhqCkA3vkVabM39dX7RH8JwSI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maureen Demidof</name>
+        <role>Marcelle</role>
+        <order>43</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Pierre Peyrichout</name>
+        <role>Journalist</role>
+        <order>44</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Liliane Cebrian</name>
+        <role>Palm reader</role>
+        <order>45</order>
+        <thumb>http://image.tmdb.org/t/p/w185/krRkL6ulAD735zWTnEJDxGF82Do.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paulina Němcová</name>
+        <role>American journalist</role>
+        <order>46</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qXwzKeObj24JTNYzSrJpe3vbvZw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jean-Jacques Desplanque</name>
+        <role>Tony Zale</role>
+        <order>47</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Alain Figlarz</name>
+        <role>Boxing trainer</role>
+        <order>48</order>
+        <thumb>http://image.tmdb.org/t/p/w185/u0cOZyBWRSxu0j3Ez9iKD5vUez.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nathalie Cox</name>
+        <role>Pin-up</role>
+        <order>49</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mJQhHBYjVEScwyyhrV0byiox6AQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pierre Derenne</name>
+        <role>P&apos;tit Louis</role>
+        <order>50</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Emy Lévy</name>
+        <role>Brothel girl 1</role>
+        <order>51</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ikd2tjjaxI67MYIFsEIhIH3cfZp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olivier Raoux</name>
+        <role>Waiter</role>
+        <order>52</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Philippe Bricard</name>
+        <role>Man in Lannes</role>
+        <order>53</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Pier Luigi Colombetti</name>
+        <role>Brasserie owner</role>
+        <order>54</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Rodolphe Saulnier</name>
+        <role>Barman</role>
+        <order>55</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3ZByFMRBBgp8ygM1P0aJzRQ4bDA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Fabien Duval</name>
+        <role>Policeman</role>
+        <order>56</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Nicolas Simon</name>
+        <role>Journalist by the church</role>
+        <order>57</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Jil Aigrot</name>
+        <role>Edith Piaf (singing voice)</role>
+        <order>58</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Stéphane Bern</name>
+        <role>Christophe</role>
+        <order>59</order>
+        <thumb>http://image.tmdb.org/t/p/w185/njvNjX55sZ20zHLXSMnQSfwYRRg.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-10-18 11:58:34</dateadded>
+</movie>

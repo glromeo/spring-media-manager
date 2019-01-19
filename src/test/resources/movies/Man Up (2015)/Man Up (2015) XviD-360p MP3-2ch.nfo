@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Man Up</title>
+    <originaltitle>Man Up</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.600000</value>
+            <votes>495</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>A 34 year old single woman, Nancy, hung-over again, exhausted by the endless fruitless set ups by her friends, traveling across London to toast another 10 years of her parent&apos;s successful happy magical...</outline>
+    <plot>A 34 year old single woman, Nancy, hung-over again, exhausted by the endless fruitless set ups by her friends, traveling across London to toast another 10 years of her parent&apos;s successful happy magical marriage runs in with a 40 year old divorcee, Jack, who mistakes her for his 24 year old blind date. Nancy, deciding to go with it, happens to hop on the most chaotic yet hilarious journey of her life which neither of them will ever forget.</plot>
+    <tagline>Right Time Right Place Wrong Date</tagline>
+    <runtime>87</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/y7C1EQ9zxJ3mlaQeRztw3NVw41P.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/tOVaVqBA7y46Y2wJeFfrelRduQC.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt3064298</id>
+    <uniqueid type="unknown" default="true">tt3064298</uniqueid>
+    <genre>Romance</genre>
+    <genre>Comedy</genre>
+    <country>France</country>
+    <country>United Kingdom</country>
+    <credits>Tess Morris</credits>
+    <director>Ben Palmer</director>
+    <premiered>2015-05-29</premiered>
+    <year>2015</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>StudioCanal</studio>
+    <studio>Big Talk Productions</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=kLtSNWOao-M&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>xvid</codec>
+                <aspect>2.350000</aspect>
+                <width>640</width>
+                <height>272</height>
+                <durationinseconds>5275</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>mp3</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Simon Pegg</name>
+        <role>Jack</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/23e2uoNlpDvLumNic16fS2YjZjL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lake Bell</name>
+        <role>Nancy</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5cfIsFPd5Pu8WQqlIfcUQABvqzu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rory Kinnear</name>
+        <role>Sean</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/x6S1iZAHHjtPCCyYKOVMOea6zbU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ken Stott</name>
+        <role>Bert</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/7ZThizJB7FLoUNl2V8fqG08rVyv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Harriet Walter</name>
+        <role>Fran</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/vfpIPsC27D1ONVres7j3DgWYzdN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olivia Williams</name>
+        <role>Hilary</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sFPpzOuDOLyB0YmTstS7MTSzEb6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sharon Horgan</name>
+        <role>Elaine</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yA0fsFe7mq21rTRLJXmJTgxZD6D.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Phoebe Waller-Bridge</name>
+        <role>Katie</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/dnXxjzaC8avHYlh6Cd01yeayXTL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Robert Wilfort</name>
+        <role>Ryan</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3G0QlJyhhVLvs9yTSjo4h89ce1k.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ophelia Lovibond</name>
+        <role>Jessica</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/wewyxidwQYHZxemnZdlYL7lQdOs.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Thornley</name>
+        <role>Adam</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/4leB3psu55AaGGWxoPEf63wzUnX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Keir Charles</name>
+        <role>Dom</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Henry Lloyd-Hughes</name>
+        <role>Daniel</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xEGYwzCjWnLtd7CwFOCjIVH0tPw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>James Oliver Reilly</name>
+        <role>Cloakroom Attendant</role>
+        <order>13</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Stephen Campbell Moore</name>
+        <role>Ed</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/9LPG6fCe2ct82Io5zI8iyvJ8NsP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jack Whitam</name>
+        <role>Man In Toilet #1</role>
+        <order>15</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Oliver Lansley</name>
+        <role>Man In Toilet #2</role>
+        <order>16</order>
+        <thumb>http://image.tmdb.org/t/p/w185/bjMJiDwaMq2OCo7pjBfvMvD8Taw.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Oram</name>
+        <role>Man In Toilet #3</role>
+        <order>17</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xHlaXXdSROQBIJOD69PCloDShjb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Simona Brown</name>
+        <role>Sophie</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/hZCVNL2wnvAxYjcgtKBlEWLgDYG.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maya Henson</name>
+        <role>Essie</role>
+        <order>19</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Dean-Charles Chapman</name>
+        <role>Harry</role>
+        <order>20</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yfuKsvh1yiOnRkbEHQWsOOSAl4W.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Bradley</name>
+        <role>Andrew (uncredited)</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/yrRfy2LUab8i6bjEb0LFEe0wDK2.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paulina Boneva</name>
+        <role>Girl on train (uncredited)</role>
+        <order>22</order>
+        <thumb>http://image.tmdb.org/t/p/w185/h79tJ7YXrTmjOnRC6eSwyaUg1OU.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-09-29 00:24:42</dateadded>
+</movie>

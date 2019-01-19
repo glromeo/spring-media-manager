@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Veronica</title>
+    <originaltitle>Verónica</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.100000</value>
+            <votes>666</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Madrid, June 1991. After celebrating a session of Ouija with her friends, Verónica is besieged by dangerous supernatural presences that threaten to harm her entire family.</outline>
+    <plot>Madrid, June 1991. After celebrating a session of Ouija with her friends, Verónica is besieged by dangerous supernatural presences that threaten to harm her entire family.</plot>
+    <tagline>Someone answered your call.</tagline>
+    <runtime>105</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/jXcTF45BwAGVVfybWb3AlFqcuUc.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/6YMNG8B8ikbdh08mq9CoVbdlDGm.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt5862312</id>
+    <uniqueid type="unknown" default="true">tt5862312</uniqueid>
+    <genre>Horror</genre>
+    <country>ES</country>
+    <credits>Fernando Navarro</credits>
+    <credits>Paco Plaza</credits>
+    <director>Paco Plaza</director>
+    <premiered>2017-08-25</premiered>
+    <year>2017</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Apaches Entertainment</studio>
+    <studio>Apache Films</studio>
+    <studio>Film Factory</studio>
+    <studio>Orange S.A.</studio>
+    <studio>Sony Pictures International Productions</studio>
+    <studio>RTVE</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=iMWqCzTRNJc</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.850000</aspect>
+                <width>1920</width>
+                <height>1024</height>
+                <durationinseconds>6322</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Sandra Escacena</name>
+        <role>Verónica</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/dFnkRlfpvDucdyP0P344mzP1sRc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruna González</name>
+        <role>Lucía</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/hXFu425GS3IZKiLXMFKeSQDkuGp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Placer</name>
+        <role>Irene</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ijhP6k5SOYLR9cWp1iuyUjbNdhv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Iván Chavero</name>
+        <role>Antoñito</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/f7HdwLL2bmyRTTvNxwM2geCrBmd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Torrent</name>
+        <role>Ana</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/20fCWHV6CckcpwiSlAplJCSzBZj.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Consuelo Trujillo</name>
+        <role>Sister Muerte</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zUbjbyqbItQfeMN6H1pinJtf3zh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ángela Fabián</name>
+        <role>Rosa</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/o63gmFdRbZUW7dieyMZ78EFdG6E.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carla Campra</name>
+        <role>Diana</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/sa7kXSSRQCnQrxpjhplPKZbxzUN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Chema Adeva</name>
+        <role>Romero</role>
+        <order>8</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Miranda Gas</name>
+        <role>Rodríguez</role>
+        <order>9</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Luis Rallo</name>
+        <role>Navarro</role>
+        <order>10</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Maru Valdivielso</name>
+        <role>Josefa</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Iñaki Nebreda Peñagarikano</name>
+        <role>Bar Client</role>
+        <order>12</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Samuel Romero</name>
+        <role>Creature</role>
+        <order>13</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Sonia Almarcha</name>
+        <role>Doctor</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/cqlV0vFDntb5E2ztemYPHbPbO6I.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carlos Cristino</name>
+        <role>Manager</role>
+        <order>15</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Nayara Feito</name>
+        <role>Neighbor</role>
+        <order>16</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Josu Bravo</name>
+        <role>Passerby</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Núria Gago</name>
+        <role>Police Telephonist (voice)</role>
+        <order>18</order>
+        <thumb>http://image.tmdb.org/t/p/w185/f1DZQKpjedbLNfIKLioZiV7ql8s.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Leticia Dolera</name>
+        <role>Professor of History</role>
+        <order>19</order>
+        <thumb>http://image.tmdb.org/t/p/w185/6YH2rpENETOqi6iRI66Sbr54hvJ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gema Matarranz</name>
+        <role>Professor of Literature</role>
+        <order>20</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Natalia Mateo</name>
+        <role>Rosa&apos;s Mother</role>
+        <order>21</order>
+        <thumb>http://image.tmdb.org/t/p/w185/heAcB4gNJ66C5enEkEoAKBlS4bA.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2018-11-18 01:10:12</dateadded>
+</movie>

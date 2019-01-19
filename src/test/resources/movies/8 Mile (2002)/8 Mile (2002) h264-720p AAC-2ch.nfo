@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>8 Mile</title>
+    <originaltitle>8 Mile</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.900000</value>
+            <votes>2764</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>The setting is Detroit in 1995. The city is divided by 8 Mile, a road that splits the town in half along racial lines. A young white rapper, Jimmy &quot;B-Rabbit&quot; Smith Jr. summons strength within himself to...</outline>
+    <plot>The setting is Detroit in 1995. The city is divided by 8 Mile, a road that splits the town in half along racial lines. A young white rapper, Jimmy &quot;B-Rabbit&quot; Smith Jr. summons strength within himself to cross over these arbitrary boundaries to fulfill his dream of success in hip hop. With his pal Future and the three one third in place, all he has to do is not choke.</plot>
+    <tagline>Every moment is another chance.</tagline>
+    <runtime>110</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/dXzTrKwpbLpCqn8O70FUUhNbYQT.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/mno46htb7eC1By1Fp76eR1mDAqC.jpg</fanart>
+    <mpaa>Rated R</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt0298203</id>
+    <uniqueid type="unknown" default="true">tt0298203</uniqueid>
+    <genre>Drama</genre>
+    <genre>Music</genre>
+    <country>United States</country>
+    <credits>Scott Silver</credits>
+    <credits>Marc Gabbana</credits>
+    <director>Curtis Hanson</director>
+    <premiered>2002-11-08</premiered>
+    <year>2002</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Mikona Productions GmbH &amp; Co. KG</studio>
+    <studio>Imagine Entertainment</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=idBm6OKzkAE</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.350000</aspect>
+                <width>1280</width>
+                <height>544</height>
+                <durationinseconds>6627</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Eminem</name>
+        <role>Jimmy B. &quot;Rabbit&quot; Smith</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/mKPPGlIZ2EiKb6LSC46cSzK2NEU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mekhi Phifer</name>
+        <role>David &quot;Future&quot; Porter</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xrv9RDMPoTd9NsfpUzL81XglAmk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brittany Murphy</name>
+        <role>Alex</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/jktbTmFE3TVaKUqPDWw8VZ5rXqc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Kim Basinger</name>
+        <role>Stephanie Smith</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/xpv6NgpY0mDr5QSWjZLXy5KlFn9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Michael Shannon</name>
+        <role>Greg Buehl</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5yGCJ6znHM96zTfW2LNP6uPPDCZ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Taryn Manning</name>
+        <role>Janeane</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ujPqJgRvOVaTgVI5qTWHBSM6BB3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Mackie</name>
+        <role>Papa Doc</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5VGGJ0Co8SC94iiedWb2o3C36T.jpg</thumb>
+    </actor>
+    <actor>
+        <name>De&apos;Angelo Wilson</name>
+        <role>DJ IZ</role>
+        <order>7</order>
+        <thumb>http://image.tmdb.org/t/p/w185/59cfQidcF39uWLlVgqrGwj5GpJi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Evan Jones</name>
+        <role>Cheddar Bob</role>
+        <order>8</order>
+        <thumb>http://image.tmdb.org/t/p/w185/l3HyrWJQZtb6GMmljTfbDR0Ve65.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Omar Benson Miller</name>
+        <role>Sol George</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fHd0bvqXMv0MaT8rCRBmVQuycY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eugene Byrd</name>
+        <role>Wink</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/ab4zEcqdBSjpaz4CPQ2Z6q4rLmO.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mike Bell</name>
+        <role>Shorty Mike</role>
+        <order>11</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Xzibit</name>
+        <role>Mike</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/t2sIYECHIrLIF8X8mcJeqzm4S2f.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Proof</name>
+        <role>Lil&apos;Tic</role>
+        <order>13</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Strike</name>
+        <role>Lyckety-Splyt</role>
+        <order>14</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Nashawn &apos;Ox&apos; Breedlove</name>
+        <role>Lotto</role>
+        <order>15</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Miz-Korona</name>
+        <role>Female Lunch Truck Rapper</role>
+        <order>16</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Craig Chandler</name>
+        <role>Paul</role>
+        <order>17</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Larry Hudson</name>
+        <role>Bouncer</role>
+        <order>18</order>
+        <thumb></thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-09-19 11:57:28</dateadded>
+</movie>

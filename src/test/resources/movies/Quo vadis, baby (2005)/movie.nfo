@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:59:51 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Quo vadis, baby?</title>
+    <originaltitle>Quo vadis, baby?</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>5.9</rating>
+    <year>2005</year>
+    <top250></top250>
+    <votes>20</votes>
+    <outline>A private detective investigates her sister's suicide 16 years earlier.</outline>
+    <plot>A private detective investigates her sister's suicide 16 years earlier.</plot>
+    <tagline></tagline>
+    <runtime>105</runtime>
+    <thumb>http://image.tmdb.org/t/p/original/c2wEW5vuChKYRFwnEDWXBH7oP84.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/g00SVIdMfYA3cAi38jkgONjzerB.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <certification>NR</certification>
+    <id>tt0433028</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">41593</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">41593</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0433028</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0433028</value>
+        </entry>
+    </ids>
+    <tmdbId>41593</tmdbId>
+    <country>Italy</country>
+    <premiered>2005-05-27</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>XviD</codec>
+                <aspect>1.78</aspect>
+                <width>624</width>
+                <height>352</height>
+                <durationinseconds>5884</durationinseconds>
+            </video>
+            <audio>
+                <codec>MP3</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <studio></studio>
+    <credits>Grazia Verasani</credits>
+    <director>Gabriele Salvatores</director>
+    <actor>
+        <name>Angela Baraldi</name>
+        <role>Giorgia Cantini</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ndesVNpn7A8sGHk4CJiKRUJCj9B.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gigio Alberti</name>
+        <role>Andrea Berti</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6p9sclgR7wCQlOuHLUfULDEuWHp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Claudia Zanella</name>
+        <role>Ada Cantini</role>
+        <thumb>http://image.tmdb.org/t/p/w185/vPpRstZj0gRTXozskTlAB0p66j.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elio Germano</name>
+        <role>Lucio</role>
+        <thumb>http://image.tmdb.org/t/p/w185/epKbq02VwTuayddefj7yDkcp4ry.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andrea Renzi</name>
+        <role>Commissario Bruni</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rIS5nHBD077bXheoiRCoiYReNMf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Luigi Maria Burruano</name>
+        <role>Il capitano</role>
+        <thumb>http://image.tmdb.org/t/p/w185/suIrkyHXqiDznIghp4cZq0LR7Gf.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gennaro Diana</name>
+        <role>Giulio</role>
+        <thumb>http://image.tmdb.org/t/p/w185/d9iacLrG3JbFnyGIA2y5VvFToT1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bebo Storti</name>
+        <role>Lattice</role>
+        <thumb>http://image.tmdb.org/t/p/w185/72thV1ZKypWS0gREDkSwfrXaFGX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Stella Vordemann</name>
+        <role>The mother</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rJUWROVBZegtRIAN7YWqsR7mLxy.jpg</thumb>
+    </actor>
+    <languages>Italian</languages>
+    <tmdbid>41593</tmdbid>
+</movie>

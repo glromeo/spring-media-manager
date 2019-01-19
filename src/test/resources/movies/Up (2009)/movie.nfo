@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:44:15 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Up</title>
+    <originaltitle>Up</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>7.9</rating>
+    <year>2009</year>
+    <top250></top250>
+    <votes>10718</votes>
+    <outline>Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year...</outline>
+    <plot>Carl Fredricksen spent his entire life dreaming of exploring the globe and experiencing life to its fullest. But at age 78, life seems to have passed him by, until a twist of fate (and a persistent 8-year old Wilderness Explorer named Russell) gives him a new lease on life.</plot>
+    <tagline></tagline>
+    <runtime>96</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/gfFqBcoFW8uczyl2ytVmVmUg82k.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/2CKz3S4p8lVwnFzNTstW0CwAQu1.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <certification>US:PG / US:Rated PG</certification>
+    <id>tt1049413</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">14160</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt1049413</value>
+        </entry>
+    </ids>
+    <tmdbId>14160</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ORFWdXl_zJ4</trailer>
+    <country>US</country>
+    <premiered>2009-05-28</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1280</width>
+                <height>720</height>
+                <durationinseconds>5804</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language>eng</language>
+                <channels>6</channels>
+            </audio>
+            <subtitle>
+                <language>eng</language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Animation</genre>
+    <genre>Comedy</genre>
+    <genre>Family</genre>
+    <genre>Adventure</genre>
+    <studio>Pixar</studio>
+    <credits>Bob Peterson</credits>
+    <credits>Pete Docter</credits>
+    <credits>Tom McCarthy</credits>
+    <credits>Julie Lynn</credits>
+    <director>Pete Docter</director>
+    <tag>duringcreditsstinger</tag>
+    <actor>
+        <name>Ed Asner</name>
+        <role>Carl Fredricksen (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nUnDLli9zmGQu6UCEU3G4FUdYqQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jordan Nagai</name>
+        <role>Russell (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8UjtI2fYUTXFzqEGc7rDAgFiAm7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher Plummer</name>
+        <role>Charles F. Muntz (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fauMGxa6dc86nHNenQ8X6DlE6YV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bob Peterson</name>
+        <role>Dug / Alpha (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/13YNM8lBKnK26MYd2Lp3OpU6JdI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Delroy Lindo</name>
+        <role>Beta (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/uhjdTemc2kYbQj47bVqRb7OdVjH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jerome Ranft</name>
+        <role>Gamma (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/pmiQZq5JEhCjhdsIuMaP6Fkt0e9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John Ratzenberger</name>
+        <role>Construction Foreman Tom (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yGechiKWL6TJDfVE2KPSJYqdMsY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Kaye</name>
+        <role>Newsreel Announcer (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/b1HQg1uhAXo9L1suUbqAXN8iCSz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Elie Docter</name>
+        <role>Young Ellie (voice)</role>
+    </actor>
+    <actor>
+        <name>Jeremy Leary</name>
+        <role>Young Carl (voice)</role>
+    </actor>
+    <actor>
+        <name>Mickie McGowan</name>
+        <role>Police Officer Edith (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/k7TjJBfINsg8vLQxJwos6XObAD6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Danny Mann</name>
+        <role>Construction Worker Steve (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/28JtvJrUIcHM4s8HV84ncxPD7Uv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Donald Fullilove</name>
+        <role>Nurse George (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/dInPIKh7AfGLR1LT3aZnL8jPKwQ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Josh Cooley</name>
+        <role>Omega (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yctxPn9Nk0ACFuf4KRUbbeYSxjT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pete Docter</name>
+        <role>Campmaster Strauch (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/r6ngPgnReA3RHmKjmSoVsc6Awjp.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mark Andrews</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7rZMVDkuVzlSDyG9HWRdrPohaO3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Brenda Chapman</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/3wEdiMLQObBcBbtg131ZRQG2hfK.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emma Coats</name>
+        <role>Additional Voices (voice)</role>
+    </actor>
+    <actor>
+        <name>John Cygan</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/peq0EjfKWVDQ8Gr83v0UO1wuFn6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Paul Eiding</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/73yCY9QBAKqFilmVLXATsrIzL2Q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tony Fucile</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/jlSBVbXA5UAvQSOnmterUF3XQLn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Teresa Ganzel</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4cIwealxv1bizPJks34Gfk7okBF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sherry Lynn</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kQDSC2z7sb6S5HcpOH6cmeJokKE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Teddy Newton</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mftwTs5lza95kOyAZsrfNaqSFtv.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeff Pidgeon</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yLddkg5HcgbJg00cS13GVBnP0HY.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valerie LaPointe</name>
+        <role>Additional Voices (voice)</role>
+    </actor>
+    <actor>
+        <name>Jan Rabson</name>
+        <role>Additional Voices (voice)</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6mfE6PFzOlKb2Qf4dURbKzLrTTC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bob Scott</name>
+        <role>Additional Voices (voice)</role>
+    </actor>
+    <producer>
+        <name>Andrew Stanton</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/pvQWsu0qc8JFQhMVJkTHuexUAa1.jpg</thumb>
+    </producer>
+    <producer>
+        <name>John Lasseter</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7EdqiNbr4FRjIhKHyPPdFfEEEFG.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Jonas Rivera</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Denise Ream</name>
+        <role>Associate Producer</role>
+    </producer>
+    <producer>
+        <name>Kevin Reher</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Natalie Lyon</name>
+        <role>Casting</role>
+    </producer>
+    <producer>
+        <name>Mark Nielsen</name>
+        <role>Production Manager</role>
+    </producer>
+    <producer>
+        <name>Megan Albert</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Mickayela Jade Beatty</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Nancy Garretson Case</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Daniel Combs</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Marguerite Enright</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Rachel Ergas</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Heather Feng</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Timothy Glass</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Marc S. Greenberg</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Kaitlin Hendrick</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Kentaro Hinoki</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Heather D.C. Jackson</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Mark Joseph</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Jennifer M. McCormick</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Michelle Moretta</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Rosana Neciuk</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Tanya Oskanian</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Karen Perry</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Kristina Ruud</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Michelle Simons</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Marc Sondheimer</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Wendy Dale Tanzillo</name>
+        <role>Administration</role>
+    </producer>
+    <producer>
+        <name>Shari Villarde</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Deana Walker</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Annette Wang</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Sue Williams</name>
+        <role>Finance</role>
+    </producer>
+    <producer>
+        <name>Noah Newman</name>
+        <role>Post Production Coordinator</role>
+    </producer>
+    <languages>en</languages>
+    <source>BLURAY</source>
+</movie>

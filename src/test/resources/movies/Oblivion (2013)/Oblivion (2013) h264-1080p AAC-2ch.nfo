@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<movie>
+    <title>Oblivion</title>
+    <originaltitle>Oblivion</originaltitle>
+    <ratings>
+        <rating name="default" max="10" default="true">
+            <value>6.500000</value>
+            <votes>6231</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <outline>Jack Harper is one of the last few drone repairmen stationed on Earth.  Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission...</outline>
+    <plot>Jack Harper is one of the last few drone repairmen stationed on Earth.  Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete.  His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft.  Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.</plot>
+    <tagline>Earth is a memory worth fighting for</tagline>
+    <runtime>124</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/hmOzkHlkGvi8x24fYpFSnXvjklv.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/7B6uFvtTzDLr3wQLwgbH8zeBQB2.jpg</fanart>
+    <mpaa>Rated PG-13</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <id>tt1483013</id>
+    <uniqueid type="unknown" default="true">tt1483013</uniqueid>
+    <genre>Action</genre>
+    <genre>Science Fiction</genre>
+    <genre>Adventure</genre>
+    <genre>Mystery</genre>
+    <country>United States</country>
+    <credits>Joseph Kosinski</credits>
+    <credits>Karl Gajdusek</credits>
+    <credits>Michael Arndt</credits>
+    <director>Joseph Kosinski</director>
+    <premiered>2013-04-10</premiered>
+    <year>2013</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Universal Pictures</studio>
+    <studio>Relativity Media</studio>
+    <studio>Monolith Pictures (III)</studio>
+    <studio>Chernin Entertainment</studio>
+    <studio>Radical Studios</studio>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=dQ3Mt9yiz6k&amp;hd=1</trailer>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>2.400000</aspect>
+                <width>1920</width>
+                <height>808</height>
+                <durationinseconds>7482</durationinseconds>
+                <stereomode></stereomode>
+            </video>
+            <audio>
+                <codec>aac</codec>
+                <language>eng</language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <actor>
+        <name>Tom Cruise</name>
+        <role>Jack Harper</role>
+        <order>0</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3oWEuo0e8Nx8JvkqYCDec2iMY6K.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Morgan Freeman</name>
+        <role>Malcolm Beech</role>
+        <order>1</order>
+        <thumb>http://image.tmdb.org/t/p/w185/oGJQhOpT8S1M56tvSsbEBePV5O1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olga Kurylenko</name>
+        <role>Julia Rusakova Harper</role>
+        <order>2</order>
+        <thumb>http://image.tmdb.org/t/p/w185/zkOOwEzs0VhbK7t4PhqEZALEWeE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andrea Riseborough</name>
+        <role>Victoria Olsen</role>
+        <order>3</order>
+        <thumb>http://image.tmdb.org/t/p/w185/5Qi1DVUts9gahVpj1dCtspbwcAC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nikolaj Coster-Waldau</name>
+        <role>Sykes</role>
+        <order>4</order>
+        <thumb>http://image.tmdb.org/t/p/w185/3xv7t3Uyx4RNLB8MnPQMIhuRV9V.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Melissa Leo</name>
+        <role>Sally</role>
+        <order>5</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fcDdsUAyp7DZEi4UEzGXZEjXlUC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Zoë Bell</name>
+        <role>Kara</role>
+        <order>6</order>
+        <thumb>http://image.tmdb.org/t/p/w185/fDckmfcIrrdcOgyGifVF2FvQtiE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Abigail Lowe</name>
+        <role>Julia&apos;s Child</role>
+        <order>7</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>Isabelle Lowe</name>
+        <role>Julia&apos;s Child</role>
+        <order>8</order>
+        <thumb></thumb>
+    </actor>
+    <actor>
+        <name>David Madison</name>
+        <role>Grow Hall Survivor</role>
+        <order>9</order>
+        <thumb>http://image.tmdb.org/t/p/w185/iDdNORBzEC0fw37TMpO0uHYCaR7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>John L. Armijo</name>
+        <role>NASA Ground Control</role>
+        <order>10</order>
+        <thumb>http://image.tmdb.org/t/p/w185/c52EjlXyT7khV9Nb1sqvs7QlYta.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Fileena Bahris</name>
+        <role>Survivor</role>
+        <order>11</order>
+        <thumb>http://image.tmdb.org/t/p/w185/qDG1AzENETXMBLktPnQa1kVcHeP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joanne Bahris</name>
+        <role>Tourist</role>
+        <order>12</order>
+        <thumb>http://image.tmdb.org/t/p/w185/y0yFDqmgz44C5gPRMAqGH4JhwN0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andrew Breland</name>
+        <role>Survivor</role>
+        <order>13</order>
+        <thumb>http://image.tmdb.org/t/p/w185/a4ue52wKtwUQhDZEqpFkcNfRycE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lisa Raziano</name>
+        <role>Alien (uncredited)</role>
+        <order>14</order>
+        <thumb>http://image.tmdb.org/t/p/w185/tZQr3e6RJpsR8GRirGvgwzPLtgB.jpg</thumb>
+    </actor>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2015-09-14 00:25:52</dateadded>
+</movie>

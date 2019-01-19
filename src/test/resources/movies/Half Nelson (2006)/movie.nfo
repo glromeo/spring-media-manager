@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-19 00:28:09 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Half Nelson</title>
+    <originaltitle>Half Nelson</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.7</rating>
+    <year>2006</year>
+    <top250></top250>
+    <votes>359</votes>
+    <outline>Despite his dedication to the junior-high students who fill his classroom, idealistic teacher Dan Dunne leads a secret life of addiction that the majority of his students will never know. But things change...</outline>
+    <plot>Despite his dedication to the junior-high students who fill his classroom, idealistic teacher Dan Dunne leads a secret life of addiction that the majority of his students will never know. But things change when a troubled student Drey makes a startling discovery of his secret life, causing a tenuous bond between the two that could either end disastrously or provide a catalyst of hope.</plot>
+    <tagline>Secrets don't let go.</tagline>
+    <runtime>107</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/eWkthzAl4NSEFlKHo3FU36O6NYk.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/aJjv8ilvaf7kmN4Fy0Q1d0Ga2pq.jpg</fanart>
+    <mpaa>NR</mpaa>
+    <certification>NR</certification>
+    <id>tt0468489</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7859</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0468489</value>
+        </entry>
+    </ids>
+    <tmdbId>7859</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=BNdg2Ds3Fpw</trailer>
+    <country>US</country>
+    <premiered>2006-08-11</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.78</aspect>
+                <width>1280</width>
+                <height>714</height>
+                <durationinseconds>6421</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+        </streamdetails>
+    </fileinfo>
+    <watched>false</watched>
+    <playcount>0</playcount>
+    <genre>Drama</genre>
+    <studio>Hunting Lane Films</studio>
+    <studio>Journeyman Pictures</studio>
+    <studio>Original Media</studio>
+    <studio>Silverwood Films</studio>
+    <studio>Traction Media</studio>
+    <credits>Ryan Fleck</credits>
+    <credits>Anna Boden</credits>
+    <director>Ryan Fleck</director>
+    <actor>
+        <name>Ryan Gosling</name>
+        <role>Dan Dunne</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5rOcicCrTCWye0O2S3dnbnWaCr1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Shareeka Epps</name>
+        <role>Drey</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5zzj5SsssfVsf9e9NGNxdlqCgD3.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Anthony Mackie</name>
+        <role>Frank</role>
+        <thumb>http://image.tmdb.org/t/p/w185/5VGGJ0Co8SC94iiedWb2o3C36T.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jeff Lima</name>
+        <role>Roodly</role>
+        <thumb>http://image.tmdb.org/t/p/w185/rxMSUrez7YMY4zYlCuM7wrL6Enx.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Monique Gabriela Curnen</name>
+        <role>Isabel</role>
+        <thumb>http://image.tmdb.org/t/p/w185/tGkF4p04DvcQuWBfYu16vvBvPTt.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tina Holmes</name>
+        <role>Rachel</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nCBIgbWELfQL3Y8UlE9WQppXzfX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nathan Corbett</name>
+        <role>Terrance</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iZPZ4J4GGyiIYKPFZ6cea1PZk2d.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tyra Kwao-Vovo</name>
+        <role>Stacy</role>
+    </actor>
+    <actor>
+        <name>Rosemary Ledee</name>
+        <role>Gina</role>
+    </actor>
+    <actor>
+        <name>Tristan Mack Wilds</name>
+        <role>Jamal</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zf7y7LXf7BhZX3thEeTeyUq9Zc8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bryce Silver</name>
+        <role>Bernard</role>
+    </actor>
+    <actor>
+        <name>Kaela C. Pabon</name>
+        <role>Lena</role>
+    </actor>
+    <actor>
+        <name>Erica Rivera</name>
+        <role>Erika</role>
+    </actor>
+    <actor>
+        <name>Stephanie Bast</name>
+        <role>Vanessa</role>
+        <thumb>http://image.tmdb.org/t/p/w185/aM5FZYgeHAJPIBPnChCTBlqn24f.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eleanor Hutchins</name>
+        <role>Simone</role>
+        <thumb>http://image.tmdb.org/t/p/w185/cKceiXyX0eN9NNQZfMtiO2wNPPN.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sebastian Sozzi</name>
+        <role>Javier</role>
+        <thumb>http://image.tmdb.org/t/p/w185/1GmrndqoAqieJcASuKUuueY4MLJ.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Karen Chilton</name>
+        <role>Karen</role>
+        <thumb>http://image.tmdb.org/t/p/w185/feel6tLE5ZCj9mUvJGJf0r6Uwhk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Starla Benford</name>
+        <role>Principal Henderson</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4pIyjtjm7oKDxfTxuUOgtyjq4Wg.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Denis O'Hare</name>
+        <role>Jimbo</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6NlYnzkp8QMfADWRNYNj6xAWes4.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deidre Goodwin</name>
+        <role>Tina</role>
+        <thumb>http://image.tmdb.org/t/p/w185/zXs9Khvfuy0mSoy3B0HfOHRybHn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Collins Pennie</name>
+        <role>Mike</role>
+        <thumb>http://image.tmdb.org/t/p/w185/9lKwGlSlxNZJHcByOjyRQCEjvMu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deborah Rush</name>
+        <role>Jo Dunne</role>
+        <thumb>http://image.tmdb.org/t/p/w185/68JfXOKiUsiZ9mQAt14RRNb28tS.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jay O. Sanders</name>
+        <role>Russ Dunne</role>
+        <thumb>http://image.tmdb.org/t/p/w185/wgCFAatAtmfN5zWgwzGgA48wwXu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>David Easton</name>
+        <role>Jeff Dunne</role>
+    </actor>
+    <actor>
+        <name>Nicole Vicius</name>
+        <role>Cindy</role>
+        <thumb>http://image.tmdb.org/t/p/w185/2OKvTQ88GM4O6FhERXnq3benmk4.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Raymond Anthony Thomas</name>
+        <role>Earle</role>
+        <thumb>http://image.tmdb.org/t/p/w185/v0zul8qOY8Ksx8GREe38zvlZSCo.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ron Cephas Jones</name>
+        <role>Mr. Dickinson</role>
+        <thumb>http://image.tmdb.org/t/p/w185/lFsBD2OjBEqTcGdq7bL7yKhNYID.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Christopher Williamson</name>
+        <role>Charles</role>
+    </actor>
+    <actor>
+        <name>Leslie Eva Glaser</name>
+        <role>Rose</role>
+        <thumb>http://image.tmdb.org/t/p/w185/upAvNzNtEICpXE9QG5m7gXcltiI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sharon Washington</name>
+        <role>Suzanne</role>
+        <thumb>http://image.tmdb.org/t/p/w185/gMBq9hhcpudhWHuVJmRXYRP1EBq.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Matt Kerr</name>
+        <role>Mr. Light</role>
+    </actor>
+    <actor>
+        <name>Adepero Oduye</name>
+        <role>Crack Smoker</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yjjMItiMdF62P1Agkq2S0vNdBJn.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Thaddeus Daniels</name>
+        <role>Referee</role>
+    </actor>
+    <actor>
+        <name>Susan Kerner</name>
+        <role>Motel Slow Dancer</role>
+    </actor>
+    <actor>
+        <name>Stanton Davis</name>
+        <role>Trumpet Player</role>
+    </actor>
+    <actor>
+        <name>Katie Nehra</name>
+        <role>Woman with Camera</role>
+        <thumb>http://image.tmdb.org/t/p/w185/7gcl1Mw8kyER4rb7Vf19W60zGH7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Steve Kursh</name>
+        <role>Man on Bed</role>
+    </actor>
+    <producer>
+        <name>Anna Boden</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/h5YMXdI42zb0uqn5UJHF4fT9AER.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Charles Corwin</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Doug Dey</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Hunter Gray</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Lynette Howell</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Rosanne Korenberg</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qpWY49CNjwWFo21seB8QTOPnHvu.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Scott London</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Clara Markowicz</name>
+        <role>Executive Producer</role>
+    </producer>
+    <producer>
+        <name>Paul S. Mezey</name>
+        <role>Executive Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/iBPwGmdPj51MDX4vkDrvR5sjJpG.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Alex Orlovsky</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Jamie Patricof</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Jeremy Kipp Walker</name>
+        <role>Producer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/nOvgl8GkdAM5dolHQem2urf8uSC.jpg</thumb>
+    </producer>
+    <producer>
+        <name>Eyde Belasco</name>
+        <role>Casting</role>
+    </producer>
+    <languages>en</languages>
+    <source>BLURAY</source>
+</movie>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- created on 2018-11-17 13:57:25 - tinyMediaManager 2.9.13 -->
+<movie>
+    <title>Napoleon Dynamite</title>
+    <originaltitle>Napoleon Dynamite</originaltitle>
+    <sorttitle></sorttitle>
+    <rating>6.8</rating>
+    <year>2004</year>
+    <top250></top250>
+    <votes>819</votes>
+    <outline>A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.</outline>
+    <plot>A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.</plot>
+    <tagline>He's out to prove he's got nothing to prove.</tagline>
+    <runtime>95</runtime>
+    <thumb>http://image.tmdb.org/t/p/w500/s0yuDUKiAJNl5XkO9OT4aFwnA3I.jpg</thumb>
+    <fanart>http://image.tmdb.org/t/p/original/Ac1DJFbYXWANxO59l1uabUcYQT0.jpg</fanart>
+    <mpaa>Rated PG</mpaa>
+    <certification>US:PG / US:Rated PG</certification>
+    <id>tt0374900</id>
+    <ids>
+        <entry>
+            <key>tmdb</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8193</value>
+        </entry>
+        <entry>
+            <key>tmdbId</key>
+            <value xsi:type="xs:int" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8193</value>
+        </entry>
+        <entry>
+            <key>imdb</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0374900</value>
+        </entry>
+        <entry>
+            <key>imdbId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tt0374900</value>
+        </entry>
+    </ids>
+    <tmdbId>8193</tmdbId>
+    <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=yeeQOZQq6Fw</trailer>
+    <country>United States</country>
+    <premiered>2004-06-11</premiered>
+    <fileinfo>
+        <streamdetails>
+            <video>
+                <codec>h264</codec>
+                <aspect>1.85</aspect>
+                <width>1280</width>
+                <height>688</height>
+                <durationinseconds>5694</durationinseconds>
+            </video>
+            <audio>
+                <codec>AAC</codec>
+                <language></language>
+                <channels>2</channels>
+            </audio>
+            <subtitle>
+                <language></language>
+            </subtitle>
+        </streamdetails>
+    </fileinfo>
+    <watched>true</watched>
+    <playcount>1</playcount>
+    <genre>Comedy</genre>
+    <studio>MTV Films</studio>
+    <studio>Access Films</studio>
+    <studio>Napoleon Pictures Limited</studio>
+    <studio>Carnival Films</studio>
+    <studio>Fox Searchlight Pictures</studio>
+    <studio>Paramount</studio>
+    <credits>Jared Hess</credits>
+    <credits>Jerusha Hess</credits>
+    <director>Jared Hess</director>
+    <tag>aftercreditsstinger</tag>
+    <actor>
+        <name>Jon Heder</name>
+        <role>Napoleon Dynamite</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8UfmspCK5eSRULHyqUzWrKLC0t5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Aaron Ruell</name>
+        <role>Kip Dynamite</role>
+        <thumb>http://image.tmdb.org/t/p/w185/8YM46p3eUBOSqkFRkRu7Tp0ZooW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jon Gries</name>
+        <role>Uncle Rico</role>
+        <thumb>http://image.tmdb.org/t/p/w185/yNhP4IZCMN10duIYKdHUFt8mJCU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Efren Ramirez</name>
+        <role>Pedro Sanchez</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4CXN9757efZDTDlV0UdeHLoCNEA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Shondrella Avery</name>
+        <role>LaFawnduh</role>
+        <thumb>http://image.tmdb.org/t/p/w185/6P9AsRhvvb6imfcTrzpZSplw9pM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Haylie Duff</name>
+        <role>Summer</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kj6OFNyP6022rRjitd7Ygv60STu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tina Majorino</name>
+        <role>Deb</role>
+        <thumb>http://image.tmdb.org/t/p/w185/kGzCUaPddOm84cRlExLKOvZEoqP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Diedrich Bader</name>
+        <role>Rex</role>
+        <thumb>http://image.tmdb.org/t/p/w185/ek6c21ennQEMXCJwTvKnPkGn60C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sandy Martin</name>
+        <role>Grandma</role>
+        <thumb>http://image.tmdb.org/t/p/w185/l7vi9wIV8yZOdv8y5h7cpFXVPRU.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Trevor Snarr</name>
+        <role>Don</role>
+        <thumb>http://image.tmdb.org/t/p/w185/qo2V4L8Y73Ly1pT1oOklYJfA9uk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Emily Dunn</name>
+        <role>Trisha</role>
+        <thumb>http://image.tmdb.org/t/p/w185/mGcHhEp1Bzx5MI1jk0pbW3GXXCC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ellen Dubin</name>
+        <role>Ilene</role>
+        <thumb>http://image.tmdb.org/t/p/w185/4vPzlZMDivVrOEbMLSq9NWlUyan.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Samantha Marsden</name>
+        <role>School Kid</role>
+        <thumb>http://image.tmdb.org/t/p/w185/fuCdwQNAcKwrzPNaiEf6J0yHcZQ.jpg</thumb>
+    </actor>
+    <producer>
+        <name>Sean Covel</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Jeremy Coon</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Chris Wyatt</name>
+        <role>Producer</role>
+    </producer>
+    <producer>
+        <name>Jory Weitz</name>
+        <role>Casting</role>
+    </producer>
+    <languages>English</languages>
+    <tmdbid>8193</tmdbid>
+</movie>
