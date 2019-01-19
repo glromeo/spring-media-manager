@@ -95,12 +95,19 @@ export function fetchMediaIfNeeded(searchFilters) {
     }
 }
 
-export const SELECT_MOVIE = Symbol.for("SELECT_MOVIE");
+export const SELECT_MEDIA = Symbol.for("SELECT_MEDIA");
+export const CLEAR_MEDIA_SELECTION = Symbol.for("CLEAR_MEDIA_SELECTION");
 
-export function selectMovie(movie) {
+export function selectMedia(media) {
     return {
-        type: SELECT_MOVIE,
-        movie
+        type: SELECT_MEDIA,
+        media: media
+    }
+}
+
+export function clearMediaSelection() {
+    return {
+        type: CLEAR_MEDIA_SELECTION
     }
 }
 

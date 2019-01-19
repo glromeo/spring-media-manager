@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {fetchMediaIfNeeded} from "./redux/actions";
+import {fetchMediaIfNeeded, selectMedia} from "./redux/actions";
 import {List, WindowScroller} from "react-virtualized";
 import Movie from "./Movie";
 import "./Movies.scss";
@@ -10,7 +10,8 @@ class Movies extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            list: []
+            list: [],
+            selected: null
         };
         this.listRef = React.createRef();
         this.renderRow = this.renderRow.bind(this);
@@ -22,22 +23,25 @@ class Movies extends Component {
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
-        if (this.props.searchFilters !== prevProps.searchFilters) {
-            const {dispatch, searchFilters} = this.props;
+        const {dispatch, searchFilters, selected} = this.props;
+        if (searchFilters !== prevProps.searchFilters) {
             dispatch(fetchMediaIfNeeded(searchFilters));
+        }
+        if (selected !== prevProps.selected) {
+            this.setState({selected});
+            this.listRef.current.forceUpdateGrid();
         }
     }
 
     renderRow({index, isScrolling, key, style}) {
-        const {list} = this.props;
+        const {dispatch, list} = this.props;
         const {selected} = this.state;
         const media = list[index];
         const {movie, metadata} = media;
         return (
             <div key={key} className={selected === media ? "Media selected" : "Media"} style={style}
                  onClick={({event}) => {
-                     this.setState({selected: media});
-                     this.listRef.current.forceUpdateGrid();
+                     dispatch(selectMedia(media));
                  }}>{movie ? (
                 <Movie movie={movie} metadata={metadata}/>
             ) : (
@@ -77,9 +81,10 @@ class Movies extends Component {
 
 export default connect(function (state) {
     const {media} = state;
-    const {isFetching, list = []} = media;
+    const {isFetching, list = [], selected} = media;
     return {
         isFetching,
-        list
+        list,
+        selected
     };
 })(Movies);

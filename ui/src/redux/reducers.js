@@ -1,5 +1,5 @@
 import {combineReducers} from "redux";
-import {FETCHED_GENRES, FETCHED_MEDIA, FETCHING_GENRES, FETCHING_MEDIA} from "./actions";
+import {FETCHED_GENRES, FETCHED_MEDIA, FETCHING_GENRES, FETCHING_MEDIA, SELECT_MEDIA} from "./actions";
 
 function Reducer(target) {
     return function (state = {}, action) {
@@ -18,6 +18,10 @@ const media = Reducer({
         isFetching: false,
         list: action.media,
         lastUpdated: action.receivedAt
+    }),
+
+    [SELECT_MEDIA]: (state, action) => ({
+        selected: state.selected === action.media ? null : action.media
     })
 
 });
