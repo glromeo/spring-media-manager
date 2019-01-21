@@ -1,18 +1,21 @@
 import React, {Component} from "react";
-
+import {CSSTransition, TransitionGroup,} from 'react-transition-group';
 import "./SearchPane.scss";
 import {connect} from "react-redux";
-import {fetchMediaIfNeeded, fetchMovieGenres} from "./redux/actions";
+import {applySearch, fetchMovieGenres} from "./redux/actions";
 
 class SearchPane extends Component {
 
     constructor(props, context) {
         super(props, context);
         this.state = {
+            search: "",
             searchFocused: false,
             imageWidth: "50%"
         };
         this.searchPane = React.createRef();
+        this.searchChange = this.searchChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     componentDidMount() {
@@ -21,14 +24,23 @@ class SearchPane extends Component {
     }
 
     componentWillUpdate(nextProps, nextState, nextContext) {
-        let allowedHeight = this.searchPane.current.parentElement.clientHeight;
-        if (allowedHeight !== nextState.allowedHeight) {
-            this.setState({allowedHeight});
+        nextState.allowedHeight = this.searchPane.current.parentElement.clientHeight;
+        if (nextProps.search !== this.props.search) {
+            nextState.search = nextProps.search || "";
         }
     }
 
+    searchChange(event) {
+        this.setState({search: event.target.value});
+    }
+
+    handleSubmit(event) {
+        this.props.dispatch(applySearch(this.state.search));
+        event.preventDefault();
+    }
+
     render() {
-        const {searchFocused, allowedHeight, movieGenres} = this.state;
+        const {searchFocused, allowedHeight} = this.state;
         const {genres, maxHeight} = this.props;
         return (
             <div className="SearchPane" ref={this.searchPane} style={{height: maxHeight}}>
@@ -39,11 +51,13 @@ class SearchPane extends Component {
                 </div>
                 <div className="SearchSection mx-2">
                     {(allowedHeight <= 68) && (<div className="MovieTicketsImage"/>)}
-                    <form className="SearchBar">
+                    <form className="SearchBar" onSubmit={this.handleSubmit}>
                         <div className="form-group">
-                            <input className="form-control" type="text" aria-describedby="movieSearch"
+                            <input className="form-control" type="text" name="searchBar" aria-describedby="searchBar"
                                    onFocus={() => this.setState({searchFocused: true})}
                                    onBlur={() => this.setState({searchFocused: false})}
+                                   value={this.state.search}
+                                   onChange={this.searchChange}
                                    placeholder="search movie..."/>
                             <svg data-icon="search" role="img" aria-hidden="true" viewBox="0 0 512 512"
                                  className={searchFocused ? "focused" : ""}>
@@ -58,12 +72,18 @@ class SearchPane extends Component {
                     {(allowedHeight > 68) && (
                         <div className="Genres">
                             <div>
-                                {genres.map(genre => (
-                                    <button key={genre.id} type="button" style={{fontSize: '1em'}}
-                                            className="btn btn-outline-success m-1">{genre.name}
-                                        <span className="badge badge-pill badge-dark ml-2">{genre.count || 0}</span>
-                                    </button>
-                                ))}
+                                <TransitionGroup className="genres-group">
+                                    {genres.map(genre => (
+                                        <CSSTransition key={genre.id} timeout={500} classNames="fade">
+                                            <button type="button" style={{fontSize: '1em'}} className="btn btn-outline-success m-1">
+                                                {genre.name}
+                                                <span className="badge badge-pill badge-dark ml-2">
+                                                    {genre.count || 0} / {genre.total || 0}
+                                                </span>
+                                            </button>
+                                        </CSSTransition>
+                                    ))}
+                                </TransitionGroup>
                             </div>
                         </div>
                     )}
@@ -74,9 +94,10 @@ class SearchPane extends Component {
 }
 
 export default connect(function (state) {
-    const {genre} = state;
-    const {list: genres = []} = genre;
+    const {genre, search} = state;
+    const {visible = []} = genre;
     return {
-        genres
+        genres: visible,
+        search: search.text
     }
 })(SearchPane);

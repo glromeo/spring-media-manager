@@ -1,6 +1,5 @@
 package org.codebite.springmediamanager;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.data.Movie;
 import org.codebite.springmediamanager.data.elasticsearch.MovieIndexer;
@@ -14,14 +13,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-// import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-import javax.annotation.PostConstruct;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 
 import static java.util.Arrays.asList;
+
+// import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
 @EnableConfigurationProperties(AppProperties.class)

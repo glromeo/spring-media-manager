@@ -6,7 +6,7 @@ import Header from "./Header";
 import SearchPane from "./SearchPane";
 import Movies from "./Movies";
 
-import {connect, Provider} from "react-redux";
+import {Provider} from "react-redux";
 import store from "./redux/store";
 
 import './App.scss';
@@ -42,7 +42,7 @@ class App extends Component {
         let {listWidth, headerHeight, scrollTop} = this.state;
         return (
             <Provider store={store}>
-                <div className="App" style={{paddingTop: headerHeight}}>
+                <div className="App" style={{paddingTop: '50vh'}}>
                     <BrowserRouter>
                         <div>
                             <Header scrollTop={scrollTop}

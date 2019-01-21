@@ -37,7 +37,7 @@ public class PosterController {
     @PutMapping("/poster/{movieId}")
     @ResponseBody
     public void save(@PathVariable Long movieId) {
-        Poster poster = imageService.getPoster(movieService.movie(movieId));
+        Poster poster = imageService.getPoster(movieService.movie(movieId).getInfo());
         posterRepository.save(poster);
     }
 

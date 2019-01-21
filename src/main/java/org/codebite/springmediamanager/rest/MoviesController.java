@@ -3,14 +3,10 @@ package org.codebite.springmediamanager.rest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.AppProperties;
-import org.codebite.springmediamanager.data.MovieGenres;
-import org.codebite.springmediamanager.data.Media;
-import org.codebite.springmediamanager.data.Movie;
+import org.codebite.springmediamanager.data.*;
 import org.codebite.springmediamanager.data.mongodb.MediaRepository;
 import org.codebite.springmediamanager.data.tmdb.Configuration;
 import org.codebite.springmediamanager.data.tmdb.MovieService;
-import org.codebite.springmediamanager.data.tmdb.MovieService.MovieSearchParams;
-import org.codebite.springmediamanager.data.tmdb.MovieService.SearchResult;
 import org.codebite.springmediamanager.media.MediaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,8 +20,6 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 
-import static java.util.stream.StreamSupport.stream;
-
 @Controller
 @Slf4j
 public class MoviesController {
@@ -38,7 +32,7 @@ public class MoviesController {
 
     @GetMapping("/configuration")
     @ResponseBody
-    public Configuration getTmdbConfiguration() {
+    public Configuration getConfiguration() {
         return movieService.configuration();
     }
 
@@ -66,7 +60,7 @@ public class MoviesController {
 
     @GetMapping("/search/movie")
     @ResponseBody
-    public SearchResult searchMovieInfo(
+    public MovieSearchResult searchMovieInfo(
             @RequestParam(name = "title") String title,
             @RequestParam Map<String, String> parameters
     ) {

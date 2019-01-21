@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,7 +27,7 @@ public class Collection implements Serializable {
     @Builder
     public static class Part implements Serializable {
         @JsonProperty("adult")
-        public boolean adult;
+        public Boolean adult;
         @JsonProperty("backdrop_path")
         public String backdropPath;
         @JsonProperty("genre_ids")
@@ -41,17 +41,17 @@ public class Collection implements Serializable {
         @JsonProperty("overview")
         public String overview;
         @JsonProperty("release_date")
-        public String releaseDate;
+        public LocalDate releaseDate;
         @JsonProperty("poster_path")
         public String posterPath;
         @JsonProperty("popularity")
-        public BigDecimal popularity;
+        public Number popularity;
         @JsonProperty("title")
         public String title;
         @JsonProperty("video")
         public Boolean video;
         @JsonProperty("vote_average")
-        public BigDecimal voteAverage;
+        public Number voteAverage;
         @JsonProperty("vote_count")
         public Long voteCount;
     }

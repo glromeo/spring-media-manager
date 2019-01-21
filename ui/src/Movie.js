@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
+import Highlighter from "react-highlight-words";
 
 import "./Movie.scss";
 
+const EMPTY_ARRAY = [];
+
 class Movie extends Component {
 
+    constructor(props, context) {
+        super(props, context);
+    }
+
     render() {
-        let {movie, metadata} = this.props;
+        let {movie, metadata, searchWords = EMPTY_ARRAY} = this.props;
         return (
             <div className="Movie">
                 <div className="Poster">
@@ -14,7 +21,11 @@ class Movie extends Component {
                 </div>
                 <div className="Details">
                     <div className="Title">
-                        <div>{movie.title}</div>
+                        <div><Highlighter
+                            highlightClassName="p-0"
+                            searchWords={searchWords}
+                            textToHighlight={movie.title}
+                        /></div>
                         <div>({movie.release_date && movie.release_date.substring(0, 4)})</div>
                     </div>
                     <div className="Overview">

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 @AllArgsConstructor
@@ -22,7 +22,7 @@ public class Movie implements Serializable {
     public Long id;
 
     @JsonProperty("adult")
-    public boolean adult;
+    public Boolean adult;
 
     @JsonProperty("backdrop_path")
     public String backdropPath;
@@ -31,7 +31,7 @@ public class Movie implements Serializable {
     public Collection belongsToCollection;
 
     @JsonProperty("budget")
-    public BigDecimal budget;
+    public Number budget;
 
     @JsonProperty("genres")
     public List<Genre> genres;
@@ -52,7 +52,7 @@ public class Movie implements Serializable {
     public String overview;
 
     @JsonProperty("popularity")
-    public String popularity;
+    public Number popularity;
 
     @JsonProperty("poster_path")
     public String posterPath;
@@ -64,13 +64,13 @@ public class Movie implements Serializable {
     public List<ProductionCountry> productionCountries;
 
     @JsonProperty("release_date")
-    public String releaseDate;
+    public LocalDate releaseDate;
 
     @JsonProperty("revenue")
-    public BigDecimal revenue;
+    public Number revenue;
 
     @JsonProperty("runtime")
-    public String runtime;
+    public Number runtime;
 
     @JsonProperty("spoken_languages")
     public List<SpokenLanguage> spokenLanguages;
@@ -85,11 +85,30 @@ public class Movie implements Serializable {
     public String title;
 
     @JsonProperty("video")
-    public boolean video;
+    public Boolean video;
 
     @JsonProperty("vote_average")
-    public Double voteAverage;
+    public Number voteAverage;
 
     @JsonProperty("vote_count")
-    public Long voteCount;
+    public Integer voteCount;
+
+    public MovieInfo getInfo() {
+        return MovieInfo.builder()
+                .id(id)
+                .posterPath(posterPath)
+                .adult(adult)
+                .overview(overview)
+                .releaseDate(releaseDate)
+                .genreIds(genres.stream().map(genre -> genre.id).toArray(Long[]::new))
+                .originalTitle(originalTitle)
+                .originalLanguage(originalLanguage)
+                .title(title)
+                .backdropPath(backdropPath)
+                .popularity(popularity)
+                .voteCount(voteCount)
+                .video(video)
+                .voteAverage(voteAverage)
+                .build();
+    }
 }

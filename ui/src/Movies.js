@@ -34,7 +34,7 @@ class Movies extends Component {
     }
 
     renderRow({index, isScrolling, key, style}) {
-        const {dispatch, list} = this.props;
+        const {dispatch, list, searchWords} = this.props;
         const {selected} = this.state;
         const media = list[index];
         const {movie, metadata} = media;
@@ -43,7 +43,7 @@ class Movies extends Component {
                  onClick={({event}) => {
                      dispatch(selectMedia(media));
                  }}>{movie ? (
-                <Movie movie={movie} metadata={metadata}/>
+                <Movie movie={movie} metadata={metadata} searchWords={searchWords}/>
             ) : (
                 <div className="Unknown">
                     <div className="Letter" style={{backgroundColor: media.color}}>{media.letter || '?'}</div>
@@ -80,11 +80,13 @@ class Movies extends Component {
 }
 
 export default connect(function (state) {
-    const {media} = state;
-    const {isFetching, list = [], selected} = media;
+    const {media, search} = state;
+    const {isFetching, visible: list = [], selected} = media;
+    const searchWords = search.text ? [new RegExp(search.text, "i")] : [];
     return {
         isFetching,
         list,
-        selected
+        selected,
+        searchWords
     };
 })(Movies);

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -29,21 +30,28 @@ import static org.springframework.http.HttpMethod.GET;
 @Slf4j
 public class ApiClient {
 
-    public static final String BASE_URL = "https://api.themoviedb.org/3";
+    @Value("${tmdb.api.baseUrl}")
+    public String baseUrl;
 
-    public static final String API_KEY = "150dc7265c37ec9e671958360d92dcf6";
-    public static final String READ_ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNTBkYzcyNjVjMzdlYzllNjcxOTU4MzYwZDkyZGNmNiIsInN1YiI6IjUwNjhkMWFlMTljMjk1NjM2YTAwMGMxNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IOqvjPGd9cNMHU2Fu-txw7VMPbbh9AFsGF-Xg-0HEew";
+    @Value("${tmdb.api.key}")
+    public String apiKey;
+
+    @Value("${tmdb.api.readAccessToken}")
+    public String readAccessToken;
 
     private static final long MAX_SLEEP_TIME_MILLIS = 10_000L;
-
-    @Autowired
-    private RestTemplate restTemplate;
 
     private Semaphore semaphore = new Semaphore(30, true);
     private ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
 
+    private final RestTemplate restTemplate;
+    private final ObjectMapper objectMapper;
+
     @Autowired
-    private ObjectMapper objectMapper;
+    public ApiClient(RestTemplate restTemplate, ObjectMapper objectMapper) {
+        this.restTemplate = restTemplate;
+        this.objectMapper = objectMapper;
+    }
 
     public <T> List<T> list(String url, Class<T> type, Object... urlVars) {
         String json = get(url, String.class, urlVars);
@@ -53,8 +61,8 @@ public class ApiClient {
 
     public <T> T get(String url, Class<T> type, Object... urlVars) {
 
-        final String finalUrl = BASE_URL + url + (url.indexOf('?') > 0 ? '&' : '?') + "api_key={api_key}";
-        final Object[] finalUrlVars = appendUrlVars(urlVars, API_KEY);
+        final String finalUrl = baseUrl + url + (url.indexOf('?') > 0 ? '&' : '?') + "api_key={api_key}";
+        final Object[] finalUrlVars = appendUrlVars(urlVars, apiKey);
 
         int attempt = 1;
         while (true) try {

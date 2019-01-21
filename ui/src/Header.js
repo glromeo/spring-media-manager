@@ -32,7 +32,7 @@ class Header extends Component {
         return (
             <div className={(scrollTop === 0 ? "Header" : "Header scrolling")} style={{maxHeight}}>
                 {children({maxHeight})}
-                <ReactResizeDetector handleWidth handleHeight onResize={this.onResize}/>
+                <ReactResizeDetector handleWidth handleHeight onResize={this.onResize} />
             </div>
         );
     }

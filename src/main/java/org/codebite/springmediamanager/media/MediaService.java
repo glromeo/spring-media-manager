@@ -3,6 +3,7 @@ package org.codebite.springmediamanager.media;
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.data.Media;
 import org.codebite.springmediamanager.data.Movie;
+import org.codebite.springmediamanager.data.MovieInfo;
 import org.codebite.springmediamanager.data.mongodb.BackdropRepository;
 import org.codebite.springmediamanager.data.mongodb.PosterRepository;
 import org.codebite.springmediamanager.data.tmdb.ImageService;
@@ -42,11 +43,11 @@ public class MediaService {
      * @param paths
      * @return
      */
-    public Iterable<Media> discover(Iterable<Path> paths) throws IOException {
-        return ()->new AsyncIterator<Media>(consumer -> {
+    public Iterable<Media> discover(Iterable<Path> paths) {
+        return ()-> new AsyncIterator<>(consumer -> {
             try {
                 scan(paths, metadata -> {
-                    Movie movie = movieService.findMovie(plausibleTitle(metadata));
+                    MovieInfo movie = movieService.findMovie(plausibleTitle(metadata));
                     if (movie != null) {
                         fetchImages(movie);
                     }
@@ -76,7 +77,7 @@ public class MediaService {
     @Autowired
     ImageService imageService;
 
-    private void fetchImages(Movie movie) {
+    private void fetchImages(MovieInfo movie) {
         log.info("Fetching images for: #{} {}", movie.id, movie.title);
         if (!posterRepository.existsById(movie.id)) {
             posterRepository.save(imageService.getPoster(movie));
@@ -179,7 +180,7 @@ public class MediaService {
         }
     }
 
-    void supplyPaths(PrintWriter stdin, Iterable<Path> paths) {
+    private void supplyPaths(PrintWriter stdin, Iterable<Path> paths) {
         stdin.println("perl " + EXIFTOOL_PATH + " -stay_open true -@ -");
         stdin.println("-ver");
         stdin.println("-execute");

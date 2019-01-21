@@ -49,7 +49,7 @@ export const FETCHING_GENRES = Symbol("FETCHING_GENRES");
 export const FETCHED_GENRES = Symbol("FETCHED_GENRES");
 
 export function fetchMovieGenres() {
-    return dispatch => {
+    return (dispatch, getState) => {
         dispatch({type: FETCHING_GENRES});
         return fetch("/api/genre/movie/list", {method: "GET", headers})
             .then(response => response.json())
@@ -57,7 +57,8 @@ export function fetchMovieGenres() {
                 type: FETCHED_GENRES,
                 genres: json.genres,
                 receivedAt: Date.now()
-            }));
+            }))
+            .then(() => dispatch(applySearch(getState().search.text)));
     }
 }
 
@@ -65,7 +66,7 @@ export const FETCHING_MEDIA = Symbol("FETCHING_MEDIA");
 export const FETCHED_MEDIA = Symbol("FETCHED_MEDIA");
 
 function fetchMedia(searchFilters) {
-    return dispatch => {
+    return (dispatch, getState) => {
         dispatch({type: FETCHING_MEDIA, searchFilters});
         return fetch("/api/media", {method: "GET", headers})
             .then(response => response.json())
@@ -79,7 +80,8 @@ function fetchMedia(searchFilters) {
                     };
                 }),
                 receivedAt: Date.now()
-            }));
+            }))
+            .then(() => dispatch(applySearch(getState().search.text)));
     }
 }
 
@@ -111,3 +113,11 @@ export function clearMediaSelection() {
     }
 }
 
+export const APPLY_SEARCH = Symbol.for("APPLY_SEARCH");
+
+export function applySearch(search = "") {
+    return {
+        type: APPLY_SEARCH,
+        search: search
+    }
+}

@@ -37,7 +37,7 @@ public class BackdropController {
     @PutMapping("/backdrop/{movieId}")
     @ResponseBody
     public void save(@PathVariable Long movieId) {
-        Backdrop backdrop = imageService.getBackdrop(movieService.movie(movieId));
+        Backdrop backdrop = imageService.getBackdrop(movieService.movie(movieId).getInfo());
         backdropRepository.save(backdrop);
     }
 
