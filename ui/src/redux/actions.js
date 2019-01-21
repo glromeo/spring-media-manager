@@ -76,7 +76,7 @@ function fetchMedia(searchFilters) {
                 media: list.map(function (entry) {
                     return {
                         ...entry,
-                        color: entry.movie ? colors[Math.floor(Math.random() * (colors.length))].value : "#FF0000"
+                        color: colors[Math.floor(Math.random() * (colors.length))].value
                     };
                 }),
                 receivedAt: Date.now()

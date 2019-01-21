@@ -46,7 +46,7 @@ class Movies extends Component {
                 <Movie movie={movie} metadata={metadata} searchWords={searchWords}/>
             ) : (
                 <div className="Unknown">
-                    <div className="Letter" style={{backgroundColor: media.color}}>{media.letter || '?'}</div>
+                    <div className="Letter" style={{backgroundColor: media.color}}>{media.path.charAt(3) || '?'}</div>
                     <div className="Info">{media.path}</div>
                 </div>
             )}

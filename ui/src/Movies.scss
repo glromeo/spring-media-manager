@@ -18,13 +18,16 @@
       flex-direction: row;
 
       .Letter {
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        padding: 25px;
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+        padding: 10px;
         text-align: center;
-        font-size: 2em;
+        font-size: 2.75em;
         font-weight: bold;
+        color: white;
+        box-shadow: 3px 3px 10px gray;
+        margin-right: 20px;
       }
 
       .Info {
