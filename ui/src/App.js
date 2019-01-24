@@ -54,6 +54,9 @@ class App extends Component {
                                         <Route exact path="/" render={(props) => (
                                             <SearchPane maxHeight={maxHeight}/>
                                         )}/>
+                                        <Route exact path="/edit" render={(props) => (
+                                            <SearchPane maxHeight={maxHeight}/>
+                                        )}/>
                                         <Route path="/logo" component={() => (
                                             <div style={{
                                                 backgroundColor: '#282c34'
@@ -64,7 +67,14 @@ class App extends Component {
                                     </Switch>
                                 )}
                             </Header>
-                            <Movies width={listWidth}/>
+                            <Switch>
+                                <Route exact path="/">
+                                    <Movies width={listWidth} editable={false}/>
+                                </Route>
+                                <Route exact path="/edit">
+                                    <Movies width={listWidth} editable={true}/>
+                                </Route>
+                            </Switch>
                         </div>
                     </BrowserRouter>
                 </div>

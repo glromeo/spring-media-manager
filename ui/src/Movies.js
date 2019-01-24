@@ -2,8 +2,9 @@ import React, {Component} from "react";
 import {fetchMediaIfNeeded, selectMedia} from "./redux/actions";
 import {List, WindowScroller} from "react-virtualized";
 import Movie from "./Movie";
-import "./Movies.scss";
+import Media from "./Media";
 import {connect} from "react-redux";
+import "./Movies.scss";
 
 class Movies extends Component {
 
@@ -34,22 +35,23 @@ class Movies extends Component {
     }
 
     renderRow({index, isScrolling, key, style}) {
-        const {dispatch, list, searchWords} = this.props;
+        const {editable, dispatch, list, searchWords} = this.props;
         const {selected} = this.state;
         const media = list[index];
-        const {movie, metadata} = media;
         return (
             <div key={key} className={selected === media ? "Media selected" : "Media"} style={style}
                  onClick={({event}) => {
-                     dispatch(selectMedia(media));
-                 }}>{movie ? (
-                <Movie movie={movie} metadata={metadata} searchWords={searchWords}/>
-            ) : (
-                <div className="Unknown">
-                    <div className="Letter" style={{backgroundColor: media.color}}>{media.path.charAt(3) || '?'}</div>
-                    <div className="Info">{media.path}</div>
-                </div>
-            )}
+                     dispatch(selectMedia(media))
+                 }}>
+                {media.movie ? (
+                    <Movie media={media} searchWords={searchWords} editable={editable}/>
+                ) : (
+                    <Media media={media} searchWords={searchWords} editable={editable} onSave={media => {
+                        console.log("saving media...");
+                        list[index] = media;
+                        this.listRef.current.forceUpdateGrid();
+                    }}/>
+                )}
             </div>
         );
     }

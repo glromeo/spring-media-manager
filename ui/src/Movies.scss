@@ -6,13 +6,19 @@
 
   .Media {
 
-    padding: 20px;
+    padding: 10px;
 
     &.selected {
       background-color: lightgoldenrodyellow;
     }
 
     .Unknown {
+
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.33);
+
+      height: 100%;
 
       display: flex;
       flex-direction: row;
@@ -31,7 +37,18 @@
       }
 
       .Info {
+
         flex: 1 1 auto;
+
+        .Row {
+          display: flex;
+          flex-direction: row;
+
+          .Label {
+            font-weight: bold;
+            margin-right: 10px;
+          }
+        }
       }
     }
   }

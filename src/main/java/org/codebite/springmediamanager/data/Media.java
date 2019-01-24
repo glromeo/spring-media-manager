@@ -23,6 +23,9 @@ public class Media implements Serializable {
     @JsonProperty
     public Metadata metadata;
 
+    @JsonProperty
+    public int[] color;
+
     @Builder
     public Media(String path, MovieInfo movie, Metadata metadata) {
         this.path = path.toString();

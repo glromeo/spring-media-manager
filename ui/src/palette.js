@@ -1,4 +1,4 @@
-export default [
+const palette = [
     {name: "AliceBlue", value: "#F0F8FF"},
     {name: "AntiqueWhite", value: "#FAEBD7"},
     {name: "Aqua", value: "#00FFFF"},
@@ -147,4 +147,10 @@ export default [
     {name: "WhiteSmoke", value: "#F5F5F5"},
     {name: "Yellow", value: "#FFFF00"},
     {name: "YellowGreen", value: "#9ACD32"}
-]
+];
+
+palette.random = function () {
+    return palette[Math.floor(Math.random() * (palette.length))].value;
+};
+
+export default palette

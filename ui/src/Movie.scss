@@ -1,12 +1,20 @@
 .Movie {
 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.33);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
   height: 100%;
 
   display: flex;
   flex-direction: row;
 
   .Poster {
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .Details {
@@ -28,13 +36,25 @@
         text-overflow: ellipsis;
         white-space: nowrap;
         min-width: 0;
+
+        input {
+          width: calc(100% - 20px);
+          padding: 0 5px 0 5px;
+        }
+      }
+    }
+
+    .ReleaseDate {
+      input {
+        max-width: 125px;
+        padding: 0 5px 0 5px;
       }
     }
 
     .Overview {
       flex: 1 1 auto;
       :first-child {
-        font-size: 0.75em;
+        font-size: 1em;
         text-align: justify;
         overflow-y: auto;
         min-width: 0;
@@ -44,7 +64,7 @@
 
     .Info {
       display: flex;
-      font-size: 0.75em;
+      font-size: 1em;
       * {
         white-space: nowrap;
         overflow: hidden;

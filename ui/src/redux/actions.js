@@ -1,10 +1,10 @@
 import base64 from "base-64";
-import colors from "../colors";
+import palette from "../palette";
 
-const headers = new Headers();
+export const HTTP_HEADERS = new Headers();
 const username = 'proxy_username';
 const password = 'proxy_password';
-headers.append('Authorization', `Basic ${base64.encode(username + ":" + password)}`);
+HTTP_HEADERS.append('Authorization', `Basic ${base64.encode(username + ":" + password)}`);
 
 export const FETCHING_CONFIG = Symbol("FETCHING_CONFIG");
 export const FETCHED_CONFIG = Symbol("FETCHED_CONFIG");
@@ -14,7 +14,7 @@ export function fetchConfiguration() {
         dispatch({
             type: FETCHING_CONFIG
         });
-        return fetch("/api/configuration", {method: "GET", headers})
+        return fetch("/api/configuration", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(config => dispatch({
                 type: FETCHED_CONFIG,
@@ -33,7 +33,7 @@ export function fetchMovieInfoByTitle(title) {
             type: FETCHING_MOVIE_INFO,
             title
         });
-        return fetch(`/api/movie?title=${encodeURIComponent(title)}`, {method: "GET", headers})
+        return fetch(`/api/movie?title=${encodeURIComponent(title)}`, {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(page => page.results[0])
             .then(movieInfo => dispatch({
@@ -51,7 +51,7 @@ export const FETCHED_GENRES = Symbol("FETCHED_GENRES");
 export function fetchMovieGenres() {
     return (dispatch, getState) => {
         dispatch({type: FETCHING_GENRES});
-        return fetch("/api/genre/movie/list", {method: "GET", headers})
+        return fetch("/api/genre/movie/list", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(json => dispatch({
                 type: FETCHED_GENRES,
@@ -68,15 +68,19 @@ export const FETCHED_MEDIA = Symbol("FETCHED_MEDIA");
 function fetchMedia(searchFilters) {
     return (dispatch, getState) => {
         dispatch({type: FETCHING_MEDIA, searchFilters});
-        return fetch("/api/media", {method: "GET", headers})
+        return fetch("/api/media", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(list => dispatch({
                 type: FETCHED_MEDIA,
                 searchFilters: searchFilters,
                 media: list.map(function (entry) {
-                    return {
+                    const {color: rgb} = entry;
+                    return rgb ? {
                         ...entry,
-                        color: colors[Math.floor(Math.random() * (colors.length))].value
+                        color: `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, 0.33)`
+                    } : {
+                        ...entry,
+                        color: palette.random()
                     };
                 }),
                 receivedAt: Date.now()

@@ -1,0 +1,16 @@
+.dropdown {
+  .form-group {
+    position: relative;
+    .fa {
+      font-size: 1.5em;
+      position: absolute;
+      top: 7px;
+      right: 3px;
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+      &.fetching {
+        opacity: 1;
+      }
+    }
+  }
+}

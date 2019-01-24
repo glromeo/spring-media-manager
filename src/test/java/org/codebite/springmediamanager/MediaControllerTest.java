@@ -18,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @AutoConfigureDataMongo
-public class MoviesControllerTest {
+public class MediaControllerTest {
 
     @Autowired
     private MockMvc mvc;
@@ -29,6 +29,13 @@ public class MoviesControllerTest {
                 .with(httpBasic(SecurityConfig.PROXY_USERNAME, SecurityConfig.PROXY_PASSWORD))
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                 .param("path", "V:\\")
+        ).andExpect(status().isOk());
+    }
+
+    @Test
+    public void colors() throws Exception {
+        mvc.perform(post("/populate/media/color")
+                .with(httpBasic(SecurityConfig.PROXY_USERNAME, SecurityConfig.PROXY_PASSWORD))
         ).andExpect(status().isOk());
     }
 }

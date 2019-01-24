@@ -5,9 +5,9 @@ import * as serviceWorker from './serviceWorker';
 import 'react-virtualized/styles.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
 import 'font-awesome/css/font-awesome.min.css';
 import 'react-contexify/dist/ReactContexify.min.css';
-import 'bootstrap';
 
 import './index.css';
 
