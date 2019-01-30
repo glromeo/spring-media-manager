@@ -51,11 +51,19 @@ class SearchPane extends Component {
                 </div>
                 <div className="SearchSection mx-2">
                     {(allowedHeight <= 68) && (<div className="MovieTicketsImage"/>)}
-                    <form className="SearchBar" onSubmit={this.handleSubmit}>
+                    <form autocomplete="off" className="SearchBar" onSubmit={this.handleSubmit}>
                         <div className="form-group">
                             <input className="form-control" type="text" name="searchBar" aria-describedby="searchBar"
-                                   onFocus={() => this.setState({searchFocused: true})}
-                                   onBlur={() => this.setState({searchFocused: false})}
+                                   onFocus={event => {
+                                       this.setState({searchFocused: true});
+                                       this.searchChange(event);
+                                       this.props.dispatch(applySearch(this.state.search));
+                                   }}
+                                   onBlur={event => {
+                                       this.setState({searchFocused: false});
+                                       this.searchChange(event);
+                                       this.props.dispatch(applySearch(this.state.search));
+                                   }}
                                    value={this.state.search}
                                    onChange={this.searchChange}
                                    placeholder="search movie..."/>
