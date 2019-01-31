@@ -97,8 +97,12 @@ class Autosuggest extends Component {
                                this.onApply(suggestion);
                                event.preventDefault();
                            }} href={suggestion.key}>
-                            <span style={{flex: "1 1 auto"}}>{suggestion.value}</span>
-                            {suggestion.suffix && <span style={{marginLeft: 20, opacity: 0.75}}>{suggestion.suffix}</span>}
+                            <span style={{
+                                flex: "1 1 auto",
+                                fontWeight: key === suggestion.key ? "bold" : undefined
+                            }}>{suggestion.value}</span>
+                            {suggestion.suffix &&
+                            <span style={{marginLeft: 20, opacity: 0.75}}>{suggestion.suffix}</span>}
                         </a>
                     ))}
                 </div>
