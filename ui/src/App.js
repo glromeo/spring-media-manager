@@ -4,13 +4,14 @@ import {Switch} from "react-router";
 
 import Header from "./Header";
 import SearchPane from "./SearchPane";
-import Movies from "./Movies";
+import MediaList from "./MediaList";
 
 import {Provider} from "react-redux";
 import store from "./redux/store";
 
 import './App.scss';
 import logo from "./logo.svg";
+import MovieDetails from "./MovieDetails";
 
 class App extends Component {
 
@@ -39,7 +40,7 @@ class App extends Component {
     };
 
     render() {
-        let {listWidth, headerHeight, scrollTop} = this.state;
+        let {listWidth, scrollTop} = this.state;
         return (
             <Provider store={store}>
                 <div className="App" style={{paddingTop: '50vh'}}>
@@ -57,6 +58,7 @@ class App extends Component {
                                         <Route exact path="/edit" render={(props) => (
                                             <SearchPane maxHeight={maxHeight}/>
                                         )}/>
+                                        <Route path="/movie/:id" component={MovieDetails}/>
                                         <Route path="/logo" component={() => (
                                             <div style={{
                                                 backgroundColor: '#282c34'
@@ -69,10 +71,10 @@ class App extends Component {
                             </Header>
                             <Switch>
                                 <Route exact path="/">
-                                    <Movies width={listWidth} editable={false}/>
+                                    <MediaList width={listWidth} editable={false}/>
                                 </Route>
                                 <Route exact path="/edit">
-                                    <Movies width={listWidth} editable={true}/>
+                                    <MediaList width={listWidth} editable={true}/>
                                 </Route>
                             </Switch>
                         </div>

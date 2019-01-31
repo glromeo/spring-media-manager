@@ -51,7 +51,7 @@ class SearchPane extends Component {
                 </div>
                 <div className="SearchSection mx-2">
                     {(allowedHeight <= 68) && (<div className="MovieTicketsImage"/>)}
-                    <form autocomplete="off" className="SearchBar" onSubmit={this.handleSubmit}>
+                    <form autoComplete="off" className="SearchBar" onSubmit={this.handleSubmit}>
                         <div className="form-group">
                             <input className="form-control" type="text" name="searchBar" aria-describedby="searchBar"
                                    onFocus={event => {

@@ -1,0 +1,65 @@
+.Media {
+
+  height: 100%;
+  padding: 10px 10px 0px 10px;
+
+  & > * {
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.33);
+  }
+
+  .Undefined {
+
+    display: flex;
+    flex-direction: row;
+
+    .Letter {
+      width: 90px;
+      height: 90px;
+      border-radius: 90px;
+      padding: 10px;
+      text-align: center;
+      font-size: 2.75em;
+      font-weight: bold;
+      color: white;
+      box-shadow: 3px 3px 10px gray;
+      margin-right: 20px;
+    }
+
+    .Details {
+
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+
+      .Row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+
+        .Label {
+          font-weight: bold;
+          margin-right: 10px;
+        }
+
+        .Value {
+          margin: 6px 12px;
+        }
+
+        .Metadata {
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+
+}
+
+.selected .Media > * {
+  background-color: lightgoldenrodyellow !important;
+  box-shadow: 1px 1px 3px 3px gold;
+}
+

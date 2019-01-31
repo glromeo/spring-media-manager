@@ -1,12 +1,11 @@
 import React, {Component} from "react";
+import {connect} from "react-redux";
 import {fetchMediaIfNeeded, selectMedia} from "./redux/actions";
 import {List, WindowScroller} from "react-virtualized";
-import Movie from "./Movie";
 import Media from "./Media";
-import {connect} from "react-redux";
-import "./Movies.scss";
+import "./MediaList.scss";
 
-class Movies extends Component {
+class MediaList extends Component {
 
     constructor(props) {
         super(props);
@@ -38,26 +37,24 @@ class Movies extends Component {
         const {editable, dispatch, list, searchWords} = this.props;
         const {selected} = this.state;
         const media = list[index];
+        const draft = media.draft || !media.movie;
         return (
-            <div key={key} className={selected === media ? "Media selected" : "Media"} style={style}
+            <div key={key} className={selected === media ? "selected" : ""} style={style}
                  onClick={({event}) => {
                      dispatch(selectMedia(media))
                  }}>
-                {media.movie ? (
-                    <Movie media={media} searchWords={searchWords} editable={editable}/>
-                ) : (
-                    <Media media={media} searchWords={searchWords} editable={editable} onSave={media => {
-                        console.log("saving media...");
-                        list[index] = media;
-                        this.listRef.current.forceUpdateGrid();
-                    }}/>
-                )}
+                <Media media={media} searchWords={searchWords} editable={editable || draft}
+                       onSave={media => {
+                           console.log("saving media...");
+                           list[index] = media;
+                           this.listRef.current.forceUpdateGrid();
+                       }}/>
             </div>
         );
     }
 
     render() {
-        const {isFetching, list, width = 0} = this.props;
+        const {list, width = 0} = this.props;
         return (
             <div className="Movies">
                 <WindowScroller>
@@ -91,4 +88,4 @@ export default connect(function (state) {
         selected,
         searchWords
     };
-})(Movies);
+})(MediaList);

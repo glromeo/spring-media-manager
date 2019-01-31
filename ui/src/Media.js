@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 import {HTTP_HEADERS} from "./redux/actions";
 
+import "./Media.scss";
+import Metadata from "./Metadata";
+import Movie from "./Movie";
+import TitleAutosuggest from "./TitleAutosuggest";
+
 const EMPTY_ARRAY = [];
 
 class Media extends Component {
@@ -9,86 +14,78 @@ class Media extends Component {
         super(props, context);
         const title = this.extractTitle(props.media);
         this.state = {
-            title,
-            suggestions: [title]
+            title
         };
     }
 
     extractTitle(media) {
+        if (media.movie) {
+            return media.movie.title;
+        }
         let path = media.path;
         path = path.substring(path.lastIndexOf("\\"));
         let end = path.search(/\d\d\d\d/);
         if (end) {
             path = path.substring(0, end);
         }
-        return path.replace(/\W/g, " ");
+        return path.replace(/\W/g, " ").trim();
     }
 
-    onSuggestionsFetchRequested = ({value}) => {
-        const {title} = this.state;
-        fetch(`/api/search/movie?title=${encodeURIComponent(title)}`, {method: "GET", headers: HTTP_HEADERS})
-            .then(response => response.json())
-            .then(page => {
-                this.setState({
-                    suggestions: page.results
-                })
+    identifyMedia(id, media) {
+
+        if (id) fetch(`/api/movie/${id}`, {
+            method: "GET",
+            headers: {...HTTP_HEADERS}
+        }).then(response => response.json()).then(movie => {
+            fetch(`/api/poster/fetch/${id}`, {
+                method: "POST",
+                headers: {...HTTP_HEADERS}
+            }).then(response => {
+                this.setState({title: movie.title, loading: false});
+                if (this.props.onSave) this.props.onSave({...media, movie, draft: true, color: "gold"});
             });
-    };
-
-    onSuggestionsClearRequested = (value) => {
-        this.setState({
-            suggestions: []
-        })
-    };
-
-    getSuggestionValue(movie) {
-        return movie.title;
+        }).catch(e => console.error.bind(console)); // TODO: Handle this!
     }
 
-    renderSuggestion = movie => (
-        <div>
-            {movie.title}
-        </div>
-    );
+    scrape = ({key, value}) => {
+        const {media} = this.props;
+        this.setState({title: value, loading: true});
+        this.identifyMedia(key, media);
+    };
 
     render() {
         const {media, editable, searchWords = EMPTY_ARRAY} = this.props;
-        const {movie, metadata, color, path} = media;
-
-        const {suggestions, title} = this.state;
-
-        return (editable||true) ? (
-            <div className="Unknown" style={{backgroundColor: 'lightgray'}}>
-                <div className="Letter" style={{backgroundColor: color}}>{media.path.charAt(3) || '?'}</div>
-                <div className="Info">
-                    <div className="Row">
-                        <div className="Label">Path:</div>
-                        <div className="Value">{media.path}</div>
+        const {title, loading} = this.state;
+        let isUndefined = !media.movie;
+        return (
+            <div className="Media">
+                {media.movie &&
+                <Movie media={media} searchWords={searchWords} editable={editable} onChange={this.scrape}/>}
+                {isUndefined && <div className="Undefined" style={{backgroundColor: 'lightgray'}}>
+                    <div className="Letter" style={{backgroundColor: media.color}}>
+                        {loading
+                            ? <i className="fa fa-spinner fa-pulse fa-fw"/>
+                            : <span>{media.path.charAt(3) || '?'}</span>
+                        }
                     </div>
-                    <div className="Row d-flex flex-row">
-                        <div className="Label">Title:</div>
-                        <div className="Value" style={{flex: "1 1 auto"}}>
-                            <input className="form-control" type="text" placeholder="Search movie by title..." defaultValue={title}/>
+                    <div className="Details">
+                        <div className="Row">
+                            <div className="Label">Title:</div>
+                            <TitleAutosuggest defaultValue={title} onApply={this.scrape}/>
+                        </div>
+                        <div className="Row">
+                            <div className="Label">Path:</div>
+                            <div className="Value">{media.path}</div>
+                        </div>
+                        <div className="Row">
+                            <Metadata value={media.metadata}/>
                         </div>
                     </div>
-                </div>
-            </div>
-        ) : (
-            <div className="Unknown" style={{backgroundColor: 'lightgray'}}>
-                <div className="Letter" style={{backgroundColor: color}}>{media.path.charAt(3) || '?'}</div>
-                <div className="Info">
-                    <div className="Row">
-                        <div className="Label">Path:</div>
-                        <div className="Value">{media.path}</div>
-                    </div>
-                    <div className="Row d-flex flex-row">
-                        <div className="Label">Title:</div>
-                        <div className="Value" style={{flex: "1 1 auto"}}>{title}</div>
-                    </div>
-                </div>
+                </div>}
             </div>
         );
     }
+
 }
 
 export default Media;

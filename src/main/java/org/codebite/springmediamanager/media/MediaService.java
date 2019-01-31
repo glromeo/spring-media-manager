@@ -2,7 +2,6 @@ package org.codebite.springmediamanager.media;
 
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.data.Media;
-import org.codebite.springmediamanager.data.Movie;
 import org.codebite.springmediamanager.data.MovieInfo;
 import org.codebite.springmediamanager.data.mongodb.BackdropRepository;
 import org.codebite.springmediamanager.data.mongodb.PosterRepository;
@@ -77,7 +76,7 @@ public class MediaService {
     @Autowired
     ImageService imageService;
 
-    private void fetchImages(MovieInfo movie) {
+    public void fetchImages(MovieInfo movie) {
         log.info("Fetching images for: #{} {}", movie.id, movie.title);
         if (!posterRepository.existsById(movie.id)) {
             posterRepository.save(imageService.getPoster(movie));

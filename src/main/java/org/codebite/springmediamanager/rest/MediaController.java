@@ -10,10 +10,7 @@ import org.codebite.springmediamanager.media.MediaService;
 import org.codebite.springmediamanager.media.PosterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
@@ -33,6 +30,13 @@ public class MediaController {
     @ResponseBody
     public List<Media> listAll() {
         return mediaRepository.findAll();
+    }
+
+    @GetMapping("/media/{id}")
+    @ResponseBody
+    public Media getMedia(@PathVariable Long id) {
+        List<Media> list = mediaRepository.findByMovie_Id(id);
+        return list.isEmpty() ? null : list.get(0);
     }
 
     @Autowired
@@ -64,4 +68,5 @@ public class MediaController {
     public MovieSearchResult searchMulti(@RequestParam(name = "query") String query) {
         return movieService.multiSearch(query);
     }
+
 }

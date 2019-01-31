@@ -40,10 +40,7 @@
     "extends": "react-app"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "last 2 Chrome versions"
   ],
   "devDependencies": {
     "node-sass": "^4.10.0",

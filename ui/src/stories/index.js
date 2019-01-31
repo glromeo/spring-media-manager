@@ -10,6 +10,7 @@ import {Button, Welcome} from '@storybook/react/demo';
 
 import Dropdown from "../components/Dropdown";
 import Autosuggest from "../components/Autosuggest";
+import TitleAutosuggest from "../TitleAutosuggest";
 import {HTTP_HEADERS} from "../redux/actions";
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')}/>);
@@ -31,8 +32,6 @@ storiesOf('Dropdown', module)
         </div>
     ));
 
-let controller = new AbortController();
-
 class AutosuggestWrapper extends React.Component {
 
     constructor(props, context) {
@@ -48,36 +47,50 @@ class AutosuggestWrapper extends React.Component {
     }
 
     searchMovie(query) {
-        if (this.state.fetching) {
-            console.log("abort previous fetch...");
-            controller.abort();
-            controller = new AbortController();
-        }
+
+        this.cancelPendingFetch();
+        this.setState({suggestions: []});
+
         if (query && query.length > 0) fetch(`/api/search/movie?query=${encodeURIComponent(query)}`, {
             method: "GET",
             headers: HTTP_HEADERS,
-            signal: controller.signal
+            signal: this.controller.signal
         }).then(response => response.json()).then(page => {
             let suggestions = page.results.filter(info => info.title).map(info => ({
                 key: info.id,
                 value: info.title + (info.release_date ? " (" + info.release_date.substring(0, 4) + ")" : "")
             }));
-            this.setState({defaultValue: suggestions[0].text, suggestions, fetching: false});
+            this.setState({suggestions});
+            this.controller = null;
         }).catch(e => console.error.bind(console));
-        this.setState({suggestions: [], fetching: true});
+    }
+
+    cancelPendingFetch() {
+        if (this.controller) {
+            console.log("abort previous fetch...");
+            this.controller.abort();
+        }
+        this.controller = new AbortController();
     }
 
     render() {
-        const {value, suggestions, fetching} = this.state;
+        const {value, suggestions} = this.state;
         return (
             <div style={{padding: 20, width: 250}}>
-                <Autosuggest placeholder="Title..." value={value} suggestions={suggestions} onApply={({key, value}) => {
-                    console.log("onApply:", value);
-                    this.setState({value});
-                }} onChange={({query}) => this.searchMovie(query)} fetching={fetching}/>
+                <Autosuggest placeholder="Title..." defaultValue={value} suggestions={suggestions}
+                             onApply={({key, value}) => {
+                                 console.log("onApply:", value);
+                             }}
+                             onChange={({value}) => this.searchMovie(value)}
+                />
             </div>
         );
     }
 }
 
 storiesOf('Autosuggest', module).add('simple', () => <AutosuggestWrapper/>);
+
+storiesOf('TitleAutosuggest', module).add('simple', () => <TitleAutosuggest defaultValue={"Automata"}
+                                                                            onApply={({key, value}) => {
+                                                                                console.log("onApply:", value);
+                                                                            }} />);

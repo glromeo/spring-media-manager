@@ -1,20 +1,20 @@
 package org.codebite.springmediamanager.rest;
 
 import org.codebite.springmediamanager.AppProperties;
+import org.codebite.springmediamanager.data.Movie;
 import org.codebite.springmediamanager.data.Poster;
+import org.codebite.springmediamanager.data.mongodb.MediaRepository;
 import org.codebite.springmediamanager.data.mongodb.PosterRepository;
 import org.codebite.springmediamanager.data.tmdb.ImageService;
 import org.codebite.springmediamanager.data.tmdb.MovieService;
+import org.codebite.springmediamanager.media.MediaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.CacheControl;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.ByteArrayInputStream;
 import java.util.concurrent.TimeUnit;
@@ -90,5 +90,19 @@ public class PosterController {
                 .map(PosterController::toResponseEntity)
                 .orElse(null);
     }
+
+    @Autowired
+    MediaRepository mediaRepository;
+
+    @Autowired
+    MediaService mediaService;
+
+    @PostMapping("/poster/fetch/{id}")
+    @ResponseBody
+    public void fetchPosters(@PathVariable(name = "id") Long id) {
+        Movie movie = movieService.movie(id);
+        mediaService.fetchImages(movie.getInfo());
+    }
+
 
 }
