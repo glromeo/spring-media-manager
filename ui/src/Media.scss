@@ -12,10 +12,17 @@
 
   .Undefined {
 
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1.5em 1em;
+    grid-template-areas:
+            'letter title'
+            'letter metadata'
+            'path path';
+    grid-gap: 0.25em;
 
     .Letter {
+      grid-area: letter;
       width: 90px;
       height: 90px;
       border-radius: 90px;
@@ -28,31 +35,17 @@
       margin-right: 20px;
     }
 
-    .Details {
+    .TitleAutosuggest {
+      grid-area: title;
+    }
 
-      display: flex;
-      flex-direction: column;
-      flex: 1 1 auto;
+    .Metadata {
+      grid-area: metadata;
+    }
 
-      .Row {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
-
-        .Label {
-          font-weight: bold;
-          margin-right: 10px;
-        }
-
-        .Value {
-          margin: 6px 12px;
-        }
-
-        .Metadata {
-          flex: 1 1 auto;
-        }
-      }
+    .Path {
+      grid-area: path;
+      text-align: right;
     }
   }
 

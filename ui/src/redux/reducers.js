@@ -1,8 +1,16 @@
 import {combineReducers} from "redux";
-import {APPLY_SEARCH, FETCHED_GENRES, FETCHED_MEDIA, FETCHING_GENRES, FETCHING_MEDIA, SELECT_MEDIA} from "./actions";
+import {
+    APPLY_SEARCH,
+    FETCHED_GENRES,
+    FETCHED_MEDIA,
+    FETCHING_GENRES,
+    FETCHING_MEDIA,
+    PLAYBACK_MOVIE,
+    SELECT_MEDIA
+} from "./actions";
 
 function Reducer(target) {
-    return function (state = {}, action) {
+    return function (state = {all:[]}, action) {
         const reducer = target[action.type];
         return reducer ? Object.assign({}, state, reducer(state, action)) : state;
     }
@@ -98,5 +106,6 @@ const search = Reducer({
     }),
 
 });
+
 
 export default combineReducers({media, genre, search});

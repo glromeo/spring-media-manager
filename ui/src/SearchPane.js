@@ -83,7 +83,7 @@ class SearchPane extends Component {
                                 <TransitionGroup className="genres-group">
                                     {genres.map(genre => (
                                         <CSSTransition key={genre.id} timeout={500} classNames="fade">
-                                            <button type="button" style={{fontSize: '1em'}} className="btn btn-outline-success m-1">
+                                            <button type="button" className="Genre btn btn-outline-success">
                                                 {genre.name}
                                                 <span className="badge badge-pill badge-dark ml-2">
                                                     {genre.count || 0} / {genre.total || 0}

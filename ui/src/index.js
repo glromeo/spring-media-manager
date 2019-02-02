@@ -9,6 +9,8 @@ import 'bootstrap/dist/js/bootstrap.min';
 import 'font-awesome/css/font-awesome.min.css';
 import 'react-contexify/dist/ReactContexify.min.css';
 
+import "video-react/dist/video-react.css";
+
 import './index.css';
 
 import $ from 'jquery';

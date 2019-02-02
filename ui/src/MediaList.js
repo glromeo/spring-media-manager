@@ -11,6 +11,7 @@ class MediaList extends Component {
         super(props);
         this.state = {
             list: [],
+            lastIndex: 0,
             selected: null
         };
         this.listRef = React.createRef();
@@ -34,10 +35,13 @@ class MediaList extends Component {
     }
 
     renderRow({index, isScrolling, key, style}) {
-        const {editable, dispatch, list, searchWords} = this.props;
+        const {editable, dispatch, list, lastIndex, searchWords} = this.props;
         const {selected} = this.state;
         const media = list[index];
         const draft = media.draft || !media.movie;
+        if (index === lastIndex) {
+            style = {...style, paddingBottom: 20};
+        }
         return (
             <div key={key} className={selected === media ? "selected" : ""} style={style}
                  onClick={({event}) => {
@@ -54,7 +58,8 @@ class MediaList extends Component {
     }
 
     render() {
-        const {list, width = 0} = this.props;
+        const {list, width = 0, lastIndex} = this.props;
+        const rowHeight = 180;
         return (
             <div className="Movies">
                 <WindowScroller>
@@ -67,9 +72,15 @@ class MediaList extends Component {
                               isScrolling={isScrolling}
                               onScroll={onChildScroll}
                               rowCount={list.length}
-                              rowHeight={200}
+                              rowHeight={({index}) => {
+                                  if (index === lastIndex) {
+                                      return rowHeight + 20;
+                                  } else {
+                                      return rowHeight;
+                                  }
+                              }}
                               rowRenderer={this.renderRow}
-                              estimatedRowSize={200}
+                              estimatedRowSize={rowHeight}
                         />
                     )}
                 </WindowScroller>
@@ -85,6 +96,7 @@ export default connect(function (state) {
     return {
         isFetching,
         list,
+        lastIndex: list.length - 1,
         selected,
         searchWords
     };

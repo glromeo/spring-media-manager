@@ -21,3 +21,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .Metadata {
+    div.FileType {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 540px) {
+  .Metadata {
+    div.Audio {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 860px) {
+  .Metadata {
+    div {
+      span:first-child {
+        display: none;
+      }
+    }
+  }
+}

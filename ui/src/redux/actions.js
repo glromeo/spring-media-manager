@@ -6,8 +6,8 @@ const username = 'proxy_username';
 const password = 'proxy_password';
 HTTP_HEADERS.append('Authorization', `Basic ${base64.encode(username + ":" + password)}`);
 
-export const FETCHING_CONFIG = Symbol("FETCHING_CONFIG");
-export const FETCHED_CONFIG = Symbol("FETCHED_CONFIG");
+export const FETCHING_CONFIG = "FETCHING_CONFIG";
+export const FETCHED_CONFIG = "FETCHED_CONFIG";
 
 export function fetchConfiguration() {
     return dispatch => {
@@ -24,8 +24,8 @@ export function fetchConfiguration() {
     }
 }
 
-export const FETCHING_MOVIE_INFO = Symbol("FETCHING_MOVIE_INFO");
-export const FETCHED_MOVIE_INFO = Symbol("FETCHED_MOVIE_INFO");
+export const FETCHING_MOVIE_INFO = "FETCHING_MOVIE_INFO";
+export const FETCHED_MOVIE_INFO = "FETCHED_MOVIE_INFO";
 
 export function fetchMovieInfoByTitle(title) {
     return dispatch => {
@@ -45,8 +45,8 @@ export function fetchMovieInfoByTitle(title) {
     }
 }
 
-export const FETCHING_GENRES = Symbol("FETCHING_GENRES");
-export const FETCHED_GENRES = Symbol("FETCHED_GENRES");
+export const FETCHING_GENRES = "FETCHING_GENRES";
+export const FETCHED_GENRES = "FETCHED_GENRES";
 
 export function fetchMovieGenres() {
     return (dispatch, getState) => {
@@ -62,8 +62,8 @@ export function fetchMovieGenres() {
     }
 }
 
-export const FETCHING_MEDIA = Symbol("FETCHING_MEDIA");
-export const FETCHED_MEDIA = Symbol("FETCHED_MEDIA");
+export const FETCHING_MEDIA = "FETCHING_MEDIA";
+export const FETCHED_MEDIA = "FETCHED_MEDIA";
 
 function fetchMedia(searchFilters) {
     return (dispatch, getState) => {
@@ -101,8 +101,8 @@ export function fetchMediaIfNeeded(searchFilters) {
     }
 }
 
-export const SELECT_MEDIA = Symbol.for("SELECT_MEDIA");
-export const CLEAR_MEDIA_SELECTION = Symbol.for("CLEAR_MEDIA_SELECTION");
+export const SELECT_MEDIA = "SELECT_MEDIA";
+export const CLEAR_MEDIA_SELECTION = "CLEAR_MEDIA_SELECTION";
 
 export function selectMedia(media) {
     return {
@@ -117,7 +117,7 @@ export function clearMediaSelection() {
     }
 }
 
-export const APPLY_SEARCH = Symbol.for("APPLY_SEARCH");
+export const APPLY_SEARCH = "APPLY_SEARCH";
 
 export function applySearch(search = "") {
     return {

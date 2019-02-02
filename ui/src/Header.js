@@ -3,6 +3,7 @@ import ReactResizeDetector from 'react-resize-detector';
 import "./Header.scss"
 import {fetchConfiguration} from "./redux/actions";
 import {connect} from "react-redux";
+import {withRouter} from "react-router";
 
 class Header extends Component {
 
@@ -38,4 +39,4 @@ class Header extends Component {
     }
 }
 
-export default connect()(Header);
+export default withRouter(connect()(Header));

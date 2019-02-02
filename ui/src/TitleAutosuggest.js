@@ -16,6 +16,10 @@ class TitleAutosuggest extends Component {
         this.searchMovie(defaultValue);
     }
 
+    componentWillUnmount() {
+        this.cancelPendingFetch();
+    }
+
     searchMovie(query) {
 
         if (query && query.length > 0) {

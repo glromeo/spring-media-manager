@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {Switch} from "react-router";
 
 import Header from "./Header";
@@ -12,12 +12,15 @@ import store from "./redux/store";
 import './App.scss';
 import logo from "./logo.svg";
 import MovieDetails from "./MovieDetails";
+import MediaPlayer from "./MediaPlayer";
 
 class App extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            playback:{}
+        };
         this.onScroll = this.onScroll.bind(this);
     }
 
@@ -40,11 +43,11 @@ class App extends Component {
     };
 
     render() {
-        let {listWidth, scrollTop} = this.state;
+        const {listWidth, scrollTop, headerHeight} = this.state;
         return (
             <Provider store={store}>
                 <div className="App" style={{paddingTop: '50vh'}}>
-                    <BrowserRouter>
+                    <Router>
                         <div>
                             <Header scrollTop={scrollTop}
                                     onResize={({width, height}) => {
@@ -59,6 +62,7 @@ class App extends Component {
                                             <SearchPane maxHeight={maxHeight}/>
                                         )}/>
                                         <Route path="/movie/:id" component={MovieDetails}/>
+                                        <Route path="/watch/:id" component={MediaPlayer}/>
                                         <Route path="/logo" component={() => (
                                             <div style={{
                                                 backgroundColor: '#282c34'
@@ -70,7 +74,7 @@ class App extends Component {
                                 )}
                             </Header>
                             <Switch>
-                                <Route exact path="/">
+                                <Route path="/">
                                     <MediaList width={listWidth} editable={false}/>
                                 </Route>
                                 <Route exact path="/edit">
@@ -78,7 +82,7 @@ class App extends Component {
                                 </Route>
                             </Switch>
                         </div>
-                    </BrowserRouter>
+                    </Router>
                 </div>
             </Provider>
         );

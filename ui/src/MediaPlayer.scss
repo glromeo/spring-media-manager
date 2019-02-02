@@ -1,0 +1,17 @@
+.MediaPlayer {
+
+  min-height: (9/16*100vw);
+
+  .video-react {
+    font-family: "Arial", serif !important;
+    font-size: 1em;
+
+    .video-react-big-play-button {
+      display: none;
+    }
+
+    div[data-current-time] {
+      font-family: "Arial", serif !important;
+    }
+  }
+}

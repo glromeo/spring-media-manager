@@ -68,19 +68,9 @@ class Media extends Component {
                             : <span>{media.path.charAt(3) || '?'}</span>
                         }
                     </div>
-                    <div className="Details">
-                        <div className="Row">
-                            <div className="Label">Title:</div>
-                            <TitleAutosuggest defaultValue={title} onApply={this.scrape}/>
-                        </div>
-                        <div className="Row">
-                            <div className="Label">Path:</div>
-                            <div className="Value">{media.path}</div>
-                        </div>
-                        <div className="Row">
-                            <Metadata value={media.metadata}/>
-                        </div>
-                    </div>
+                    <TitleAutosuggest defaultValue={title} onApply={this.scrape}/>
+                    <Metadata value={media.metadata}/>
+                    <div className="Path">{media.path}</div>
                 </div>}
             </div>
         );

@@ -80,11 +80,24 @@
     flex: 0 0 auto;
 
     .Genres {
-      font-size: initial;
-
       & > div {
         margin: auto;
         max-width: 1280px;
+      }
+    }
+
+    .Genre {
+      position: relative;
+      font-size: 0.6em;
+      padding: 2px 8px 2px 8px;
+      margin: 4px;
+      .badge {
+        position: absolute;
+        right: -8px;
+        top: -8px;
+        font-size: 0.6em;
+        background-color: #880000;
+        font-family: "Arial Narrow";
       }
     }
 
