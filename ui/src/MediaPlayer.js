@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {Player} from "video-react";
 
 import "./MediaPlayer.scss";
-import {HTTP_HEADERS} from "./redux/actions";
+import {HTTP_HEADERS, playbackMedia} from "./redux/actions";
+import {connect} from "react-redux";
+import {withRouter} from "react-router";
 
 class MediaPlayer extends Component {
 
@@ -15,6 +17,11 @@ class MediaPlayer extends Component {
         this.fetchMovie(this.props.match.params.id);
     }
 
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+        return !this.state.movie || nextProps.match.params.id !== this.state.movie.id;
+    }
+
     componentWillUpdate(nextProps, nextState, nextContext) {
         const movieId = nextProps.match.params.id;
         if (movieId !== this.props.match.params.id) {
@@ -23,6 +30,7 @@ class MediaPlayer extends Component {
     }
 
     fetchMovie(movieId) {
+        const {dispatch} = this.props;
         Promise.all([
             fetch(`/api/movie/${movieId}`, {
                 method: "GET",
@@ -33,6 +41,7 @@ class MediaPlayer extends Component {
                 headers: HTTP_HEADERS
             }).then(response => response.json())
         ]).then(([movie, media]) => {
+            dispatch(playbackMedia(movie, media));
             this.setState({movie, media});
         }).catch(e => console.error.bind(console)); // TODO: Handle this!
     }
@@ -40,20 +49,22 @@ class MediaPlayer extends Component {
     render() {
         const {movie, media} = this.state;
         return movie ? (
-            <div className="MediaPlayer">
-                <Player playsInLine={true} autoPlay={true}
-                        poster={"/api/poster/" + movie.id + "/large"}
-                        src={"http://192.168.1.11:8800/" + this.mediaFile(media.path)}
-                />
+            <div className="MediaPlayer" style={{backgroundColor: `rgb(${media.color[0]},${media.color[1]},${media.color[2]})`}}>
+                <div className="PlayerContainer">
+                    <Player playsInLine={true} autoPlay={true}
+                            poster={"/api/poster/" + movie.id + "/large"}
+                            src={"http://192.168.1.11:8800/" + this.mediaFile(media.path)}
+                    />
+                </div>
             </div>
         ) : (
-           <div>Loading...</div>
+            <div>Loading...</div>
         );
     }
 
     mediaFile(path) {
-        return path.substring(3).split("\\").map(p=>encodeURIComponent(p)).join("/");
+        return path.substring(3).split("\\").map(p => encodeURIComponent(p)).join("/");
     }
 }
 
-export default MediaPlayer;
+export default withRouter(connect()(MediaPlayer));

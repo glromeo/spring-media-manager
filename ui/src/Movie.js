@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink, withRouter} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import Highlighter from "react-highlight-words";
 
 import "./Movie.scss";
@@ -52,7 +52,7 @@ class Movie extends Component {
                          style={{visibility: posterVisibility}}
                          onLoad={this.posterLoad}
                          onError={this.posterError}/>
-                    <NavLink className="Play fa fa-play-circle-o" to={`/watch/${movie.id}`} onClick={e=>e.stopPropagation()}/>
+                    <Link className="Play fa fa-play-circle-o" to={`/watch/${movie.id}`} onClick={e=>e.stopPropagation()}/>
                 </div>
                 <div className="Title">
                     {editable ? (

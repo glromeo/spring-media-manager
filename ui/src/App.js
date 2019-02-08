@@ -43,15 +43,15 @@ class App extends Component {
     };
 
     render() {
-        const {listWidth, scrollTop, headerHeight} = this.state;
+        const {listWidth, scrollTop, paddingTop} = this.state;
         return (
             <Provider store={store}>
-                <div className="App" style={{paddingTop: '50vh'}}>
+                <div className="App" style={{paddingTop: paddingTop || "28.125vw"}}>
                     <Router>
                         <div>
                             <Header scrollTop={scrollTop}
-                                    onResize={({width, height}) => {
-                                        this.setState({listWidth: width, headerHeight: height});
+                                    onResize={({width, height, paddingTop}) => {
+                                        this.setState({listWidth: width, paddingTop: paddingTop});
                                     }}>
                                 {({maxHeight}) => (
                                     <Switch>

@@ -13,15 +13,12 @@
   min-height: 50px;
   width: 100%;
 
-  max-height: 25%;
-
   box-shadow: 0px 1px 5px lightgray;
   transition: box-shadow 0.25s ease-out;
 
   &.scrolling {
     box-shadow: 0px 2px 10px gray;
   }
-
 
   &>div:first-child {
     width: 100%;

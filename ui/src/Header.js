@@ -9,6 +9,7 @@ class Header extends Component {
 
     constructor(props, context) {
         super(props, context);
+        this.headerRef = React.createRef();
         this.onResize = this.onResize.bind(this);
     }
 
@@ -21,22 +22,50 @@ class Header extends Component {
         if (!this.pendingAnimation) {
             this.pendingAnimation = true;
             requestAnimationFrame(time => {
-                this.props.onResize({width, height});
+                this.props.onResize({width, height, paddingTop: this.props.fixed ? this.videoHeight() : "28.125vw"});
                 this.pendingAnimation = false;
             });
         }
     }
 
+    maxHeight() {
+        const {imageWidth, imageHeight} = this.props;
+        const width = window.innerWidth;
+        return imageHeight && imageWidth ? width / imageWidth * imageHeight : "28.125vw";
+    }
+
+    videoHeight() {
+        return this.headerRef.current.querySelector("video").clientHeight + 20;
+    }
+
+
     render() {
-        const {children, scrollTop = 0} = this.props;
-        const maxHeight = `calc(50vh - ${scrollTop}px)`;
+        const {baseHeight = "28.125vw", fixed, children, scrollTop = 0} = this.props;
+        const maxHeight = fixed ? this.maxHeight() : `calc(${baseHeight} - ${scrollTop}px)`;
         return (
-            <div className={(scrollTop === 0 ? "Header" : "Header scrolling")} style={{maxHeight}}>
+            <div ref={this.headerRef} className={"Header" + (scrollTop === 0 ? "" : " scrolling")} style={{maxHeight}}>
                 {children({maxHeight})}
-                <ReactResizeDetector handleWidth handleHeight onResize={this.onResize} />
+                <ReactResizeDetector handleWidth handleHeight onResize={this.onResize}/>
             </div>
         );
     }
 }
 
-export default withRouter(connect()(Header));
+function calculateFixedHeight(metadata) {
+    return {
+        imageWidth: metadata ? metadata.imageWidth : window.innerWidth,
+        imageHeight: metadata ? metadata.imageHeight : window.innerHeight
+    };
+}
+
+export default withRouter(connect(state => {
+    const {media} = state.playback;
+    return media ? {
+        fixed: true,
+        ...calculateFixedHeight(media.metadata),
+    } : {
+        fixed: false,
+        innerWidth: window.innerWidth,
+        innerHeight: window.innerHeight,
+    };
+})(Header));

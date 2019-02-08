@@ -125,3 +125,13 @@ export function applySearch(search = "") {
         search: search
     }
 }
+
+export const PLAYBACK_MEDIA = "PLAYBACK_MEDIA";
+
+export function playbackMedia(movie, media) {
+    return {
+        type: PLAYBACK_MEDIA,
+        movie: movie,
+        media: media
+    }
+}

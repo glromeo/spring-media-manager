@@ -1,6 +1,27 @@
 .MediaPlayer {
 
-  min-height: (9/16*100vw);
+  padding: 10px;
+
+  .PlayerContainer {
+    margin: auto;
+    max-width: 80vw;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.33);
+    border-radius: 20px;
+
+    & > div {
+      border-radius: 20px;
+      video {
+        border-radius: 20px;
+      }
+      .video-react-poster {
+        border-radius: 20px;
+      }
+      .video-react-control-bar {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+    }
+  }
 
   .video-react {
     font-family: "Arial", serif !important;

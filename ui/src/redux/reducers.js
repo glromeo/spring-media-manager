@@ -5,12 +5,12 @@ import {
     FETCHED_MEDIA,
     FETCHING_GENRES,
     FETCHING_MEDIA,
-    PLAYBACK_MOVIE,
+    PLAYBACK_MEDIA,
     SELECT_MEDIA
 } from "./actions";
 
 function Reducer(target) {
-    return function (state = {all:[]}, action) {
+    return function (state = {all:[], playback:{}}, action) {
         const reducer = target[action.type];
         return reducer ? Object.assign({}, state, reducer(state, action)) : state;
     }
@@ -107,5 +107,13 @@ const search = Reducer({
 
 });
 
+const playback = Reducer({
 
-export default combineReducers({media, genre, search});
+    [PLAYBACK_MEDIA]: (state, action) => ({
+        movie: action.movie,
+        media: action.media
+    }),
+
+});
+
+export default combineReducers({media, genre, search, playback});
