@@ -47,9 +47,18 @@ class MediaPlayer extends Component {
     }
 
     render() {
+        const { plain = true } = this.props;
         const {movie, media} = this.state;
         return movie ? (
-            <div className="MediaPlayer" style={{backgroundColor: `rgb(${media.color[0]},${media.color[1]},${media.color[2]})`}}>
+            <div className="MediaPlayer" style={
+                plain ? {
+                    backgroundColor: `rgb(${media.color[0]},${media.color[1]},${media.color[2]})`
+                } : {
+                    backgroundImage: `url(/api/backdrop/${movie.id}/large)`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover"
+                }
+            }>
                 <div className="PlayerContainer">
                     <Player playsInLine={true} autoPlay={true}
                             poster={"/api/poster/" + movie.id + "/large"}
