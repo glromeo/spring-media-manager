@@ -23,7 +23,7 @@ import static java.util.Arrays.asList;
 // import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
-@EnableConfigurationProperties(AppProperties.class)
+@EnableConfigurationProperties(ApplicationProperties.class)
 @EnableMongoRepositories(basePackages = {"org.codebite.springmediamanager.data.mongodb"})
 // @EnableElasticsearchRepositories(basePackages = {"org.codebite.springmediamanager.data.elasticsearch"})
 @Slf4j

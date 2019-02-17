@@ -92,23 +92,6 @@ public class MovieService {
         return apiClient.get("/search/movie?query={query}", MovieSearchResult.class, query);
     }
 
-    public MovieSearchResult movieSearch(String query, MovieSearchParams searchParams) {
-        if (searchParams != null) {
-            Map<String, ?> vars = getUrlVariables(query, searchParams);
-            StringBuilder url = new StringBuilder().append("/search/movie");
-            {
-                int questionMarkIndex = url.length();
-                for (String key : vars.keySet()) {
-                    url.append("&").append(key).append("={").append(key).append("}");
-                }
-                url.setCharAt(questionMarkIndex, '?');
-            }
-            return apiClient.get(url.toString(), MovieSearchResult.class, vars.values().toArray());
-        } else {
-            return movieSearch(query);
-        }
-    }
-
     @Autowired
     ObjectMapper objectMapper = new ObjectMapper();
 

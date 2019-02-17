@@ -48,7 +48,7 @@ public class ApiClient {
     private final ObjectMapper objectMapper;
 
     @Autowired
-    public ApiClient(RestTemplate restTemplate, ObjectMapper objectMapper) {
+    public ApiClient(RestTemplate restTemplate, @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection") ObjectMapper objectMapper) {
         this.restTemplate = restTemplate;
         this.objectMapper = objectMapper;
     }

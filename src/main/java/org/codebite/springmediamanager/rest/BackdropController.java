@@ -1,6 +1,6 @@
 package org.codebite.springmediamanager.rest;
 
-import org.codebite.springmediamanager.AppProperties;
+import org.codebite.springmediamanager.ApplicationProperties;
 import org.codebite.springmediamanager.data.Backdrop;
 import org.codebite.springmediamanager.data.mongodb.BackdropRepository;
 import org.codebite.springmediamanager.data.tmdb.ImageService;
@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 public class BackdropController {
 
     @Autowired
-    AppProperties properties;
+    ApplicationProperties properties;
 
     @Autowired
     BackdropRepository backdropRepository;

@@ -1,6 +1,6 @@
 package org.codebite.springmediamanager.rest;
 
-import org.codebite.springmediamanager.AppProperties;
+import org.codebite.springmediamanager.ApplicationProperties;
 import org.codebite.springmediamanager.data.Movie;
 import org.codebite.springmediamanager.data.Poster;
 import org.codebite.springmediamanager.data.mongodb.MediaRepository;
@@ -23,7 +23,7 @@ import java.util.concurrent.TimeUnit;
 public class PosterController {
 
     @Autowired
-    AppProperties properties;
+    ApplicationProperties properties;
 
     @Autowired
     PosterRepository posterRepository;

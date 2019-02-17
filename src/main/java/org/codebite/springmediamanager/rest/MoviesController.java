@@ -3,7 +3,7 @@ package org.codebite.springmediamanager.rest;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.codebite.springmediamanager.AppProperties;
+import org.codebite.springmediamanager.ApplicationProperties;
 import org.codebite.springmediamanager.data.Movie;
 import org.codebite.springmediamanager.data.MovieGenres;
 import org.codebite.springmediamanager.data.MovieSearchParams;
@@ -25,7 +25,7 @@ import java.util.Map;
 public class MoviesController {
 
     @Autowired
-    AppProperties app;
+    ApplicationProperties app;
 
     @Autowired
     MovieService movieService;
@@ -34,19 +34,6 @@ public class MoviesController {
     @ResponseBody
     public Configuration getConfiguration() {
         return movieService.configuration();
-    }
-
-    @Autowired
-    private ObjectMapper objectMapper;
-
-    @GetMapping("/search/movie")
-    @ResponseBody
-    public MovieSearchResult movieSearch(
-            @RequestParam(name = "query") String query,
-            @RequestParam Map<String, String> parameters
-    ) {
-        MovieSearchParams params = objectMapper.convertValue(parameters, MovieSearchParams.class);
-        return movieService.movieSearch(query, params);
     }
 
     @GetMapping("/movie/latest")

@@ -22,6 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <bt.version>1.8-SNAPSHOT</bt.version>
     </properties>
 
     <dependencies>
@@ -90,6 +91,34 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.atomashpolskiy</groupId>
+            <artifactId>bt-core</artifactId>
+            <version>${bt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.atomashpolskiy</groupId>
+            <artifactId>bt-http-tracker-client</artifactId>
+            <version>${bt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.atomashpolskiy</groupId>
+            <artifactId>bt-dht</artifactId>
+            <version>${bt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.atomashpolskiy</groupId>
+            <artifactId>bt-upnp</artifactId>
+            <version>${bt.version}</version>
+        </dependency>
+        <dependency>
+            <!-- deprecated: remove as soon as the working of bt is clear -->
+            <groupId>com.github.atomashpolskiy</groupId>
+            <artifactId>bt-cli</artifactId>
+            <version>${bt.version}</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

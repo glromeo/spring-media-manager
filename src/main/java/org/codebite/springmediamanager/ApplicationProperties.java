@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "app")
 @Getter
 @Setter
-public class AppProperties {
+public class ApplicationProperties {
 
     public String path;
 

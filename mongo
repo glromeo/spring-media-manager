@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+mkdir -p data/db
+../../Library/mongodb/bin/mongod --dbpath=./data/db
