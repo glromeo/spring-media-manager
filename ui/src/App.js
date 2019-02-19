@@ -50,10 +50,10 @@ export default function App() {
                                 }}>
                             {({maxHeight}) => (
                                 <Switch>
-                                    <Route exact path="/" render={(props) => (
+                                    <Route exact path="/" render={() => (
                                         <SearchPane maxHeight={maxHeight}/>
                                     )}/>
-                                    <Route exact path="/edit" render={(props) => (
+                                    <Route exact path="/edit" render={() => (
                                         <SearchPane maxHeight={maxHeight}/>
                                     )}/>
                                     <Route path="/movie/:id" component={MovieDetails}/>

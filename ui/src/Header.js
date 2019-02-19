@@ -5,6 +5,8 @@ import {fetchConfiguration} from "./redux/actions";
 import {connect} from "react-redux";
 import {withRouter} from "react-router";
 
+const INITIAL_HEIGHT = 2 / 3 * (9 / 16 * 100) + "vw";
+
 class Header extends Component {
 
     constructor(props, context) {
@@ -22,7 +24,11 @@ class Header extends Component {
         if (!this.pendingAnimation) {
             this.pendingAnimation = true;
             requestAnimationFrame(time => {
-                this.props.onResize({width, height, paddingTop: this.props.fixed ? this.videoHeight() : "28.125vw"});
+                this.props.onResize({
+                    width,
+                    height,
+                    paddingTop: this.props.fixed ? this.videoHeight() : INITIAL_HEIGHT
+                });
                 this.pendingAnimation = false;
             });
         }
@@ -31,7 +37,7 @@ class Header extends Component {
     maxHeight() {
         const {imageWidth, imageHeight} = this.props;
         const width = window.innerWidth;
-        return imageHeight && imageWidth ? width / imageWidth * imageHeight : "28.125vw";
+        return imageHeight && imageWidth ? width / imageWidth * imageHeight : INITIAL_HEIGHT;
     }
 
     videoHeight() {
@@ -40,10 +46,18 @@ class Header extends Component {
 
 
     render() {
-        const {baseHeight = "28.125vw", fixed, children, scrollTop = 0} = this.props;
+        const {baseHeight = INITIAL_HEIGHT, fixed, children, scrollTop = 0} = this.props;
         const maxHeight = fixed ? this.maxHeight() : `calc(${baseHeight} - ${scrollTop}px)`;
+        let className = ["Header"];
+        if (scrollTop) {
+            className.push("scrolling");
+        }
+        const { pathname } = this.props.location;
+        if (pathname.length > 1) {
+            className.push(pathname.split("/")[1]);
+        }
         return (
-            <div ref={this.headerRef} className={"Header" + (scrollTop === 0 ? "" : " scrolling")} style={{maxHeight}}>
+            <div ref={this.headerRef} className={className.join(" ")} style={{maxHeight}}>
                 {children({maxHeight})}
                 <ReactResizeDetector handleWidth handleHeight onResize={this.onResize}/>
             </div>

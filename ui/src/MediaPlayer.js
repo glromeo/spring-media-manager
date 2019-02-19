@@ -52,7 +52,7 @@ class MediaPlayer extends Component {
         return movie ? (
             <div className="MediaPlayer" style={
                 plain ? {
-                    backgroundColor: `rgb(${media.color[0]},${media.color[1]},${media.color[2]})`
+                    backgroundColor: `rgb(${media.color[0]},${media.color[1]},${media.color[2]},.9)`
                 } : {
                     backgroundImage: `url(/api/backdrop/${movie.id}/large)`,
                     backgroundPosition: "center",

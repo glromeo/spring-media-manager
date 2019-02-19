@@ -1,0 +1,9 @@
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font: 9pt sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
