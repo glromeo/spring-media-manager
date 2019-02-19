@@ -1,73 +1,73 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {storiesOf} from "@storybook/react";
 
 import Autosuggest from "../components/Autosuggest";
 import TitleAutosuggest from "../TitleAutosuggest";
 import {HTTP_HEADERS} from "../redux/actions";
 
-class AutosuggestWrapper extends React.Component {
+function AutosuggestMovie(props) {
 
-    constructor(props, context) {
-        super(props, context);
-        this.state = {
-            value: "Automata",
-            suggestions: []
-        };
-    }
+    const [query, setQuery] = useState("Automata");
+    const [suggestions, setSuggestions] = useState([]);
 
-    componentDidMount() {
-        this.searchMovie(this.state.value);
-    }
+    let controller;
 
-    componentWillUnmount() {
-        this.cancelPendingFetch();
-    }
+    function searchMovie() {
 
-    searchMovie(query) {
+        cancelPendingFetch();
 
-        this.cancelPendingFetch();
-        this.setState({suggestions: []});
+        const {signal} = controller = new AbortController();
 
         if (query && query.length > 0) fetch(`/api/search/movie?query=${encodeURIComponent(query)}`, {
             method: "GET",
             headers: HTTP_HEADERS,
-            signal: this.controller.signal
+            signal
         }).then(response => response.json()).then(page => {
             let suggestions = page.results.filter(info => info.title).map(info => ({
                 key: info.id,
                 value: info.title + (info.release_date ? " (" + info.release_date.substring(0, 4) + ")" : "")
             }));
-            this.setState({suggestions});
-            this.controller = null;
+            setSuggestions(suggestions);
+            controller = null;
         }).catch(e => console.error.bind(console));
+
+        setSuggestions([]);
     }
 
-    cancelPendingFetch() {
-        if (this.controller) {
-            console.log("abort previous fetch...");
-            this.controller.abort();
+    function cancelPendingFetch() {
+        if (controller) {
+            console.log("aborting previous fetch...");
+            controller.abort();
         }
-        this.controller = new AbortController();
     }
 
-    render() {
-        const {value, suggestions} = this.state;
-        return (
-            <div style={{padding: 20, width: 250}}>
-                <Autosuggest placeholder="Title..." defaultValue={value} suggestions={suggestions}
-                             onApply={({key, value}) => {
-                                 console.log("onApply:", value);
-                             }}
-                             onChange={({value}) => this.searchMovie(value)}
-                />
-            </div>
-        );
-    }
+    useEffect(() => {
+        searchMovie();
+        return cancelPendingFetch;
+    }, [query]);
+
+    return <Autosuggest placeholder="Title..." defaultValue={query} suggestions={suggestions}
+                        onApply={({key, value}) => {
+                            console.log("onApply:", value);
+                        }}
+                        onChange={setQuery}/>
 }
 
-storiesOf('Autosuggest', module).add('simple', () => <AutosuggestWrapper/>);
-
-storiesOf('TitleAutosuggest', module).add('simple', () => <TitleAutosuggest defaultValue={"Automata"}
-                                                                            onApply={({key, value}) => {
-                                                                                console.log("onApply:", value);
-                                                                            }} />);
+storiesOf('Autosuggest', module)
+    .add('autosuggest movie (react hooks version)', () => {
+        return (
+            <div style={{padding: 20, width: 500, backgroundColor: 'lightgrey'}}>
+                <AutosuggestMovie/>
+            </div>
+        );
+    })
+    .add('using title autosuggest', () => {
+        return (
+            <div style={{padding: 20, width: 500, backgroundColor: 'lightgrey'}}>
+                <TitleAutosuggest defaultValue={"Automata"}
+                                  onApply={({key, value}) => {
+                                      console.log("onApply:", value);
+                                  }}/>
+            </div>
+        );
+    });

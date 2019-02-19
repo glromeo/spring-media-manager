@@ -8,7 +8,7 @@ class Autosuggest extends Component {
         const {
             defaultKey,
             defaultValue,
-            suggestions
+            suggestions = []
         } = this.props;
         this.state = {
             key: defaultKey,
