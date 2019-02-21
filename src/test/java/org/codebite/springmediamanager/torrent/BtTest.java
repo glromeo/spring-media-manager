@@ -1,7 +1,6 @@
 package org.codebite.springmediamanager.torrent;
 
 import bt.Bt;
-import bt.cli.SessionStatePrinter;
 import bt.data.Storage;
 import bt.data.file.FileSystemStorage;
 import bt.metainfo.Torrent;
@@ -9,8 +8,7 @@ import bt.runtime.BtClient;
 import bt.runtime.BtRuntime;
 import bt.torrent.TorrentSessionState;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.core.config.Configurator;
+import org.codebite.springmediamanager.media.DownloadService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
@@ -106,11 +104,11 @@ public class BtTest extends Assert {
                         sessionState.getPiecesRemaining(), sessionState.getPiecesNotSkipped());
                 log.info(String.format("Elapsed time: %s\t\tRemaining time: %s", elapsedTime, remainingTime));
 
-                Rate downRate = new Rate(downloaded - this.downloaded);
-                Rate upRate = new Rate(uploaded - this.uploaded);
+                DownloadService.Rate downRate = new DownloadService.Rate(downloaded - this.downloaded);
+                DownloadService.Rate upRate = new DownloadService.Rate(uploaded - this.uploaded);
                 int peerCount = sessionState.getConnectedPeers().size();
-                log.info(String.format("Peers: %2d\t\tDown: %4.1f %s/s\t\tUp: %4.1f %s/s\t\t", peerCount, downRate.getQuantity(), downRate.getMeasureUnit(),
-                        upRate.getQuantity(), upRate.getMeasureUnit()));
+                log.info(String.format("Peers: %2d\t\tDown: %4.1f %s/s\t\tUp: %4.1f %s/s\t\t", peerCount, downRate.quantity, downRate.measureUnit,
+                        upRate.quantity, upRate.measureUnit));
 
                 int completed = sessionState.getPiecesComplete();
                 double completePercents = getCompletePercentage(sessionState.getPiecesTotal(), completed);
@@ -125,7 +123,7 @@ public class BtTest extends Assert {
 
             private String getElapsedTime() {
                 Duration elapsed = Duration.ofMillis(System.currentTimeMillis() - started);
-                return formatDuration(elapsed);
+                return DownloadService.formatDuration(elapsed);
             }
 
             private String getRemainingTime(long downloaded, int piecesRemaining, int piecesTotal) {
@@ -140,7 +138,7 @@ public class BtTest extends Assert {
                     long remainingBytes = (long) (size * remaining);
                     Duration remainingTime = Duration.ofSeconds(remainingBytes / downloaded);
                     // overwrite trailing chars with whitespaces if there are any
-                    remainingStr = formatDuration(remainingTime) + WHITESPACES;
+                    remainingStr = DownloadService.formatDuration(remainingTime) + WHITESPACES;
                 }
                 return remainingStr;
             }
@@ -156,13 +154,6 @@ public class BtTest extends Assert {
         });
 
         CompletableFuture.allOf(completed.toArray(new CompletableFuture[0])).join();
-    }
-
-    private static String formatDuration(Duration duration) {
-        long seconds = duration.getSeconds();
-        long absSeconds = Math.abs(seconds);
-        String positive = String.format("%d:%02d:%02d", absSeconds / 3600, (absSeconds % 3600) / 60, absSeconds % 60);
-        return seconds < 0 ? "-" + positive : positive;
     }
 
     @Test
@@ -186,47 +177,4 @@ public class BtTest extends Assert {
         }, 1000)).join();
     }
 
-
-    private static class Rate {
-
-        private long bytes;
-        private double quantity;
-        private String measureUnit;
-
-        Rate(long delta) {
-            if (delta < 0) {
-                // throw new IllegalArgumentException("delta: " + delta);
-                // TODO: this is a workaround for some nasty bug in the session state,
-                // due to which the delta is sometimes (very seldom) negative
-                // To not crash the UI let's just skip the problematic 'tick' and pretend that nothing was received
-                // instead of throwing an exception
-                log.warn("Negative delta: " + delta + "; will not re-calculate rate");
-                delta = 0;
-                quantity = 0;
-                measureUnit = "B";
-            } else if (delta < (2 << 9)) {
-                quantity = delta;
-                measureUnit = "B";
-            } else if (delta < (2 << 19)) {
-                quantity = delta / (2 << 9);
-                measureUnit = "KB";
-            } else {
-                quantity = ((double) delta) / (2 << 19);
-                measureUnit = "MB";
-            }
-            bytes = delta;
-        }
-
-        public long getBytes() {
-            return bytes;
-        }
-
-        public double getQuantity() {
-            return quantity;
-        }
-
-        public String getMeasureUnit() {
-            return measureUnit;
-        }
-    }
 }

@@ -6,6 +6,7 @@ import org.codebite.springmediamanager.data.Media;
 import org.codebite.springmediamanager.data.MovieSearchResult;
 import org.codebite.springmediamanager.data.mongodb.MediaRepository;
 import org.codebite.springmediamanager.data.tmdb.MovieService;
+import org.codebite.springmediamanager.media.DownloadService;
 import org.codebite.springmediamanager.media.MediaService;
 import org.codebite.springmediamanager.media.PosterService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,7 +44,7 @@ public class MediaController {
     MediaService mediaService;
 
     @PostMapping(value = "/discover/media")
-    public void discover(@RequestParam("path") String path) throws IOException {
+    public void discover(@RequestParam String path) throws IOException {
         try (DirectoryStream<Path> paths = Files.newDirectoryStream(Paths.get(path))) {
             mediaService.discover(paths).forEach(mediaRepository::save);
         }
@@ -65,8 +66,16 @@ public class MediaController {
 
     @GetMapping("/search/multi")
     @ResponseBody
-    public MovieSearchResult searchMulti(@RequestParam(name = "query") String query) {
+    public MovieSearchResult searchMulti(@RequestParam String query) {
         return movieService.multiSearch(query);
     }
 
+    @Autowired
+    private DownloadService downloadService;
+
+    @GetMapping("/download/{magnetUri}")
+    @ResponseBody
+    public void download(@PathVariable String magnetUri, @RequestParam(defaultValue = "false") boolean keepSeeding) {
+        downloadService.downloadTorrent(magnetUri, keepSeeding);
+    }
 }
