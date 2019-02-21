@@ -23,6 +23,7 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 import static java.lang.String.format;
+import static java.util.Optional.ofNullable;
 
 @Service
 @Slf4j
@@ -41,7 +42,7 @@ public class DownloadService {
         runtime = BtRuntime.builder().build();
     }
 
-    private Map<String, CompletableFuture<?>> downloads = new LinkedHashMap<>();
+    private Map<String, BtClient> downloads = new LinkedHashMap<>();
 
     @Autowired
     private SimpMessagingTemplate simp;
@@ -50,7 +51,7 @@ public class DownloadService {
 
         final DownloadState downloadState = new DownloadState();
 
-        BtClient client = Bt.client(runtime)
+        BtClient client = downloads.computeIfAbsent(magnetUri, uri -> Bt.client(runtime)
                 .magnet(magnetUri)
                 .storage(storage)
                 .afterTorrentFetched(t -> {
@@ -59,20 +60,29 @@ public class DownloadService {
                     log.info("torrent: {}, size: {}", downloadState.torrentName, downloadState.torrentSize);
                     notifyDownloadState(downloadState);
                 })
-                .build();
+                .build()
+        );
 
-        final CompletableFuture<?> download = client
-                .startAsync(sessionState -> {
-                    notifySessionState(downloadState, sessionState);
-                    downloadState.downloaded = sessionState.getDownloaded();
-                    downloadState.uploaded = sessionState.getUploaded();
-                    if (!keepSeeding && sessionState.getPiecesRemaining() == 0) {
-                        client.stop();
-                    }
-                }, 1000)
-                .thenAccept(o -> downloads.remove(magnetUri));
+        if (!client.isStarted()) {
+            CompletableFuture<?> done = client.startAsync(sessionState -> {
+                notifySessionState(downloadState, sessionState);
+                downloadState.downloaded = sessionState.getDownloaded();
+                downloadState.uploaded = sessionState.getUploaded();
+                if (!keepSeeding && sessionState.getPiecesRemaining() == 0) {
+                    client.stop();
+                }
+            }, 1000);
+            done.thenAccept(o -> downloads.remove(magnetUri));
+        }
+    }
 
-        downloads.put(magnetUri, download);
+    public void stopTorrent(String magnetUri) {
+        ofNullable(downloads.get(magnetUri)).filter(BtClient::isStarted).ifPresent(BtClient::stop);
+    }
+
+    public void deleteTorrent(String magnetUri) {
+        stopTorrent(magnetUri);
+        downloads.remove(magnetUri);
     }
 
     public static class DownloadState {

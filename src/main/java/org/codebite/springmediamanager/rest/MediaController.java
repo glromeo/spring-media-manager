@@ -73,9 +73,25 @@ public class MediaController {
     @Autowired
     private DownloadService downloadService;
 
-    @GetMapping("/download/{magnetUri}")
-    @ResponseBody
-    public void download(@PathVariable String magnetUri, @RequestParam(defaultValue = "false") boolean keepSeeding) {
-        downloadService.downloadTorrent(magnetUri, keepSeeding);
+    private enum DownloadActions {
+        START,
+        STOP,
+        DELETE
+    }
+
+    @PostMapping(value = "/download/magnet", consumes = "text/plain", produces = "text/plain")
+    public void download(@RequestBody String magnetUri,
+                           @RequestParam(required = true) String action,
+                           @RequestParam(required = false, defaultValue = "false") boolean keepSeeding) {
+        switch (DownloadActions.valueOf(action.toUpperCase())) {
+            case START:
+                downloadService.downloadTorrent(magnetUri, keepSeeding);
+                return;
+            case STOP:
+                downloadService.stopTorrent(magnetUri);
+                return;
+            case DELETE:
+                downloadService.deleteTorrent(magnetUri);
+        }
     }
 }

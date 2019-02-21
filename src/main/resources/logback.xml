@@ -4,4 +4,7 @@
     <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter">
         <level value="INFO" />
     </logger>
+    <logger name="org.springframework.security">
+        <level value="WARN" />
+    </logger>
 </configuration>

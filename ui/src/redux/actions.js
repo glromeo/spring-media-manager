@@ -1,10 +1,10 @@
 import base64 from "base-64";
 import palette from "../palette";
 
-export const HTTP_HEADERS = new Headers();
 const username = 'proxy_username';
 const password = 'proxy_password';
-HTTP_HEADERS.append('Authorization', `Basic ${base64.encode(username + ":" + password)}`);
+
+export const HTTP_HEADERS = {'Authorization': `Basic ${base64.encode(username + ":" + password)}`};
 
 export const FETCHING_CONFIG = "FETCHING_CONFIG";
 export const FETCHED_CONFIG = "FETCHED_CONFIG";
