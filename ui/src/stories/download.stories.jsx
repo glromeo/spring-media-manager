@@ -4,6 +4,7 @@ import SockJsClient from "react-stomp";
 
 import ProgressBar from "../components/ProgressBar";
 import {HTTP_HEADERS} from "../redux/actions";
+import PeersGraph from "../components/d3/PeersGraph";
 
 storiesOf('Progress Bar', module)
 
@@ -59,6 +60,7 @@ storiesOf('Progress Bar', module)
 
             const [magnetUri, setMagnetUri] = useState(params.magnetUri);
             const [session, setSession] = useState({state: "primary"});
+            const [peers, setPeers] = useState([]);
 
             function startDownload() {
                 setSession({
@@ -105,11 +107,15 @@ storiesOf('Progress Bar', module)
                             </div>
                         </div>
                     )}
+                    <div style={{width: 800, height: 800}}>
+                        <PeersGraph peers={peers}/>
+                    </div>
                     <ProgressBar value={0} total={100}/>
                     <SockJsClient url='http://localhost:8080/api/socket'
                                   topics={['/topic/download']}
                                   onMessage={(message) => {
                                       console.log(message);
+                                      if (message.peers) setPeers(message.peers);
                                   }}/>
                 </div>
             )

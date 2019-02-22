@@ -10,6 +10,7 @@ import org.codebite.springmediamanager.media.DownloadService;
 import org.codebite.springmediamanager.media.MediaService;
 import org.codebite.springmediamanager.media.PosterService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -79,10 +80,11 @@ public class MediaController {
         DELETE
     }
 
-    @PostMapping(value = "/download/magnet", consumes = "text/plain", produces = "text/plain")
+    @PostMapping(value = "/download/magnet", consumes = "text/plain")
+    @ResponseStatus(code = HttpStatus.OK)
     public void download(@RequestBody String magnetUri,
-                           @RequestParam(required = true) String action,
-                           @RequestParam(required = false, defaultValue = "false") boolean keepSeeding) {
+                         @RequestParam(required = true) String action,
+                         @RequestParam(required = false, defaultValue = "false") boolean keepSeeding) {
         switch (DownloadActions.valueOf(action.toUpperCase())) {
             case START:
                 downloadService.downloadTorrent(magnetUri, keepSeeding);

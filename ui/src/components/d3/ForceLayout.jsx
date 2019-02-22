@@ -18,28 +18,37 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
     const svgRef = useRef(null);
     const simulationRef = useRef(null);
 
+    const nodesMap = {};
+    nodes.forEach(n => {
+        nodesMap[n.name] = n;
+    });
+    const linksMap = {};
+    links.forEach(l => {
+        linksMap[l.source.name + l.target.name] = l;
+    });
+
     useEffect(() => {
 
         const {width, height} = svgRef.current.getBoundingClientRect();
 
         const simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(d => d.index))
-            .force("charge", d3.forceManyBody().strength(-2000).distanceMin(100).distanceMax(1000))
+            .force("link", d3.forceLink().distance(200))
+            .force("charge", d3.forceManyBody().strength(-1000).distanceMin(100).distanceMax(1000))
             .force("center", d3.forceCenter(width / 2, height / 2))
-            .force("y", d3.forceY(0.001))
-            .force("x", d3.forceX(0.001));
+            .force("y", d3.forceY())
+            .force("x", d3.forceX())
+            .alphaTarget(1)
+            .on("tick", function () {
+                svg.selectAll(".link")
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+                svg.selectAll(".node")
+                    .attr("transform", d => (`translate(${d.x},${d.y})`));
+            });
 
         const svg = d3.select(svgRef.current);
-
-        simulation.on("tick", function () {
-            svg.selectAll(".link").attr("x1", d => d.source.x)
-                .attr("y1", d => d.source.y)
-                .attr("x2", d => d.target.x)
-                .attr("y2", d => d.target.y);
-            svg.selectAll(".node").attr("transform", d => {
-                return `translate(${d.x},${d.y})`;
-            });
-        });
 
         simulationRef.current = simulation;
 
@@ -60,7 +69,33 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
         const svg = d3.select(svgRef.current);
         const {current: simulation} = simulationRef;
 
-        let link = svg.selectAll(".link").data(links, d => d.source + "," + d.target);
+        const nodes = simulation.nodes();
+        let c, n = nodes.length;
+        while ((c = nodes[--n])) {
+            if (!nodesMap[c.name]) {
+                nodes.splice(c, 1);
+            } else {
+                nodesMap[c.name] = undefined;
+            }
+        }
+        Object.values(nodesMap).filter(v => v !== undefined).forEach(v => {
+            v.x = width / 2;
+            v.y = height / 2;
+            return nodes.push(v);
+        });
+        const links = simulation.force("link").links();
+        let d, l = links.length;
+        while ((d = links[--l])) {
+            const k = d.source.name + d.target.name;
+            if (!linksMap[k]) {
+                links.splice(c, 1);
+            } else {
+                linksMap[k] = undefined;
+            }
+        }
+        Object.values(linksMap).filter(v => v !== undefined).forEach(v => links.push(v));
+
+        let link = svg.selectAll(".link").data(links, d => d.source.name + d.target.name);
         link.exit().remove();
         link = link.enter()
             .append("line")
@@ -155,10 +190,9 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
                 .endAngle(d => (d.speed - 0.5) * Math.PI * 4 / 3)
             ).lower();
 
-        simulation
-            .nodes(nodes)
-            .force("link")
-            .links(links);
+        simulation.nodes(nodes);
+        simulation.force("link").links(links);
+        simulation.alphaTarget(0.3).restart();
 
     }, [nodes, links]);
 

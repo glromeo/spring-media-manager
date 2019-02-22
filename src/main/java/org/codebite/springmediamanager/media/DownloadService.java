@@ -3,6 +3,8 @@ package org.codebite.springmediamanager.media;
 import bt.Bt;
 import bt.data.Storage;
 import bt.data.file.FileSystemStorage;
+import bt.dht.DHTConfig;
+import bt.dht.DHTModule;
 import bt.net.PeerId;
 import bt.runtime.BtClient;
 import bt.runtime.BtRuntime;
@@ -39,7 +41,15 @@ public class DownloadService {
     @PostConstruct
     private void setUp() {
         storage = new FileSystemStorage(Paths.get(downloadPath));
-        runtime = BtRuntime.builder().build();
+        runtime = BtRuntime.builder()
+                .autoLoadModules()
+                .module(new DHTModule(new DHTConfig() {
+                    @Override
+                    public boolean shouldUseRouterBootstrap() {
+                        return true;
+                    }
+                }))
+                .build();
     }
 
     private Map<String, BtClient> downloads = new LinkedHashMap<>();
@@ -72,7 +82,7 @@ public class DownloadService {
                     client.stop();
                 }
             }, 1000);
-            done.thenAccept(o -> downloads.remove(magnetUri));
+            done.whenComplete((o, t) -> downloads.remove(magnetUri));
         }
     }
 
@@ -210,9 +220,9 @@ public class DownloadService {
 
     private ConnectedPeer[] connectedPeers(TorrentSessionState session) {
         return session.getConnectedPeers().stream().map(peer -> ConnectedPeer.builder()
-                .peerId(peer.getPeerId().map(PeerId::toString).orElse("Peer@" + peer.hashCode()))
-                .address(peer.getInetAddress().toString())
-                .inetSocketAddress(peer.getInetSocketAddress().toString())
+                .peerId(peer.getPeerId().map(PeerId::toString).orElse("#" + peer.hashCode()))
+                .address(peer.getInetAddress().toString().substring(1))
+                .inetSocketAddress(peer.getInetSocketAddress().toString().substring(1))
                 .port(peer.getPort())
                 .build()).toArray(ConnectedPeer[]::new);
     }
