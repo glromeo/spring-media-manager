@@ -42,9 +42,14 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    "last 2 Chrome versions"
-  ],
+  "browserslist": {
+    "development": [
+      "last 1 chrome versions"
+    ],
+    "production": [
+      "last 1 chrome versions"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@storybook/addon-actions": "^4.1.13",
@@ -52,7 +57,7 @@
     "@storybook/addons": "^4.1.13",
     "@storybook/react": "^4.1.13",
     "@types/react": "^16.8.4",
-    "babel-loader": "8.0.4",
+    "babel-loader": "^8.0.5",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0"
   }
