@@ -18,15 +18,6 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
     const svgRef = useRef(null);
     const simulationRef = useRef(null);
 
-    const nodesMap = {};
-    nodes.forEach(n => {
-        nodesMap[n.name] = n;
-    });
-    const linksMap = {};
-    links.forEach(l => {
-        linksMap[l.source.name + l.target.name] = l;
-    });
-
     useEffect(() => {
 
         const {width, height} = svgRef.current.getBoundingClientRect();
@@ -68,32 +59,6 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
 
         const svg = d3.select(svgRef.current);
         const {current: simulation} = simulationRef;
-
-        const nodes = simulation.nodes();
-        let c, n = nodes.length;
-        while ((c = nodes[--n])) {
-            if (!nodesMap[c.name]) {
-                nodes.splice(c, 1);
-            } else {
-                nodesMap[c.name] = undefined;
-            }
-        }
-        Object.values(nodesMap).filter(v => v !== undefined).forEach(v => {
-            v.x = width / 2;
-            v.y = height / 2;
-            return nodes.push(v);
-        });
-        const links = simulation.force("link").links();
-        let d, l = links.length;
-        while ((d = links[--l])) {
-            const k = d.source.name + d.target.name;
-            if (!linksMap[k]) {
-                links.splice(c, 1);
-            } else {
-                linksMap[k] = undefined;
-            }
-        }
-        Object.values(linksMap).filter(v => v !== undefined).forEach(v => links.push(v));
 
         let link = svg.selectAll(".link").data(links, d => d.source.name + d.target.name);
         link.exit().remove();
@@ -192,7 +157,7 @@ export default function ForceLayout({width = "100%", height = "100%", nodes, lin
 
         simulation.nodes(nodes);
         simulation.force("link").links(links);
-        simulation.alphaTarget(0.3).restart();
+        simulation.alphaTarget(0.5).restart();
 
     }, [nodes, links]);
 
