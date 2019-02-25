@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/d3-force": "^1.2.1",
     "base-64": "^0.1.0",
     "bootstrap": "^4.3.1",
     "d3": "^5.9.1",
@@ -42,14 +43,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "development": [
-      "last 1 chrome versions"
-    ],
-    "production": [
-      "last 1 chrome versions"
-    ]
-  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@storybook/addon-actions": "^4.1.13",

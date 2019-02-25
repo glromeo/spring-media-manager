@@ -6,9 +6,9 @@ import ProgressBar from "../components/ProgressBar";
 import {HTTP_HEADERS} from "../redux/actions";
 import PeersGraph from "../components/d3/PeersGraph";
 
-storiesOf('Progress Bar', module)
+storiesOf('Download', module)
 
-    .add('stomp', () => {
+    .add('TODO: progress bar', () => {
 
         function StompStory() {
 
@@ -56,10 +56,14 @@ storiesOf('Progress Bar', module)
             })
         }
 
+        const IDLE = "primary";
+        const RUNNING = "success";
+        const STOPPED = "danger";
+
         function Download(params) {
 
             const [magnetUri, setMagnetUri] = useState(params.magnetUri);
-            const [session, setSession] = useState({state: "primary"});
+            const [session, setSession] = useState({state: IDLE});
             const [peers, setPeers] = useState([]);
 
             function startDownload() {
@@ -68,17 +72,17 @@ storiesOf('Progress Bar', module)
                     magnetUri: magnetUri
                 });
                 postMagnetDownload("start", magnetUri).then(() => {
-                    setSession({...session, state: "success"});
+                    setSession({...session, state: RUNNING});
                 }).catch(e => {
-                    setSession({...session, state: "danger", failure: e.message});
+                    setSession({...session, state: STOPPED, failure: e.message});
                 })
             }
 
             function stopDownload() {
                 postMagnetDownload("stop", magnetUri).then(() => {
-                    setSession({...session, state: "primary"});
+                    setSession({...session, state: IDLE});
                 }).catch(e => {
-                    setSession({...session, state: "danger", failure: e.message});
+                    setSession({...session, state: STOPPED, failure: e.message});
                 })
             }
 
@@ -91,16 +95,16 @@ storiesOf('Progress Bar', module)
                         />
                         <div className="input-group-append">
                             <button className={"btn btn-outline-" + session.state} type="button" onClick={startDownload}
-                                    disabled={session.state === "success"}>
+                                    disabled={session.state === RUNNING}>
                                 Download
                             </button>
                             <button className="btn btn-outline-danger" type="button" onClick={stopDownload}
-                                    disabled={session.state === "primary"}>
+                                    disabled={session.state === IDLE}>
                                 Stop
                             </button>
                         </div>
                     </div>
-                    {session.state === "danger" && (
+                    {session.state === STOPPED && (
                         <div className="mb-3">
                             <div className="alert alert-danger" role="alert">
                                 {session.failure}
@@ -115,7 +119,12 @@ storiesOf('Progress Bar', module)
                                   topics={['/topic/download']}
                                   onMessage={(message) => {
                                       console.log(message);
-                                      if (message.peers) setPeers(message.peers);
+                                      if (message.peers) {
+                                          if (session.state !== RUNNING) {
+                                              setSession({...session, state: RUNNING});
+                                          }
+                                          setPeers(message.peers);
+                                      }
                                   }}/>
                 </div>
             )
