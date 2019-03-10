@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {Player} from "video-react";
-
-import "./MediaPlayer.scss";
-import {HTTP_HEADERS, playbackMedia} from "./redux/actions";
+import {playbackMedia} from "./redux/actions";
 import {connect} from "react-redux";
 import {withRouter} from "react-router";
+import {HTTP_HEADERS} from "./util/constants";
+
+import "./MediaPlayer.scss";
 
 class MediaPlayer extends Component {
 

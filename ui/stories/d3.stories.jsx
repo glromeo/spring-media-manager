@@ -1,9 +1,9 @@
 import React, {useEffect, useRef, useState} from "react";
 import {storiesOf} from "@storybook/react";
 import ReactResizeDetector from 'react-resize-detector';
-import ForceLayout from "../components/d3/ForceLayout";
+import ForceLayout from "../src/components/d3/ForceLayout";
 import * as d3 from "d3";
-import PeersGraph from "../components/d3/PeersGraph";
+import PeersGraph from "../src/components/d3/PeersGraph";
 
 storiesOf('D3 v5', module)
 

@@ -71,7 +71,7 @@ class Autosuggest extends Component {
         const {key, value, fetching, suggestions, timeout} = this.state;
         const isValid = !!key;
         return (
-            <div className="dropdown" style={style}>
+            <div className="Autosuggest dropdown" style={style}>
                 <div className="form-group m-0" data-toggle="dropdown">
                     <p className="form-control" ref={this.inputRef} contentEditable
                        suppressContentEditableWarning

@@ -2,14 +2,14 @@ import React, {useEffect, useRef, useState} from "react";
 import {storiesOf} from "@storybook/react";
 import SockJsClient from "react-stomp";
 
-import ProgressBar from "../components/ProgressBar";
+import ProgressBar from "../src/components/ProgressBar";
 
 import "./electronic-diagram.sass";
 
 storiesOf('Progress', module)
 
     .add('simple', () => (
-        <div style={{padding: 20}}>
+        <div style={{width: '50vw', height: '50vh'}}>
             <ProgressBar value={10} total={100}/>
         </div>
     ))
@@ -33,14 +33,16 @@ storiesOf('Progress', module)
                 }, 1000);
             }
 
-            return <div style={{padding: 20}}>
-                <ProgressBar value={value} total={100}/>
-                <SockJsClient ref={clientRef} url='http://localhost:8080/api/socket'
-                              topics={['/topic/progress']}
-                              onMessage={(message) => {
-                                  setValue(message.value);
-                              }}/>
-            </div>;
+            return (
+                <div style={{width: '50vw', height: '50vh'}}>
+                    <ProgressBar value={value} total={100}/>
+                    <SockJsClient ref={clientRef} url='http://localhost:8080/api/socket'
+                                  topics={['/topic/progress']}
+                                  onMessage={(message) => {
+                                      setValue(message.value);
+                                  }}/>
+                </div>
+            )
         }
 
         return <StompStory/>
@@ -185,7 +187,7 @@ storiesOf('Progress', module)
             }, [])
 
             return (
-                <div ref={atomRef}>
+                <div className="ElectronicDiagram" ref={atomRef}>
                     <div className="content-wrap">
                         <div className="content-card">
                             <div className="Atom">

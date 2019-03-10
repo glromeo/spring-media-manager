@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import "./MovieDetails.scss";
 import Metadata from "./Metadata";
-import {HTTP_HEADERS} from "./redux/actions";
+import {HTTP_HEADERS} from "./util/constants";
 
 class Movie extends Component {
 

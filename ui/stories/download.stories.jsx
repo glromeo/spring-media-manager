@@ -2,9 +2,10 @@ import React, {useEffect, useRef, useState} from "react";
 import {storiesOf} from "@storybook/react";
 import SockJsClient from "react-stomp";
 
-import ProgressBar from "../components/ProgressBar";
-import {HTTP_HEADERS} from "../redux/actions";
-import PeersGraph from "../components/d3/PeersGraph";
+import ProgressBar from "../src/components/ProgressBar";
+import PeersGraph from "../src/components/d3/PeersGraph";
+
+import {HTTP_HEADERS} from "../src/util/constants";
 
 storiesOf('Download', module)
 

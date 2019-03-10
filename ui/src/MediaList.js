@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import {fetchMediaIfNeeded, selectMedia} from "./redux/actions";
+import {fetchMediaIfNeeded, selectMedia} from "../../ui/src/redux/actions";
 import {List, WindowScroller} from "react-virtualized";
 import Media from "./Media";
 import "./MediaList.scss";

@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import Autosuggest from "./components/Autosuggest";
-import {HTTP_HEADERS} from "./redux/actions";
+import Autosuggest from "../components/autosuggest/Autosuggest";
+import {HTTP_HEADERS} from "../util/constants";
 
-class TitleAutosuggest extends Component {
+class AutosuggestTitle extends Component {
 
     constructor(props, context) {
         super(props, context);
@@ -56,7 +56,7 @@ class TitleAutosuggest extends Component {
         const {defaultKey, defaultValue} = this.props;
         const {suggestions} = this.state;
         return (
-            <div className="TitleAutosuggest">
+            <div className="AutosuggestTitle">
                 <Autosuggest placeholder="Title..." defaultKey={defaultKey} defaultValue={defaultValue}
                              suggestions={suggestions}
                              onChange={({value}) => this.searchMovie(value)}
@@ -67,4 +67,4 @@ class TitleAutosuggest extends Component {
     }
 }
 
-export default TitleAutosuggest;
+export default AutosuggestTitle;

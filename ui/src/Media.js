@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {HTTP_HEADERS} from "./redux/actions";
 
 import "./Media.scss";
 import Metadata from "./Metadata";
 import Movie from "./Movie";
-import TitleAutosuggest from "./TitleAutosuggest";
+import AutosuggestTitle from "../../ui/src/containers/AutosuggestTitle";
+import {HTTP_HEADERS} from "./util/constants";
 
 const EMPTY_ARRAY = [];
 
@@ -35,11 +35,11 @@ class Media extends Component {
 
         if (id) fetch(`/api/movie/${id}`, {
             method: "GET",
-            headers: {...HTTP_HEADERS}
+            headers: HTTP_HEADERS
         }).then(response => response.json()).then(movie => {
             fetch(`/api/poster/fetch/${id}`, {
                 method: "POST",
-                headers: {...HTTP_HEADERS}
+                headers: HTTP_HEADERS
             }).then(response => {
                 this.setState({title: movie.title, loading: false});
                 if (this.props.onSave) this.props.onSave({...media, movie, draft: true, color: "gold"});
@@ -68,7 +68,7 @@ class Media extends Component {
                             : <span>{media.path.charAt(3) || '?'}</span>
                         }
                     </div>
-                    <TitleAutosuggest defaultValue={title} onApply={this.scrape}/>
+                    <AutosuggestTitle defaultValue={title} onApply={this.scrape}/>
                     <Metadata value={media.metadata}/>
                     <div className="Path">{media.path}</div>
                 </div>}

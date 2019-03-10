@@ -5,14 +5,16 @@ import {Switch} from "react-router";
 import Header from "./Header";
 import SearchPane from "./SearchPane";
 import MediaList from "./MediaList";
+import MovieDetails from "./MovieDetails";
+import MediaPlayer from "./MediaPlayer";
 
 import {Provider} from "react-redux";
-import store from "./redux/store";
+import configureStore from "../../ui/src/redux/store";
 
 import './App.scss';
 import logo from "./logo.svg";
-import MovieDetails from "./MovieDetails";
-import MediaPlayer from "./MediaPlayer";
+
+const store = configureStore();
 
 export default function App() {
 

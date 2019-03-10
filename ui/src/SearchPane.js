@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {CSSTransition, TransitionGroup,} from 'react-transition-group';
 import "./SearchPane.scss";
 import {connect} from "react-redux";
-import {applySearch, fetchMovieGenres} from "./redux/actions";
+import {applySearch, fetchMovieGenres} from "../../ui/src/redux/actions";
 
 class SearchPane extends Component {
 

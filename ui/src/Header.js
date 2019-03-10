@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactResizeDetector from 'react-resize-detector';
 import "./Header.scss"
-import {fetchConfiguration} from "./redux/actions";
+import {fetchConfiguration} from "../../ui/src/redux/actions";
 import {connect} from "react-redux";
 import {withRouter} from "react-router";
 

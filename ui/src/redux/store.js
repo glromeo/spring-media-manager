@@ -3,9 +3,9 @@ import thunk from 'redux-thunk'
 import {createLogger} from 'redux-logger'
 import reducers from './reducers'
 
-const state = {};
-
 const logger = createLogger();
 const middleware = applyMiddleware(thunk, logger);
 
-export default createStore(reducers, state, middleware);
+export default function configureStore(state = {}) {
+    return createStore(reducers, state, middleware);
+}
