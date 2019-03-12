@@ -1,0 +1,171 @@
+@import '../../../node_modules/semantic-ui-css/semantic.min.css';
+
+.ComboBox {
+
+  .ReactVirtualized__List:focus {
+    outline: none;
+  }
+
+  &.ui.dropdown .menu > div > * {
+    white-space: nowrap;
+  }
+
+  &.ui.dropdown .menu > div > .item .dropdown.icon {
+    width: auto;
+    float: right;
+    margin: 0em 0em 0em 1em;
+  }
+  &.ui.dropdown .menu > div > .item .dropdown.icon + .text {
+    margin-right: 1em;
+  }
+
+  &.ui.dropdown .menu > div > .item {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    border: none;
+    height: auto;
+    text-align: left;
+    border-top: none;
+    line-height: 1em;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 0.78571429rem 1.14285714rem !important;
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: normal;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-touch-callout: none;
+  }
+  &.ui.dropdown .menu > div > .item:first-child {
+    border-top-width: 0px;
+  }
+
+  &.ui.dropdown .menu > div > .header {
+    margin: 1rem 0rem 0.75rem;
+    padding: 0em 1.14285714rem;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 0.78571429em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &.ui.dropdown .menu > div > .divider {
+    border-top: 1px solid rgba(34, 36, 38, 0.1);
+    height: 0em;
+    margin: 0.5em 0em;
+  }
+  &.ui.dropdown.dropdown .menu > div > .input {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 1.14285714rem 0.78571429rem;
+    min-width: 10rem;
+  }
+  &.ui.dropdown .menu > div > .header + .input {
+    margin-top: 0em;
+  }
+  &.ui.dropdown .menu > div > .input:not(.transparent) input {
+    padding: 0.5em 1em;
+  }
+  &.ui.dropdown .menu > div > .input:not(.transparent) .button,
+  &.ui.dropdown .menu > div > .input:not(.transparent) .icon,
+  &.ui.dropdown .menu > div > .input:not(.transparent) .label {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  &.ui.dropdown .menu > div > .item > .description {
+    float: right;
+    margin: 0em 0em 0em 1em;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  &.ui.dropdown .menu > div > .message {
+    padding: 0.78571429rem 1.14285714rem;
+    font-weight: normal;
+  }
+  &.ui.dropdown .menu > div > .message:not(.ui) {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  &.ui.dropdown .menu > div > .item > .icon,
+  &.ui.dropdown .menu > div > .item > .label,
+  &.ui.dropdown .menu > div > .item > .flag,
+  &.ui.dropdown .menu > div > .item > .image,
+  &.ui.dropdown .menu > div > .item > img {
+    margin-top: 0em;
+  }
+  &.ui.dropdown .menu > div > .item > .icon,
+  &.ui.dropdown .menu > div > .item > .label,
+  &.ui.dropdown .menu > div > .item > .flag,
+  &.ui.dropdown .menu > div > .item > .image,
+  &.ui.dropdown .menu > div > .item > img {
+    margin-left: 0em;
+    float: none;
+    margin-right: 0.78571429rem;
+  }
+
+  &.ui.dropdown .menu > div > .item > .image,
+  &.ui.dropdown .menu > div > .item > img {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+    max-height: 2em;
+  }
+
+  /* Remove Menu Item Divider */
+  &.ui.dropdown .ui.menu > div > .item:before,
+  .ui.menu .ui.dropdown .menu > div > .item:before {
+    display: none;
+  }
+
+  &.ui.selection.dropdown .menu > div > .message {
+    padding: 0.78571429rem 1.14285714rem;
+  }
+
+  &.ui.selection.dropdown .menu > div > .item {
+    border-top: 1px solid #FAFAFA;
+    padding: 0.78571429rem 1.14285714rem !important;
+    white-space: normal;
+    word-wrap: normal;
+  }
+
+  &.ui.selection.dropdown .menu > div > .hidden.addition.item {
+    display: none;
+  }
+
+  &.ui.dropdown .menu > div > .item:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.95);
+    z-index: 13;
+  }
+
+  &.ui.dropdown.error > .menu > div > .item {
+    color: #9F3A38;
+  }
+
+  &.ui.dropdown.error > .menu > div > .item:hover {
+    background-color: #FFF2F2;
+  }
+
+  &.ui.dropdown .menu > div > .disabled.item {
+    cursor: default;
+    pointer-events: none;
+    opacity: 0.45;
+  }
+
+  &.ui.dropdown .right.menu > div > .menu,
+  &.ui.dropdown .menu .right.menu {
+    left: 100% !important;
+    right: auto !important;
+    border-radius: 0.28571429rem !important;
+  }
+
+  &.ui.dropdown .scrolling.menu > div > .item.item.item {
+    border-top: none;
+  }
+
+}

@@ -5,6 +5,7 @@ import Dropdown from "../src/components/dropdown/Dropdown";
 import Options from "../src/components/dropdown/Options";
 import {number} from "@storybook/addon-knobs";
 import {withLazyStory} from "./decorators";
+import ComboBox from "../src/components/dropdown/ComboBox";
 
 storiesOf('Dropdown', module)
 
@@ -75,6 +76,34 @@ storiesOf('Dropdown', module)
                              width={number('width', 400)}
                              options={options}
                              onChange={action("onChange")}/>
+        }
+
+        return <Story/>
+    })
+
+    .add('semantic-ui', () => {
+
+        function Story() {
+
+            const [options, setOptions] = useState([]);
+
+            const page = number("page", 0);
+            const pageSize = number("page size", 100);
+
+            useEffect(() => {
+                const options = new Options(page, pageSize);
+                options.fetchPage(0).then(setOptions);
+            }, []);
+
+            return (
+                <div>
+                    <ComboBox value="Simple"
+                              maxHeight={number('height', 400)}
+                              width={number('width', 400)}
+                              options={options}
+                              onChange={action("onChange")}/>
+                </div>
+            )
         }
 
         return <Story/>
