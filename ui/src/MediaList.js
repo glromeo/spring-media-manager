@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
 import {fetchMediaIfNeeded, selectMedia} from "../../ui/src/redux/actions";
-import {List, WindowScroller} from "react-virtualized";
+import {defaultCellRangeRenderer, List, WindowScroller} from "react-virtualized";
 import Media from "./Media";
 import "./MediaList.scss";
 
@@ -62,15 +62,15 @@ class MediaList extends Component {
         const rowHeight = 180;
         return (
             <div className="Movies">
-                <WindowScroller>
-                    {({height, isScrolling, onChildScroll, scrollTop}) => (
+                {/*<WindowScroller>*/}
+                    {/*{({height, isScrolling, onChildScroll, scrollTop}) => (*/}
                         <List ref={this.listRef}
                               autoHeight
-                              height={height}
+                              height={1000}
                               width={width}
-                              scrollTop={scrollTop}
-                              isScrolling={isScrolling}
-                              onScroll={onChildScroll}
+                              // scrollTop={scrollTop}
+                              // isScrolling={isScrolling}
+                              // onScroll={onChildScroll}
                               rowCount={list.length}
                               rowHeight={({index}) => {
                                   if (index === lastIndex) {
@@ -82,8 +82,8 @@ class MediaList extends Component {
                               rowRenderer={this.renderRow}
                               estimatedRowSize={rowHeight}
                         />
-                    )}
-                </WindowScroller>
+                    {/*)}*/}
+                {/*</WindowScroller>*/}
             </div>
         );
     }

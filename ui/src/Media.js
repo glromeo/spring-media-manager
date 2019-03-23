@@ -40,17 +40,17 @@ class Media extends Component {
             fetch(`/api/poster/fetch/${id}`, {
                 method: "POST",
                 headers: HTTP_HEADERS
-            }).then(response => {
+            }).then(() => {
                 this.setState({title: movie.title, loading: false});
                 if (this.props.onSave) this.props.onSave({...media, movie, draft: true, color: "gold"});
             });
-        }).catch(e => console.error.bind(console)); // TODO: Handle this!
+        }).catch(() => console.error.bind(console)); // TODO: Handle this!
     }
 
-    scrape = ({key, value}) => {
+    scrape = ({id, title}) => {
         const {media} = this.props;
-        this.setState({title: value, loading: true});
-        this.identifyMedia(key, media);
+        this.setState({title, loading: true});
+        this.identifyMedia(id, media);
     };
 
     render() {
@@ -68,7 +68,7 @@ class Media extends Component {
                             : <span>{media.path.charAt(3) || '?'}</span>
                         }
                     </div>
-                    <AutosuggestTitle defaultValue={title} onApply={this.scrape}/>
+                    <AutosuggestTitle query={title} onChange={this.scrape}/>
                     <Metadata value={media.metadata}/>
                     <div className="Path">{media.path}</div>
                 </div>}

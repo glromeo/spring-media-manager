@@ -24,10 +24,10 @@ export default function App() {
 
     useEffect(() => {
         let pendingAnimation = false;
-        function onScroll({scrollTop}) {
+        function onScroll() {
             if (!pendingAnimation) {
                 pendingAnimation = true;
-                requestAnimationFrame(time => {
+                requestAnimationFrame(() => {
                     setScrollTop(window.scrollY);
                     pendingAnimation = false;
                 });

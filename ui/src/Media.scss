@@ -14,7 +14,7 @@
 
     display: grid;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: 1fr 1.5em 1em;
+    grid-template-rows: 1fr 1.5em 1.75em;
     grid-template-areas:
             'letter title'
             'letter metadata'
@@ -35,8 +35,15 @@
       margin-right: 20px;
     }
 
-    .AutosuggestTitle {
+    .Autosuggest {
       grid-area: title;
+
+      .query {
+        margin-top: -6px;
+        font-size: 1.333rem;
+        font-weight: bold;
+        text-shadow: rgba(0, 0, 0, 0.125) 1px 1px 0px;
+      }
     }
 
     .Metadata {
@@ -46,6 +53,9 @@
     .Path {
       grid-area: path;
       text-align: right;
+      padding-right: 0.5em;
+      text-decoration: underline;
+      font-size: 1.1em;
     }
   }
 

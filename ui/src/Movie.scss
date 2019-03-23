@@ -46,9 +46,11 @@
   @import "Poster";
 
   .Title {
+
     grid-area: title;
-    font-size: 1.333em;
+    font-size: 1.333rem;
     text-shadow: 1px 1px rgba(0,0,0,0.125);
+
     span {
       min-width: 0;
       font-weight: bold;
@@ -56,10 +58,25 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-    .AutosuggestTitle {
-      margin-left: -10px;
-      p.form-control {
-        font-size: 1em;
+
+    .Autosuggest {
+
+      padding: 0.333rem 0;
+      margin-left: -0.333rem;
+
+      .form-control {
+        padding: 0 0.333rem;
+        height: 1.666rem;
+      }
+
+      .query {
+        margin-top: -6px;
+        min-width: 0;
+        font-size: 1.333rem;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
       }
     }
   }

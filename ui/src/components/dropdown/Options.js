@@ -11,17 +11,30 @@ export default class Options {
         return this.total;
     }
 
+    select(index) {
+        Object.keys(this.pages).forEach(p=>{
+            this.pages[p].forEach(row=>{
+                row.selected = false;
+            });
+        });
+        this.get(index).selected = true;
+
+    }
+
     get(index) {
-        const {pages, pageSize} = this;
-        const pageIndex = Math.floor(index / pageSize);
-        const page = pages[pageIndex];
+        const pageIndex = this.pageIndex(index);
+        const page = this.pages[pageIndex];
         if (page) {
-            return page[index % pageSize];
+            return page[index % this.pageSize];
         }
         if (this.fetching.hasOwnProperty(pageIndex)) {
             return null;
         }
         return this.fetchPage(pageIndex);
+    }
+
+    pageIndex(index) {
+        return Math.floor(index / this.pageSize);
     }
 
     async fetchPage(pageIndex) {

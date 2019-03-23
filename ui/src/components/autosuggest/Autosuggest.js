@@ -1,115 +1,152 @@
-import React, {Component} from 'react';
+import React, {useRef, useState} from 'react';
+import {CSSTransition, TransitionGroup,} from 'react-transition-group';
 import "./Autosuggest.scss";
 
-class Autosuggest extends Component {
-
-    constructor(props, context) {
-        super(props, context);
-        const {
-            defaultKey,
-            defaultValue,
-            suggestions = []
-        } = this.props;
-        this.state = {
-            key: defaultKey,
-            value: defaultValue,
-            suggestions: suggestions
-        }
+function applyQuery(queryRef) {
+    if (queryRef.current) {
+        const queryRegExp = new RegExp(queryRef.current.innerText || ".*", "i");
+        return ({value}) => queryRegExp.test(value);
+    } else {
+        return () => true;
     }
-
-    inputRef = React.createRef();
-    dropdownMenuRef = React.createRef();
-
-    componentWillUpdate(nextProps, nextState, nextContext) {
-        if (nextProps.suggestions !== this.props.suggestions) {
-            clearTimeout(this.pendingChangeTimeout);
-            this.setState({
-                suggestions: this.filterSuggestions(nextProps.suggestions, nextProps.text),
-                fetching: false
-            });
-        }
-    }
-
-    filterSuggestions(suggestions, text) {
-        const regExp = new RegExp(text || ".*", "i");
-        return suggestions.filter(({value}) => {
-            return value.match(regExp);
-        });
-    }
-
-    onInput = () => {
-        const value = this.inputRef.current.innerText;
-        if (!this.state.fetching) {
-            this.setState({
-                suggestions: this.filterSuggestions(this.state.suggestions, value),
-                fetching: true
-            });
-            if (this.props.onChange) {
-                clearTimeout(this.onChangeTimeout);
-                this.onChangeTimeout = setTimeout(() => {
-                    this.props.onChange({value});
-                }, 1000);
-            }
-            this.pendingChangeTimeout = setTimeout(() => {
-                if (this.state.fetching) {
-                    this.setState({timeout: true});
-                }
-            }, 120 * 1000);
-        }
-    };
-
-    onApply = ({key, value}) => {
-        this.setState({key, value});
-        if (this.props.onApply) {
-            clearTimeout(this.onApplyTimeout);
-            this.onApplyTimeout = setTimeout(() => this.props.onApply({key, value}), 100);
-        }
-    };
-
-    render() {
-        const {placeholder, style} = this.props;
-        const {key, value, fetching, suggestions, timeout} = this.state;
-        const isValid = !!key;
-        return (
-            <div className="Autosuggest dropdown" style={style}>
-                <div className="form-group m-0" data-toggle="dropdown">
-                    <p className="form-control" ref={this.inputRef} contentEditable
-                       suppressContentEditableWarning
-                       style={{borderColor: isValid ? undefined : "red"}}
-                       onBlur={event => {
-                           const value = this.inputRef.current.innerText;
-                           this.onApply({value})
-                       }}
-                       onInput={this.onInput}>
-                        {value || <i style={{opacity: 0.5}}>{placeholder}</i>}
-                    </p>
-                    {!timeout
-                        ? <i className={"fa fa-refresh fa-spin fa-fw " + (fetching && "fetching")}/>
-                        : <i className="fa fa-exclamation-triangle" onClick={event => {
-                            return this.setState({timeout: false, fetching: false});
-                        }}/>
-                    }
-                </div>
-                <div className="dropdown-menu" ref={this.dropdownMenuRef}>
-                    {suggestions.map(suggestion => (
-                        <a key={suggestion.key} className="dropdown-item d-flex"
-                           onClick={event => {
-                               this.onApply(suggestion);
-                               event.preventDefault();
-                           }} href={suggestion.key}>
-                            <span style={{
-                                flex: "1 1 auto",
-                                fontWeight: key === suggestion.key ? "bold" : undefined
-                            }}>{suggestion.value}</span>
-                            {suggestion.suffix &&
-                            <span style={{marginLeft: 20, opacity: 0.75}}>{suggestion.suffix}</span>}
-                        </a>
-                    ))}
-                </div>
-            </div>
-        );
-    }
-
 }
 
-export default Autosuggest;
+/** @namespace suggestion.suffix */
+
+export default function Autosuggest({defaultKey, defaultValue, suggestions, placeholder, style, maxHeight, onChange, children}) {
+
+    const [defaults] = useState({key: defaultKey, value: defaultValue});
+
+    const [key, setKey] = useState(defaultKey);
+    const [value, setValue] = useState(defaultValue);
+    const [isOpen, setOpen] = useState(false);
+    const [isPlaceholderVisible, setPlaceholderVisible] = useState(!defaultValue);
+
+    const openMenu = () => {
+        if (!suggestions) {
+            onChange({key, value});
+        }
+        setOpen(true)
+    };
+    const closeMenu = () => setOpen(false);
+
+    const queryRef = useRef();
+    const dropdownRef = useRef();
+
+    const renderSuggestion = ({key, value, suffix}, index) => {
+        return (
+            <a key={key} href={"#" + key}
+               className={"dropdown-item d-flex " + (index === focusedIndex && "bg-primary text-white")}
+               onMouseDown={e => {
+                   setFocusedIndex(index);
+                   e.preventDefault();
+               }}
+               onMouseUp={() => {
+                   setKey(key);
+                   setValue(value);
+                   setPlaceholderVisible(false);
+                   onChange({key, value});
+                   closeMenu();
+               }}>
+                    <span className="value flex-fill" style={{fontWeight: key === key && "bold"}}>
+                        {value}
+                    </span>
+                {suffix && <span style={{marginLeft: 20, opacity: 0.75}}>{suffix}</span>}
+            </a>
+        );
+    };
+
+    const [focusedIndex, setFocusedIndex] = useState(0);
+
+    let changeTimeout;
+
+    return (
+        <div className="Autosuggest dropdown" style={style}>
+            <div className="form-group m-0" style={{whiteSpace: "nowrap"}}>
+                <div className={"form-control " + (key ? "border-primary" : "border-danger")}
+                     style={{minWidth: 100, ...style}}>
+                    <p className={"query " + (key && "selected")} ref={queryRef} defaultkey={defaultKey}
+                       contentEditable
+                       suppressContentEditableWarning
+                       onBlur={closeMenu}
+                       onFocus={openMenu}
+                       onClick={openMenu}
+                       onInput={() => {
+                           const value = queryRef.current.innerText;
+                           clearTimeout(changeTimeout);
+                           changeTimeout = setTimeout(() => {
+                               onChange({value});
+                               changeTimeout = undefined;
+                           }, 250);
+                           setKey(undefined);
+                           setPlaceholderVisible(!value);
+                       }}
+                       onKeyDown={e => {
+                           switch (e.key) {
+                               case "Down":
+                               case "ArrowDown":
+                                   openMenu();
+                                   if (suggestions.length) {
+                                       setFocusedIndex((focusedIndex + 1) % suggestions.length);
+                                   }
+                                   break;
+                               case "Up":
+                               case "ArrowUp":
+                                   if (suggestions.length) {
+                                       setFocusedIndex((focusedIndex - 1) % suggestions.length);
+                                   }
+                                   break;
+                               case "Enter":
+                                   const {key, value} = suggestions[focusedIndex];
+                                   setKey(key);
+                                   setValue(value);
+                                   setPlaceholderVisible(false);
+                                   onChange({key, value});
+                                   closeMenu();
+                                   break;
+                               case "Esc":
+                               case "Escape":
+                                   closeMenu();
+                                   break;
+                               default:
+                                   return
+                           }
+                           e.preventDefault();
+                       }}>
+                        {value}
+                    </p>
+                    <TransitionGroup className="d-flex align-content-stretch">
+                        <CSSTransition timeout={0}>
+                            <div className="flex-fill"/>
+                        </CSSTransition>
+                        {children}
+                        {key && (
+                            <CSSTransition in={!!key} timeout={300} classNames="fade" unmountOnExit>
+                                <i className={"fa fa-times text-danger "} onClick={e => {
+                                    setKey(defaults.key);
+                                    setValue(defaults.value);
+                                    setPlaceholderVisible(!value);
+                                    e.stopPropagation();
+                                }}/>
+                            </CSSTransition>
+                        )}
+                    </TransitionGroup>
+                    {isPlaceholderVisible && (
+                        <div className={"placeholder"}
+                             onClick={e => {
+                                 queryRef.current.focus();
+                                 e.stopPropagation();
+                             }}>
+                            {placeholder}
+                        </div>
+                    )}
+                </div>
+            </div>
+            {suggestions && (
+                <div className={"dropdown-menu " + (isOpen && "show")} style={{maxHeight}} ref={dropdownRef}>
+                    {isOpen && suggestions.filter(applyQuery(queryRef)).map(renderSuggestion)}
+                </div>
+            )}
+        </div>
+    );
+}

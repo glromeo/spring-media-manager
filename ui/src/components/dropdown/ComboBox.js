@@ -10,7 +10,7 @@ export default function ({value, options, onChange, width = 400, maxHeight = 400
 
     const [currentValue, setCurrentValue] = useState(value);
     const listRef = useRef(null);
-    const menuRef = useRef(null);
+    const dropdownRef = useRef(null);
 
 
     function clickHandler(option) {
@@ -25,6 +25,7 @@ export default function ({value, options, onChange, width = 400, maxHeight = 400
     }
 
     const [isOpen, setOpen] = useState(false);
+    const [scrollToIndex, setScrollToIndex] = useState(0);
 
     function toggleMenu(event) {
         setOpen(!isOpen);
@@ -38,16 +39,19 @@ export default function ({value, options, onChange, width = 400, maxHeight = 400
             case "Down":
             case "ArrowDown":
                 setOpen(true);
-                setTimeout(function () {
-                    const first = menuRef.current.querySelector('div.item:first-child');
-                    if (first) {
-                        first.focus();
-                    }
-                }, 50);
+                const newIndex = scrollToIndex + 1;
+                options.select(newIndex);
+                listRef.current.scrollToRow(newIndex);
                 break;
             case "Up":
             case "ArrowUp":
-                setOpen(false);
+                if (scrollToIndex === 0) {
+                    setOpen(false);
+                } else {
+                    const newIndex = scrollToIndex - 1;
+                    options.select(newIndex);
+                    listRef.current.scrollToRow(newIndex);
+                }
                 break;
             case "Left":
             case "ArrowLeft":
@@ -83,13 +87,14 @@ export default function ({value, options, onChange, width = 400, maxHeight = 400
     const height = Math.min(maxHeight, rowHeight * rowCount);
     const getOption = isArray ? index => options[index] : index => options.get(index);
     return (
-        <div ref={menuRef} className={"ComboBox ui fluid search selection dropdown" + (isOpen ? " active" : "")}
+        <div ref={dropdownRef}
+             className={"ComboBox ui fluid search selection dropdown" + (isOpen ? " active visible" : "")}
              style={{width}}>
             <input type="hidden" name="search"/>
             <input className="search" autoComplete="off" tabIndex={0} value={currentValue}
                    placeholder={placeholder} onKeyDown={onKeyDown} onChange={onSearchChange}/>
             <i className="dropdown icon" onClick={toggleMenu}/>
-            <List ref={listRef} className={"menu transition" + (isOpen ? " visible" : "")}
+            <List ref={listRef} className={`menu transition ${isOpen ? "visible" : ""}`}
                   style={{maxHeight: height, left: "-1em", top: "1.75em"}}
                   width={width} height={height}
                   rowCount={rowCount}
@@ -100,19 +105,22 @@ export default function ({value, options, onChange, width = 400, maxHeight = 400
                           option.then(() => listRef.current.forceUpdateGrid()).catch(console.debug);
                           option = null;
                       }
-                      return isScrolling || !option ? (
-                          <div key={key} className="item" style={style} onClick={preventDefault}>
+                      return !option ? (
+                          <div key={key} data-index={index} className={"item"} style={style} onClick={preventDefault}>
                               <i className="fa fa-spinner fa-pulse fa-fw"/>
                           </div>
                       ) : (
-                          <div key={key}
-                             className={option.value === currentValue ? "item active" : "item"}
-                             style={style}
-                             onClick={clickHandler(option)}>
+                          <div key={key} data-index={index} className={"item"
+                          + (option.selected ? " selected" : "")
+                          + (option.value === currentValue ? " active" : "")
+                          }
+                               style={style}
+                               onClick={clickHandler(option)}>
                               {option.value}
                           </div>
                       )
                   }}
+                  setScrollToIndex={setScrollToIndex}
             />
         </div>
     );

@@ -5,7 +5,6 @@ import Highlighter from "react-highlight-words";
 import "./Movie.scss";
 import Metadata from "./Metadata";
 import AutosuggestTitle from "../../ui/src/containers/AutosuggestTitle";
-import {playbackMovie} from "../../ui/src/redux/actions";
 import {connect} from "react-redux";
 
 const EMPTY_ARRAY = [];
@@ -56,8 +55,7 @@ class Movie extends Component {
                 </div>
                 <div className="Title">
                     {editable ? (
-                        <AutosuggestTitle defaultKey={movie.id} defaultValue={movie.title}
-                                          onApply={this.props.onChange}/>
+                        <AutosuggestTitle query={movie.title} movie={movie} onChange={this.props.onChange}/>
                     ) : (
                         <Highlighter highlightClassName="p-0" searchWords={searchWords}
                                      textToHighlight={movie.title}/>

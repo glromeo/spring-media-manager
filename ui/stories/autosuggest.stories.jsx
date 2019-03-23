@@ -9,62 +9,56 @@ storiesOf("Autosuggest", module)
 
     .add("autosuggest movie (tmbd api)", () => {
 
-        function AutosuggestMovie(props) {
+        function AutosuggestMovie({query}) {
 
-            const [query, setQuery] = useState(text("title", "Automata"));
             const [suggestions, setSuggestions] = useState([]);
+            const [selected, setSelected] = useState();
 
-            let controller;
-
-            function searchMovie() {
-
-                cancelPendingFetch();
-
-                const {signal} = controller = new AbortController();
-
+            function searchMovie(query) {
                 if (query && query.length > 0) {
                     fetch("https://api.themoviedb.org/3/search/movie" +
                         "?query=" + encodeURIComponent(query) +
                         "&api_key=150dc7265c37ec9e671958360d92dcf6" +
-                        "&page=1", {signal})
+                        "&page=1")
                         .then(response => response.json())
                         .then(page => {
                             let suggestions = page.results.filter(info => info.title).map(info => ({
                                 key: info.id,
-                                value: info.title + (info.release_date ? " (" + info.release_date.substring(0, 4) + ")" : "")
+                                value: info.title,
+                                suffix: info.release_date ? " (" + info.release_date.substring(0, 4) + ")" : ""
                             }));
                             setSuggestions(suggestions);
-                            controller = null;
-                        }).catch(e => console.error.bind(console));
-                }
-
-                setSuggestions([]);
-            }
-
-            function cancelPendingFetch() {
-                if (controller) {
-                    console.log("aborting previous fetch...");
-                    controller.abort();
+                        });
                 }
             }
 
             useEffect(() => {
-                searchMovie();
-                return cancelPendingFetch;
+                searchMovie(query);
             }, [query]);
 
-            return <Autosuggest placeholder="Title..." defaultValue={query} suggestions={suggestions}
-                                onApply={({key, value}) => action("onApply:", value)}
-                                onChange={setQuery}/>
+            return <Autosuggest style={{minWidth: 250}}
+                                placeholder="Title..."
+                                defaultKey={selected}
+                                defaultValue={query}
+                                suggestions={suggestions}
+                                onChange={({key, value}) => {
+                                    if (key) {
+                                        setSelected(key);
+                                        action("selected")({key, value});
+                                    } else {
+                                        searchMovie(value);
+                                    }
+                                }}
+                                maxHeight={200}/>
         }
 
         return (
-            <AutosuggestMovie/>
+            <AutosuggestMovie query={text("title", "Automata")}/>
         );
     })
 
     .add("autosuggest title (spring-media-manager)", () => {
         return (
-            <AutosuggestTitle defaultValue={text("title", "Automata")} onApply={(options) => action("onApply:", options)}/>
+            <AutosuggestTitle style={{minWidth: 200}} query={text("title", "Automata")} onChange={(movie) => action("movie:", movie)}/>
         );
-    });
+    })
