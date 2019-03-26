@@ -9,8 +9,8 @@ import {
     SELECT_MEDIA
 } from "./actions";
 
-function Reducer(target) {
-    return function (state = {all:[], playback:{}}, action) {
+function Reducer(target, defaultState) {
+    return function (state = defaultState, action) {
         const reducer = target[action.type];
         return reducer ? Object.assign({}, state, reducer(state, action)) : state;
     }
@@ -51,10 +51,10 @@ const media = Reducer({
         visible: media.visible = action.search ? state.all.filter(filterMedia(action.search)) : state.all
     })
 
-});
+}, {all: [], playback: {}});
 
 function groupMediaByGenre(media) {
-    return media.map(m => m.movie).reduce((mediaByGenre, movie, index) => {
+    return media.map(m => m.movie).reduce((mediaByGenre, movie) => {
         if (movie) movie.genre_ids.forEach(genreId => {
             const group = mediaByGenre[genreId] || (mediaByGenre[genreId] = []);
             group.push(movie);
@@ -63,7 +63,7 @@ function groupMediaByGenre(media) {
     }, {});
 }
 
-function applyMovieCount(visibleGroups, allGroups) {
+function applyMovieCount(visibleGroups = {}, allGroups = {}) {
     return function (genre) {
         genre.count = visibleGroups[genre.id] ? visibleGroups[genre.id].length : 0;
         genre.total = allGroups[genre.id] ? allGroups[genre.id].length : 0;
@@ -93,11 +93,14 @@ const genre = Reducer({
     }),
 
     [APPLY_SEARCH]: (state, action) => ({
-        visible: state.all
-            .map(applyMovieCount(action.search ? groupMediaByGenre(media.visible) : state.mediaByGenre, state.mediaByGenre))
-            .filter(genre => genre.count > 0)
+        visible: state.all.map(applyMovieCount(
+            action.search
+                ? groupMediaByGenre(media.visible)
+                : state.mediaByGenre,
+            state.mediaByGenre
+        ))
     })
-});
+}, {all: []});
 
 const search = Reducer({
 
@@ -105,7 +108,7 @@ const search = Reducer({
         text: action.search
     }),
 
-});
+}, {});
 
 const playback = Reducer({
 
@@ -114,6 +117,6 @@ const playback = Reducer({
         media: action.media
     }),
 
-});
+}, {});
 
 export default combineReducers({media, genre, search, playback});

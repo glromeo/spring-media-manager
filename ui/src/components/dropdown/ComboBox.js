@@ -1,5 +1,6 @@
 import React, {useRef, useState} from 'react';
 import {List} from "react-virtualized";
+
 import './ComboBox.scss';
 
 function preventDefault(e) {

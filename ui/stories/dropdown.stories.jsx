@@ -106,5 +106,10 @@ storiesOf('Dropdown', module)
             )
         }
 
-        return <Story/>
+        return (
+            <div>
+                <link rel="stylesheet" type="text/css" href="/semantic-ui-css/semantic.min.css"/>
+                <Story/>
+            </div>
+        )
     })

@@ -1,11 +1,11 @@
-import React, {Component} from "react";
+import React, {PureComponent} from "react";
 import {connect} from "react-redux";
 import {fetchMediaIfNeeded, selectMedia} from "../../ui/src/redux/actions";
-import {defaultCellRangeRenderer, List, WindowScroller} from "react-virtualized";
+import {List} from "react-virtualized";
 import Media from "./Media";
 import "./MediaList.scss";
 
-class MediaList extends Component {
+class MediaList extends PureComponent {
 
     constructor(props) {
         super(props);
@@ -43,7 +43,7 @@ class MediaList extends Component {
             style = {...style, paddingBottom: 20};
         }
         return (
-            <div key={key} className={selected === media ? "selected" : ""} style={style}
+            <div key={key} className={selected === media ? "selected" : ""} style={{...style, top:style.top+this.props.translate}}
                  onClick={({event}) => {
                      dispatch(selectMedia(media))
                  }}>
@@ -62,28 +62,24 @@ class MediaList extends Component {
         const rowHeight = 180;
         return (
             <div className="Movies">
-                {/*<WindowScroller>*/}
-                    {/*{({height, isScrolling, onChildScroll, scrollTop}) => (*/}
-                        <List ref={this.listRef}
-                              autoHeight
-                              height={1000}
-                              width={width}
-                              // scrollTop={scrollTop}
-                              // isScrolling={isScrolling}
-                              // onScroll={onChildScroll}
-                              rowCount={list.length}
-                              rowHeight={({index}) => {
-                                  if (index === lastIndex) {
-                                      return rowHeight + 20;
-                                  } else {
-                                      return rowHeight;
-                                  }
-                              }}
-                              rowRenderer={this.renderRow}
-                              estimatedRowSize={rowHeight}
-                        />
-                    {/*)}*/}
-                {/*</WindowScroller>*/}
+                <List ref={this.listRef}
+                      autoHeight
+                      height={window.innerHeight}
+                      width={width}
+                    // scrollTop={scrollTop}
+                    // isScrolling={isScrolling}
+                    // onScroll={onChildScroll}
+                      rowCount={list.length}
+                      rowHeight={({index}) => {
+                          if (index === lastIndex) {
+                              return rowHeight + 20;
+                          } else {
+                              return rowHeight;
+                          }
+                      }}
+                      rowRenderer={this.renderRow}
+                      estimatedRowSize={rowHeight}
+                />
             </div>
         );
     }

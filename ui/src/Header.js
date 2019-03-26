@@ -27,7 +27,7 @@ class Header extends Component {
                 this.props.onResize({
                     width,
                     height,
-                    paddingTop: this.props.fixed ? this.videoHeight() : INITIAL_HEIGHT
+                    paddingTop: this.props.fixed ? this.videoHeight() : height
                 });
                 this.pendingAnimation = false;
             });

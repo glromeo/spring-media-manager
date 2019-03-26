@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {Switch} from "react-router";
 
 import Header from "./Header";
-import SearchPane from "./SearchPane";
+import SearchPane from "./containers/SearchPane";
 import MediaList from "./MediaList";
 import MovieDetails from "./MovieDetails";
 import MediaPlayer from "./MediaPlayer";
@@ -16,7 +16,7 @@ import logo from "./logo.svg";
 
 const store = configureStore();
 
-export default function App() {
+export default function AppOld() {
 
     const [scrollTop, setScrollTop] = useState(0);
     const [listWidth, setListWidth] = useState(window.innerWidth);
@@ -38,7 +38,6 @@ export default function App() {
             window.removeEventListener('scroll', onScroll);
         }
     }, []);
-
 
     return (
         <Provider store={store}>
@@ -68,7 +67,7 @@ export default function App() {
                                 </Switch>
                             )}
                         </Header>
-                        <MediaList width={listWidth} editable={false}/>
+                        <MediaList width={listWidth} editable={false} translate={paddingTop}/>
                     </div>
                 </Router>
             </div>
