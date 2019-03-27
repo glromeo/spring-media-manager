@@ -19,12 +19,12 @@ const store = configureStore();
 function Header({width, height}) {
     // console.log("rendering header", width, width * 9 / 16);
     return (
-        <Switch>
+        <Switch key={"header"}>
             <Route exact path="/" render={() => (
-                <SearchPane key={"header"} height={width * 9 / 16}/>
+                <SearchPane height={width * 9 / 16}/>
             )}/>
             <Route exact path="/edit" render={() => (
-                <SearchPane key={"header"} height={width * 9 / 16}/>
+                <SearchPane height={width * 9 / 16}/>
             )}/>
             <Route path="/movie/:id" component={MovieDetails}/>
             <Route path="/watch/:id" component={MediaPlayer}/>

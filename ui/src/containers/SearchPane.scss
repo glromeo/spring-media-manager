@@ -1,12 +1,13 @@
 .SearchPane {
 
-  position: sticky;
+  // position: sticky;
 
   display: flex;
   flex-direction: column;
   align-content: stretch;
 
   min-height: 68px;
+  max-height: 50vh;
   text-align: center;
   overflow-y: hidden;
 
@@ -22,7 +23,7 @@
 
     .MovieTicketsImage {
       flex: 2 2 auto;
-      background: url("images/movie-tickets.jpg") no-repeat center;
+      background: url("../images/movie-tickets.jpg") no-repeat center;
       background-size: contain;
     }
   }
@@ -38,7 +39,7 @@
       margin-top: -10px;
       margin-bottom: -10px;
       width: 60px;
-      background: url("images/movie-tickets.jpg") no-repeat center;
+      background: url("../images/movie-tickets.jpg") no-repeat center;
       background-size: contain;
     }
 
@@ -50,6 +51,10 @@
         position: relative;
         max-width: 60%;
         margin: auto;
+      }
+
+      .form-control {
+        border-radius: 1rem;
       }
 
       input {

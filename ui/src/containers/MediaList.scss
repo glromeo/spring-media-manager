@@ -1,7 +1,8 @@
 @import "../../stylesheets/blend-modes";
 
-.Movies {
+.MediaList {
 
   overflow: hidden;
+  -webkit-overflow-scrolling: touch;
 
 }

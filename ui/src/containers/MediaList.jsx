@@ -36,7 +36,7 @@ function renderItem(height, index) {
 }
 
 function itemSize(index) {
-    return index === 0 ? window.innerWidth * 9 / 16 : 180;
+    return index === 0 ? window.innerWidth * 9 / 16 / 2 : 180;
 }
 
 export default connect(state => {
@@ -88,7 +88,7 @@ export default connect(state => {
     // console.log("rendering media list", width, height);
 
     return (
-        <List apiRef={listRef}
+        <List apiRef={listRef} className="MediaList"
               height={height}
               itemCount={itemCount}
               itemSize={itemSize}

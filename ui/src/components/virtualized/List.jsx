@@ -1,7 +1,7 @@
 import React, {useEffect, useMemo, useRef, useState} from "react";
 import ResizeObserver from 'resize-observer-polyfill';
 
-const OVERSCAN = 1000;
+const OVERSCAN = 360;
 
 function calculateItemHeights(itemCount, itemSize) {
     const heights = Array(itemCount);
@@ -49,6 +49,7 @@ function renderItems(itemCount, itemHeights, renderItem, override, itemSize, scr
     while (index < itemCount) {
         const itemHeight = itemHeights[index];
         items.push(cache[index] || (cache[index] = (override[index] || renderItem)(itemHeight, index)));
+        console.log("top", top, "itemHeight", itemHeight, "threshold", threshold);
         if (top + itemHeight > threshold) {
             break;
         } else {
@@ -57,11 +58,12 @@ function renderItems(itemCount, itemHeights, renderItem, override, itemSize, scr
         }
     }
 
-    let bottom = 0;
-    while (index++ < itemCount) {
-        bottom += itemSize(index);
+    let bottom = top;
+    while (index < itemCount) {
+        top += itemHeights[index];
+        ++index;
     }
-    items.push(<div key={-2} style={{height: bottom}}/>);
+    items.push(<div key={-2} style={{height: top-bottom}}/>);
 
     return items;
 }
@@ -69,6 +71,7 @@ function renderItems(itemCount, itemHeights, renderItem, override, itemSize, scr
 export default function VirtualizedList(
     {
         apiRef,
+        className,
         width = "100%",
         height,
         itemCount,
@@ -87,9 +90,7 @@ export default function VirtualizedList(
     function handleScroll({target}) {
         const distance = Math.abs(target.scrollTop - scrollTop);
         // console.log("handleScroll", distance);
-        if (distance > OVERSCAN) {
-            setScrollTop(target.scrollTop);
-        }
+        setScrollTop(target.scrollTop);
         if (onScroll) onScroll({distance, scrollTop: target.scrollTop});
     }
 
@@ -130,7 +131,7 @@ export default function VirtualizedList(
     // console.log("rendering list", items.length);
 
     return (
-        <div className="viewport" ref={viewportRef} onScroll={handleScroll} style={{
+        <div className={`${className} viewport`} ref={viewportRef} onScroll={handleScroll} style={{
             width,
             height,
             overflowY: 'auto',

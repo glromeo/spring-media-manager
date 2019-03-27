@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import "../SearchPane.scss";
+import "./SearchPane.scss";
 import {connect} from "react-redux";
 import {applySearch, fetchMovieGenres} from "../redux/actions";
 import {SearchBar} from "../components/SearchBar";
@@ -12,7 +12,7 @@ export default connect(state => {
         genres: visible,
         search: search.text
     }
-})(function SearchPane({dispatch, search, genres, key, height}) {
+})(function SearchPane({dispatch, search, genres, height}) {
 
     useEffect(() => {
         dispatch(fetchMovieGenres());
@@ -21,7 +21,7 @@ export default connect(state => {
     // console.log("rendering search pane");
 
     return (
-        <div key={key} className="SearchPane" style={{height, top: 68-height}}>
+        <div className="SearchPane" style={{height, top: 0}}>
             <div className="LogoSection m-2">
                 {height > 68 && <div className="MovieTicketsImage"/>}
             </div>
