@@ -85,7 +85,8 @@ export default function AutosuggestTitle({query: initialQuery, movie: defaultMov
                          } else {
                              setQuery(value);
                          }
-                     }}>
+                     }}
+                     style={style}>
             {pending && (
                 <CSSTransition in={!!pending} timeout={300} classNames="fade" unmountOnExit>
                     <i className={"fa fa-refresh fa-spin fa-fw"}/>

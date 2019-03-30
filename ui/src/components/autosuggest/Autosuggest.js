@@ -33,6 +33,10 @@ export default function Autosuggest({defaultKey, defaultValue, suggestions, plac
     const queryRef = useRef();
     const dropdownRef = useRef();
 
+    function isSelected(k) {
+        return key === k;
+    }
+
     const renderSuggestion = ({key, value, suffix}, index) => {
         return (
             <a key={key} href={"#" + key}
@@ -48,7 +52,7 @@ export default function Autosuggest({defaultKey, defaultValue, suggestions, plac
                    onChange({key, value});
                    closeMenu();
                }}>
-                    <span className="value flex-fill" style={{fontWeight: key === key && "bold"}}>
+                    <span className="value flex-fill" style={{fontWeight: isSelected(key) && "bold"}}>
                         {value}
                     </span>
                 {suffix && <span style={{marginLeft: 20, opacity: 0.75}}>{suffix}</span>}

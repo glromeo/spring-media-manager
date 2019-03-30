@@ -5,6 +5,8 @@ import {applySearch, fetchMovieGenres} from "../redux/actions";
 import {SearchBar} from "../components/SearchBar";
 import {Genres} from "../components/Genres";
 
+const MIN_HEIGHT = 68;
+
 export default connect(state => {
     const {genre, search} = state;
     const {visible = []} = genre;
@@ -12,26 +14,28 @@ export default connect(state => {
         genres: visible,
         search: search.text
     }
-})(function SearchPane({dispatch, search, genres, height}) {
+})(function SearchPane({dispatch, search, genres, height, scrollTop}) {
 
     useEffect(() => {
         dispatch(fetchMovieGenres());
     }, []);
 
-    // console.log("rendering search pane");
+    const searchHeight = 52;
+    const bottomHeight = 104;
+    const imageHeight = Math.max(0, height - scrollTop) - searchHeight - bottomHeight;
 
     return (
-        <div className="SearchPane" style={{height, top: 0}}>
+        <div className="SearchPane" style={{height}}>
             <div className="LogoSection m-2">
-                {height > 68 && <div className="MovieTicketsImage"/>}
+                {height > MIN_HEIGHT && <div className="MovieTicketsImage" style={{height: imageHeight}}/>}
             </div>
             <div className="SearchSection mx-2">
-                {height <= 68 && <div className="MovieTicketsImage"/>}
-                <SearchBar value={search} onApply={search=>dispatch(applySearch(search))}/>
+                {height <= MIN_HEIGHT && <div className="MovieTicketsImage"/>}
+                <SearchBar value={search} onApply={search => dispatch(applySearch(search))}/>
             </div>
             <div style={{flex: '.125 .125 auto'}}/>
             <div className="FiltersSection m-2">
-                {height > 68 && <Genres genres={genres}/>}
+                {height > MIN_HEIGHT && <Genres genres={genres}/>}
             </div>
         </div>
     );

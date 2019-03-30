@@ -1,7 +1,7 @@
 import React, {useEffect, useMemo, useRef, useState} from "react";
 import ResizeObserver from 'resize-observer-polyfill';
 
-const OVERSCAN = 360;
+const OVERSCAN = 720; // TODO: fix sticky element gap
 
 function calculateItemHeights(itemCount, itemSize) {
     const heights = Array(itemCount);
@@ -26,7 +26,7 @@ function useResizeObserver(viewportRef, scrollAreaRef, onResize) {
     }, [viewportRef, scrollAreaRef, onResize]);
 }
 
-function renderItems(itemCount, itemHeights, renderItem, override, itemSize, scrollTop, height, cache) {
+function renderItems(itemCount, itemHeights, renderItem, itemSize, scrollTop, height, cache) {
 
     const items = [];
 
@@ -48,8 +48,7 @@ function renderItems(itemCount, itemHeights, renderItem, override, itemSize, scr
 
     while (index < itemCount) {
         const itemHeight = itemHeights[index];
-        items.push(cache[index] || (cache[index] = (override[index] || renderItem)(itemHeight, index)));
-        console.log("top", top, "itemHeight", itemHeight, "threshold", threshold);
+        items.push(cache[index] || (cache[index] = renderItem(itemHeight, index)));
         if (top + itemHeight > threshold) {
             break;
         } else {
@@ -77,7 +76,7 @@ export default function VirtualizedList(
         itemCount,
         itemSize,
         renderItem,
-        override = {},
+        sticky,
         paddingTop,
         onResize,
         onScroll
@@ -111,11 +110,11 @@ export default function VirtualizedList(
         redraw(index) {
             if (index !== undefined) {
                 const newHeight = itemHeights[index] = itemSize(index);
-                cache[index] = (override[index] || renderItem)(newHeight, index);
+                cache[index] = renderItem(newHeight, index);
             } else {
                 calculateItemHeights(itemCount, itemSize).forEach((h, i) => {
                     const newHeight = itemHeights[i] = h;
-                    cache[i] = (override[index] || renderItem)(newHeight, i);
+                    cache[i] = renderItem(newHeight, i);
                 });
                 Object.keys(cache).forEach(key => delete cache[key]);
             }
@@ -125,7 +124,7 @@ export default function VirtualizedList(
 
     const items = useMemo(() => {
         // console.log(`rendering items - height: ${height}, scrollTop: ${scrollTop}`, cache);
-        return renderItems(itemCount, itemHeights, renderItem, override, itemSize, scrollTop, height, cache);
+        return renderItems(itemCount, itemHeights, renderItem, itemSize, scrollTop, height, cache);
     }, [scrollTop, height, itemHeights, updated]);
 
     // console.log("rendering list", items.length);
@@ -137,7 +136,10 @@ export default function VirtualizedList(
             overflowY: 'auto',
             paddingTop: paddingTop
         }}>
-            <div className="scroll-area" ref={scrollAreaRef}>{items}</div>
+            <div className="scroll-area" ref={scrollAreaRef}>
+                {sticky && sticky(scrollTop)}
+                {items}
+            </div>
         </div>
     )
 }

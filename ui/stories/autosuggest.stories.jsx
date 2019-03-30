@@ -59,6 +59,6 @@ storiesOf("Autosuggest", module)
 
     .add("autosuggest title (spring-media-manager)", () => {
         return (
-            <AutosuggestTitle style={{minWidth: 200}} query={text("title", "Automata")} onChange={(movie) => action("movie:", movie)}/>
+            <AutosuggestTitle style={{minWidth: 250}} query={text("title", "Automata")} onChange={(movie) => action("movie:", movie)}/>
         );
     })

@@ -36,7 +36,7 @@ function renderItem(height, index) {
 }
 
 function itemSize(index) {
-    return index === 0 ? window.innerWidth * 9 / 16 / 2 : 180;
+    return 180;
 }
 
 export default connect(state => {
@@ -52,6 +52,7 @@ export default connect(state => {
     };
 })(function MediaList(
     {
+        location,
         dispatch,
         isFetching,
         list,
@@ -85,20 +86,20 @@ export default connect(state => {
         listRef.current.redraw(0);
     });
 
-    // console.log("rendering media list", width, height);
+    console.log("rendering media list", width, height);
 
     return (
         <List apiRef={listRef} className="MediaList"
               height={height}
               itemCount={itemCount}
               itemSize={itemSize}
-              override={{0: height => header({width, height})}}
+              sticky={scrollTop => header({location, width, height, scrollTop})}
               renderItem={renderItem.bind({
-                  listRef, 
-                  list, 
-                  selected, 
+                  listRef,
+                  list,
+                  selected,
                   searchWords,
-                  editable, 
+                  editable,
                   onClick: media => dispatch(selectMedia(media))
               })}
         />
