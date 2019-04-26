@@ -1,0 +1,163 @@
+.Genres {
+
+  margin-top: auto !important;
+  margin-bottom: 10px !important;
+
+  .fade-enter {
+    opacity: 0.01;
+  }
+
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+  .fade-exit {
+    opacity: 1;
+  }
+
+  .fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+}
+
+.Genre {
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(2) !important;
+    transform-origin: bottom center;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  .badge {
+    font-size: 30%;
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+    z-index: 1;
+  }
+
+  .Icon {
+    transform-origin: top left;
+    width: 94px;
+    height: 94px;
+    background: url("../images/genres.png") no-repeat;
+    background-size: 600px 450px;
+    background-position: center;
+
+    border-radius: 100px;
+    overflow: hidden;
+    filter: grayscale(50%);
+
+    &.Horror {
+      background-position-x: -30px;
+      background-position-y: -22.25px;
+    }
+
+    &.Music {
+      background-position-x: -142px;
+      background-position-y: -22.25px;
+    }
+
+    &.Fantasy {
+      background-position-x: -254px;
+      background-position-y: -22.25px;
+    }
+
+    &.Crime {
+      background-position-x: -366px;
+      background-position-y: -22.25px;
+    }
+
+    &.Comedy {
+      background-position-x: -478px;
+      background-position-y: -22.25px;
+    }
+
+    &.Documentary {
+      background-position-x: -30px;
+      background-position-y: -126.75px;
+    }
+
+    &.Science_Fiction {
+      background-position-x: -142px;
+      background-position-y: -126.75px;
+    }
+
+    &.Animation {
+      background-position-x: -254px;
+      background-position-y: -126.75px;
+    }
+
+    &.Western {
+      background-position-x: -366px;
+      background-position-y: -126.75px;
+    }
+
+    &.War {
+      background-position-x: -478px;
+      background-position-y: -126.75px;
+    }
+
+    &.Thriller {
+      background-position-x: -30px;
+      background-position-y: -231.25px;
+    }
+
+    &.History {
+      background-position-x: -142px;
+      background-position-y: -231.25px;
+    }
+
+    &.Action {
+      background-position-x: -254px;
+      background-position-y: -231.25px;
+    }
+
+    &.TV_Movie {
+      background-position-x: -366px;
+      background-position-y: -231.25px;
+    }
+
+    &.Drama {
+      background-position-x: -478px;
+      background-position-y: -231.25px;
+    }
+
+    &.Karaoke {
+      background-position-x: -30px;
+      background-position-y: -335.75px;
+    }
+
+    &.Adventure {
+      background-position-x: -142px;
+      background-position-y: -335.75px;
+    }
+
+    &.Romance {
+      background-position-x: -254px;
+      background-position-y: -335.75px;
+    }
+
+    &.Family {
+      background-position-x: -366px;
+      background-position-y: -335.75px;
+    }
+
+    &.Mystery {
+      background-position-x: -478px;
+      background-position-y: -335.75px;
+    }
+
+  }
+
+}

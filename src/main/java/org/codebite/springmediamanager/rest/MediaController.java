@@ -3,7 +3,7 @@ package org.codebite.springmediamanager.rest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.data.Media;
-import org.codebite.springmediamanager.data.MovieSearchResult;
+import org.codebite.springmediamanager.data.SearchResultsPage;
 import org.codebite.springmediamanager.data.mongodb.MediaRepository;
 import org.codebite.springmediamanager.data.tmdb.MovieService;
 import org.codebite.springmediamanager.media.DownloadService;
@@ -41,6 +41,12 @@ public class MediaController {
         return list.isEmpty() ? null : list.get(0);
     }
 
+    @PutMapping("/media/{id}")
+    public void putMedia(@PathVariable Long id, @RequestBody Media media) {
+        mediaService.save(media, id);
+        mediaRepository.save(media);
+    }
+
     @Autowired
     MediaService mediaService;
 
@@ -48,6 +54,13 @@ public class MediaController {
     public void discover(@RequestParam String path) throws IOException {
         try (DirectoryStream<Path> paths = Files.newDirectoryStream(Paths.get(path))) {
             mediaService.discover(paths).forEach(mediaRepository::save);
+        }
+    }
+
+    @PostMapping(value = "/refresh/media")
+    public void refresh(@RequestParam String path) throws IOException {
+        try (DirectoryStream<Path> paths = Files.newDirectoryStream(Paths.get(path))) {
+            mediaService.refresh(paths);
         }
     }
 
@@ -67,7 +80,7 @@ public class MediaController {
 
     @GetMapping("/search/multi")
     @ResponseBody
-    public MovieSearchResult searchMulti(@RequestParam String query) {
+    public SearchResultsPage searchMulti(@RequestParam String query) {
         return movieService.multiSearch(query);
     }
 

@@ -5,15 +5,8 @@ import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import "video-react/dist/video-react.css";
 
 import './index.css';
-
-import $ from 'jquery';
-import _ from 'lodash';
-
-window.jQuery = window.$ = $;
-window.lodash = window._ = _;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

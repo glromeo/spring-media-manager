@@ -1,0 +1,59 @@
+.Movie {
+
+  grid-template-rows: 30px 20px auto 30px;
+  grid-template-areas:
+          'poster title releasedate'
+          'poster info info'
+          'poster overview overview'
+          'poster metadata metadata';
+
+  .Poster {
+    grid-area: poster;
+  }
+
+  .ReleaseDate {
+    grid-area: releasedate;
+    font-size: 125%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.33);
+  }
+
+  .Info {
+    grid-area: info;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: .5;
+
+    .Popularity {
+      margin-right: 15px;
+    }
+
+    .Stars {
+      margin-right: 5px;
+    }
+
+    .VoteAverage {
+      margin-right: 5px;
+    }
+
+    .VoteCount {
+    }
+  }
+
+  .Overview {
+    grid-area: overview;
+    min-width: 0;
+    max-height: 5.25em;
+    line-height: 1.25em;
+    font-size: 1em;
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .Metadata {
+    grid-area: metadata;
+  }
+
+}

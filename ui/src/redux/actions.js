@@ -1,78 +1,96 @@
 import palette from "../palette";
 import {HTTP_HEADERS} from "../util/constants";
 
-export const FETCHING_CONFIG = "FETCHING_CONFIG";
-export const FETCHED_CONFIG = "FETCHED_CONFIG";
+export const CONFIGURATION_FETCH = "CONFIGURATION_FETCH";
+export const CONFIGURATION_FETCH_SUCCESS = "CONFIGURATION_FETCH_SUCCESS";
+export const CONFIGURATION_FETCH_FAILURE = "CONFIGURATION_FETCH_FAILURE";
 
 export function fetchConfiguration() {
     return dispatch => {
         dispatch({
-            type: FETCHING_CONFIG
+            type: CONFIGURATION_FETCH
         });
         return fetch("/api/configuration", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(config => dispatch({
-                type: FETCHED_CONFIG,
+                type: CONFIGURATION_FETCH_SUCCESS,
                 config,
+                receivedAt: Date.now()
+            }))
+            .catch(error => dispatch({
+                type: CONFIGURATION_FETCH_FAILURE,
+                error,
                 receivedAt: Date.now()
             }));
     }
 }
 
-export const FETCHING_MOVIE_INFO = "FETCHING_MOVIE_INFO";
-export const FETCHED_MOVIE_INFO = "FETCHED_MOVIE_INFO";
+export const MOVIE_DETAILS_FETCH = "MOVIE_DETAILS_FETCH";
+export const MOVIE_DETAILS_FETCH_SUCCESS = "MOVIE_DETAILS_FETCH_SUCCESS";
+export const MOVIE_DETAILS_FETCH_FAILURE = "MOVIE_DETAILS_FETCH_FAILURE";
 
-export function fetchMovieInfoByTitle(title) {
+export function fetchMovieDetailsByTitle(title) {
     return dispatch => {
         dispatch({
-            type: FETCHING_MOVIE_INFO,
+            type: MOVIE_DETAILS_FETCH,
             title
         });
         return fetch(`/api/movie?title=${encodeURIComponent(title)}`, {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(page => page.results[0])
-            .then(movieInfo => dispatch({
-                type: FETCHED_MOVIE_INFO,
+            .then(details => dispatch({
+                type: MOVIE_DETAILS_FETCH_SUCCESS,
                 title,
-                movieInfo,
+                details,
+                receivedAt: Date.now()
+            }))
+            .catch(error => dispatch({
+                type: MOVIE_DETAILS_FETCH_FAILURE,
+                error,
                 receivedAt: Date.now()
             }));
     }
 }
 
-export const FETCHING_GENRES = "FETCHING_GENRES";
-export const FETCHED_GENRES = "FETCHED_GENRES";
+export const MOVIE_GENRES_FETCH = "MOVIE_GENRES_FETCH";
+export const MOVIE_GENRES_FETCH_SUCCESS = "MOVIE_GENRES_FETCH_SUCCESS";
+export const MOVIE_GENRES_FETCH_FAILURE = "MOVIE_GENRES_FETCH_FAILURE";
 
 export function fetchMovieGenres() {
     return (dispatch, getState) => {
-        dispatch({type: FETCHING_GENRES});
+        dispatch({type: MOVIE_GENRES_FETCH});
         return fetch("/api/genre/movie/list", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(json => dispatch({
-                type: FETCHED_GENRES,
+                type: MOVIE_GENRES_FETCH_SUCCESS,
                 genres: json.genres,
                 receivedAt: Date.now()
             }))
-            .then(() => dispatch(applySearch(getState().search.text)));
+            .catch(error => dispatch({
+                type: MOVIE_GENRES_FETCH_FAILURE,
+                error,
+                receivedAt: Date.now()
+            }));
     }
 }
 
-export const FETCHING_MEDIA = "FETCHING_MEDIA";
-export const FETCHED_MEDIA = "FETCHED_MEDIA";
+export const MEDIA_FETCH = "MEDIA_FETCH";
+export const MEDIA_FETCH_SUCCESS = "MEDIA_FETCH_SUCCESS";
+export const MEDIA_FETCH_FAILURE = "MEDIA_FETCH_FAILURE";
 
-function fetchMedia(searchFilters) {
+export function fetchMedia(searchFilters) {
     return (dispatch, getState) => {
-        dispatch({type: FETCHING_MEDIA, searchFilters});
+        dispatch(deselectMedia());
+        dispatch({type: MEDIA_FETCH});
         return fetch("/api/media", {method: "GET", headers: HTTP_HEADERS})
             .then(response => response.json())
             .then(list => dispatch({
-                type: FETCHED_MEDIA,
-                searchFilters: searchFilters,
+                type: MEDIA_FETCH_SUCCESS,
                 media: list.map(function (entry) {
                     const {color: rgb} = entry;
                     return rgb ? {
                         ...entry,
-                        color: `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, 0.33)`
+                        color: `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, 0.5)`
                     } : {
                         ...entry,
                         color: palette.random()
@@ -80,53 +98,52 @@ function fetchMedia(searchFilters) {
                 }),
                 receivedAt: Date.now()
             }))
-            .then(() => dispatch(applySearch(getState().search.text)));
+            .catch(error => dispatch({
+                type: MEDIA_FETCH_FAILURE,
+                error,
+                receivedAt: Date.now()
+            }));
     }
 }
 
-function shouldFetchMedia(state, searchFilters) {
-    return true;
-}
-
-export function fetchMediaIfNeeded(searchFilters) {
-    return (dispatch, getState) => {
-        if (shouldFetchMedia(getState(), searchFilters)) {
-            return dispatch(fetchMedia(searchFilters))
-        }
-    }
-}
-
-export const SELECT_MEDIA = "SELECT_MEDIA";
-export const CLEAR_MEDIA_SELECTION = "CLEAR_MEDIA_SELECTION";
+export const MEDIA_SELECT = "MEDIA_SELECT";
+export const MEDIA_DESELECT = "MEDIA_DESELECT";
 
 export function selectMedia(media) {
     return {
-        type: SELECT_MEDIA,
+        type: MEDIA_SELECT,
         media: media
     }
 }
 
-export function clearMediaSelection() {
+export function deselectMedia() {
     return {
-        type: CLEAR_MEDIA_SELECTION
+        type: MEDIA_DESELECT
     }
 }
 
-export const APPLY_SEARCH = "APPLY_SEARCH";
+export const SEARCH_APPLY = "SEARCH_APPLY";
 
 export function applySearch(search = "") {
     return {
-        type: APPLY_SEARCH,
+        type: SEARCH_APPLY,
         search: search
     }
 }
 
-export const PLAYBACK_MEDIA = "PLAYBACK_MEDIA";
+export const MEDIA_PLAYBACK = "MEDIA_PLAYBACK";
 
-export function playbackMedia(movie, media) {
+export function playbackMedia(media) {
     return {
-        type: PLAYBACK_MEDIA,
-        movie: movie,
+        type: MEDIA_PLAYBACK,
         media: media
+    }
+}
+
+export const TORRENTS_SEARCH = "TORRENTS_SEARCH";
+
+export function searchTorrents() {
+    return {
+        type: TORRENTS_SEARCH
     }
 }

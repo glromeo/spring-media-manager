@@ -1,0 +1,35 @@
+$chevron-color: rgb(240, 200, 80);
+
+.Chevron {
+  padding: 1em;
+  text-align: center;
+
+  svg {
+    position: relative;
+    width: 40px;
+    background: transparent;
+    filter: drop-shadow(1px 1px 0px rgba(128, 128, 128, .25));
+    top: 0;
+    color: $chevron-color;
+    background-color: black;
+    border-radius: 40px;
+    border: 1px solid black;
+
+    &:hover {
+      top: -2px;
+      color: darken($chevron-color, 25%);
+      filter: drop-shadow(1px 3px 0px rgba(128, 128, 128, .25));
+      transition: filter 0.1s ease-in-out, top 0.1s ease-in-out;
+    }
+  }
+
+  &.pressed {
+    svg {
+      top: 0;
+      color: darken($chevron-color, 25%);
+      filter: drop-shadow(1px 1px 0px rgba(128, 128, 128, .25));
+      transition: color 0.15s ease-in-out;
+    }
+  }
+
+}

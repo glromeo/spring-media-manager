@@ -2,8 +2,9 @@ import React, {useEffect, useState} from "react";
 import {storiesOf} from "@storybook/react";
 import {action} from "@storybook/addon-actions";
 import Autosuggest from "../src/components/autosuggest/Autosuggest";
-import AutosuggestTitle from "../src/containers/AutosuggestTitle";
-import {text} from "@storybook/addon-knobs";
+import AutosuggestTitle from "../src/media/movie/AutosuggestTitle";
+import {boolean, number, text} from "@storybook/addon-knobs";
+import {CSSTransition} from "react-transition-group";
 
 storiesOf("Autosuggest", module)
 
@@ -12,7 +13,7 @@ storiesOf("Autosuggest", module)
         function AutosuggestMovie({query}) {
 
             const [suggestions, setSuggestions] = useState([]);
-            const [selected, setSelected] = useState();
+            const [selected, setSelected] = useState(null);
 
             function searchMovie(query) {
                 if (query && query.length > 0) {
@@ -36,7 +37,12 @@ storiesOf("Autosuggest", module)
                 searchMovie(query);
             }, [query]);
 
-            return <Autosuggest style={{minWidth: 250}}
+            const alert = boolean("alert", false);
+            const pending = boolean("pending", false);
+
+            return <Autosuggest style={{fontSize: text("font-size", "1em")}}
+                                maxWidth={number("max width", 200)}
+                                maxHeight={number("max height", 200)}
                                 placeholder="Title..."
                                 defaultKey={selected}
                                 defaultValue={query}
@@ -49,7 +55,18 @@ storiesOf("Autosuggest", module)
                                         searchMovie(value);
                                     }
                                 }}
-                                maxHeight={200}/>
+                                maxHeight={200}>
+                {pending && (
+                    <CSSTransition in={!!pending} timeout={300} classNames="fade" unmountOnExit>
+                        <i className={"fa fa-refresh fa-spin fa-fw text-primary"}/>
+                    </CSSTransition>
+                )}
+                {alert && (
+                    <CSSTransition in={alert} timeout={300} classNames="fade" unmountOnExit>
+                        <i className={"fa fa-exclamation-triangle text-warning"} onClick={action("clear_alert")}/>
+                    </CSSTransition>
+                )}
+            </Autosuggest>
         }
 
         return (
@@ -59,6 +76,7 @@ storiesOf("Autosuggest", module)
 
     .add("autosuggest title (spring-media-manager)", () => {
         return (
-            <AutosuggestTitle style={{minWidth: 250}} query={text("title", "Automata")} onChange={(movie) => action("movie:", movie)}/>
+            <AutosuggestTitle style={{minWidth: 250}} query={text("title", "Automata")}
+                              onChange={(movie) => action("movie:", movie)}/>
         );
     })

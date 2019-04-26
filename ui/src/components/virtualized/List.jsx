@@ -62,45 +62,49 @@ function renderItems(itemCount, itemHeights, renderItem, itemSize, scrollTop, he
         top += itemHeights[index];
         ++index;
     }
-    items.push(<div key={-2} style={{height: top-bottom}}/>);
+    items.push(<div key={-2} style={{height: top - bottom}}/>);
 
     return items;
 }
 
-export default function VirtualizedList(
-    {
+export function List(props) {
+
+    const {
         apiRef,
-        className,
+        className = "List",
+        style,
         width = "100%",
         height,
         itemCount,
         itemSize,
         renderItem,
-        sticky,
-        paddingTop,
+        children = [],
         onResize,
-        onScroll
-    }
-) {
+        onScroll,
+        scrollTo = 0
+    } = props;
+
     const [updated, forceUpdate] = useState(false);
 
-    const [scrollTop, setScrollTop] = useState(0);
+    const [scrollTop, setScrollTop] = useState(scrollTo);
 
     function handleScroll({target}) {
-        const distance = Math.abs(target.scrollTop - scrollTop);
-        // console.log("handleScroll", distance);
-        setScrollTop(target.scrollTop);
-        if (onScroll) onScroll({distance, scrollTop: target.scrollTop});
+        if (viewportRef.current === target) {
+            // console.log("handleScroll", distance);
+            const distance = Math.abs(target.scrollTop - scrollTop);
+            setScrollTop(target.scrollTop);
+            if (onScroll) onScroll({distance, scrollTop: target.scrollTop});
+        }
     }
 
-    const viewportRef = useRef();
-    const scrollAreaRef = useRef();
+    const viewportRef = useRef(null);
+    const scrollAreaRef = useRef(null);
     if (onResize) useResizeObserver(viewportRef, scrollAreaRef, onResize);
 
     const itemHeights = useMemo(() => {
         // console.log(`calculating item heights - itemCount: ${itemCount}, itemSize: ${itemSize}`);
         return calculateItemHeights(itemCount, itemSize);
-    }, [itemCount, itemSize]);
+    }, [itemCount, itemSize, children]);
 
     const cache = useMemo(() => {
         return {};
@@ -123,22 +127,33 @@ export default function VirtualizedList(
     };
 
     const items = useMemo(() => {
-        // console.log(`rendering items - height: ${height}, scrollTop: ${scrollTop}`, cache);
+        if (viewportRef.current) {
+            viewportRef.current.scrollTop = scrollTop;
+        }
         return renderItems(itemCount, itemHeights, renderItem, itemSize, scrollTop, height, cache);
-    }, [scrollTop, height, itemHeights, updated]);
+    }, [scrollTop, height, itemHeights, updated, style]);
 
     // console.log("rendering list", items.length);
 
+    useEffect(() => {
+        console.log("scrolling to: ", scrollTo);
+        setScrollTop(scrollTo);
+    }, [scrollTo]);
+
+    const header = children[0] || children;
+    const footer = children[1];
+
     return (
         <div className={`${className} viewport`} ref={viewportRef} onScroll={handleScroll} style={{
+            ...style,
             width,
             height,
-            overflowY: 'auto',
-            paddingTop: paddingTop
+            overflowY: 'auto'
         }}>
             <div className="scroll-area" ref={scrollAreaRef}>
-                {sticky && sticky(scrollTop)}
+                {typeof header === "function" ? header(scrollTop) : header}
                 {items}
+                {typeof footer === "function" ? footer(scrollTop) : footer}
             </div>
         </div>
     )

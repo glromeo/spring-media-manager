@@ -23,8 +23,8 @@ import static java.util.Arrays.asList;
 @Slf4j
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    static final String PROXY_USERNAME = "proxy_username";
-    static final String PROXY_PASSWORD = "proxy_password";
+    public static final String PROXY_USERNAME = "proxy_username";
+    public static final String PROXY_PASSWORD = "proxy_password";
 
 
     @Override
@@ -37,6 +37,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.csrf().disable();
         http.cors();
+
+        http.authorizeRequests()
+            .anyRequest()
+            .permitAll()
+            .and()
+            .csrf()
+            .disable();
     }
 
     @Bean

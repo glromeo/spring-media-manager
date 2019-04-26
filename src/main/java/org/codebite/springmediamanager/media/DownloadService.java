@@ -137,10 +137,12 @@ public class DownloadService {
     /**
      * @param magnetUri
      * @param keepSeeding
+     * @return
      */
-    public void downloadTorrent(String magnetUri, boolean keepSeeding) {
+    public CompletableFuture<?> downloadTorrent(String magnetUri, boolean keepSeeding) {
         TransferState transfer = downloads.computeIfAbsent(magnetUri, createTransfer(magnetUri, keepSeeding));
         startTransfer(transfer).whenComplete((o, e) -> downloads.remove(magnetUri));
+        return transfer.done;
     }
 
     private Function<String, TransferState> createTransfer(String magnetUri, boolean keepSeeding) {

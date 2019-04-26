@@ -1,4 +1,42 @@
 @import "../stylesheets/blend-modes";
 
 .App {
+
+  .Panel {
+
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    background: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+
+    box-shadow: 0px 1px 5px lightgray;
+    transition: box-shadow 0.25s ease-out;
+
+    &.player {
+      background: none;
+    }
+
+    &.sticky {
+      box-shadow: 0px 2px 10px gray;
+    }
+
+    .Logo {
+      animation: HeaderLogoSpin infinite 20s linear;
+      min-height: 50px;
+      height: 25%;
+    }
+
+    @keyframes HeaderLogoSpin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
 }
