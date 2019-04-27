@@ -12,12 +12,15 @@
 
     & > div {
       border-radius: 20px;
+
       video {
         border-radius: 20px;
       }
+
       .video-react-poster {
         border-radius: 20px;
       }
+
       .video-react-control-bar {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -35,6 +38,51 @@
 
     div[data-current-time] {
       font-family: "Arial", serif !important;
+    }
+  }
+
+  .Subtitles {
+    .Toggle {
+      &:hover {
+        text-shadow: 0em 0em 1em white;
+      }
+    }
+    .dropdown-item {
+      align-items: baseline;
+      width: calc(100% - 20px);
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      padding-left: 14px;
+      &.active {
+        background: rgba(255, 255, 255, 0.5);
+        color: black;
+      }
+      &:last-child {
+        margin-bottom: 0px;
+      }
+      &:hover {
+        background: rgba(255,255,255,1);
+        color: #444;
+      }
+    }
+    .dropdown-menu {
+      border: 3px solid white;
+      border-radius: 10px;
+      background-color: rgb(43, 51, 63);
+      opacity: 0.8;
+    }
+    .Angle {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid white;
+      top: -2px;
+      right: 25px;
+      zIndex: 1000;
+      opacity: 0.85;
     }
   }
 }
