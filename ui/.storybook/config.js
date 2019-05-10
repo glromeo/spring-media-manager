@@ -1,9 +1,13 @@
-import { configure } from '@storybook/react';
+import {addDecorator, configure} from '@storybook/react';
+import {withKnobs} from '@storybook/addon-knobs';
 
-function loadStories() {
-  require('../src/stories/index.stories.jsx');
-  const req = require.context('../src/stories', true, /\.stories\.jsx?$/);
-  req.keys().forEach(filename => req(filename));
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import "../src/index.css";
 
-configure(loadStories, module);
+addDecorator(withKnobs);
+
+configure(function loadStories() {
+    const req = require.context('../stories', true, /\.stories\.jsx?$/);
+    req.keys().forEach(filename => req(filename));
+}, module);

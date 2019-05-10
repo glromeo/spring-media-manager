@@ -1,5 +1,5 @@
 const proxy = require('http-proxy-middleware');
 
 module.exports = function (app) {
-    app.use(proxy('/api', {target: 'http://192.168.1.30:8080'}));
+    app.use(proxy('/api', {target: 'http://192.168.1.100:8080'}));
 };

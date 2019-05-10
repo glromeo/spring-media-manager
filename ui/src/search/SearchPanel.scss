@@ -1,0 +1,33 @@
+.SearchPanel {
+
+  width: 100%;
+
+  .Top {
+    margin-top: auto;
+    margin-bottom: 0;
+    flex: 1 1 0;
+  }
+
+  .MovieTickets {
+    background: url("../images/movie-tickets.jpg") no-repeat center;
+    background-size: contain;
+    margin-top: auto;
+    margin-bottom: 0;
+    opacity: 1;
+    height: 100%;
+    transition: opacity .25s ease-in-out;
+  }
+
+  .Bar {
+    .SearchField {
+      max-width: 600px;
+      margin: auto;
+    }
+  }
+
+  .Bottom {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+  }
+
+}

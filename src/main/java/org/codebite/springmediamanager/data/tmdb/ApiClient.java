@@ -131,20 +131,15 @@ public class ApiClient {
                 Class<T> componentType = (Class<T>) source.getClass().getComponentType();
                 T[] concat = (T[]) Array.newInstance(componentType, source.length + toAppend.length);
                 System.arraycopy(source, 0, concat, 0, source.length);
-                int c = source.length;
-                for (T value : toAppend) {
-                    concat[c++] = value;
-                }
+                System.arraycopy(toAppend, 0, concat, source.length, toAppend.length);
                 return concat;
             } else {
                 return source;
             }
+        } else if (toAppend != null && toAppend.length > 0) {
+            return toAppend;
         } else {
-            if (toAppend != null && toAppend.length > 0) {
-                return toAppend;
-            } else {
-                return source;
-            }
+            return source;
         }
     }
 

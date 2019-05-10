@@ -1,0 +1,92 @@
+.Autosuggest {
+
+  &.dropdown {
+    display: inline-block;
+
+    .form-group {
+      position: relative;
+
+      .form-control {
+
+        background-color: transparent;
+        position: relative;
+        color: inherit;
+        font-size: inherit;
+        align-items: flex-end;
+
+        p {
+          margin: 0;
+        }
+
+        p:focus {
+          outline: none;
+        }
+
+        .Icons {
+
+          z-index: 1;
+          background: none;
+          pointer-events: none;
+
+          .fa {
+            font-size: 150%;
+            pointer-events: all;
+          }
+
+          .fade-enter {
+            opacity: 0.01;
+          }
+
+          .fade-enter-active {
+            opacity: 1;
+            transition: opacity 500ms ease-in;
+          }
+
+          .fade-exit {
+            opacity: 1;
+          }
+
+          .fade-exit-active {
+            opacity: 0.01;
+            transition: opacity 500ms ease-in;
+          }
+        }
+      }
+
+      .query {
+        min-width: 80px;
+        background: transparent;
+        flex: 1 1 auto;
+        z-index: 1;
+      }
+
+      .placeholder {
+        opacity: 0.5;
+        font-style: italic;
+        float: left;
+        user-select: none;
+        z-index: 0;
+      }
+    }
+
+    .dropdown-menu {
+      overflow-y: auto;
+      max-height: 300px;
+
+      .dropdown-item {
+        .Text {
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+        }
+        .Text selected {
+          font-weight: bold;
+        }
+        .Suffix {
+          margin-left: 20px;
+          opacity: 0.75;
+        }
+      }
+    }
+  }
+
+}

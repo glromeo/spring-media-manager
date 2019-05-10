@@ -111,7 +111,8 @@ public class SpringMediaManagerApplication implements ApplicationRunner {
      * @param args
      */
     public static void main(String[] args) {
-        System.setProperty("java.net.preferIPv4Stack" , "true");
+
+        System.setProperty("java.net.preferIPv4Stack", "true");
         SpringApplication.run(SpringMediaManagerApplication.class, args);
     }
 

@@ -93,8 +93,8 @@ public class Movie implements Serializable {
     @JsonProperty("vote_count")
     public Integer voteCount;
 
-    public MovieInfo getInfo() {
-        return MovieInfo.builder()
+    public SearchResult getInfo() {
+        return SearchResult.builder()
                 .id(id)
                 .posterPath(posterPath)
                 .adult(adult)

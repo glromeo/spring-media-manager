@@ -55,10 +55,10 @@ public class MovieService {
         return apiClient.image(size, path);
     }
 
-    public MovieInfo findMovie(String title) {
-        MovieSearchResult searchResult = movieSearch(title);
+    public SearchResult findMovie(String title) {
+        SearchResultsPage searchResult = movieSearch(title);
         if (searchResult.totalResults > 0) {
-            MovieInfo movie = searchResult.results[0];
+            SearchResult movie = searchResult.results[0];
             log.info("{} -> #{} '{}' ({})", title, movie.id, movie.title, movie.releaseDate);
             return movie;
         } else {
@@ -67,11 +67,11 @@ public class MovieService {
         }
     }
 
-    public MovieSearchResult multiSearch(String query) {
-        return apiClient.get("/search/multi?query={query}", MovieSearchResult.class, query);
+    public SearchResultsPage multiSearch(String query) {
+        return apiClient.get("/search/multi?query={query}", SearchResultsPage.class, query);
     }
 
-    public MovieSearchResult multiSearch(String query, MovieSearchParams searchParams) {
+    public SearchResultsPage multiSearch(String query, SearchParams searchParams) {
         if (searchParams != null) {
             Map<String, ?> vars = getUrlVariables(query, searchParams);
             StringBuilder url = new StringBuilder().append("/search/multi");
@@ -82,21 +82,21 @@ public class MovieService {
                 }
                 url.setCharAt(questionMarkIndex, '?');
             }
-            return apiClient.get(url.toString(), MovieSearchResult.class, vars.values().toArray());
+            return apiClient.get(url.toString(), SearchResultsPage.class, vars.values().toArray());
         } else {
             return movieSearch(query);
         }
     }
 
-    public MovieSearchResult movieSearch(String query) {
-        return apiClient.get("/search/movie?query={query}", MovieSearchResult.class, query);
+    public SearchResultsPage movieSearch(String query) {
+        return apiClient.get("/search/movie?query={query}", SearchResultsPage.class, query);
     }
 
     @Autowired
     ObjectMapper objectMapper = new ObjectMapper();
 
     @SuppressWarnings("unchecked")
-    private Map<String, ?> getUrlVariables(String query, MovieSearchParams searchParams) {
+    private Map<String, ?> getUrlVariables(String query, SearchParams searchParams) {
         Map<String, Object> map = new HashMap<>();
         objectMapper.convertValue(searchParams, Map.class).forEach((key, value) -> {
             if (value != null) {

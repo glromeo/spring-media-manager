@@ -8,6 +8,7 @@ import org.codebite.springmediamanager.data.mongodb.PosterRepository;
 import org.codebite.springmediamanager.data.tmdb.ImageService;
 import org.codebite.springmediamanager.data.tmdb.MovieService;
 import org.codebite.springmediamanager.media.MediaService;
+import org.codebite.springmediamanager.media.PosterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.CacheControl;
@@ -37,7 +38,8 @@ public class PosterController {
     @PutMapping("/poster/{movieId}")
     @ResponseBody
     public void save(@PathVariable Long movieId) {
-        Poster poster = imageService.getPoster(movieService.movie(movieId).getInfo());
+        Movie movie = movieService.movie(movieId);
+        Poster poster = imageService.getPoster(movie);
         posterRepository.save(poster);
     }
 
@@ -92,6 +94,21 @@ public class PosterController {
     }
 
     @Autowired
+    PosterService posterService;
+
+    @GetMapping("/poster/{movieId}/palette")
+    @ResponseBody
+    public int[][] posterPalette(@PathVariable Long movieId, @RequestParam int size) {
+        return posterService.palette(movieId, size).orElse(null);
+    }
+
+    @GetMapping("/poster/{movieId}/palette-vertical")
+    @ResponseBody
+    public int[][] posterPaletteVertical(@PathVariable Long movieId, @RequestParam int size) {
+        return posterService.paletteVertical(movieId, size).orElse(null);
+    }
+
+    @Autowired
     MediaRepository mediaRepository;
 
     @Autowired
@@ -101,7 +118,7 @@ public class PosterController {
     @ResponseBody
     public void fetchPosters(@PathVariable(name = "id") Long id) {
         Movie movie = movieService.movie(id);
-        mediaService.fetchImages(movie.getInfo());
+        mediaService.fetchImages(movie);
     }
 
 

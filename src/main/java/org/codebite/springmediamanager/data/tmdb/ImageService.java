@@ -3,7 +3,6 @@ package org.codebite.springmediamanager.data.tmdb;
 import lombok.extern.slf4j.Slf4j;
 import org.codebite.springmediamanager.data.Backdrop;
 import org.codebite.springmediamanager.data.Movie;
-import org.codebite.springmediamanager.data.MovieInfo;
 import org.codebite.springmediamanager.data.Poster;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +14,7 @@ public class ImageService {
     @Autowired
     private ApiClient apiClient;
 
-    public Poster getPoster(MovieInfo movie) {
+    public Poster getPoster(Movie movie) {
 
         Configuration.Images imagesConfig = apiClient.configuration.images;
 
@@ -33,7 +32,7 @@ public class ImageService {
                 .build();
     }
 
-    public Backdrop getBackdrop(MovieInfo movie) {
+    public Backdrop getBackdrop(Movie movie) {
 
         Configuration.Images imagesConfig = apiClient.configuration.images;
 
